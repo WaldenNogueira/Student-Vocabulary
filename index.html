@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#ffffff" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <title>Vocabulary</title>
+  <link rel="manifest" href="manifest.json" />
+  <link rel="icon" href="icon-192.png" />
+  <link rel="apple-touch-icon" href="icon-192.png" />
+  <style>
+    :root{
+      --bg:#fff;--paper:#fff;--soft:#f7f7f5;--soft2:#f1f1ef;--text:#202020;--muted:#6f6f68;--faint:#9b9a93;--line:#e7e6e1;--line2:#d9d8d2;--accent:#252525;--danger:#b3261e;--radius:14px;--shadow:0 1px 2px rgba(15,15,15,.035);--font:ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    }
+    *{box-sizing:border-box} html{-webkit-text-size-adjust:100%} body{margin:0;min-height:100vh;background:var(--bg);color:var(--text);font-family:var(--font);line-height:1.45} button,input,textarea{font:inherit} button{-webkit-tap-highlight-color:transparent} a{color:inherit}
+    .app{width:min(920px,100%);margin:0 auto;padding:28px 18px 48px}.topbar{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:20px}h1{margin:0;font-size:clamp(32px,8vw,54px);letter-spacing:-.05em;line-height:.95;font-weight:720}.install-btn{display:none;border:1px solid var(--line);background:var(--paper);color:var(--text);padding:8px 12px;border-radius:999px;font-size:13px;font-weight:650}.install-btn.visible{display:inline-flex}
+    .composer,.tools,.card,.import-box{border:1px solid var(--line);border-radius:var(--radius);background:var(--paper);box-shadow:var(--shadow)}.composer{padding:14px;margin-bottom:16px}.composer-title,.section-row h2{margin:0;color:var(--muted);font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:.08em}.manual-term,.search{width:100%;border:1px solid var(--line);background:var(--soft);color:var(--text);outline:none;border-radius:12px;padding:12px 13px}.manual-term{margin-top:10px}.actions{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:10px}.btn,.mini-btn{border:1px solid var(--line);background:var(--paper);color:var(--text);border-radius:12px;min-height:44px;padding:10px 14px;font-weight:700;display:inline-flex;align-items:center;justify-content:center;gap:9px;cursor:pointer;text-decoration:none}.btn.primary,.mini-btn.primary{background:var(--accent);color:#fff;border-color:var(--accent)}.btn-icon-img{width:28px;height:28px;object-fit:contain;display:block}.status{min-height:20px;margin-top:9px;color:var(--muted);font-size:13px}.share-followup{display:flex;gap:8px;flex-wrap:wrap;margin-top:8px}.share-followup[hidden]{display:none}.mini-btn{min-height:34px;padding:7px 10px;font-size:12px;border-radius:999px}.tools{padding:10px;margin-bottom:16px}.section-row{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:18px 2px 10px}.count{color:var(--muted);font-size:13px}.list{display:grid;gap:9px}.empty{border:1px dashed var(--line2);border-radius:var(--radius);padding:20px;text-align:center;color:var(--muted);background:var(--soft)}
+    .import-box{padding:14px;margin-bottom:16px;background:#fbfbfa}.import-box[hidden]{display:none}.import-title{font-size:15px;font-weight:740;margin:0 0 4px}.import-meta{font-size:13px;color:var(--muted);margin-bottom:10px}.import-actions{display:flex;gap:8px;flex-wrap:wrap}
+    .card{padding:12px;transition:border-color .15s ease}.card.is-expanded{border-color:var(--line2)}.card-term-line{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:10px}.term-toggle{border:0;background:transparent;padding:0;text-align:left;cursor:pointer;min-width:0}.term{font-weight:720;font-size:17px;letter-spacing:-.01em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.card-top-actions{display:flex;align-items:center;gap:3px}.icon-btn{width:36px;height:36px;border:0;background:transparent;border-radius:10px;color:var(--muted);display:inline-flex;align-items:center;justify-content:center;cursor:pointer}.icon-btn svg{width:21px;height:21px}.icon-btn:hover,.icon-btn.active{background:var(--soft2);color:var(--text)}.icon-btn.danger:hover{color:var(--danger);background:#fff1f0}.expand-btn svg{transition:transform .15s ease}.is-expanded .expand-btn svg{transform:rotate(180deg)}
+    .card-expanded{margin-top:12px;border-top:1px solid var(--line);padding-top:12px}.ipa{color:var(--muted);font-size:14px;margin-bottom:7px}.translation{font-size:15px;margin-bottom:14px}.expanded-title{color:var(--muted);font-size:12px;font-weight:750;text-transform:uppercase;letter-spacing:.08em;margin-bottom:8px}.details-body{display:grid;gap:12px}.label{font-size:12px;color:var(--muted);font-weight:700;margin-bottom:3px}.value{white-space:pre-wrap;font-size:14.5px}.action-line{display:flex;gap:6px;align-items:center;flex-wrap:wrap;margin-top:14px;padding-top:11px;border-top:1px solid var(--line)}.site-btn{height:36px;min-width:36px;border:1px solid var(--line);background:var(--paper);border-radius:10px;display:inline-flex;align-items:center;justify-content:center;text-decoration:none;padding:0 9px;font-size:12px;font-weight:800}.site-btn svg{width:20px;height:20px}.wordmark{font-weight:800;letter-spacing:-.02em}.you{color:#111}.glish{color:#c8292e}
+    .toast{position:fixed;left:50%;bottom:22px;transform:translateX(-50%) translateY(20px);opacity:0;pointer-events:none;background:#222;color:#fff;padding:10px 13px;border-radius:999px;font-size:13px;transition:.18s;z-index:20;max-width:min(92vw,560px);text-align:center}.toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+    .modal-backdrop{position:fixed;inset:0;background:rgba(0,0,0,.18);display:none;align-items:center;justify-content:center;padding:18px;z-index:30}.modal-backdrop.open{display:flex}.modal{width:min(620px,100%);max-height:90vh;overflow:auto;background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:16px;box-shadow:0 16px 50px rgba(0,0,0,.14)}.modal-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:14px}.modal-head h3{margin:0;font-size:18px}.close-btn{border:0;background:var(--soft);width:34px;height:34px;border-radius:999px;cursor:pointer}.field-grid{display:grid;gap:10px}label.field span{display:block;margin-bottom:5px;color:var(--muted);font-size:12px;font-weight:650}input.field-input,textarea.field-input{width:100%;border:1px solid var(--line);border-radius:12px;padding:11px 12px;background:var(--soft);color:var(--text);outline:none}textarea.field-input{min-height:74px;resize:vertical}textarea.long{min-height:150px}.modal-actions{display:flex;gap:10px;justify-content:flex-end;margin-top:14px;flex-wrap:wrap}.modal-actions .btn{min-height:40px;padding:9px 12px}
+    .registration{position:fixed;inset:0;background:#fff;z-index:50;display:none;align-items:center;justify-content:center;padding:20px}.registration.open{display:flex}.registration-card{width:min(460px,100%);border:1px solid var(--line);border-radius:22px;padding:20px;background:#fff;box-shadow:0 16px 50px rgba(0,0,0,.08)}.registration-card h2{margin:0 0 6px;font-size:30px;letter-spacing:-.04em}.registration-card p{margin:0 0 14px;color:var(--muted)}.registration-note{font-size:12px;color:var(--muted);margin-top:10px}
+    @media(max-width:560px){.app{padding:24px 14px 40px}.actions{gap:8px}.btn{padding-inline:10px;font-size:14px}.card{padding:12px}.modal-backdrop{align-items:flex-end;padding:0}.modal{border-radius:18px 18px 0 0;max-height:92vh}.registration{align-items:flex-end;padding:0}.registration-card{border-radius:20px 20px 0 0}}
+  </style>
+</head>
+<body>
+  <main class="app">
+    <header class="topbar"><h1>Vocabulary</h1><button id="installBtn" class="install-btn">Install</button></header>
+
+    <section id="importBox" class="import-box" hidden></section>
+
+    <section class="composer" aria-labelledby="new-entry-title">
+      <h2 id="new-entry-title" class="composer-title">New entry</h2>
+      <input id="manualTerm" class="manual-term" type="text" placeholder="Type a term or expression" autocomplete="off" inputmode="text" />
+      <div class="actions">
+        <button id="askGptBtn" class="btn primary"><img class="btn-icon-img" src="gpt-icon.png?v=15" alt="" aria-hidden="true" />GPT</button>
+        <button id="pasteResponseBtn" class="btn"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 4h6l1 2h2a1.5 1.5 0 0 1 1.5 1.5v11A1.5 1.5 0 0 1 18 20H6a1.5 1.5 0 0 1-1.5-1.5v-11A1.5 1.5 0 0 1 6 6h2l1-2Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M9 6h6M8 11h8M8 15h8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>Paste response</button>
+      </div>
+      <div id="status" class="status"></div>
+      <div id="shareFollowup" class="share-followup" hidden></div>
+    </section>
+
+    <div class="tools"><input id="search" class="search" type="search" placeholder="Search saved words" autocomplete="off" /></div>
+    <div class="section-row"><h2>Saved words</h2><span id="count" class="count">0 saved</span></div>
+    <section id="list" class="list" aria-live="polite"></section>
+  </main>
+
+  <div id="registration" class="registration" role="dialog" aria-modal="true" aria-labelledby="regTitle">
+    <div class="registration-card">
+      <h2 id="regTitle">Welcome</h2>
+      <p>Set up your Vocabulary app on this device.</p>
+      <div class="field-grid">
+        <label class="field"><span>Your name</span><input id="studentName" class="field-input" autocomplete="name" /></label>
+        <label class="field"><span>WhatsApp number</span><input id="studentPhone" class="field-input" inputmode="tel" autocomplete="tel" placeholder="Example: 41999999999" /></label>
+      </div>
+      <button id="startBtn" class="btn primary" style="width:100%;margin-top:14px">Start</button>
+      <div class="registration-note">After setup, WhatsApp will open with a registration message for your teacher. Your vocabulary stays saved on this device.</div>
+    </div>
+  </div>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <div id="editModal" class="modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="editTitle">
+    <div class="modal">
+      <div class="modal-head"><h3 id="editTitle">Edit card</h3><button id="closeEditBtn" class="close-btn" aria-label="Close">✕</button></div>
+      <div class="field-grid">
+        <label class="field"><span>Term</span><input id="editTerm" class="field-input" /></label>
+        <label class="field"><span>IPA</span><input id="editIpa" class="field-input" placeholder="/ˈlɪvliˌhʊd/" /></label>
+        <label class="field"><span>Translation</span><textarea id="editTranslation" class="field-input"></textarea></label>
+        <label class="field"><span>Definition</span><textarea id="editDefinition" class="field-input"></textarea></label>
+        <label class="field"><span>Example</span><textarea id="editExample" class="field-input" placeholder="English example.&#10;Tradução do exemplo."></textarea></label>
+        <label class="field"><span>Note</span><textarea id="editNote" class="field-input"></textarea></label>
+      </div>
+      <div class="modal-actions"><button id="cancelEditBtn" class="btn">Cancel</button><button id="saveEditBtn" class="btn primary">Save</button></div>
+    </div>
+  </div>
+
+  <div id="pasteModal" class="modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="pasteTitle">
+    <div class="modal">
+      <div class="modal-head"><h3 id="pasteTitle">Paste GPT response</h3><button id="closePasteBtn" class="close-btn" aria-label="Close">✕</button></div>
+      <label class="field"><span>Response text</span><textarea id="manualPasteText" class="field-input long" placeholder="TERM:&#10;...&#10;&#10;IPA:&#10;/.../&#10;&#10;TRANSLATION:&#10;...&#10;&#10;DEFINITION:&#10;...&#10;&#10;EXAMPLE:&#10;English example.&#10;Tradução do exemplo.&#10;&#10;NOTE:&#10;Nota em português."></textarea></label>
+      <div class="modal-actions"><button id="cancelPasteBtn" class="btn">Cancel</button><button id="savePasteBtn" class="btn primary">Save card</button></div>
+    </div>
+  </div>
+
+  <script>
+    const STORAGE_KEY='vocabulary-items-v15';
+    const OLD_KEYS=['words-pwa-v3-items'];
+    const PROFILE_KEY='vocabulary-student-profile-v1';
+    const TEACHER_WHATSAPP='5541996106689';
+    const $=id=>document.getElementById(id);
+    let items=[]; const expandedIds=new Set(); let editingId=null; let deferredInstallPrompt=null; let pendingImportPack=null;
+    const els={manualTerm:$('manualTerm'),askGptBtn:$('askGptBtn'),pasteResponseBtn:$('pasteResponseBtn'),status:$('status'),shareFollowup:$('shareFollowup'),search:$('search'),list:$('list'),count:$('count'),toast:$('toast'),installBtn:$('installBtn'),importBox:$('importBox'),registration:$('registration'),studentName:$('studentName'),studentPhone:$('studentPhone'),startBtn:$('startBtn'),editModal:$('editModal'),closeEditBtn:$('closeEditBtn'),cancelEditBtn:$('cancelEditBtn'),saveEditBtn:$('saveEditBtn'),editTerm:$('editTerm'),editIpa:$('editIpa'),editTranslation:$('editTranslation'),editDefinition:$('editDefinition'),editExample:$('editExample'),editNote:$('editNote'),pasteModal:$('pasteModal'),closePasteBtn:$('closePasteBtn'),cancelPasteBtn:$('cancelPasteBtn'),savePasteBtn:$('savePasteBtn'),manualPasteText:$('manualPasteText')};
+    function normalizeItem(raw){const term=raw.term||raw.word||raw.phrase||'';return{id:raw.id||crypto.randomUUID(),term:String(term).trim(),ipa:String(raw.ipa||raw.pronunciation||'').trim(),translation:String(raw.translation||'').trim(),definition:String(raw.definition||raw.meaning||'').trim(),example:String(raw.example||raw.examples||'').trim(),note:String(raw.note||raw.notes||'').trim(),favorite:Boolean(raw.favorite),updatedAt:raw.updatedAt||new Date().toISOString()};}
+    function migrateOldItems(){if(localStorage.getItem(STORAGE_KEY))return;for(const key of OLD_KEYS){try{const arr=JSON.parse(localStorage.getItem(key)||'[]');if(Array.isArray(arr)&&arr.length){localStorage.setItem(STORAGE_KEY,JSON.stringify(arr));return;}}catch{}}}
+    function loadItems(){migrateOldItems();try{const stored=JSON.parse(localStorage.getItem(STORAGE_KEY)||'[]');items=Array.isArray(stored)?stored.map(normalizeItem).filter(i=>i.term):[];}catch{items=[]}render();}
+    function persist(){localStorage.setItem(STORAGE_KEY,JSON.stringify(items));render();}
+    function setStatus(m){els.status.textContent=m||''} function toast(m){els.toast.textContent=m;els.toast.classList.add('show');clearTimeout(toast.timer);toast.timer=setTimeout(()=>els.toast.classList.remove('show'),2400)}
+    async function readClipboardText(){if(!navigator.clipboard?.readText)throw new Error('Clipboard unavailable');return(await navigator.clipboard.readText()||'').trim()} async function writeClipboardText(t){if(!navigator.clipboard?.writeText)return false;await navigator.clipboard.writeText(t);return true}
+    function cleanTerm(text){return String(text||'').replace(/```[\s\S]*?```/g,' ').replace(/https?:\/\/\S+/g,' ').replace(/\s+/g,' ').trim().slice(0,160)}
+    function buildGptPrompt(term){return `Create one English vocabulary card for a Brazilian Portuguese speaker.
+
+TERM:
+${term}
+
+Requirements:
+- Use natural American English.
+- If the term is an expression, explain the expression as a whole, not word by word.
+- IPA must be American English pronunciation.
+- Translation must be in natural Brazilian Portuguese.
+- Definition must be simple, natural English.
+- Example must sound like something an American would actually say in real life.
+- Put the Brazilian Portuguese translation of the example directly below the English example, inside the EXAMPLE field.
+- Note must be in Brazilian Portuguese and should be more detailed than usual. Include practical usage tips, common situations, nuance, register (formal/informal), whether it is a phrasal verb, idiom, collocation, or false cognate when relevant, common mistakes Brazilian learners make, pronunciation warnings, and differences from similar words or expressions when useful.
+- In the NOTE, always include a short "Passado:" explanation when the term can function as a verb, phrasal verb, or action expression. Give the natural past form and a pronunciation tip for the past form, especially for -ed endings (/t/, /d/, or /ɪd/) or irregular forms. If the term is not normally used as a verb, do not force an unnatural past form.
+- Keep the note useful for a Brazilian learner who wants to understand how native speakers actually use the term.
+
+Return ONLY this exact format. Do not add markdown, bullets, or extra explanation.
+
+TERM:
+${term}
+
+IPA:
+/ ... /
+
+TRANSLATION:
+...
+
+DEFINITION:
+...
+
+EXAMPLE:
+English example sentence.
+Tradução natural em português do exemplo.
+
+NOTE:
+Nota em português com dicas práticas, explicações adicionais, alertas de uso e, quando aplicável, uma seção curta “Passado:” com a forma no passado e uma dica de pronúncia do passado.`}
+    function chatGptUrl(p){return `https://chatgpt.com/?q=${encodeURIComponent(p)}`}
+    function showChatGptFallback(promptText){const url=chatGptUrl(promptText);els.shareFollowup.hidden=false;els.shareFollowup.innerHTML=`<a class="mini-btn primary" href="${escapeAttr(url)}" target="_blank" rel="noopener">Open ChatGPT</a><button class="mini-btn" type="button" id="copyPromptBtn">Copy prompt</button>`;$('copyPromptBtn')?.addEventListener('click',async()=>{try{await writeClipboardText(promptText);toast('Prompt copied.')}catch{toast('Copy failed.')}})}
+    function clearChatGptFallback(){els.shareFollowup.hidden=true;els.shareFollowup.innerHTML=''}
+    async function openPromptInChatGpt(promptText,term,auto=false){try{await writeClipboardText(promptText)}catch{}showChatGptFallback(promptText); if(auto){setStatus(`Shared text received: “${term}”. Opening ChatGPT...`);setTimeout(()=>{window.location.href=chatGptUrl(promptText)},650);return} setStatus(`Prompt ready for “${term}”. Copy the GPT answer and come back.`); if(navigator.share){try{await navigator.share({title:`Vocabulary: ${term}`,text:promptText});toast('Prompt shared.');return}catch{}} toast('Prompt copied. Opening ChatGPT.'); window.open(chatGptUrl(promptText),'_blank','noopener')}
+    async function askGptFromClipboard(){clearChatGptFallback();let term=cleanTerm(els.manualTerm.value);if(!term){try{term=cleanTerm(await readClipboardText())}catch{term=cleanTerm(prompt('Paste or type the English term:')||'')}} if(!term)return toast('Type a term or copy one first.');await openPromptInChatGpt(buildGptPrompt(term),term)}
+    function stripCodeFences(t){return String(t||'').replace(/^\s*```(?:text|txt|markdown)?\s*/i,'').replace(/\s*```\s*$/i,'').trim()} function escapeRegExp(s){return String(s).replace(/[.*+?^${}()|[\]\\]/g,'\\$&')} function getField(text,labels){const all=['TERM','WORD','PHRASE','IPA','PRONUNCIATION','TRANSLATION','DEFINITION','MEANING','EXAMPLE','EXAMPLES','NOTE','NOTES'];const lp=labels.map(escapeRegExp).join('|'), ap=all.map(escapeRegExp).join('|');const re=new RegExp(`^\\s*(?:${lp})\\s*:\\s*([\\s\\S]*?)(?=^\\s*(?:${ap})\\s*:|\\s*$)`,'im');const m=text.match(re);return m?m[1].trim():''}
+    function parseGptResponse(text){const c=stripCodeFences(text);return{term:getField(c,['TERM','WORD','PHRASE']),ipa:getField(c,['IPA','PRONUNCIATION']),translation:getField(c,['TRANSLATION']),definition:getField(c,['DEFINITION','MEANING']),example:getField(c,['EXAMPLE','EXAMPLES']),note:getField(c,['NOTE','NOTES'])}}
+    function saveParsedCard(parsed){const card=normalizeItem({id:crypto.randomUUID(),...parsed,updatedAt:new Date().toISOString()});if(!card.term)return false;const ix=items.findIndex(i=>i.term.toLowerCase()===card.term.toLowerCase());if(ix>=0){card.favorite=items[ix].favorite;card.id=items[ix].id;items[ix]=card}else items.unshift(card);persist();setStatus(`Saved: ${card.term}`);toast(ix>=0?'Card updated.':'Card saved.');return true}
+    async function pasteGptResponse(){try{const text=await readClipboardText();const parsed=parseGptResponse(text);if(!parsed.term||(!parsed.translation&&!parsed.definition&&!parsed.example)){openPasteModal(text);toast('Check the format before saving.');return}saveParsedCard(parsed)}catch{openPasteModal('')}}
+    function openPasteModal(text=''){els.manualPasteText.value=text;els.pasteModal.classList.add('open');setTimeout(()=>els.manualPasteText.focus(),50)} function closePasteModal(){els.pasteModal.classList.remove('open')} function saveManualPaste(){const parsed=parseGptResponse(els.manualPasteText.value);if(!parsed.term)return toast('TERM is required.');if(saveParsedCard(parsed))closePasteModal()}
+    function itemLinks(term){const q=encodeURIComponent(term);return{youglish:`https://youglish.com/pronounce/${q}/english/us`,reverso:`https://context.reverso.net/translation/english-portuguese/${q}`}}
+    function speak(text){if(!('speechSynthesis'in window))return toast('Audio is not available.');speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(text);u.lang='en-US';u.rate=.92;speechSynthesis.speak(u)} function toggleExpanded(id){expandedIds.has(id)?expandedIds.delete(id):expandedIds.add(id);render()} function toggleFavorite(id){const item=items.find(i=>i.id===id);if(!item)return;item.favorite=!item.favorite;persist()} function deleteItem(id){const item=items.find(i=>i.id===id);if(!item)return;if(!confirm(`Delete “${item.term}”?`))return;items=items.filter(i=>i.id!==id);persist();toast('Deleted.')}
+    function openEdit(id){const item=items.find(i=>i.id===id);if(!item)return;editingId=id;els.editTerm.value=item.term||'';els.editIpa.value=item.ipa||'';els.editTranslation.value=item.translation||'';els.editDefinition.value=item.definition||'';els.editExample.value=item.example||'';els.editNote.value=item.note||'';els.editModal.classList.add('open');setTimeout(()=>els.editTerm.focus(),50)} function closeEdit(){editingId=null;els.editModal.classList.remove('open')} function saveEdit(){const ix=items.findIndex(i=>i.id===editingId);if(ix<0)return closeEdit();const term=els.editTerm.value.trim();if(!term)return toast('Term is required.');items[ix]=normalizeItem({...items[ix],term,ipa:els.editIpa.value,translation:els.editTranslation.value,definition:els.editDefinition.value,example:els.editExample.value,note:els.editNote.value,updatedAt:new Date().toISOString()});persist();closeEdit();toast('Saved.')}
+    function normalizeSearch(t){return String(t||'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'')}
+    function render(){const q=normalizeSearch(els.search.value);const favs=items.filter(i=>i.favorite);const ordered=[...items].sort((a,b)=>a.favorite!==b.favorite?(a.favorite?-1:1):(b.updatedAt||'').localeCompare(a.updatedAt||''));const filtered=ordered.filter(item=>!q||normalizeSearch(`${item.term} ${item.ipa} ${item.translation} ${item.definition} ${item.example} ${item.note}`).includes(q));els.count.textContent=`${items.length} saved${favs.length?` · ${favs.length} favorite${favs.length===1?'':'s'}`:''}`;if(!filtered.length){els.list.innerHTML='<div class="empty">No saved words yet.</div>';return}els.list.innerHTML=filtered.map(item=>{const links=itemLinks(item.term),isExpanded=expandedIds.has(item.id);const details=[item.definition?`<div><div class="label">Definition</div><div class="value">${escapeHtml(item.definition)}</div></div>`:'',item.example?`<div><div class="label">Example</div><div class="value">${escapeHtml(item.example)}</div></div>`:'',item.note?`<div><div class="label">Note</div><div class="value">${escapeHtml(item.note)}</div></div>`:''].filter(Boolean).join('');const bottom=`<div class="action-line" aria-label="Card actions"><a class="site-btn" href="${escapeAttr(links.youglish)}" target="_blank" rel="noopener" title="YouGlish"><span class="wordmark"><span class="you">You</span><span class="glish">Glish</span></span></a><a class="site-btn" href="${escapeAttr(links.reverso)}" target="_blank" rel="noopener" title="Reverso Context"><svg viewBox="0 0 24 24" fill="none"><path d="M7.5 8.5A5.7 5.7 0 0 1 17 6.8l1.5 1.5" stroke="#1f6fb2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M18.5 4.8v3.5H15" stroke="#1f6fb2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M16.5 15.5A5.7 5.7 0 0 1 7 17.2l-1.5-1.5" stroke="#d4242c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M5.5 19.2v-3.5H9" stroke="#d4242c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a><button class="icon-btn ${item.favorite?'active':''}" data-action="favorite" data-id="${escapeAttr(item.id)}" title="Favorite"><svg viewBox="0 0 24 24" fill="${item.favorite?'currentColor':'none'}"><path d="m12 3.8 2.4 4.9 5.4.8-3.9 3.8.9 5.4-4.8-2.5-4.8 2.5.9-5.4-3.9-3.8 5.4-.8L12 3.8Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg></button><button class="icon-btn" data-action="edit" data-id="${escapeAttr(item.id)}" title="Edit"><svg viewBox="0 0 24 24" fill="none"><path d="M4.5 19.5h4.1L19 9.1a2.1 2.1 0 0 0 0-3l-1.1-1.1a2.1 2.1 0 0 0-3 0L4.5 15.4v4.1Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M13.8 6.2l4 4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></button><button class="icon-btn danger" data-action="delete" data-id="${escapeAttr(item.id)}" title="Delete"><svg viewBox="0 0 24 24" fill="none"><path d="M5 7h14M9 7V5.5A1.5 1.5 0 0 1 10.5 4h3A1.5 1.5 0 0 1 15 5.5V7m2 0-.6 12a1.5 1.5 0 0 1-1.5 1.4H9.1A1.5 1.5 0 0 1 7.6 19L7 7m3.2 3.5v6m3.6-6v6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button></div>`;const expanded=isExpanded?`<div class="card-expanded">${item.ipa?`<div class="ipa">${escapeHtml(item.ipa)}</div>`:''}${item.translation?`<div class="translation">${escapeHtml(item.translation)}</div>`:''}${details?`<div class="expanded-title">Definition & examples</div><div class="details-body">${details}</div>`:''}${bottom}</div>`:'';return`<article class="card ${isExpanded?'is-expanded':''}"><div class="card-term-line"><button class="term-toggle" data-action="toggle" data-id="${escapeAttr(item.id)}" aria-expanded="${isExpanded}"><div class="term">${escapeHtml(item.term)}</div></button><div class="card-top-actions"><button class="icon-btn" data-action="speak" data-id="${escapeAttr(item.id)}" title="Audio"><svg viewBox="0 0 24 24" fill="none"><path d="M5 9.5v5h3.2L13 18V6L8.2 9.5H5Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M16 9c.8.8 1.2 1.8 1.2 3s-.4 2.2-1.2 3M18.7 6.8A7.2 7.2 0 0 1 21 12a7.2 7.2 0 0 1-2.3 5.2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></button><button class="icon-btn expand-btn" data-action="toggle" data-id="${escapeAttr(item.id)}" title="${isExpanded?'Collapse details':'Expand details'}" aria-expanded="${isExpanded}"><svg viewBox="0 0 24 24" fill="none"><path d="m6.5 9 5.5 5.5L17.5 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button></div></div>${expanded}</article>`}).join('')}
+    function escapeHtml(s){return String(s||'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))} function escapeAttr(s){return escapeHtml(s).replace(/'/g,'&#39;')}
+    function b64urlEncode(str){return btoa(unescape(encodeURIComponent(str))).replace(/\+/g,'-').replace(/\//g,'_').replace(/=+$/,'')} function b64urlDecode(str){str=String(str||'').replace(/-/g,'+').replace(/_/g,'/');while(str.length%4)str+='=';return decodeURIComponent(escape(atob(str)))}
+    function showImportPack(pack){pendingImportPack=pack;const cards=Array.isArray(pack.cards)?pack.cards.map(normalizeItem).filter(i=>i.term):[];els.importBox.hidden=false;els.importBox.innerHTML=`<div class="import-title">Import ${cards.length} word${cards.length===1?'':'s'}?</div><div class="import-meta">${escapeHtml(pack.lesson||'Vocabulary update')}${pack.teacher?` · ${escapeHtml(pack.teacher)}`:''}</div><div class="import-actions"><button class="btn primary" id="confirmImportBtn">Import</button><button class="btn" id="cancelImportBtn">Cancel</button></div>`;$('confirmImportBtn').addEventListener('click',()=>importPack());$('cancelImportBtn').addEventListener('click',()=>{pendingImportPack=null;els.importBox.hidden=true;try{history.replaceState(null,'',location.pathname+location.search)}catch{}})}
+    function importPack(){const pack=pendingImportPack;if(!pack)return;const cards=(pack.cards||[]).map(normalizeItem).filter(i=>i.term);let added=0,updated=0;cards.forEach(card=>{const ix=items.findIndex(i=>i.term.toLowerCase()===card.term.toLowerCase());card.updatedAt=new Date().toISOString();if(ix>=0){card.id=items[ix].id;card.favorite=items[ix].favorite;items[ix]=card;updated++}else{items.unshift(card);added++}});persist();pendingImportPack=null;els.importBox.hidden=true;toast(`Imported ${added} new · ${updated} updated.`);try{history.replaceState(null,'',location.pathname+location.search)}catch{}}
+    function handleImportLink(){if(!location.hash.startsWith('#import='))return;try{const data=location.hash.slice(8);const pack=JSON.parse(b64urlDecode(data));showImportPack(pack)}catch{toast('Import link is invalid.')}}
+    function showRegistrationIfNeeded(){if(localStorage.getItem(PROFILE_KEY))return;els.registration.classList.add('open')}
+    function normalizePhone(p){return String(p||'').replace(/\D/g,'')} function teacherRegisterUrl(profile){const msg=`Hi Walden, this is my Vocabulary registration:%0A%0AName: ${encodeURIComponent(profile.name)}%0AWhatsApp: ${encodeURIComponent(profile.whatsapp)}%0ADevice ID: ${encodeURIComponent(profile.deviceId)}`;return `https://wa.me/${TEACHER_WHATSAPP}?text=${msg}`}
+    function saveProfile(){const name=els.studentName.value.trim();let phone=normalizePhone(els.studentPhone.value);if(!name)return toast('Name is required.');if(phone.length<10)return toast('WhatsApp number is required.');if(!phone.startsWith('55')&&phone.length<=11)phone='55'+phone;const profile={name,whatsapp:phone,deviceId:crypto.randomUUID(),registeredAt:new Date().toISOString()};localStorage.setItem(PROFILE_KEY,JSON.stringify(profile));els.registration.classList.remove('open');toast('Welcome!');window.open(teacherRegisterUrl(profile),'_blank','noopener')}
+    function handleIncomingShareTarget(){const p=new URLSearchParams(location.search);const has=p.has('share')||p.has('text')||p.has('title')||p.has('url');if(!has)return;const shared=[p.get('text'),p.get('title'),p.get('url')].filter(Boolean).join(' ').trim();try{history.replaceState(null,'',location.pathname+(location.hash||''))}catch{}const term=cleanTerm(shared);if(!term)return toast('No text received.');els.manualTerm.value=term;openPromptInChatGpt(buildGptPrompt(term),term,true)}
+    function bindEvents(){els.askGptBtn.addEventListener('click',askGptFromClipboard);els.pasteResponseBtn.addEventListener('click',pasteGptResponse);els.manualTerm.addEventListener('keydown',e=>{if(e.key==='Enter')askGptFromClipboard()});els.manualTerm.addEventListener('input',clearChatGptFallback);els.search.addEventListener('input',render);els.list.addEventListener('click',e=>{const btn=e.target.closest('[data-action]');if(!btn)return;const{action,id}=btn.dataset;const item=items.find(i=>i.id===id);if(action==='toggle')toggleExpanded(id);if(action==='favorite')toggleFavorite(id);if(action==='speak'&&item)speak(item.term);if(action==='edit')openEdit(id);if(action==='delete')deleteItem(id)});els.closeEditBtn.addEventListener('click',closeEdit);els.cancelEditBtn.addEventListener('click',closeEdit);els.saveEditBtn.addEventListener('click',saveEdit);els.editModal.addEventListener('click',e=>{if(e.target===els.editModal)closeEdit()});els.closePasteBtn.addEventListener('click',closePasteModal);els.cancelPasteBtn.addEventListener('click',closePasteModal);els.savePasteBtn.addEventListener('click',saveManualPaste);els.pasteModal.addEventListener('click',e=>{if(e.target===els.pasteModal)closePasteModal()});els.startBtn.addEventListener('click',saveProfile);window.addEventListener('keydown',e=>{if(e.key==='Escape'){closeEdit();closePasteModal()}});window.addEventListener('beforeinstallprompt',e=>{e.preventDefault();deferredInstallPrompt=e;els.installBtn.classList.add('visible')});els.installBtn.addEventListener('click',async()=>{if(!deferredInstallPrompt)return;deferredInstallPrompt.prompt();await deferredInstallPrompt.userChoice;deferredInstallPrompt=null;els.installBtn.classList.remove('visible')})}
+    async function registerServiceWorker(){if('serviceWorker'in navigator){try{await navigator.serviceWorker.register('./sw.js')}catch{}}}
+    bindEvents();loadItems();handleImportLink();showRegistrationIfNeeded();registerServiceWorker();handleIncomingShareTarget();
+  </script>
+</body>
+</html>
