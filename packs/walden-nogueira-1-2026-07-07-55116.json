@@ -1,0 +1,21 @@
+{
+  "type": "vocabulary-pack",
+  "version": 2,
+  "teacher": "Teacher Walden Nogueira",
+  "student": {
+    "name": "Walden Nogueira",
+    "whatsapp": "5541996106689"
+  },
+  "lesson": "1",
+  "cards": [
+    {
+      "term": "Demeanor",
+      "ipa": "/dɪˈmiːnər/",
+      "translation": "postura; comportamento; jeito de se portar",
+      "definition": "The way someone looks, acts, and carries themselves, especially in public or in a specific situation.",
+      "example": "She has a calm demeanor, even when things get stressful. Ela tem uma postura calma, mesmo quando as coisas ficam estressantes.",
+      "note": "“Demeanor” é um substantivo mais comum em contextos formais, profissionais, jurídicos ou descritivos. Ele fala da forma como uma pessoa se apresenta para os outros: expressão facial, atitude, tom, postura corporal e comportamento geral. Em português, pode ser “postura”, “comportamento”, “jeito de se portar” ou “maneira de agir”, dependendo do contexto. É muito usado em frases como “a calm demeanor” = uma postura calma, “a professional demeanor” = uma postura profissional, “a friendly demeanor” = um jeito amigável, e “a serious demeanor” = uma postura séria. Não confunda com “behavior”: “behavior” é o comportamento em ações específicas; “demeanor” é mais a impressão geral que a pessoa passa. Também não é exatamente “personality”: personalidade é algo mais interno e permanente; demeanor pode mudar dependendo da situação. Pronúncia: cuidado para não pronunciar como “de-ME-a-nor”. O som natural é /dɪˈmiːnər/, com a força em “MEE”: di-MEE-ner. “Demeanor” não é um phrasal verb, não é idiomático e não é falso cognato, mas é uma palavra de registro mais elevado. Em conversa casual, americanos muitas vezes diriam “the way he acts” ou “the way she carries herself”; “demeanor” soa mais preciso e sofisticado."
+    }
+  ],
+  "createdAt": "2026-07-07T13:22:35.106Z"
+}
