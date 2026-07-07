@@ -1,0 +1,22 @@
+{
+  "type": "vocabulary-pack",
+  "version": 2,
+  "teacher": "Teacher Walden Nogueira",
+  "student": {
+    "name": "Michele",
+    "whatsapp": "5541997088784"
+  },
+  "lesson": "Vocabulary update",
+  "cards": [
+    {
+      "term": "Happy birthday",
+      "ipa": "/ˌhæpi ˈbɝːθdeɪ/",
+      "brPronunciation": "",
+      "translation": "Feliz aniversário",
+      "definition": "A phrase you say to someone on their birthday to wish them well.",
+      "example": "Happy birthday, Sarah! I hope you have an amazing day. Feliz aniversário, Sarah! Espero que você tenha um dia incrível.",
+      "note": "“Happy birthday” é a forma padrão e natural de dizer “feliz aniversário” em inglês americano. É usada tanto em situações informais quanto em situações mais educadas, como mensagens para amigos, familiares, colegas de trabalho ou alunos. A pronúncia merece atenção: “happy” soa como /ˈhæpi/, com o som de “a” parecido com “é” aberto, e “birthday” tem o som /ɝː/ em “birth”, que é o “r” americano forte, sem pronunciar como “birt-day” em português. Brasileiros às vezes dizem “congratulations” para aniversário, mas isso soa menos natural em inglês americano. “Congratulations” é mais usado para conquistas, como uma promoção, formatura ou casamento. Para aniversário, diga simplesmente “Happy birthday!” ou, em uma mensagem mais completa, “Happy birthday! I hope you have a great day.” Também é comum encurtar informalmente para “Happy b-day” em mensagens de texto, mas a forma completa é mais natural e segura em quase todos os contextos."
+    }
+  ],
+  "createdAt": "2026-07-07T22:56:38.713Z"
+}
