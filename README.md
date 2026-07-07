@@ -1,10 +1,31 @@
-# Vocabulary PWA v15 - Student Mode
+# Student Vocabulary PWA v16
 
-Files:
-- index.html: student app
-- teacher-panel.html: teacher link generator
-- manifest.json: PWA config with Android share target
-- sw.js: offline cache
-- icon-192.png / icon-512.png / gpt-icon.png
+Separate student version for GitHub Pages.
 
-Teacher WhatsApp configured: 5541996106689.
+## Files
+Upload these files to the `Student-Vocabulary` repository root:
+
+- `index.html`
+- `manifest.json`
+- `sw.js`
+- `icon-192.png`
+- `icon-512.png`
+- `gpt-icon.png`
+- `teacher-panel.html`
+
+## Links
+
+Student app:
+`https://waldennogueira.github.io/Student-Vocabulary/?v=16`
+
+Teacher panel:
+`https://waldennogueira.github.io/Student-Vocabulary/teacher-panel.html`
+
+## Important
+
+This version uses separate localStorage keys:
+
+- `student-vocabulary-items-v16`
+- `student-vocabulary-profile-v1`
+
+It will not import or display vocabulary from the personal app.

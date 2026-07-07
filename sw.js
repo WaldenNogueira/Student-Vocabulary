@@ -1,4 +1,4 @@
-const CACHE_NAME = 'vocabulary-pwa-v15';
+const CACHE_NAME = 'student-vocabulary-pwa-v16';
 const ASSETS = [
   './',
   './index.html',
