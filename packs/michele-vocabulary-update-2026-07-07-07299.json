@@ -1,0 +1,22 @@
+{
+  "type": "vocabulary-pack",
+  "version": 2,
+  "teacher": "Teacher Walden Nogueira",
+  "student": {
+    "name": "Michele",
+    "whatsapp": "5541997088784"
+  },
+  "lesson": "Vocabulary update",
+  "cards": [
+    {
+      "term": "Have a good workday",
+      "ipa": "/hæv ə ɡʊd ˈwɝkˌdeɪ/",
+      "brPronunciation": "",
+      "translation": "Tenha um bom dia de trabalho.",
+      "definition": "A friendly thing you say to someone before or during their day at work.",
+      "example": "Have a good workday! I’ll call you when you get home. Tenha um bom dia de trabalho! Eu te ligo quando você chegar em casa.",
+      "note": "“Have a good workday” é uma expressão natural e educada usada para desejar que alguém tenha um bom dia no trabalho. É comum falar isso de manhã, antes da pessoa sair para trabalhar, ou no começo do expediente. Soa amigável, simples e um pouco mais específico do que “Have a good day”, porque deixa claro que você está falando do dia de trabalho. Não é uma expressão muito formal nem muito informal; funciona bem com amigos, colegas, familiares, alunos e até em contextos profissionais leves. Cuidado para não confundir “workday” com “weekday”: “workday” é um dia de trabalho; “weekday” é dia de semana, de segunda a sexta. A pronúncia de “workday” é /ˈwɝkˌdeɪ/, com o som de “r” forte do inglês americano em “work”. Brasileiros às vezes pronunciam como “work day” muito separado, mas em inglês natural soa quase como uma palavra só: “WORK-day”. Também é comum dizer “Have a good day at work”, que tem praticamente o mesmo sentido e soa ainda mais conversacional. Passado: como a expressão usa o verbo “have”, no passado fica “had a good workday”, como em “I had a good workday.” A pronúncia de “had” é /hæd/, com som curto de “a” como em “cat”, não como “red” nem como “head”."
+    }
+  ],
+  "createdAt": "2026-07-07T23:03:27.297Z"
+}
