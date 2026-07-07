@@ -1,9 +1,10 @@
-# Student Vocabulary PWA v16
+# Student Vocabulary PWA v17
 
-Separate student version for GitHub Pages.
+Student vocabulary app by Teacher Walden Nogueira.
 
 ## Files
-Upload these files to the `Student-Vocabulary` repository root:
+
+Upload these files to the `Student-Vocabulary` GitHub repository root:
 
 - `index.html`
 - `manifest.json`
@@ -13,19 +14,4 @@ Upload these files to the `Student-Vocabulary` repository root:
 - `gpt-icon.png`
 - `teacher-panel.html`
 
-## Links
-
-Student app:
-`https://waldennogueira.github.io/Student-Vocabulary/?v=16`
-
-Teacher panel:
-`https://waldennogueira.github.io/Student-Vocabulary/teacher-panel.html`
-
-## Important
-
-This version uses separate localStorage keys:
-
-- `student-vocabulary-items-v16`
-- `student-vocabulary-profile-v1`
-
-It will not import or display vocabulary from the personal app.
+The teacher panel can upload vocabulary packages to the GitHub repository using a fine-grained GitHub token with Contents: Read and Write access only for this repository.

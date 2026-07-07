@@ -1,9 +1,10 @@
 {
   "name": "Student Vocabulary",
   "short_name": "Vocabulary",
-  "description": "Student vocabulary app by Walden Nogueira Teacher",
-  "start_url": "./?v=16",
-  "scope": "./",
+  "description": "Student vocabulary app by Teacher Walden Nogueira",
+  "id": "/Student-Vocabulary/",
+  "start_url": "/Student-Vocabulary/?v=17",
+  "scope": "/Student-Vocabulary/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#ffffff",
