@@ -3,7 +3,7 @@
   "short_name": "Vocabulary",
   "description": "Student vocabulary app by Teacher Walden Nogueira",
   "id": "/Student-Vocabulary/",
-  "start_url": "/Student-Vocabulary/?v=17",
+  "start_url": "/Student-Vocabulary/?v=18",
   "scope": "/Student-Vocabulary/",
   "display": "standalone",
   "background_color": "#ffffff",
