@@ -1,0 +1,103 @@
+{
+  "type": "vocabulary-pack",
+  "version": 3,
+  "teacher": "Teacher Walden Nogueira",
+  "student": {
+    "name": "Walden",
+    "whatsapp": "5541996106689"
+  },
+  "lesson": "Vocabulary update",
+  "cards": [
+    {
+      "term": "Be in charge of",
+      "ipa": "/bi ɪn ˈtʃɑrdʒ əv/",
+      "brPronunciation": "bí in tchárdj av",
+      "translation": "ser responsável por; estar no comando de",
+      "definition": "To be responsible for managing, organizing, or taking care of someone or something.",
+      "example": "- She is in charge of the customer service team.",
+      "note": "Expressão muito comum no ambiente profissional. A estrutura é “be in charge of” + substantivo, pronome ou verbo com -ing: “in charge of the budget”, “in charge of them” e “in charge of hiring new employees”. Não omita a preposição “of”. “In charge” também pode aparecer sozinho quando o complemento já está claro: “Who’s in charge here?” A expressão indica responsabilidade ou autoridade, enquanto “responsible for” pode enfatizar tanto uma função quanto a responsabilidade por um resultado."
+    },
+    {
+      "term": "Report to",
+      "ipa": "/rɪˈpɔrt tu/",
+      "brPronunciation": "ripórt tchú",
+      "translation": "reportar-se a; ser subordinado a",
+      "definition": "To work under someone’s authority and give that person updates about your work.",
+      "example": "- I report directly to the CFO.",
+      "note": "No ambiente de trabalho, “report to someone” significa que essa pessoa é seu superior direto. A preposição obrigatória é “to”. “I report to the CFO” não significa que você escreve um relatório para o CFO; significa que o CFO é seu chefe. Para falar de escrever um relatório, use “write a report”. Também existe “report something to someone”, com o sentido de comunicar ou denunciar algo: “Report the problem to IT.”"
+    },
+    {
+      "term": "Colleague",
+      "ipa": "/ˈkɑliɡ/",
+      "brPronunciation": "ká-lig",
+      "translation": "colega de trabalho; colega de profissão",
+      "definition": "A person you work with, especially in a professional setting.",
+      "example": "- I asked a colleague for help with the presentation.",
+      "note": "“Colleague” é usado principalmente para colegas de trabalho ou da mesma profissão. A pronúncia começa com “ká”, e a última sílaba soa como “lig”. Não confunda com “college”, que significa faculdade. Para colega de escola ou de turma, use “classmate”. Em conversas informais, “coworker” também é muito comum nos Estados Unidos e costuma enfatizar que as pessoas trabalham na mesma empresa ou equipe."
+    },
+    {
+      "term": "Workload",
+      "ipa": "/ˈwɝkˌloʊd/",
+      "brPronunciation": "uârk-lôud",
+      "translation": "carga de trabalho; volume de trabalho",
+      "definition": "The amount of work a person or team is expected to complete.",
+      "example": "- I have a heavy workload this week.",
+      "note": "“Workload” é um substantivo contável ou incontável, dependendo do contexto, mas geralmente aparece no singular ao falar da carga total de uma pessoa: “a heavy workload”. Combinações naturais incluem “heavy workload”, “light workload”, “manageable workload”, “increased workload” e “reduce the workload”. Evite traduzir literalmente como “carga de emprego”. A palavra se refere à quantidade de tarefas ou responsabilidades, não ao horário de trabalho."
+    },
+    {
+      "term": "Deal with",
+      "ipa": "/dil wɪð/",
+      "brPronunciation": "díl uíth",
+      "translation": "lidar com; tratar de; resolver",
+      "definition": "To take action regarding a person, problem, situation, or task.",
+      "example": "- I deal with customer complaints every day.",
+      "note": "“Deal with” é um phrasal verb inseparável: o complemento vem depois de “with”. Pode ser usado com pessoas, problemas, situações, tarefas e assuntos. Dependendo do contexto, pode significar “lidar com”, “tratar de” ou “resolver”. Depois de uma preposição ou de outra estrutura que exija verbo com -ing, use “dealing with”: “She is responsible for dealing with complaints.” Não use “treat with” como tradução geral de “lidar com”; “treat” costuma significar tratar uma pessoa de determinada maneira ou oferecer tratamento médico."
+    },
+    {
+      "term": "Hire",
+      "ipa": "/ˈhaɪɚ/",
+      "brPronunciation": "ráier",
+      "translation": "contratar; admitir",
+      "definition": "To give someone a job or pay someone to perform a service.",
+      "example": "- The company plans to hire three new engineers.",
+      "note": "“Hire” é o verbo mais comum para contratar uma pessoa nos Estados Unidos. A estrutura pode ser “hire someone” ou “hire someone to do something”. O substantivo relacionado é “hiring”, como em “the hiring process”. O contrário, no contexto de emprego, é “fire”, que significa demitir. Não use “contract” como tradução geral de “contratar alguém”; “contract” como verbo costuma indicar formalizar por contrato ou contratar serviços em contextos mais específicos. Em inglês britânico, “hire” também aparece com frequência para alugar certos objetos, mas nos Estados Unidos “rent” é mais comum nesse sentido."
+    },
+    {
+      "term": "Wear many hats",
+      "ipa": "/wer ˈmɛni hæts/",
+      "brPronunciation": "uér méni réts",
+      "translation": "fazer de tudo um pouco; acumular várias funções",
+      "definition": "To have several different roles or responsibilities.",
+      "example": "- At a small company, you often wear many hats.",
+      "note": "“Wear many hats” é um idiom. Não se refere literalmente a usar vários chapéus; significa assumir diferentes papéis ou responsabilidades. É muito comum ao falar de startups, pequenas empresas, trabalho autônomo e equipes enxutas. Pode ter um tom positivo, indicando versatilidade, ou sugerir sobrecarga, dependendo do contexto. A forma “wear different hats” também é comum e enfatiza papéis diferentes."
+    },
+    {
+      "term": "Work under pressure",
+      "ipa": "/wɝk ˈʌndɚ ˈprɛʃɚ/",
+      "brPronunciation": "uârk ânder préshâr",
+      "translation": "trabalhar sob pressão",
+      "definition": "To perform tasks in stressful situations, often with limited time or high expectations.",
+      "example": "- I work well under pressure.",
+      "note": "“Work under pressure” é uma collocation muito usada em entrevistas de emprego e descrições de vagas. A preposição correta é “under”, nunca “in pressure”. A frase “I work well under pressure” destaca que a pessoa mantém um bom desempenho em situações estressantes. Também é possível usar “perform well under pressure”. Depois de “while”, “by” ou outras estruturas apropriadas, pode aparecer como “working under pressure”."
+    },
+    {
+      "term": "Pretend",
+      "ipa": "/prɪˈtɛnd/",
+      "brPronunciation": "priténd",
+      "translation": "fingir; fazer de conta",
+      "definition": "To act as if something is true when it is not.",
+      "example": "- He pretended to understand the instructions.",
+      "note": "“Pretend” é um falso cognato: significa “fingir” ou “fazer de conta”, não “pretender”. Para dizer “pretender fazer algo”, use “intend to”, “plan to” ou, em alguns contextos, “mean to”. As estruturas mais comuns são “pretend to + verbo”, “pretend that + oração” e “pretend to be + substantivo ou adjetivo”. Exemplo: “She pretended to be busy.” “Pretend” pode descrever tanto uma mentira deliberada quanto uma brincadeira imaginativa de crianças."
+    },
+    {
+      "term": "College",
+      "ipa": "/ˈkɑlɪdʒ/",
+      "brPronunciation": "ká-lidj",
+      "translation": "faculdade; instituição de ensino superior",
+      "definition": "A school that provides education after high school, often leading to a degree.",
+      "example": "- She is going to college in California.",
+      "note": "“College” é um falso cognato para brasileiros: normalmente significa “faculdade” ou uma instituição de ensino superior, não “colégio”. Nos Estados Unidos, “go to college” significa cursar o ensino superior, mesmo quando a instituição é oficialmente uma university. Para “colégio” no sentido de ensino médio, use “high school”. Não confunda “college” com “colleague”: “college” é faculdade, enquanto “colleague” é colega de trabalho. A expressão “in college” significa “na faculdade”, geralmente sem artigo: “She is in college.”"
+    }
+  ],
+  "createdAt": "2026-07-13T17:43:39.840Z"
+}
