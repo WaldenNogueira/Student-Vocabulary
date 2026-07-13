@@ -1,0 +1,93 @@
+{
+  "type": "vocabulary-pack",
+  "version": 4,
+  "teacher": "Teacher Walden Nogueira",
+  "student": {
+    "name": "André",
+    "whatsapp": "5516991454010"
+  },
+  "lesson": "Vocabulary update",
+  "cards": [
+    {
+      "term": "Come across as",
+      "ipa": "/kʌm əˈkrɔs æz/",
+      "translation": "parecer; passar a impressão de ser",
+      "definition": "To give other people a particular impression through the way you speak or behave.",
+      "example": "- He comes across as confident and approachable.",
+      "note": "“Come across as” é uma expressão usada para falar da impressão que alguém causa, muitas vezes sem intenção. A estrutura é “come across as” + adjetivo ou substantivo: “come across as friendly”, “come across as a strong leader”. Também pode ser seguida por verbo com -ing em algumas construções: “He came across as trying too hard.” Não confunda com “come across” sem “as”, que também pode significar encontrar algo por acaso: “I came across an old photo.”"
+    },
+    {
+      "term": "Rapport",
+      "ipa": "/ræˈpɔr/",
+      "translation": "entrosamento; conexão; boa relação",
+      "definition": "A comfortable and trusting relationship in which people communicate well.",
+      "example": "- She quickly built rapport with the new team.",
+      "note": "“Rapport” é um substantivo, geralmente usado para uma conexão positiva, confortável e baseada em confiança. As combinações mais naturais são “build rapport”, “establish rapport”, “develop rapport” e “have a good rapport with someone”. A palavra vem do francês, e o “t” final não é pronunciado. Evite traduzir sempre como “relacionamento”; dependendo do contexto, “entrosamento”, “sintonia” ou “boa conexão” soam mais naturais."
+    },
+    {
+      "term": "Demeanor",
+      "ipa": "/dɪˈminɚ/",
+      "translation": "comportamento; postura; maneira de se apresentar",
+      "definition": "The outward way a person behaves and appears to others.",
+      "example": "- Her calm demeanor helped everyone relax.",
+      "note": "“Demeanor” é um substantivo usado para descrever a maneira visível como alguém se comporta ou se apresenta. Refere-se à postura, expressão, tom e atitude percebida pelos outros. Combinações comuns incluem “calm demeanor”, “professional demeanor”, “friendly demeanor” e “confident demeanor”. Não é exatamente sinônimo de “personality”, porque “demeanor” descreve principalmente a impressão externa em uma situação específica."
+    },
+    {
+      "term": "Self-assured",
+      "ipa": "/ˌsɛlf əˈʃʊrd/",
+      "translation": "seguro de si; autoconfiante",
+      "definition": "Confident in your own abilities and judgment without seeming uncertain.",
+      "example": "- She sounded self-assured during the presentation.",
+      "note": "“Self-assured” é um adjetivo que descreve alguém confiante e seguro de si. Geralmente tem sentido positivo e sugere confiança tranquila, sem arrogância. Pode aparecer depois do verbo “be” ou antes de um substantivo: “She is self-assured” e “a self-assured speaker”. Compare com “confident”, que é mais geral, e “arrogant”, que tem sentido negativo e implica excesso de confiança ou superioridade."
+    },
+    {
+      "term": "Make eye contact",
+      "ipa": "/meɪk aɪ ˈkɑnˌtækt/",
+      "translation": "fazer contato visual; olhar nos olhos",
+      "definition": "To look directly into another person’s eyes while communicating.",
+      "example": "- Try to make eye contact during the interview.",
+      "note": "“Make eye contact” é uma collocation muito comum. A estrutura é “make eye contact with someone”. Em contextos sociais e profissionais, o contato visual pode transmitir atenção, confiança e interesse, mas a quantidade considerada natural varia entre culturas e pessoas. Não use “do eye contact”. Também é comum dizer “maintain eye contact” para manter o contato visual e “avoid eye contact” para evitá-lo."
+    },
+    {
+      "term": "Body language",
+      "ipa": "/ˈbɑdi ˌlæŋɡwɪdʒ/",
+      "translation": "linguagem corporal",
+      "definition": "The messages communicated through posture, facial expressions, gestures, and movement.",
+      "example": "- Her body language showed that she was uncomfortable.",
+      "note": "“Body language” é um substantivo incontável e normalmente não recebe artigo indefinido. Ele inclui postura, gestos, expressões faciais, contato visual e movimentos. Combinações naturais incluem “positive body language”, “open body language”, “confident body language” e “read someone’s body language”. Evite usar o plural “body languages” ao falar desse conceito em geral."
+    },
+    {
+      "term": "Dress the part",
+      "ipa": "/drɛs ðə pɑrt/",
+      "translation": "vestir-se de acordo com o papel; estar vestido adequadamente para a ocasião",
+      "definition": "To wear clothes that are appropriate for a particular role, job, or situation.",
+      "example": "- If you want to be taken seriously, dress the part.",
+      "note": "“Dress the part” é um idiom que significa vestir-se de modo compatível com uma função, imagem ou situação. Não quer dizer usar uma fantasia, embora possa ter esse sentido em contextos teatrais. No ambiente profissional, costuma sugerir que a aparência deve combinar com as expectativas do cargo ou evento. A expressão pode ter um tom prático, mas também pode ser usada de forma crítica quando há excesso de foco na aparência."
+    },
+    {
+      "term": "Win someone over",
+      "ipa": "/wɪn ˈsʌmwʌn ˈoʊvɚ/",
+      "translation": "conquistar alguém; ganhar a simpatia ou o apoio de alguém",
+      "definition": "To persuade someone to like, trust, or support you.",
+      "example": "- Her honesty won the team over.",
+      "note": "“Win someone over” é um phrasal verb separável que significa conquistar a simpatia, confiança ou apoio de alguém. Com substantivo, pode aparecer como “win the audience over” ou “win over the audience”. Com pronome, o pronome deve ficar no meio: “win them over”, e não “win over them”. A expressão não se refere necessariamente a competição; muitas vezes envolve persuasão, carisma, competência ou confiança."
+    },
+    {
+      "term": "Sympathetic",
+      "ipa": "/ˌsɪmpəˈθɛtɪk/",
+      "translation": "compreensivo; solidário; que demonstra compaixão",
+      "definition": "Showing that you understand and care about another person’s problems or feelings.",
+      "example": "- My manager was sympathetic when I explained the situation.",
+      "note": "“Sympathetic” é um falso cognato. Em inglês, normalmente significa “compreensivo”, “solidário” ou “compassivo”, e não “simpático”. Para dizer que alguém é simpático, use “nice”, “friendly”, “pleasant” ou “likable”, dependendo do contexto. As estruturas comuns são “be sympathetic to someone” e “be sympathetic to a problem or concern”. A palavra “sympathy” significa compaixão ou solidariedade, especialmente diante de dificuldades ou sofrimento."
+    },
+    {
+      "term": "Educated",
+      "ipa": "/ˈɛdʒəˌkeɪtɪd/",
+      "translation": "instruído; com boa formação; escolarizado",
+      "definition": "Having received a good education or having knowledge gained through study and learning.",
+      "example": "- She is highly educated and speaks three languages.",
+      "note": "“Educated” é um adjetivo que normalmente significa instruído, escolarizado ou com boa formação acadêmica. Não significa necessariamente “educado” no sentido de gentil ou bem-comportado. Para esse sentido, use “polite”, “well-mannered” ou “courteous”. A expressão “an educated guess” significa um palpite bem fundamentado, feito com base em conhecimento ou evidências. “Highly educated” é uma combinação comum para alguém com bastante formação acadêmica."
+    }
+  ],
+  "createdAt": "2026-07-13T18:50:04.646Z"
+}
