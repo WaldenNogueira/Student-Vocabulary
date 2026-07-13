@@ -1,0 +1,103 @@
+{
+  "type": "vocabulary-pack",
+  "version": 3,
+  "teacher": "Teacher Walden Nogueira",
+  "student": {
+    "name": "Walden",
+    "whatsapp": "5541996106689"
+  },
+  "lesson": "Vocabulary update",
+  "cards": [
+    {
+      "term": "Wake up",
+      "ipa": "/weɪk ʌp/",
+      "brPronunciation": "uêik âp",
+      "translation": "acordar",
+      "definition": "To stop sleeping and become awake.",
+      "example": "- I usually wake up at six on weekdays.",
+      "note": "“Wake up” é um phrasal verb que significa deixar de estar dormindo. Pode ser intransitivo, sem objeto: “I wake up early.” Também pode ser transitivo, com o sentido de acordar alguém: “Please wake me up at seven.” Quando há pronome, ele fica no meio: “wake me up”, e não “wake up me”. Não confunda com “get up”, que significa sair da cama; você pode acordar e continuar deitado."
+    },
+    {
+      "term": "Get up",
+      "ipa": "/ɡɛt ʌp/",
+      "brPronunciation": "guét âp",
+      "translation": "levantar-se; sair da cama",
+      "definition": "To leave your bed after waking up, or to rise from a seated position.",
+      "example": "- I get up right after my alarm goes off.",
+      "note": "“Get up” é um phrasal verb muito comum. Na rotina diária, significa sair da cama depois de acordar. A diferença principal é: “wake up” = acordar; “get up” = levantar-se. Também pode significar levantar-se de uma cadeira ou do chão. Em inglês americano, “get out of bed” também é usado quando se quer enfatizar que a pessoa realmente saiu da cama."
+    },
+    {
+      "term": "Commute",
+      "ipa": "/kəˈmjut/",
+      "brPronunciation": "cam-miút",
+      "translation": "deslocar-se entre casa e trabalho; fazer o trajeto diário",
+      "definition": "To travel regularly between home and work or school.",
+      "example": "- I commute by train every day.",
+      "note": "“Commute” pode ser verbo ou substantivo. Como verbo, significa fazer regularmente o trajeto entre casa e trabalho ou escola. Combinações naturais incluem “commute by car”, “commute by train”, “commute to work” e “commute from the suburbs”. Como substantivo, “commute” significa o próprio trajeto: “I have a long commute.” Não use “commute” para qualquer viagem curta; normalmente há a ideia de um deslocamento regular."
+    },
+    {
+      "term": "Run errands",
+      "ipa": "/rʌn ˈɛrəndz/",
+      "brPronunciation": "rân érândz",
+      "translation": "resolver coisas na rua; fazer pequenas tarefas externas",
+      "definition": "To make short trips to complete everyday tasks, such as shopping, banking, or picking something up.",
+      "example": "- I need to run a few errands after work.",
+      "note": "“Run errands” é uma expressão muito usada para pequenas tarefas práticas fora de casa, como ir ao banco, ao correio, à farmácia ou ao supermercado. O mais comum é usar no plural: “run errands” ou “run a few errands”. No singular, “run an errand” significa fazer uma tarefa específica para alguém. Não traduza literalmente como “correr tarefas”."
+    },
+    {
+      "term": "Work out",
+      "ipa": "/wɝk aʊt/",
+      "brPronunciation": "uârk áut",
+      "translation": "malhar; fazer exercício",
+      "definition": "To exercise in order to improve health, strength, or fitness.",
+      "example": "- I work out three times a week.",
+      "note": "“Work out” é um phrasal verb muito comum no inglês americano com o sentido de se exercitar. Pode incluir musculação, cardio, aulas ou outros tipos de treino. Como substantivo, escreve-se “workout”, em uma palavra: “That was a great workout.” “Work out” também pode significar dar certo ou encontrar uma solução, como em “Everything worked out”, mas o sentido principal aqui é fazer exercício."
+    },
+    {
+      "term": "Go to bed",
+      "ipa": "/ɡoʊ tə bɛd/",
+      "brPronunciation": "gôu tâ béd",
+      "translation": "ir para a cama; ir dormir",
+      "definition": "To get into bed because you are ready to sleep.",
+      "example": "- I usually go to bed around eleven.",
+      "note": "“Go to bed” significa ir para a cama com a intenção de dormir. Normalmente não se usa artigo antes de “bed” nessa expressão: diga “go to bed”, e não “go to the bed”. A forma com “the” só aparece quando se fala de uma cama específica como objeto ou lugar: “She walked over to the bed.” “Go to sleep” enfatiza o momento de pegar no sono, enquanto “go to bed” enfatiza ir para a cama."
+    },
+    {
+      "term": "My alarm goes off",
+      "ipa": "/maɪ əˈlɑrm ɡoʊz ɔf/",
+      "brPronunciation": "mái alárm gôuz óf",
+      "translation": "meu despertador toca; meu alarme dispara",
+      "definition": "My alarm starts making a sound at the scheduled time.",
+      "example": "- My alarm goes off at six every morning.",
+      "note": "“Go off” é um phrasal verb que, com “alarm”, significa tocar ou disparar. A frase “My alarm goes off” é mais natural do que traduzir literalmente com “ring” em muitos contextos cotidianos. “Go off” também pode ter outros sentidos, como explodir, estragar ou sair do lugar, por isso o contexto é importante. Com “alarm”, o significado é claro. Na terceira pessoa do singular, use “goes”: “The alarm goes off.”"
+    },
+    {
+      "term": "Squeeze in",
+      "ipa": "/skwiz ɪn/",
+      "brPronunciation": "scuíz in",
+      "translation": "encaixar; arrumar tempo para; incluir apesar da agenda cheia",
+      "definition": "To find time or space for something despite having a busy schedule.",
+      "example": "- I managed to squeeze in a quick workout before work.",
+      "note": "“Squeeze in” é um phrasal verb usado quando algo é incluído em uma agenda ou espaço já apertado. É muito comum com compromissos, reuniões, exercícios e pequenas tarefas: “squeeze in a call”, “squeeze in lunch” e “squeeze in some exercise”. O verbo também pode ser separável: “squeeze a meeting in”. Com pronome, o pronome fica no meio: “squeeze it in”."
+    },
+    {
+      "term": "Actually",
+      "ipa": "/ˈæk(t)ʃuəli/",
+      "brPronunciation": "ék-tchu-a-li",
+      "translation": "na verdade; na realidade; de fato",
+      "definition": "Used to correct information, add a surprising fact, or clarify what is really true.",
+      "example": "- I actually enjoy waking up early.",
+      "note": "“Actually” é um advérbio e um falso cognato. Não significa “atualmente”. Para “atualmente”, use “currently”, “now” ou “these days”. “Actually” costuma corrigir uma informação, contrastar uma expectativa ou apresentar o que é verdadeiro: “I thought he was American, but he’s actually Canadian.” No início de uma frase, pode soar como uma correção; dependendo do tom, pode parecer direto demais. A pronúncia natural frequentemente reduz a palavra, e o /t/ pode quase desaparecer na fala rápida."
+    },
+    {
+      "term": "Eventually",
+      "ipa": "/ɪˈvɛntʃuəli/",
+      "brPronunciation": "ivéntchu-a-li",
+      "translation": "finalmente; no fim; com o tempo",
+      "definition": "After some time or after a series of events, especially when something takes longer than expected.",
+      "example": "- I eventually found a job closer to home.",
+      "note": "“Eventually” é um advérbio e um falso cognato. Não significa “eventualmente” no sentido de “ocasionalmente”. Em inglês, significa que algo acontece no fim, depois de algum tempo ou após várias etapas. Para “eventualmente” com o sentido de “de vez em quando”, use “occasionally” ou “sometimes”. “Eventually” combina naturalmente com situações que levam tempo: “eventually succeed”, “eventually realize” e “eventually become”."
+    }
+  ],
+  "createdAt": "2026-07-13T18:33:18.769Z"
+}
