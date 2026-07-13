@@ -1,0 +1,94 @@
+{
+  "type": "vocabulary-pack",
+  "version": 5,
+  "teacher": "Teacher Walden Nogueira",
+  "teacherWhatsApp": "5541996106689",
+  "student": {
+    "name": "Lorran",
+    "whatsapp": "5511968412808"
+  },
+  "lesson": "B1 - 2",
+  "cards": [
+    {
+      "term": "Be in charge of",
+      "ipa": "/bi ɪn ˈtʃɑrdʒ əv/",
+      "translation": "Ser responsável por; estar encarregado de",
+      "definition": "To have responsibility for managing or controlling something or someone.",
+      "example": "- She is in charge of the marketing team.",
+      "note": "“Be in charge of” indica responsabilidade ou autoridade sobre uma pessoa, equipe, tarefa ou área. Use “of” antes do objeto: “in charge of sales”. Não diga “responsible of”; o correto é “responsible for”. Passado: was in charge of ou were in charge of, irregular. “Was” é pronunciado /wʌz/ ou /wəz/, e “were” é pronunciado /wɝ/."
+    },
+    {
+      "term": "Report to",
+      "ipa": "/rɪˈpɔrt tu/",
+      "translation": "Responder a; prestar contas a",
+      "definition": "To work under the authority of a particular manager or supervisor.",
+      "example": "- I report directly to the department manager.",
+      "note": "“Report to” é usado no ambiente profissional para indicar a pessoa que supervisiona seu trabalho. Não significa necessariamente entregar um relatório. A pergunta comum é “Who do you report to?”. Passado: reported to, regular. O final “-ed” de “reported” soa como /ɪd/."
+    },
+    {
+      "term": "Colleague",
+      "ipa": "/ˈkɑliɡ/",
+      "translation": "Colega de trabalho",
+      "definition": "A person you work with, especially in a professional job.",
+      "example": "- I discussed the idea with a colleague.",
+      "note": "“Colleague” é mais comum em contextos profissionais e costuma transmitir um tom um pouco mais formal que “coworker”. Ambos significam colega de trabalho, mas “colleague” também pode se referir a alguém da mesma profissão, mesmo que não trabalhe na mesma empresa."
+    },
+    {
+      "term": "Workload",
+      "ipa": "/ˈwɝkˌloʊd/",
+      "translation": "Carga de trabalho",
+      "definition": "The amount of work that a person or team is expected to complete.",
+      "example": "- My workload has increased this month.",
+      "note": "“Workload” é um substantivo contável, geralmente usado no singular para falar da quantidade de trabalho de alguém. As combinações mais comuns são “heavy workload”, “manage your workload”, “reduce the workload” e “increase the workload”."
+    },
+    {
+      "term": "Deal with",
+      "ipa": "/dil wɪð/",
+      "translation": "Lidar com; tratar de",
+      "definition": "To take action to manage a problem, situation, task, or person.",
+      "example": "- I deal with customer complaints every day.",
+      "note": "“Deal with” é muito usado para falar de problemas, responsabilidades, pessoas difíceis e situações que precisam de atenção. Pode significar “lidar com”, “tratar de” ou “resolver”, dependendo do contexto. Passado: dealt with, irregular. “Dealt” é pronunciado /dɛlt/."
+    },
+    {
+      "term": "Hire",
+      "ipa": "/ˈhaɪr/",
+      "translation": "Contratar",
+      "definition": "To give someone a job in exchange for payment.",
+      "example": "- The company plans to hire more engineers.",
+      "note": "“Hire” significa contratar alguém para um emprego ou serviço. Use “hire someone for a position” ou “hire someone to do something”. Em inglês americano, “hire” também pode ser substantivo em expressões como “a new hire”, que significa uma pessoa recém-contratada. Passado: hired, regular. O final “-ed” de “hired” soa como /d/."
+    },
+    {
+      "term": "Wear many hats",
+      "ipa": "/wɛr ˈmɛni hæts/",
+      "translation": "Exercer várias funções; acumular diferentes responsabilidades",
+      "definition": "To have several different roles or responsibilities at the same time.",
+      "example": "- In a small company, employees often wear many hats.",
+      "note": "“Wear many hats” é uma expressão figurada que significa assumir vários papéis ou responsabilidades. Não deve ser traduzida literalmente. É comum em startups, pequenas empresas e situações em que uma pessoa precisa desempenhar diferentes funções. Passado: wore many hats, irregular. “Wore” é pronunciado /wɔr/."
+    },
+    {
+      "term": "Work under pressure",
+      "ipa": "/wɝk ˈʌndɚ ˈprɛʃɚ/",
+      "translation": "Trabalhar sob pressão",
+      "definition": "To perform tasks effectively in stressful or demanding situations.",
+      "example": "- She works well under pressure.",
+      "note": "“Work under pressure” é comum em entrevistas de emprego e descrições profissionais. A combinação mais natural é “work well under pressure”. “Pressure” é incontável nesse uso, por isso normalmente não se diz “under a pressure”. Passado: worked under pressure, regular. O final “-ed” de “worked” soa como /t/."
+    },
+    {
+      "term": "Pretend",
+      "ipa": "/prɪˈtɛnd/",
+      "translation": "Fingir",
+      "definition": "To act as if something is true when it is not.",
+      "example": "- He pretended to understand the instructions.",
+      "note": "“Pretend” significa “fingir” e é um falso cognato. Não significa “pretender”; para isso, use “intend”, “plan” ou “want”. As estruturas mais comuns são “pretend to do something”, “pretend that...” e “pretend to be...”. Passado: pretended, regular. O final “-ed” de “pretended” soa como /ɪd/."
+    },
+    {
+      "term": "College",
+      "ipa": "/ˈkɑlɪdʒ/",
+      "translation": "Faculdade",
+      "definition": "An institution where students study after high school to earn a degree.",
+      "example": "- She plans to go to college next year.",
+      "note": "No inglês americano, “college” costuma se referir de forma geral ao ensino superior e pode ser usado mesmo quando a instituição é uma universidade. As expressões mais comuns são “go to college”, “be in college” e “graduate from college”. Não confunda “college” com “school”, que pode ter um sentido mais amplo em inglês."
+    }
+  ],
+  "createdAt": "2026-07-13T23:47:48.304Z"
+}
