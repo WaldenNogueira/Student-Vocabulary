@@ -1,0 +1,94 @@
+{
+  "type": "vocabulary-pack",
+  "version": 5,
+  "teacher": "Teacher Walden Nogueira",
+  "teacherWhatsApp": "5541996106689",
+  "student": {
+    "name": "André",
+    "whatsapp": "5516991454010"
+  },
+  "lesson": "B2 - 2",
+  "cards": [
+    {
+      "term": "Small talk",
+      "ipa": "/ˈsmɔl ˌtɔk/",
+      "translation": "conversa casual; conversa fiada",
+      "definition": "Light, informal conversation about ordinary topics, especially with people you do not know well.",
+      "example": "- We made small talk before the meeting started.",
+      "note": "“Small talk” é um substantivo incontável usado para conversas leves sobre temas como clima, trabalho, viagem, fim de semana e eventos do momento. É comum em elevadores, recepções, reuniões, festas e situações de networking. Não se usa normalmente “a small talk” para uma conversa casual; diga “make small talk” ou “have some small talk”. A expressão não é necessariamente negativa: muitas vezes serve para criar proximidade antes de uma conversa mais importante."
+    },
+    {
+      "term": "Common ground",
+      "ipa": "/ˈkɑmən ɡraʊnd/",
+      "translation": "ponto em comum; interesse em comum; base comum",
+      "definition": "Shared interests, opinions, or experiences that help people understand or connect with each other.",
+      "example": "- We quickly found common ground in our love of travel.",
+      "note": "“Common ground” é uma expressão usada para ideias, valores, experiências ou interesses compartilhados. As combinações mais naturais são “find common ground”, “have common ground” e “establish common ground”. É muito útil em conversas, negociações e resolução de conflitos. Não traduza literalmente como “chão comum”. Em muitos contextos, “ponto em comum” ou “base de entendimento” soa mais natural."
+    },
+    {
+      "term": "Open-ended question",
+      "ipa": "/ˌoʊpən ˈɛndɪd ˈkwɛstʃən/",
+      "translation": "pergunta aberta",
+      "definition": "A question that encourages a detailed answer instead of a simple yes or no.",
+      "example": "- Ask an open-ended question to keep the conversation going.",
+      "note": "“Open-ended question” é uma expressão muito usada em entrevistas, vendas, ensino, pesquisa e conversas. Perguntas abertas geralmente começam com “what”, “how”, “why”, “tell me about” ou “describe”. Elas incentivam respostas mais completas. O contrário é “closed-ended question”, que normalmente pode ser respondida com “yes”, “no” ou uma informação curta. O adjetivo “open-ended” leva hífen antes do substantivo."
+    },
+    {
+      "term": "Genuine",
+      "ipa": "/ˈdʒɛnjuən/",
+      "translation": "genuíno; sincero; verdadeiro",
+      "definition": "Real, sincere, and not fake or dishonest.",
+      "example": "- She showed genuine interest in what I was saying.",
+      "note": "“Genuine” é um adjetivo usado para algo verdadeiro, autêntico ou sincero. Combinações comuns incluem “genuine interest”, “genuine concern”, “genuine smile” e “genuine connection”. Em relacionamentos e conversas, costuma enfatizar que a pessoa não está fingindo. A pronúncia tem três sílabas e não segue a leitura literal do português. “Genuine” não é exatamente igual a “honest”: algo pode ser genuíno por ser autêntico, enquanto “honest” enfatiza dizer a verdade."
+    },
+    {
+      "term": "Engage",
+      "ipa": "/ɪnˈɡeɪdʒ/",
+      "translation": "envolver; engajar; interagir com",
+      "definition": "To attract and keep someone’s attention or to become actively involved with someone or something.",
+      "example": "- Good questions help engage the audience.",
+      "note": "“Engage” é um verbo com vários usos. “Engage someone” pode significar prender a atenção ou envolver alguém. “Engage with someone” significa interagir com alguém, e “engage in something” significa participar de uma atividade: “engage in a discussion”. No inglês profissional, “engage” aparece muito em contextos de comunicação, marketing, liderança e treinamento. Não use “engage with” quando o verbo tiver objeto direto claro em estruturas como “engage the audience”."
+    },
+    {
+      "term": "Awkward",
+      "ipa": "/ˈɔkwɚd/",
+      "translation": "constrangedor; desconfortável; sem jeito",
+      "definition": "Uncomfortable, embarrassing, or difficult to handle naturally.",
+      "example": "- There was an awkward silence after the question.",
+      "note": "“Awkward” é um adjetivo usado para situações constrangedoras, movimentos desajeitados ou pessoas que parecem sem jeito. Combinações comuns incluem “awkward silence”, “awkward moment”, “feel awkward” e “socially awkward”. Dependendo do contexto, pode ser traduzido como “constrangedor”, “desconfortável”, “sem jeito” ou “desajeitado”. Não confunda com “ashamed”, que significa envergonhado por culpa ou arrependimento."
+    },
+    {
+      "term": "Break the ice",
+      "ipa": "/breɪk ði aɪs/",
+      "translation": "quebrar o gelo; iniciar uma interação de forma descontraída",
+      "definition": "To make people feel more relaxed and comfortable at the beginning of a social interaction.",
+      "example": "- I told a joke to break the ice.",
+      "note": "“Break the ice” é um idiom muito comum em situações sociais, reuniões, aulas e eventos de networking. Significa reduzir a tensão inicial e facilitar a conversa. Pode ser usado com piadas, perguntas, apresentações ou atividades. Um “icebreaker” é uma pergunta ou atividade criada especificamente para quebrar o gelo. A expressão é figurada e não se refere a gelo real."
+    },
+    {
+      "term": "Hit it off",
+      "ipa": "/hɪt ɪt ɔf/",
+      "translation": "dar-se bem logo de cara; criar afinidade imediatamente",
+      "definition": "To like and understand someone immediately when you first meet.",
+      "example": "- We hit it off as soon as we met.",
+      "note": "“Hit it off” é um idiom informal usado quando duas pessoas criam uma conexão rápida e natural. A estrutura mais comum é “hit it off with someone”. O pronome “it” faz parte fixa da expressão e não deve ser substituído. Pode ser usado para amizade, trabalho ou interesse romântico, dependendo do contexto. Não significa literalmente bater em algo nem começar uma briga."
+    },
+    {
+      "term": "Discussion",
+      "ipa": "/dɪˈskʌʃən/",
+      "translation": "discussão; debate; conversa sobre um assunto",
+      "definition": "A conversation in which people exchange ideas or opinions about a topic.",
+      "example": "- We had a productive discussion about the project.",
+      "note": "“Discussion” é um substantivo e, em inglês, geralmente tem sentido neutro: uma conversa ou troca de ideias sobre um assunto. Não implica necessariamente briga. Para uma discussão acalorada ou briga verbal, “argument” costuma ser mais adequado. Combinações comuns incluem “have a discussion”, “group discussion”, “open discussion”, “productive discussion” e “under discussion”. O verbo correspondente é “discuss”, usado sem “about”: diga “discuss the problem”, e não “discuss about the problem”."
+    },
+    {
+      "term": "Resume",
+      "ipa": "/ˈrɛzəˌmeɪ/",
+      "translation": "currículo profissional",
+      "definition": "A document that summarizes your education, work experience, skills, and qualifications for a job.",
+      "example": "- Please send your resume before the interview.",
+      "note": "“Resume”, no sentido de currículo, também pode ser escrito “résumé”, embora a forma sem acentos seja muito comum nos Estados Unidos. É um substantivo contável: “a resume”, “two resumes”. Combinações naturais incluem “send a resume”, “update a resume”, “review a resume” e “resume writing”. Não confunda com o verbo “resume”, pronunciado /rɪˈzum/, que significa retomar ou continuar depois de uma pausa: “The meeting will resume at two.” Em inglês britânico, “CV” é mais comum; nos Estados Unidos, “resume” é o termo padrão para a maioria das candidaturas profissionais."
+    }
+  ],
+  "createdAt": "2026-07-14T23:02:40.451Z"
+}
