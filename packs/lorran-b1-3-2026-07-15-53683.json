@@ -1,0 +1,94 @@
+{
+  "type": "vocabulary-pack",
+  "version": 5,
+  "teacher": "Teacher Walden Nogueira",
+  "teacherWhatsApp": "5541996106689",
+  "student": {
+    "name": "Lorran",
+    "whatsapp": "5511968412808"
+  },
+  "lesson": "B1 - 3",
+  "cards": [
+    {
+      "term": "Headquarters",
+      "ipa": "/ˈhɛdˌkwɔrtərz/",
+      "translation": "Sede; matriz",
+      "definition": "The main office or center of operations of a company or organization.",
+      "example": "- The company moved its headquarters to Chicago.",
+      "note": "“Headquarters” indica a sede principal de uma empresa, organização ou operação. A palavra termina em “s”, mas pode ser usada com verbo no singular quando se refere a uma única sede: “Our headquarters is in Boston.” Também pode aparecer com verbo no plural quando se refere a várias sedes: “Their headquarters are in Europe and Asia.” A forma abreviada informal é “HQ”."
+    },
+    {
+      "term": "Branch",
+      "ipa": "/bræntʃ/",
+      "translation": "Filial; agência; ramo",
+      "definition": "A local office or division that is part of a larger company or organization.",
+      "example": "- The bank opened a new branch downtown.",
+      "note": "No contexto empresarial, “branch” significa uma filial, agência ou divisão de uma organização maior. É comum em combinações como “bank branch”, “local branch” e “branch office”. Como verbo, “branch” pode significar dividir-se em direções ou áreas diferentes, como em “The road branches to the left” ou “The company branched into new markets”."
+    },
+    {
+      "term": "Employee",
+      "ipa": "/ɪmˈplɔɪi/",
+      "translation": "Funcionário; empregado",
+      "definition": "A person who works for a company or organization in exchange for pay.",
+      "example": "- The company has more than five hundred employees.",
+      "note": "“Employee” é a pessoa contratada por uma empresa ou organização. Não confunda com “employer”, que significa empregador. A pronúncia tem a sílaba forte no final. Combinações comuns incluem “full-time employee”, “part-time employee”, “new employee” e “employee benefits”."
+    },
+    {
+      "term": "Customer",
+      "ipa": "/ˈkʌstəmər/",
+      "translation": "Cliente",
+      "definition": "A person or business that buys goods or services from a company.",
+      "example": "- We always listen to customer feedback.",
+      "note": "“Customer” é quem compra um produto ou serviço. “Client” costuma ser usado em relações profissionais mais contínuas, como com advogados, consultores ou agências. Combinações frequentes incluem “customer service”, “customer satisfaction”, “customer support” e “loyal customer”."
+    },
+    {
+      "term": "Provide",
+      "ipa": "/prəˈvaɪd/",
+      "translation": "Fornecer; oferecer; disponibilizar",
+      "definition": "To give someone something they need or make something available.",
+      "example": "- The company provides health insurance to all employees.",
+      "note": "“Provide” significa fornecer, oferecer ou disponibilizar algo. As estruturas mais comuns são “provide something”, “provide someone with something” e “provide something for someone”. Evite a estrutura incorreta “provide someone something” em inglês formal. Exemplo: “They provided us with support.”"
+    },
+    {
+      "term": "Found",
+      "ipa": "/faʊnd/",
+      "translation": "Fundar; estabelecer",
+      "definition": "To start and establish a company, organization, city, or institution.",
+      "example": "- They founded the company in 2012.",
+      "note": "“Found” como verbo significa fundar ou estabelecer uma empresa, instituição ou organização. Não confunda com “found”, que também é o passado e o particípio de “find” e significa “encontrou” ou “encontrado”. No sentido de fundar, o passado é “founded”, não “found”."
+    },
+    {
+      "term": "Market leader",
+      "ipa": "/ˈmɑrkɪt ˌlidər/",
+      "translation": "Líder de mercado",
+      "definition": "A company or product with the largest market share or strongest position in its industry.",
+      "example": "- The company is the market leader in online payments.",
+      "note": "“Market leader” descreve a empresa, marca ou produto com a posição mais forte em determinado mercado, geralmente por participação de mercado, vendas ou influência. É comum usar “the market leader in” antes do setor ou categoria: “the market leader in cloud security”. Não traduza literalmente como “líder do mercado” em todos os contextos; “líder de mercado” é mais natural em português empresarial."
+    },
+    {
+      "term": "Up and running",
+      "ipa": "/ˌʌp ən ˈrʌnɪŋ/",
+      "translation": "Em funcionamento; operando normalmente",
+      "definition": "Working correctly and ready to be used.",
+      "example": "- The new system is finally up and running.",
+      "note": "“Up and running” é uma expressão informal e muito comum para dizer que um sistema, serviço, máquina ou operação está funcionando corretamente. As estruturas mais frequentes são “be up and running”, “get something up and running” e “have something up and running”. Não significa literalmente “em pé e correndo”."
+    },
+    {
+      "term": "Fabric",
+      "ipa": "/ˈfæbrɪk/",
+      "translation": "Tecido",
+      "definition": "Material made by weaving or knitting fibers, used for clothing, furniture, and other products.",
+      "example": "- This fabric is soft and easy to wash.",
+      "note": "“Fabric” normalmente significa tecido ou material têxtil. Não confunda com “factory”, que significa fábrica. Em inglês, “fabric” também pode ser usado de modo figurado para falar da estrutura básica de uma sociedade ou organização, como em “the social fabric”. Combinações comuns incluem “cotton fabric”, “synthetic fabric” e “fabric sample”."
+    },
+    {
+      "term": "Attend",
+      "ipa": "/əˈtɛnd/",
+      "translation": "Comparecer a; participar de",
+      "definition": "To go to and be present at an event, meeting, class, or place.",
+      "example": "- All managers must attend the meeting.",
+      "note": "“Attend” significa comparecer ou estar presente em uma reunião, aula, evento ou instituição. É um falso cognato: geralmente não significa “atender” um cliente, telefone ou pedido. Nesses casos, use “help”, “serve”, “answer” ou “handle”, conforme o contexto. “Attend” é usado diretamente, sem “to”: diga “attend a meeting”, não “attend to a meeting”. A expressão “attend to” existe, mas significa cuidar de algo ou dar atenção a algo."
+    }
+  ],
+  "createdAt": "2026-07-15T16:39:13.682Z"
+}
