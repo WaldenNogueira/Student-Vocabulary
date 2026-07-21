@@ -1,0 +1,94 @@
+{
+  "type": "vocabulary-pack",
+  "version": 5,
+  "teacher": "Teacher Walden Nogueira",
+  "teacherWhatsApp": "5541996106689",
+  "student": {
+    "name": "Lorran",
+    "whatsapp": "5511968412808"
+  },
+  "lesson": "B1 - 4",
+  "cards": [
+    {
+      "term": "Work from home",
+      "ipa": "/ˌwɝk frəm ˈhoʊm/",
+      "translation": "Trabalhar de casa",
+      "definition": "To do your job from your home instead of going to a company workplace.",
+      "example": "- I work from home three days a week.",
+      "note": "“Work from home” é uma expressão muito comum para falar de trabalho remoto feito de casa. Use “work from home”, sem “the”, quando estiver falando da atividade em geral. Também é comum dizer “work remotely”, que é mais amplo e pode incluir trabalhar de qualquer lugar. Passado: worked from home, verbo regular; o final -ed de “worked” soa como /t/."
+    },
+    {
+      "term": "Open-plan office",
+      "ipa": "/ˌoʊpən ˈplæn ˌɔfɪs/",
+      "translation": "Escritório de planta aberta",
+      "definition": "An office with a large shared space and few or no walls between work areas.",
+      "example": "- Our company moved into an open-plan office last year.",
+      "note": "“Open-plan office” descreve um escritório com espaços compartilhados e poucas divisórias. No plural, use “open-plan offices”. Em inglês americano, “open office” também é comum, mas “open-plan office” é mais específico. O hífen em “open-plan” é usado porque as duas palavras funcionam juntas como adjetivo antes de “office”."
+    },
+    {
+      "term": "Set up",
+      "ipa": "/ˌsɛt ˈʌp/",
+      "translation": "Montar; configurar; organizar",
+      "definition": "To prepare, arrange, or install something so it is ready to use.",
+      "example": "- I need to set up my computer before the meeting.",
+      "note": "“Set up” é um phrasal verb separável. Você pode dizer “set up the computer” ou “set the computer up”. Com pronome, ele deve ficar no meio: “set it up”, e não “set up it”. Como substantivo ou adjetivo, normalmente aparece como “setup”, uma palavra só: “the setup” ou “a setup process”. Passado: set up, verbo irregular; “set” tem a mesma forma no presente e no passado."
+    },
+    {
+      "term": "Schedule",
+      "ipa": "/ˈskedʒuːl/",
+      "translation": "Agenda; cronograma; programar",
+      "definition": "A plan that shows when activities will happen, or to arrange an activity for a particular time.",
+      "example": "- My schedule is full this afternoon.",
+      "note": "“Schedule” pode ser substantivo ou verbo. Como substantivo, pode significar “agenda”, “horário” ou “cronograma”. Como verbo, significa marcar ou programar algo: “schedule a meeting”. Collocations comuns incluem “busy schedule”, “work schedule”, “on schedule”, “ahead of schedule” e “behind schedule”. No inglês americano, a pronúncia começa com /sk/. Passado: scheduled, verbo regular; o final -ed soa como /d/."
+    },
+    {
+      "term": "Distraction",
+      "ipa": "/dɪˈstrækʃən/",
+      "translation": "Distração",
+      "definition": "Something that takes your attention away from what you should be doing.",
+      "example": "- Social media can be a major distraction at work.",
+      "note": "“Distraction” é algo que desvia sua atenção. Use “a distraction” para algo específico e “distractions” para várias fontes de distração. As combinações “major distraction”, “constant distraction” e “avoid distractions” são muito comuns. O verbo relacionado é “distract”: “Don’t distract me while I’m working.”"
+    },
+    {
+      "term": "Hybrid",
+      "ipa": "/ˈhaɪbrɪd/",
+      "translation": "Híbrido",
+      "definition": "Combining two different methods, systems, or ways of working.",
+      "example": "- Our company follows a hybrid work model.",
+      "note": "No contexto profissional, “hybrid” geralmente descreve uma combinação de trabalho presencial e remoto. As expressões mais comuns são “hybrid work”, “hybrid model”, “hybrid schedule” e “hybrid meeting”. Como adjetivo, vem antes do substantivo: “a hybrid team”. Não confunda “hybrid” com “remote”, pois trabalho remoto não exige presença no escritório."
+    },
+    {
+      "term": "Dress code",
+      "ipa": "/ˈdrɛs ˌkoʊd/",
+      "translation": "Código de vestimenta",
+      "definition": "A set of rules about what people should wear in a particular place or situation.",
+      "example": "- The office has a casual dress code.",
+      "note": "“Dress code” se refere às regras sobre roupas adequadas em um ambiente. Combinações comuns incluem “casual dress code”, “business casual dress code”, “formal dress code” e “strict dress code”. Em português, “dress code” também é usado, mas “código de vestimenta” é a tradução direta e natural. Use “under the dress code” para indicar o que as regras permitem ou proíbem."
+    },
+    {
+      "term": "Water cooler chat",
+      "ipa": "/ˈwɔtɚ ˌkuːlɚ tʃæt/",
+      "translation": "Conversa informal no trabalho",
+      "definition": "An informal conversation between coworkers, usually about everyday topics.",
+      "example": "- I heard the news during a water cooler chat.",
+      "note": "“Water cooler chat” é uma expressão usada para conversas informais e espontâneas entre colegas, mesmo quando não acontecem literalmente perto de um bebedouro. O sentido completo é semelhante a “papo de corredor” ou “conversa informal no trabalho”. Também se usa “water cooler conversation”. É uma expressão neutra e comum em contextos profissionais."
+    },
+    {
+      "term": "Assist",
+      "ipa": "/əˈsɪst/",
+      "translation": "Auxiliar; ajudar",
+      "definition": "To help someone do something or make a task easier.",
+      "example": "- A technician will assist you with the installation.",
+      "note": "“Assist” é mais formal do que “help”. As estruturas mais comuns são “assist someone with something” e “assist someone in doing something”. Não use “assist to someone” com o sentido de ajudar. Atenção ao falso cognato: “assist” não significa “assistir” no sentido de ver televisão; nesse caso, use “watch”. Passado: assisted, verbo regular; o final -ed soa como /ɪd/."
+    },
+    {
+      "term": "Comprehensive",
+      "ipa": "/ˌkɑmprɪˈhɛnsɪv/",
+      "translation": "Abrangente; completo",
+      "definition": "Including all or nearly all important details or aspects of something.",
+      "example": "- The report provides a comprehensive overview of the project.",
+      "note": "“Comprehensive” descreve algo amplo, detalhado e que cobre quase todos os aspectos importantes. Collocations comuns incluem “comprehensive report”, “comprehensive review”, “comprehensive plan” e “comprehensive overview”. Não significa apenas “fácil de compreender”; para isso, use “easy to understand” ou “clear”. O advérbio relacionado é “comprehensively”."
+    }
+  ],
+  "createdAt": "2026-07-21T11:59:32.160Z"
+}
