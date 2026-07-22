@@ -1,0 +1,118 @@
+{
+  "type": "vocabulary-pack",
+  "version": 5,
+  "teacher": "Teacher Walden Nogueira",
+  "teacherWhatsApp": "5541996106689",
+  "student": {
+    "name": "Lorran",
+    "whatsapp": "5511968412808"
+  },
+  "lesson": "B1 - 5",
+  "cards": [
+    {
+      "term": "Spreadsheet",
+      "ipa": "/ˈsprɛdˌʃit/",
+      "translation": "planilha",
+      "definition": "A digital document made of rows and columns that is used to organize, calculate, and analyze data.",
+      "example": "- I created a spreadsheet to track our monthly expenses.",
+      "note": "“Spreadsheet” é um substantivo usado para planilhas digitais, como as criadas no Microsoft Excel ou no Google Sheets. Combinações comuns incluem “create a spreadsheet”, “update a spreadsheet”, “share a spreadsheet” e “spreadsheet formula”. Não confunda com “worksheet”, que pode indicar uma aba específica dentro de um arquivo de planilha ou uma folha de exercícios, dependendo do contexto."
+    },
+    {
+      "term": "Log in",
+      "ipa": "/lɔɡ ɪn/",
+      "translation": "entrar; fazer login; acessar uma conta",
+      "definition": "To enter a computer system, website, or app by providing your account information.",
+      "example": "- I can’t log in to my account.",
+      "note": "“Log in” é um phrasal verb usado para acessar uma conta, sistema, site ou aplicativo. A estrutura mais comum é “log in to + sistema”: “log in to the platform”. Como substantivo ou adjetivo, normalmente se escreve “login”, em uma palavra: “login page”, “login details”. “Sign in” é uma alternativa muito comum e geralmente tem o mesmo sentido. O contrário é “log out” ou “sign out”."
+    },
+    {
+      "term": "Attachment",
+      "ipa": "/əˈtætʃmənt/",
+      "translation": "anexo; arquivo anexado",
+      "definition": "A file that is sent together with an email or message.",
+      "example": "- Please see the attachment for more details.",
+      "note": "“Attachment” é um substantivo muito usado em e-mails e mensagens. As combinações mais naturais incluem “send an attachment”, “open an attachment”, “include an attachment” e “email attachment”. A frase “Please find attached” é formal e comum em e-mails, enquanto “I’ve attached the file” costuma soar mais natural e direto. Tenha cuidado ao abrir anexos de remetentes desconhecidos."
+    },
+    {
+      "term": "Update",
+      "ipa": "/ˌʌpˈdeɪt/",
+      "translation": "atualizar; atualização; novidade",
+      "definition": "As a verb, to add the newest information or version. As a noun, new information or a newer version.",
+      "example": "- Please update the spreadsheet before the meeting.",
+      "note": "“Update” pode ser verbo ou substantivo. Como verbo, a sílaba forte costuma estar no final: /ˌʌpˈdeɪt/. Como substantivo, muitos falantes enfatizam mais a primeira sílaba: /ˈʌpˌdeɪt/. Combinações comuns incluem “update a file”, “software update”, “status update” e “keep someone updated”. Para informar alguém sobre novidades, use “update someone on something”: “Please update me on the situation.”"
+    },
+    {
+      "term": "Shortcut",
+      "ipa": "/ˈʃɔrtˌkʌt/",
+      "translation": "atalho",
+      "definition": "A quicker way to reach a place, complete a task, or access a command on a computer.",
+      "example": "- Use this keyboard shortcut to copy the text.",
+      "note": "“Shortcut” é um substantivo que pode indicar um caminho mais curto, um método mais rápido ou um comando de computador. Em tecnologia, combinações comuns incluem “keyboard shortcut”, “desktop shortcut” e “create a shortcut”. Em sentido figurado, “take a shortcut” pode sugerir economizar tempo, mas também pode indicar pular etapas importantes."
+    },
+    {
+      "term": "Crash",
+      "ipa": "/kræʃ/",
+      "translation": "travar; parar de funcionar; falhar de repente",
+      "definition": "For a computer, program, or system to suddenly stop working.",
+      "example": "- My computer crashed while I was saving the file.",
+      "note": "“Crash” é um verbo muito comum em tecnologia para sistemas, aplicativos e computadores que param de funcionar de repente. Também pode ser substantivo: “a system crash”. Fora da tecnologia, pode significar colidir ou sofrer um acidente: “The car crashed into a wall.” Em linguagem informal, “crash” também pode significar dormir temporariamente em algum lugar, mas esse não é o sentido principal aqui."
+    },
+    {
+      "term": "Back up",
+      "ipa": "/bæk ʌp/",
+      "translation": "fazer backup; criar uma cópia de segurança",
+      "definition": "To make a copy of digital files or data so they can be recovered later.",
+      "example": "- Always back up your important files.",
+      "note": "“Back up” é um phrasal verb separável. Pode-se dizer “back up the files” ou “back the files up”. Com pronome, o pronome deve ficar no meio: “back them up”. Como substantivo ou adjetivo, escreve-se “backup”, em uma palavra: “make a backup”, “backup copy” e “backup system”. “Back up” também pode significar apoiar uma afirmação, dar ré ou causar congestionamento, dependendo do contexto."
+    },
+    {
+      "term": "Figure out",
+      "ipa": "/ˈfɪɡjɚ aʊt/",
+      "translation": "descobrir; entender; encontrar uma solução",
+      "definition": "To understand something or find the answer to a problem after thinking about it.",
+      "example": "- I’m trying to figure out how the software works.",
+      "note": "“Figure out” é um phrasal verb muito comum e informal. Pode significar compreender algo, descobrir uma causa ou encontrar uma solução. É separável: “figure out the problem” e “figure the problem out” são possíveis. Com pronome, use “figure it out”, e não “figure out it”. Em contextos mais formais, alternativas incluem “determine”, “identify” e “resolve”."
+    },
+    {
+      "term": "Push",
+      "ipa": "/pʊʃ/",
+      "translation": "enviar; publicar; transferir alterações; pressionar",
+      "definition": "In technology, to send code, data, or updates to another system. More generally, it means to press or move something away from you.",
+      "example": "- I need to push the latest changes to the server.",
+      "note": "“Push” é um verbo com vários sentidos. Em tecnologia, pode significar enviar código, dados ou atualizações para um sistema remoto: “push changes”, “push code” e “push an update”. Também aparece em “push notification”, uma notificação enviada automaticamente para um dispositivo. No sentido físico, significa empurrar ou pressionar. Em ambientes de trabalho, “push for something” significa defender ou pressionar pela realização de algo."
+    },
+    {
+      "term": "Notice",
+      "ipa": "/ˈnoʊtɪs/",
+      "translation": "notar; perceber; aviso",
+      "definition": "As a verb, to become aware of something. As a noun, a written or spoken announcement or warning.",
+      "example": "- I noticed an error in the spreadsheet.",
+      "note": "“Notice” pode ser verbo ou substantivo. Como verbo, significa perceber ou notar algo: “notice a problem” e “notice that something changed”. Como substantivo, significa aviso ou comunicado: “receive a notice”, “advance notice” e “short notice”. É um falso cognato parcial: não significa “notícia”; para isso, use “news” ou “news story”. A expressão “on short notice” significa com pouca antecedência."
+    },
+    {
+      "term": "Average",
+      "ipa": "/ˈævərɪdʒ/",
+      "translation": "média; mediano; médio",
+      "definition": "A number found by adding several values and dividing by how many values there are. It can also describe something typical or ordinary.",
+      "example": "- The average response time is under two minutes.",
+      "note": "“Average” pode ser substantivo, adjetivo ou verbo. Como substantivo, significa média: “the average is 85”. Como adjetivo, significa médio ou comum: “average price” e “an average employee”. Como verbo, significa ter ou calcular uma média: “Sales averaged $10,000 per month.” Expressões comuns incluem “on average”, “above average” e “below average”. Não confunda com “medium”, que costuma indicar tamanho, intensidade ou nível intermediário."
+    },
+    {
+      "term": "Tab",
+      "ipa": "/tæb/",
+      "translation": "aba; guia",
+      "definition": "A labeled section in a program, browser, or spreadsheet that lets you switch between pages or views.",
+      "example": "- Open the settings tab at the top of the screen.",
+      "note": "“Tab” é um substantivo muito comum em tecnologia. Pode se referir a uma aba do navegador, de um programa ou de uma planilha. Combinações naturais incluem “browser tab”, “spreadsheet tab”, “open a tab”, “close a tab” e “switch tabs”. A tecla “Tab” do teclado também usa esse nome. Em outros contextos, “tab” pode significar conta pendente em um bar ou restaurante: “Put it on my tab.”"
+    },
+    {
+      "term": "Track",
+      "ipa": "/træk/",
+      "translation": "acompanhar; monitorar; rastrear",
+      "definition": "To follow the progress, location, or development of something over time.",
+      "example": "- We use a spreadsheet to track expenses.",
+      "note": "“Track” é um verbo muito usado em contextos de trabalho, tecnologia, logística e saúde. Pode significar acompanhar progresso, monitorar dados ou rastrear localização. Combinações comuns incluem “track progress”, “track expenses”, “track changes”, “track a package” e “keep track of something”. “Keep track of” significa manter controle ou acompanhamento: “I use a calendar to keep track of deadlines.”"
+    }
+  ],
+  "createdAt": "2026-07-22T16:39:11.474Z"
+}
