@@ -1,0 +1,102 @@
+{
+  "type": "vocabulary-pack",
+  "version": 5,
+  "teacher": "Teacher Walden Nogueira",
+  "teacherWhatsApp": "5541996106689",
+  "student": {
+    "name": "André",
+    "whatsapp": "5516991454010"
+  },
+  "lesson": "B2 - 3",
+  "cards": [
+    {
+      "term": "Compelling",
+      "ipa": "/kəmˈpɛlɪŋ/",
+      "translation": "Cativante; convincente",
+      "definition": "Very interesting, persuasive, or able to hold someone's attention.",
+      "example": "- She opened the presentation with a compelling story.",
+      "note": "“Compelling” descreve algo que prende a atenção ou convence com força. É comum em combinações como “compelling story”, “compelling argument”, “compelling evidence” e “compelling reason”. Não confunda com “compulsory”, que significa “obrigatório”."
+    },
+    {
+      "term": "Anecdote",
+      "ipa": "/ˈænɪkˌdoʊt/",
+      "translation": "Anedota; breve história pessoal",
+      "definition": "A short, interesting story about a real event or personal experience.",
+      "example": "- He shared a funny anecdote about his first day at work.",
+      "note": "“Anecdote” é uma história curta, geralmente real, usada para ilustrar uma ideia ou entreter. Em português, “anedota” pode sugerir uma piada, mas em inglês “anecdote” costuma ser um relato breve. Use “tell/share an anecdote” e “an anecdote about something”."
+    },
+    {
+      "term": "Takeaway",
+      "ipa": "/ˈteɪkəˌweɪ/",
+      "translation": "Principal aprendizado; mensagem central",
+      "definition": "The main idea, lesson, or useful point that someone should remember.",
+      "example": "- The main takeaway is that preparation builds confidence.",
+      "note": "“Takeaway” é muito usado em reuniões, aulas, apresentações e conteúdos para indicar o ponto mais importante que deve ser lembrado. As combinações mais comuns são “main takeaway”, “key takeaway” e “biggest takeaway”. Nesse sentido, não significa literalmente “levar embora”."
+    },
+    {
+      "term": "Hook",
+      "ipa": "/hʊk/",
+      "translation": "Gancho; elemento que prende a atenção",
+      "definition": "An opening idea, question, or detail designed to capture attention.",
+      "example": "- Start your speech with a strong hook.",
+      "note": "“Hook” é algo que chama a atenção logo no início, como uma pergunta, uma estatística ou uma história. É comum dizer “a strong hook” e “hook the audience”. Como verbo, “to hook someone” significa prender o interesse de alguém. Passado: hooked, verbo regular; o final -ed soa como /t/."
+    },
+    {
+      "term": "Relatable",
+      "ipa": "/rɪˈleɪtəbəl/",
+      "translation": "Identificável; fácil de se identificar",
+      "definition": "Easy to understand or connect with because it feels familiar or similar to your own experience.",
+      "example": "- Her story was relatable to many young professionals.",
+      "note": "“Relatable” descreve uma pessoa, história ou situação com a qual o público consegue se identificar. É comum em “relatable character”, “relatable story” e “relatable example”. Em inglês natural, também se diz “I can relate to that”, isto é, “eu me identifico com isso”."
+    },
+    {
+      "term": "Vivid",
+      "ipa": "/ˈvɪvɪd/",
+      "translation": "Vívido; marcante; cheio de detalhes",
+      "definition": "Clear, powerful, and full of strong details or images.",
+      "example": "- She gave a vivid description of the city.",
+      "note": "“Vivid” descreve imagens, memórias, cores ou descrições muito claras e intensas. Combinações comuns incluem “vivid description”, “vivid memory”, “vivid detail” e “vivid imagination”. Não significa apenas “colorido”; também pode indicar algo mentalmente muito nítido."
+    },
+    {
+      "term": "Paint a picture",
+      "ipa": "/peɪnt ə ˈpɪktʃər/",
+      "translation": "Criar uma imagem mental; descrever de forma vívida",
+      "definition": "To describe something so clearly that people can imagine it.",
+      "example": "- The author paints a picture of life in a small town.",
+      "note": "“Paint a picture” é uma expressão usada para falar de uma descrição clara e detalhada, não necessariamente de pintura. Pode aparecer como “paint a picture of something” ou “paint a picture for someone”. Em apresentações, ajuda o público a visualizar uma cena ou situação. Passado: painted a picture, verbo regular; o final -ed de “painted” soa como /ɪd/."
+    },
+    {
+      "term": "Get to the point",
+      "ipa": "/ɡɛt tə ðə pɔɪnt/",
+      "translation": "Ir direto ao ponto",
+      "definition": "To say the most important thing directly without unnecessary details.",
+      "example": "- Please get to the point because we are running out of time.",
+      "note": "“Get to the point” significa chegar à ideia principal sem rodeios. Pode soar impaciente em ordens diretas, como “Get to the point”, então formas mais educadas incluem “Could you get to the point?” ou “Let me get to the point.” Passado: got to the point, verbo irregular; “get” muda para “got”."
+    },
+    {
+      "term": "History",
+      "ipa": "/ˈhɪstəri/",
+      "translation": "História; histórico",
+      "definition": "Past events or the study and record of those events.",
+      "example": "- The museum presents the history of the region.",
+      "note": "“History” pode significar a disciplina que estuda o passado ou o histórico de uma pessoa, organização ou situação. Use “the history of something” para a história de algo e “a history of something” para um histórico recorrente. Não confunda com “story”, que normalmente é um relato ou narrativa."
+    },
+    {
+      "term": "Anticipate",
+      "ipa": "/ænˈtɪsəˌpeɪt/",
+      "translation": "Antecipar; prever; esperar",
+      "definition": "To expect something and prepare for it before it happens.",
+      "example": "- We anticipate a strong response from customers.",
+      "note": "“Anticipate” significa esperar, prever ou se preparar para algo antes que aconteça. É comum usar “anticipate a problem”, “anticipate a need” e “anticipate that...”. Normalmente não se usa “anticipate for”; o verbo recebe o objeto diretamente. Passado: anticipated, verbo regular; o final -ed soa como /ɪd/."
+    },
+    {
+      "term": "Chart",
+      "ipa": "/tʃɑrt/",
+      "translation": "Gráfico; representar em gráfico",
+      "definition": "A visual display of information, or to show information in a visual form.",
+      "example": "- The chart shows a steady increase in sales.",
+      "note": "“Chart” é geralmente um gráfico usado para apresentar dados, como “bar chart”, “pie chart” e “line chart”. Como verbo, significa registrar ou representar mudanças e progresso visualmente. Não confunda com “table”, que organiza informações em linhas e colunas. Passado: charted, verbo regular; o final -ed soa como /ɪd/."
+    }
+  ],
+  "createdAt": "2026-07-24T18:57:29.151Z"
+}
