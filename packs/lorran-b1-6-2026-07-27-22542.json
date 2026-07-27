@@ -1,0 +1,118 @@
+{
+  "type": "vocabulary-pack",
+  "version": 5,
+  "teacher": "Teacher Walden Nogueira",
+  "teacherWhatsApp": "5541996106689",
+  "student": {
+    "name": "Lorran",
+    "whatsapp": "5511968412808"
+  },
+  "lesson": "B1 - 6",
+  "cards": [
+    {
+      "term": "Subject line",
+      "ipa": "/ˈsʌbdʒɪkt laɪn/",
+      "translation": "Linha de assunto",
+      "definition": "The short title of an email that tells the reader what the message is about.",
+      "example": "- Please make the subject line clear and specific.",
+      "note": "Use “subject line” for the title that appears at the top of an email. A good subject line is usually brief, specific, and related to the main purpose of the message. Do not confuse it with “subject”, which can also mean “assunto” in a broader sense."
+    },
+    {
+      "term": "Inbox",
+      "ipa": "/ˈɪnˌbɑks/",
+      "translation": "Caixa de entrada",
+      "definition": "The place where received emails or messages are stored.",
+      "example": "- I check my inbox every morning.",
+      "note": "Use “inbox” for the folder that receives new emails or messages. Common collocations include “check your inbox”, “clear your inbox”, and “inbox is full”. The opposite folder is usually called “sent” or “sent items”."
+    },
+    {
+      "term": "Reply",
+      "ipa": "/rɪˈplaɪ/",
+      "translation": "Responder; resposta",
+      "definition": "To answer a message, email, or question, or the answer itself.",
+      "example": "- Please reply to this email by Friday.",
+      "note": "“Reply” can be a verb or a noun. As a verb, it is commonly followed by “to”: “reply to an email” or “reply to someone”. Do not say “reply someone”. “Answer” is also possible, but “reply” is especially common for emails and messages. Passado: replied, verbo regular com mudança de “y” para “ied”; o final soa como /d/."
+    },
+    {
+      "term": "CC",
+      "ipa": "/ˌsiːˈsiː/",
+      "translation": "Colocar em cópia; cópia",
+      "definition": "To send a copy of an email to another person in addition to the main recipient.",
+      "example": "- Please CC me on the final email.",
+      "note": "“CC” comes from “carbon copy” and is used when another person should receive the email for information. The main recipient goes in “To”, while copied recipients go in “CC”. Use “BCC” when recipients should not see one another’s addresses. Passado: CC'd, verbo regular; o final soa como /d/."
+    },
+    {
+      "term": "Draft",
+      "ipa": "/dræft/",
+      "translation": "Rascunho; redigir",
+      "definition": "An unfinished version of a document or message, or to write its first version.",
+      "example": "- I saved the email as a draft.",
+      "note": "“Draft” can be a noun or a verb. As a noun, it means an unfinished version. As a verb, it means to prepare the first version of a text. Common expressions include “save as a draft”, “first draft”, and “draft an email”. Passado: drafted, verbo regular; o final “-ed” soa como /ɪd/."
+    },
+    {
+      "term": "Typo",
+      "ipa": "/ˈtaɪpoʊ/",
+      "translation": "Erro de digitação",
+      "definition": "A small mistake made while typing or writing.",
+      "example": "- There is a typo in the subject line.",
+      "note": "“Typo” is an informal and very common abbreviation of “typographical error”. It usually refers to an accidental spelling or typing mistake, not a grammar mistake or a misunderstanding. The plural is “typos”."
+    },
+    {
+      "term": "Please find attached",
+      "ipa": "/pliːz faɪnd əˈtætʃt/",
+      "translation": "Segue em anexo; por favor, veja o arquivo anexo",
+      "definition": "A formal email phrase used to tell someone that a file is attached.",
+      "example": "- Please find attached the updated contract.",
+      "note": "“Please find attached” is a formal email expression used before mentioning a file. It is correct, but it can sound slightly traditional. More natural alternatives include “I’ve attached the file” and “The document is attached”. Do not translate it word for word as “por favor, encontre anexado”."
+    },
+    {
+      "term": "I look forward to hearing from you",
+      "ipa": "/aɪ lʊk ˈfɔrwɚd tə ˈhɪrɪŋ frəm ju/",
+      "translation": "Aguardo seu retorno; fico no aguardo da sua resposta",
+      "definition": "A polite phrase used at the end of a message to say that you expect a response.",
+      "example": "- I look forward to hearing from you soon.",
+      "note": "This is a polite and professional closing phrase. After “look forward to”, use a noun or a verb ending in “-ing”, as in “look forward to hearing”, never “look forward to hear”. It can sound formal but is very common in business emails. Passado: looked forward to, expressão verbal regular; o final “-ed” de “looked” soa como /t/."
+    },
+    {
+      "term": "Sensible",
+      "ipa": "/ˈsɛnsəbəl/",
+      "translation": "Sensato; razoável",
+      "definition": "Showing good judgment and making practical decisions.",
+      "example": "- That sounds like a sensible solution.",
+      "note": "“Sensible” means practical and based on good judgment. It is a false cognate: it usually does not mean “sensível”. For “sensível”, use “sensitive”. Common collocations include “sensible decision”, “sensible solution”, and “sensible advice”."
+    },
+    {
+      "term": "Realize",
+      "ipa": "/ˈriːəlaɪz/",
+      "translation": "Perceber; dar-se conta",
+      "definition": "To become aware of or understand something clearly.",
+      "example": "- I realized that I had attached the wrong file.",
+      "note": "“Realize” usually means “perceber” or “dar-se conta”, not “realizar”. For “realizar” in the sense of executing something, use verbs such as “do”, “carry out”, or “complete”. In American English, the standard spelling is “realize” with “z”. Passado: realized, verbo regular; o final “-ed” soa como /d/."
+    },
+    {
+      "term": "Typo",
+      "ipa": "/ˈtaɪpoʊ/",
+      "translation": "Erro de digitação",
+      "definition": "A small mistake made while typing or writing.",
+      "example": "- I found a typo in the supplier’s name.",
+      "note": "“Typo” is an informal and common way to say “typographical error”. It refers to an accidental typing or spelling mistake. Use “grammar mistake” for an error involving grammar and “factual error” for incorrect information. The plural is “typos”."
+    },
+    {
+      "term": "Supplier",
+      "ipa": "/səˈplaɪɚ/",
+      "translation": "Fornecedor",
+      "definition": "A person or company that provides products or materials to another business.",
+      "example": "- We contacted the supplier about the delayed order.",
+      "note": "“Supplier” is common in business and logistics. It refers to a company or person that supplies goods, materials, or services. Common collocations include “reliable supplier”, “local supplier”, “supplier agreement”, and “contact a supplier”. “Vendor” is similar and is especially common for sellers or service providers."
+    },
+    {
+      "term": "Overnight",
+      "ipa": "/ˌoʊvɚˈnaɪt/",
+      "translation": "Durante a noite; de um dia para o outro; enviar com entrega no dia seguinte",
+      "definition": "During the night, by the next day, or using a next-day delivery service.",
+      "example": "- The package will arrive overnight.",
+      "note": "“Overnight” can be an adverb, adjective, noun, or verb. In business and shipping, “to overnight a package” means to send it using next-day delivery. Figuratively, “not happen overnight” means that something takes time. Passado: overnighted, verbo regular; o final “-ed” soa como /ɪd/."
+    }
+  ],
+  "createdAt": "2026-07-27T16:48:42.541Z"
+}
