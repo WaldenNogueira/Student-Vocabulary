@@ -81,7 +81,7 @@
     <p id="status" class="status"></p>
   </section>
 
-  <footer class="footer">v24 · Teacher Walden Nogueira</footer>
+  <footer class="footer">v25 · Teacher Walden Nogueira</footer>
 </main>
 
 <script>
@@ -132,21 +132,90 @@
   els.saveSettings.onclick=()=>{localStorage.setItem(SETTINGS_KEY,JSON.stringify({token:els.token.value.trim(),owner:els.owner.value.trim(),repo:els.repo.value.trim(),branch:els.branch.value.trim(),folder:els.folder.value.trim(),appUrl:els.appUrl.value.trim()}));setStatus('GitHub settings saved.','ok')};
 
   function stripFences(text){return String(text||'').replace(/^```[a-z]*\s*/i,'').replace(/\s*```$/,'').trim()}
-  function escapeRegExp(value){return String(value).replace(/[.*+?^${}()|[\]\\]/g,'\\$&')}
-  function getField(text,labels){
-    const all=['TERM','WORD','PHRASE','IPA','PRONUNCIATION','TRANSLATION','DEFINITION','MEANING','EXAMPLE','EXAMPLES','NOTE','NOTES','QUESTION','TYPE','PROMPT','OPTIONS','ANSWER','ANSWERS','EXPLANATION'];
-    const wanted=labels.map(escapeRegExp).join('|'),any=all.map(escapeRegExp).join('|');
-    const match=text.match(new RegExp(`^\\s*(?:${wanted})\\s*:\\s*([\\s\\S]*?)(?=^\\s*(?:${any})\\s*:|\\s*$)`,'im'));return match?match[1].trim():'';
+  const FIELD_LABELS=new Set(['LESSON','TERM','WORD','PHRASE','IPA','PRONUNCIATION','TRANSLATION','DEFINITION','MEANING','EXAMPLE','EXAMPLES','NOTE','NOTES','QUESTION','TYPE','PROMPT','OPTIONS','ANSWER','ANSWERS','EXPLANATION']);
+  function parseFields(block){
+    const fields={};let active='';
+    String(block||'').replace(/\r\n?/g,'\n').split('\n').forEach(line=>{
+      const match=line.match(/^\s*([A-Z][A-Z ]*)\s*:\s*(.*)$/);
+      if(match&&FIELD_LABELS.has(match[1].trim())){
+        active=match[1].trim();
+        if(!fields[active])fields[active]=[];
+        if(match[2].trim())fields[active].push(match[2].trim());
+      }else if(active){
+        fields[active].push(line);
+      }
+    });
+    return fields;
   }
-  function splitBlocks(text,label){const starts=[],regex=new RegExp(`^\\s*${label}\\s*:`,`gim`);let match;while((match=regex.exec(text)))starts.push(match.index);return starts.length?starts.map((start,index)=>text.slice(start,starts[index+1]||text.length)):[]}
+  function field(fields,labels){
+    for(const label of labels){
+      const lines=fields[label];
+      if(lines)return lines.join('\n').trim();
+    }
+    return'';
+  }
+  function splitBlocks(text,label){
+    const clean=stripFences(text).replace(/\r\n?/g,'\n');
+    const starts=[],regex=new RegExp(`^\\s*${label}\\s*:`,`gim`);let match;
+    while((match=regex.exec(clean)))starts.push(match.index);
+    return starts.length?starts.map((start,index)=>clean.slice(start,starts[index+1]||clean.length)):[];
+  }
   function capitalize(value){const text=String(value||'').trim();return text?text.charAt(0).toUpperCase()+text.slice(1):''}
   function parseCards(text){
-    return splitBlocks(stripFences(text),'TERM').map(block=>({term:capitalize(getField(block,['TERM','WORD','PHRASE'])),ipa:getField(block,['IPA','PRONUNCIATION']),translation:getField(block,['TRANSLATION']),definition:getField(block,['DEFINITION','MEANING']),example:getField(block,['EXAMPLE','EXAMPLES']),note:getField(block,['NOTE','NOTES'])})).filter(card=>card.term);
+    return splitBlocks(text,'TERM').map(block=>{
+      const fields=parseFields(block);
+      return{
+        term:capitalize(field(fields,['TERM','WORD','PHRASE'])),
+        ipa:field(fields,['IPA','PRONUNCIATION']),
+        translation:field(fields,['TRANSLATION']),
+        definition:field(fields,['DEFINITION','MEANING']),
+        example:field(fields,['EXAMPLES','EXAMPLE']),
+        note:field(fields,['NOTE','NOTES'])
+      };
+    }).filter(card=>card.term);
   }
-  function parseOptions(value){return String(value||'').split(/\n+/).map(line=>line.replace(/^(?:[-*•]|\d+[.)])\s*/,'').trim()).filter(Boolean)}
-  function normalizeType(value){const type=String(value||'multiple_choice').toLowerCase().replace(/[\s-]+/g,'_');if(['translate','translation','translate_to_english'].includes(type))return'translate_to_english';if(['fill','fill_blank','complete'].includes(type))return'fill_blank';return'multiple_choice'}
+  function parseOptions(value){
+    const seen=new Set();
+    return String(value||'').split(/\n+/).map(line=>line.replace(/^(?:[-*•]|\d+[.)])\s*/,'').trim()).filter(option=>{
+      const key=option.toLowerCase();
+      if(!option||seen.has(key))return false;
+      seen.add(key);return true;
+    });
+  }
+  function normalizeType(value){
+    const type=String(value||'multiple_choice').toLowerCase().replace(/[\s-]+/g,'_');
+    if(['translate','translation','translate_to_english'].includes(type))return'translate_to_english';
+    if(['fill','fill_blank','complete','completion'].includes(type))return'fill_blank';
+    return'multiple_choice';
+  }
   function parseQuestions(text){
-    return splitBlocks(stripFences(text),'QUESTION').map((block,index)=>({id:`q-${index+1}`,type:normalizeType(getField(block,['TYPE'])),prompt:getField(block,['PROMPT']),options:parseOptions(getField(block,['OPTIONS'])),answer:getField(block,['ANSWER','ANSWERS']),explanation:getField(block,['EXPLANATION','NOTE'])})).filter(question=>question.prompt&&question.answer);
+    return splitBlocks(text,'QUESTION').map((block,index)=>{
+      const fields=parseFields(block);
+      return{
+        id:`q-${index+1}`,
+        type:normalizeType(field(fields,['TYPE'])),
+        prompt:field(fields,['PROMPT']),
+        options:parseOptions(field(fields,['OPTIONS'])),
+        answer:field(fields,['ANSWER','ANSWERS']),
+        explanation:field(fields,['EXPLANATION','NOTE'])
+      };
+    }).filter(question=>question.prompt&&question.answer);
+  }
+  function validateQuestions(questions){
+    const errors=[];
+    questions.forEach((question,index)=>{
+      if(question.type!=='translate_to_english'&&question.options.length<4){
+        errors.push(`Question ${index+1} has ${question.options.length} option${question.options.length===1?'':'s'}; 4 are required.`);
+      }
+      if(question.type!=='translate_to_english'){
+        const accepted=String(question.answer||'').split('|').map(value=>value.trim().toLowerCase()).filter(Boolean);
+        const options=question.options.map(value=>value.toLowerCase());
+        if(accepted.length&&!accepted.some(answer=>options.includes(answer))){
+          errors.push(`Question ${index+1}: the answer must also appear in OPTIONS.`);
+        }
+      }
+    });
+    return errors;
   }
   function filenameToLesson(filename){return String(filename||'').replace(/\.[^.]+$/,'').replace(/[-_]+/g,' ').replace(/\b\w/g,char=>char.toUpperCase()).trim()}
   async function useFile(file){
@@ -186,7 +255,11 @@
     readyCards=parseCards(sourceText);readyQuestions=parseQuestions(sourceText);
     if(!readyCards.length&&!readyQuestions.length)return setStatus('No vocabulary cards or practice questions were found.','err');
     if(readyQuestions.length&&readyQuestions.length!==10)return setStatus(`Practice must contain exactly 10 questions. Found ${readyQuestions.length}.`,'err');
-    const lesson=saveLesson();els.ready.textContent=`Saved “${lesson.name}”: ${readyCards.length} vocabulary cards and ${readyQuestions.length} practice questions.`;els.ready.classList.add('show');els.sendArea.classList.add('show');updateSendButton();setStatus('Lesson saved. Select a student and send it.','ok');
+    const questionErrors=validateQuestions(readyQuestions);
+    if(questionErrors.length)return setStatus(questionErrors.join(' '),'err');
+    const lesson=saveLesson();
+    els.ready.textContent=`Saved “${lesson.name}”: ${readyCards.length} vocabulary cards and ${readyQuestions.length} practice questions. Multiple-choice questions have 4 options.`;
+    els.ready.classList.add('show');els.sendArea.classList.add('show');updateSendButton();setStatus('Lesson saved. Select a student and send it.','ok');
   };
 
   function selectedStudent(){const index=Number(els.students.value),students=readStudents();return Number.isInteger(index)&&index>=0?students[index]:null}

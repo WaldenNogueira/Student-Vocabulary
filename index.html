@@ -98,7 +98,7 @@
       <section id="practiceSession" hidden></section>
     </section>
 
-    <footer class="app-footer">v24 · Developed by <a href="https://wa.me/5541996106689" target="_blank" rel="noopener">Walden Nogueira</a></footer>
+    <footer class="app-footer">v25 · Developed by <a href="https://wa.me/5541996106689" target="_blank" rel="noopener">Walden Nogueira</a></footer>
   </main>
 
   <div id="registration" class="registration" role="dialog" aria-modal="true">
@@ -135,7 +135,7 @@
     const PROGRESS_KEY='student-vocabulary-practice-progress-v24';
     const PROFILE_KEY='student-vocabulary-profile-v17';
     const TEACHER_WHATSAPP='5541996106689';
-    const APP_LINK='https://waldennogueira.github.io/Student-Vocabulary/?v=24';
+    const APP_LINK='https://waldennogueira.github.io/Student-Vocabulary/?v=25';
     const $=id=>document.getElementById(id);
 
     let words=[],exercises=[],editingId=null,pendingImportPack=null,deferredInstallPrompt=null;
@@ -173,8 +173,11 @@
       return'multiple_choice';
     }
     function normalizeQuestion(raw={},index=0){
-      const options=Array.isArray(raw.options)?raw.options:String(raw.options||'').split(/\n+/).map(v=>v.replace(/^(?:[-*•]|\d+[.)])\s*/, '').trim()).filter(Boolean);
-      const answers=Array.isArray(raw.answers)?raw.answers:String(raw.answer||raw.answers||'').split('|').map(v=>v.trim()).filter(Boolean);
+      const rawOptions=Array.isArray(raw.options)?raw.options:String(raw.options||'').split(/\n+/);
+      const seen=new Set(),options=rawOptions.map(value=>String(value||'').replace(/^(?:[-*•]|\d+[.)])\s*/,'').trim()).filter(value=>{
+        const key=value.toLowerCase();if(!value||seen.has(key))return false;seen.add(key);return true;
+      });
+      const answers=(Array.isArray(raw.answers)?raw.answers:String(raw.answer||raw.answers||'').split('|')).map(value=>String(value||'').trim()).filter(Boolean);
       return{
         id:raw.id||`q-${index+1}`,type:normalizeType(raw.type),prompt:String(raw.prompt||raw.question||'').trim(),
         options,answers,explanation:String(raw.explanation||raw.note||'').trim()
@@ -268,6 +271,8 @@
     }
     function startExercise(id){
       const exercise=exercises.find(item=>item.id===id);if(!exercise)return;
+      const invalid=exercise.questions.findIndex(question=>question.type!=='translate_to_english'&&question.options.length<2);
+      if(invalid>=0)return toast(`Question ${invalid+1} is incomplete. Ask your teacher to resend this lesson.`);
       session={exercise,index:0,score:0,answered:false,choice:'',results:[]};els.practiceHome.hidden=true;els.practiceSession.hidden=false;renderQuestion();
     }
     function normalizeAnswer(value){return String(value||'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[“”‘’]/g,"'").replace(/[^\p{L}\p{N}'\s]/gu,'').replace(/\s+/g,' ').trim()}
