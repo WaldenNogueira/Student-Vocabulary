@@ -1,0 +1,142 @@
+LESSON:
+Lesson 1 — Daily Routine
+
+QUESTION:
+TYPE:
+multiple_choice
+PROMPT:
+I usually ______ at 6:30, but I stay in bed for another ten minutes.
+OPTIONS:
+- wake up
+- get up
+- work out
+- go to bed
+ANSWER:
+wake up
+EXPLANATION:
+“Wake up” means to stop sleeping. “Get up” means to leave the bed.
+
+QUESTION:
+TYPE:
+multiple_choice
+PROMPT:
+After I wake up, I usually ______ right away and take a shower.
+OPTIONS:
+- get up
+- commute
+- run errands
+- eventually
+ANSWER:
+get up
+EXPLANATION:
+“Get up” means to leave your bed or stand up.
+
+QUESTION:
+TYPE:
+multiple_choice
+PROMPT:
+My daily ______ takes about forty minutes by bus.
+OPTIONS:
+- commute
+- workload
+- alarm
+- workout
+ANSWER:
+commute
+EXPLANATION:
+A “commute” is the regular trip between home and work or school.
+
+QUESTION:
+TYPE:
+multiple_choice
+PROMPT:
+I need to ______ after work: go to the bank, buy groceries, and pick up a package.
+OPTIONS:
+- run errands
+- wake up
+- commute
+- go to bed
+ANSWER:
+run errands
+EXPLANATION:
+“Run errands” means to make several short trips to complete practical tasks.
+
+QUESTION:
+TYPE:
+multiple_choice
+PROMPT:
+I try to ______ three times a week to stay healthy.
+OPTIONS:
+- work out
+- get up
+- go to bed
+- commute
+ANSWER:
+work out
+EXPLANATION:
+“Work out” means to exercise.
+
+QUESTION:
+TYPE:
+multiple_choice
+PROMPT:
+I was exhausted, so I decided to ______ early.
+OPTIONS:
+- go to bed
+- run errands
+- wake up
+- squeeze in
+ANSWER:
+go to bed
+EXPLANATION:
+“Go to bed” means to get into bed because you intend to sleep.
+
+QUESTION:
+TYPE:
+fill_blank
+PROMPT:
+My ______ at 6:00 every morning.
+OPTIONS:
+- alarm goes off
+- alarm gets up
+- alarm works out
+- alarm commutes
+ANSWER:
+alarm goes off
+EXPLANATION:
+When an alarm “goes off,” it starts making a sound.
+
+QUESTION:
+TYPE:
+multiple_choice
+PROMPT:
+I only had twenty minutes, but I managed to ______ a quick workout.
+OPTIONS:
+- squeeze in
+- go to bed
+- run errands
+- wake up
+ANSWER:
+squeeze in
+EXPLANATION:
+“Squeeze in” means to find time for something in a busy schedule.
+
+QUESTION:
+TYPE:
+translate_to_english
+PROMPT:
+Na verdade, eu trabalho de casa às sextas-feiras.
+ANSWER:
+Actually, I work from home on Fridays.|Actually, I work from home Fridays.
+EXPLANATION:
+Use “actually” to correct, clarify, or add information. It does not mean “currently.”
+
+QUESTION:
+TYPE:
+translate_to_english
+PROMPT:
+No fim, eu consegui terminar tudo.
+ANSWER:
+Eventually, I managed to finish everything.|I eventually managed to finish everything.
+EXPLANATION:
+“Eventually” means “finally” or “after some time,” not “possibly.”

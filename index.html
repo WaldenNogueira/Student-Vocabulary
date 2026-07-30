@@ -12,180 +12,363 @@
   <link rel="apple-touch-icon" href="icon-192.png" />
   <style>
     :root{
-      --bg:#fff;--paper:#fff;--soft:#f7f7f5;--soft2:#f1f1ef;--text:#202020;--muted:#6f6f68;--faint:#9b9a93;--line:#e7e6e1;--line2:#d9d8d2;--accent:#252525;--danger:#b3261e;--radius:14px;--shadow:0 1px 2px rgba(15,15,15,.035);--font:ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+      --bg:#fff;--paper:#fff;--soft:#f7f7f5;--soft2:#f1f1ef;--text:#202020;--muted:#6f6f68;
+      --faint:#9b9a93;--line:#e7e6e1;--line2:#d9d8d2;--accent:#173b72;--accent-soft:#eef4ff;
+      --ok:#147a42;--ok-soft:#ecfdf3;--danger:#b3261e;--danger-soft:#fff1f0;--radius:14px;
+      --shadow:0 1px 2px rgba(15,15,15,.035);--font:ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
     }
-    *{box-sizing:border-box} html{-webkit-text-size-adjust:100%} body{margin:0;min-height:100vh;background:var(--bg);color:var(--text);font-family:var(--font);line-height:1.45} button,input,textarea{font:inherit} button{-webkit-tap-highlight-color:transparent} a{color:inherit}
-    .app{width:min(920px,100%);margin:0 auto;padding:28px 18px 48px}.topbar{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;margin-bottom:20px}.brand{min-width:0}h1{margin:0;font-size:clamp(32px,8vw,54px);letter-spacing:-.05em;line-height:.95;font-weight:720}.brand-subtitle{margin:7px 0 0;color:var(--muted);font-size:14px;font-weight:600}.install-btn{display:none;border:1px solid var(--line);background:var(--paper);color:var(--text);padding:8px 12px;border-radius:999px;font-size:13px;font-weight:650}.install-btn.visible{display:inline-flex}
-    .composer,.tools,.card,.import-box{border:1px solid var(--line);border-radius:var(--radius);background:var(--paper);box-shadow:var(--shadow)}.composer{display:none;padding:14px;margin-bottom:16px}.composer-title,.section-row h2{margin:0;color:var(--muted);font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:.08em}.manual-term,.search{width:100%;border:1px solid var(--line);background:var(--soft);color:var(--text);outline:none;border-radius:12px;padding:12px 13px}.manual-term{margin-top:10px}.actions{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:10px}.btn,.mini-btn{border:1px solid var(--line);background:var(--paper);color:var(--text);border-radius:12px;min-height:44px;padding:10px 14px;font-weight:700;display:inline-flex;align-items:center;justify-content:center;gap:9px;cursor:pointer;text-decoration:none}.btn.primary,.mini-btn.primary{background:var(--accent);color:#fff;border-color:var(--accent)}.btn-icon-img{width:28px;height:28px;object-fit:contain;display:block}.status{min-height:20px;margin-top:9px;color:var(--muted);font-size:13px}.share-followup{display:flex;gap:8px;flex-wrap:wrap;margin-top:8px}.share-followup[hidden]{display:none}.mini-btn{min-height:34px;padding:7px 10px;font-size:12px;border-radius:999px}.tools{padding:10px;margin-bottom:16px}.section-row{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:18px 2px 10px}.count{color:var(--muted);font-size:13px}.list{display:grid;gap:9px}.empty{border:1px dashed var(--line2);border-radius:var(--radius);padding:20px;text-align:center;color:var(--muted);background:var(--soft)}
+    *{box-sizing:border-box}html{-webkit-text-size-adjust:100%}body{margin:0;min-height:100vh;background:var(--bg);color:var(--text);font-family:var(--font);line-height:1.45}
+    button,input,textarea{font:inherit}button{-webkit-tap-highlight-color:transparent}a{color:inherit}
+    .app{width:min(920px,100%);margin:0 auto;padding:28px 18px 48px}
+    .topbar{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;margin-bottom:18px}.brand{min-width:0}
+    h1{margin:0;font-size:clamp(32px,8vw,54px);letter-spacing:-.05em;line-height:.95;font-weight:720}
+    .brand-subtitle{margin:7px 0 0;color:var(--muted);font-size:14px;font-weight:600}
+    .install-btn{display:none;border:1px solid var(--line);background:var(--paper);color:var(--text);padding:8px 12px;border-radius:999px;font-size:13px;font-weight:650}.install-btn.visible{display:inline-flex}
+    .tabs{display:grid;grid-template-columns:1fr 1fr;gap:5px;background:var(--soft);padding:4px;border-radius:12px;margin-bottom:16px}
+    .tab-btn{border:0;background:transparent;min-height:40px;border-radius:9px;color:var(--muted);font-weight:700;cursor:pointer}
+    .tab-btn.active{background:#fff;color:var(--text);box-shadow:0 1px 3px rgba(0,0,0,.08)}
+    .tab-count{display:inline-flex;min-width:19px;height:19px;align-items:center;justify-content:center;border-radius:999px;background:var(--soft2);font-size:11px;margin-left:5px}
+    .view[hidden]{display:none!important}
+    .tools,.card,.import-box,.practice-card,.question-card,.result-card{border:1px solid var(--line);border-radius:var(--radius);background:var(--paper);box-shadow:var(--shadow)}
+    .tools{padding:10px;margin-bottom:16px}.search{width:100%;border:1px solid var(--line);background:var(--soft);color:var(--text);outline:none;border-radius:12px;padding:12px 13px}
+    .section-row{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:18px 2px 10px}.section-row h2{margin:0;color:var(--muted);font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:.08em}
+    .count{color:var(--muted);font-size:13px}.list,.practice-list{display:grid;gap:9px}.empty{border:1px dashed var(--line2);border-radius:var(--radius);padding:20px;text-align:center;color:var(--muted);background:var(--soft)}
     .import-box{padding:14px;margin-bottom:16px;background:#fbfbfa}.import-box[hidden]{display:none}.import-title{font-size:15px;font-weight:740;margin:0 0 4px}.import-meta{font-size:13px;color:var(--muted);margin-bottom:10px}.import-actions{display:flex;gap:8px;flex-wrap:wrap}
-    .card{padding:12px;transition:border-color .15s ease}.card.is-expanded{border-color:var(--line2)}.card-term-line{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:10px}.term-toggle{border:0;background:transparent;padding:0;text-align:left;cursor:pointer;min-width:0}.term{font-weight:720;font-size:17px;letter-spacing:-.01em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.card-top-actions{display:flex;align-items:center;gap:3px}.icon-btn{width:36px;height:36px;border:0;background:transparent;border-radius:10px;color:var(--muted);display:inline-flex;align-items:center;justify-content:center;cursor:pointer}.icon-btn svg{width:21px;height:21px}.icon-btn:hover,.icon-btn.active{background:var(--soft2);color:var(--text)}.icon-btn.danger:hover{color:var(--danger);background:#fff1f0}.expand-btn svg{transition:transform .15s ease}.is-expanded .expand-btn svg{transform:rotate(180deg)}
-    .card-expanded{margin-top:12px;border-top:1px solid var(--line);padding-top:12px}.ipa-row{display:flex;gap:8px;align-items:baseline;flex-wrap:wrap;margin-bottom:7px}.ipa{color:var(--muted);font-size:14px}.br-pron{color:var(--faint);font-size:13px}.translation{font-size:15px;margin-bottom:14px}.details-body{display:grid;gap:13px}.label{font-size:12px;color:var(--muted);font-weight:700;margin-bottom:3px}.value{white-space:pre-wrap;font-size:14.5px}.example-list{margin:0;padding-left:18px;display:grid;gap:10px}.example-list li{padding-left:2px}.example-en{font-size:14.5px}.example-pt{font-size:14px;color:var(--muted);margin-top:3px}.note-head{width:100%;border:0;background:transparent;padding:0;display:flex;align-items:center;justify-content:space-between;gap:10px;cursor:pointer;text-align:left}.note-head .label{margin:0}.note-head svg{width:18px;height:18px;color:var(--muted);transition:transform .15s ease}.note-head.open svg{transform:rotate(180deg)}.note-body{margin-top:7px}.action-line{display:flex;gap:6px;align-items:center;flex-wrap:wrap;margin-top:14px;padding-top:11px;border-top:1px solid var(--line)}.site-btn{height:36px;min-width:36px;border:1px solid var(--line);background:var(--paper);border-radius:10px;display:inline-flex;align-items:center;justify-content:center;text-decoration:none;padding:0 9px;font-size:12px;font-weight:800}.site-btn svg{width:20px;height:20px}.wordmark{font-weight:800;letter-spacing:-.02em}.you{color:#111}.glish{color:#c8292e}
+    .btn{border:1px solid var(--line);background:var(--paper);color:var(--text);border-radius:12px;min-height:44px;padding:10px 14px;font-weight:700;display:inline-flex;align-items:center;justify-content:center;gap:9px;cursor:pointer;text-decoration:none}
+    .btn.primary{background:var(--accent);color:#fff;border-color:var(--accent)}.btn:disabled{opacity:.48;cursor:not-allowed}.btn.small{min-height:38px;padding:8px 11px;font-size:13px}
+    .card{padding:12px;transition:border-color .15s ease}.card.is-expanded{border-color:var(--line2)}.card-term-line{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:10px}
+    .term-toggle{border:0;background:transparent;padding:0;text-align:left;cursor:pointer;min-width:0}.term{font-weight:720;font-size:17px;letter-spacing:-.01em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+    .card-top-actions{display:flex;align-items:center;gap:3px}.icon-btn{width:36px;height:36px;border:0;background:transparent;border-radius:10px;color:var(--muted);display:inline-flex;align-items:center;justify-content:center;cursor:pointer}
+    .icon-btn svg{width:21px;height:21px}.icon-btn:hover,.icon-btn.active{background:var(--soft2);color:var(--text)}.icon-btn.danger:hover{color:var(--danger);background:var(--danger-soft)}
+    .expand-btn svg{transition:transform .15s ease}.is-expanded .expand-btn svg{transform:rotate(180deg)}
+    .card-expanded{margin-top:12px;border-top:1px solid var(--line);padding-top:12px}.ipa-row{display:flex;gap:8px;align-items:baseline;flex-wrap:wrap;margin-bottom:7px}.ipa{color:var(--muted);font-size:14px}
+    .translation{font-size:15px;margin-bottom:14px}.details-body{display:grid;gap:13px}.label{font-size:12px;color:var(--muted);font-weight:700;margin-bottom:3px}.value{white-space:pre-wrap;font-size:14.5px}
+    .example-list{margin:0;padding-left:18px;display:grid;gap:10px}.example-list li{padding-left:2px}.example-en{font-size:14.5px}.example-pt{font-size:14px;color:var(--muted);margin-top:3px}
+    .note-head{width:100%;border:0;background:transparent;padding:0;display:flex;align-items:center;justify-content:space-between;gap:10px;cursor:pointer;text-align:left}.note-head .label{margin:0}
+    .note-head svg{width:18px;height:18px;color:var(--muted);transition:transform .15s ease}.note-head.open svg{transform:rotate(180deg)}.note-body{margin-top:7px}
+    .action-line{display:flex;gap:6px;align-items:center;flex-wrap:wrap;margin-top:14px;padding-top:11px;border-top:1px solid var(--line)}
+    .site-btn{height:36px;min-width:36px;border:1px solid var(--line);background:var(--paper);border-radius:10px;display:inline-flex;align-items:center;justify-content:center;text-decoration:none;padding:0 9px;font-size:12px;font-weight:800}
+    .site-btn svg{width:20px;height:20px}.wordmark{font-weight:800;letter-spacing:-.02em}.you{color:#111}.glish{color:#c8292e}
+    .practice-card{padding:15px}.practice-title{margin:0;font-size:17px;font-weight:730}.practice-meta{margin:4px 0 12px;color:var(--muted);font-size:13px}.practice-actions{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap}
+    .score-pill{font-size:12px;font-weight:700;padding:6px 9px;border-radius:999px;background:var(--soft);color:var(--muted)}.score-pill.good{background:var(--ok-soft);color:var(--ok)}
+    .question-card,.result-card{padding:18px}.question-top{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:10px}.question-step{font-size:12px;color:var(--muted);font-weight:700}.question-type{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--muted)}
+    .progress-track{height:6px;background:var(--soft2);border-radius:999px;overflow:hidden;margin-bottom:18px}.progress-bar{height:100%;background:var(--accent);border-radius:inherit;transition:width .2s ease}
+    .question-prompt{font-size:20px;line-height:1.35;font-weight:700;letter-spacing:-.015em;margin-bottom:16px}.option-list{display:grid;gap:8px}
+    .option-btn{border:1px solid var(--line);background:#fff;border-radius:12px;padding:12px;text-align:left;cursor:pointer}.option-btn.selected{border-color:var(--accent);background:var(--accent-soft)}
+    .answer-input{width:100%;border:1px solid var(--line);border-radius:12px;background:var(--soft);padding:12px 13px;outline:none}.answer-input:focus{border-color:var(--accent)}
+    .question-actions{display:flex;gap:9px;justify-content:flex-end;margin-top:15px;flex-wrap:wrap}.feedback{margin-top:14px;border-radius:12px;padding:12px;font-size:14px}.feedback.correct{background:var(--ok-soft);color:#0c5e31}.feedback.wrong{background:var(--danger-soft);color:#8d1d17}
+    .feedback strong{display:block;margin-bottom:3px}.expected{margin-top:5px;font-weight:650}.result-score{font-size:44px;letter-spacing:-.05em;font-weight:760;margin:2px 0}.result-card h2{margin:0}.result-card p{color:var(--muted)}
     .toast{position:fixed;left:50%;bottom:22px;transform:translateX(-50%) translateY(20px);opacity:0;pointer-events:none;background:#222;color:#fff;padding:10px 13px;border-radius:999px;font-size:13px;transition:.18s;z-index:20;max-width:min(92vw,560px);text-align:center}.toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
-    .modal-backdrop{position:fixed;inset:0;background:rgba(0,0,0,.18);display:none;align-items:center;justify-content:center;padding:18px;z-index:30}.modal-backdrop.open{display:flex}.modal{width:min(620px,100%);max-height:90vh;overflow:auto;background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:16px;box-shadow:0 16px 50px rgba(0,0,0,.14)}.modal-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:14px}.modal-head h3{margin:0;font-size:18px}.close-btn{border:0;background:var(--soft);width:34px;height:34px;border-radius:999px;cursor:pointer}.field-grid{display:grid;gap:10px}label.field span{display:block;margin-bottom:5px;color:var(--muted);font-size:12px;font-weight:650}input.field-input,textarea.field-input{width:100%;border:1px solid var(--line);border-radius:12px;padding:11px 12px;background:var(--soft);color:var(--text);outline:none}textarea.field-input{min-height:74px;resize:vertical}textarea.long{min-height:150px}.modal-actions{display:flex;gap:10px;justify-content:flex-end;margin-top:14px;flex-wrap:wrap}.modal-actions .btn{min-height:40px;padding:9px 12px}
-    .registration{position:fixed;inset:0;background:#fff;z-index:50;display:none;align-items:center;justify-content:center;padding:20px}.registration.open{display:flex}.registration-card{width:min(460px,100%);border:1px solid var(--line);border-radius:22px;padding:20px;background:#fff;box-shadow:0 16px 50px rgba(0,0,0,.08)}.registration-card h2{margin:0 0 6px;font-size:30px;letter-spacing:-.04em}.registration-card p{margin:0 0 14px;color:var(--muted)}.registration-note{font-size:12px;color:var(--muted);margin-top:10px}.app-footer{margin-top:22px;padding-top:12px;border-top:1px solid var(--line);font-size:11px;color:var(--faint);text-align:center}.app-footer a{color:inherit;text-decoration:none;border-bottom:1px solid var(--line)}
-    @media(max-width:560px){.app{padding:24px 14px 40px}.actions{gap:8px}.btn{padding-inline:10px;font-size:14px}.card{padding:12px}.modal-backdrop{align-items:flex-end;padding:0}.modal{border-radius:18px 18px 0 0;max-height:92vh}.registration{align-items:flex-end;padding:0}.registration-card{border-radius:20px 20px 0 0}}
+    .modal-backdrop{position:fixed;inset:0;background:rgba(0,0,0,.18);display:none;align-items:center;justify-content:center;padding:18px;z-index:30}.modal-backdrop.open{display:flex}
+    .modal{width:min(620px,100%);max-height:90vh;overflow:auto;background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:16px;box-shadow:0 16px 50px rgba(0,0,0,.14)}
+    .modal-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:14px}.modal-head h3{margin:0;font-size:18px}.close-btn{border:0;background:var(--soft);width:34px;height:34px;border-radius:999px;cursor:pointer}
+    .field-grid{display:grid;gap:10px}label.field span{display:block;margin-bottom:5px;color:var(--muted);font-size:12px;font-weight:650}input.field-input,textarea.field-input{width:100%;border:1px solid var(--line);border-radius:12px;padding:11px 12px;background:var(--soft);color:var(--text);outline:none}
+    textarea.field-input{min-height:74px;resize:vertical}textarea.long{min-height:150px}.modal-actions{display:flex;gap:10px;justify-content:flex-end;margin-top:14px;flex-wrap:wrap}.modal-actions .btn{min-height:40px;padding:9px 12px}
+    .registration{position:fixed;inset:0;background:#fff;z-index:50;display:none;align-items:center;justify-content:center;padding:20px}.registration.open{display:flex}.registration-card{width:min(460px,100%);border:1px solid var(--line);border-radius:22px;padding:20px;background:#fff;box-shadow:0 16px 50px rgba(0,0,0,.08)}
+    .registration-card h2{margin:0 0 6px;font-size:30px;letter-spacing:-.04em}.registration-card p{margin:0 0 14px;color:var(--muted)}.registration-note{font-size:12px;color:var(--muted);margin-top:10px}
+    .app-footer{margin-top:22px;padding-top:12px;border-top:1px solid var(--line);font-size:11px;color:var(--faint);text-align:center}.app-footer a{color:inherit;text-decoration:none;border-bottom:1px solid var(--line)}
+    @media(max-width:560px){.app{padding:24px 14px 40px}.question-prompt{font-size:18px}.modal-backdrop{align-items:flex-end;padding:0}.modal{border-radius:18px 18px 0 0;max-height:92vh}.registration{align-items:flex-end;padding:0}.registration-card{border-radius:20px 20px 0 0}}
   </style>
 </head>
 <body>
   <main class="app">
-    <header class="topbar"><div class="brand"><h1>Vocabulary</h1><p class="brand-subtitle">Teacher Walden Nogueira</p></div><button id="installBtn" class="install-btn">Install</button></header>
+    <header class="topbar">
+      <div class="brand"><h1>Vocabulary</h1><p class="brand-subtitle">Teacher Walden Nogueira</p></div>
+      <button id="installBtn" class="install-btn">Install</button>
+    </header>
 
     <section id="importBox" class="import-box" hidden></section>
 
-    <section class="composer" aria-labelledby="new-entry-title">
-      <h2 id="new-entry-title" class="composer-title">New entry</h2>
-      <input id="manualTerm" class="manual-term" type="text" placeholder="Type a term or expression" autocomplete="off" inputmode="text" />
-      <div class="actions">
-        <button id="askGptBtn" class="btn primary"><img class="btn-icon-img" src="gpt-icon.png?v=21" alt="" aria-hidden="true" />GPT</button>
-        <button id="pasteResponseBtn" class="btn"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 4h6l1 2h2a1.5 1.5 0 0 1 1.5 1.5v11A1.5 1.5 0 0 1 18 20H6a1.5 1.5 0 0 1-1.5-1.5v-11A1.5 1.5 0 0 1 6 6h2l1-2Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M9 6h6M8 11h8M8 15h8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>Paste response</button>
-      </div>
-      <div id="status" class="status"></div>
-      <div id="shareFollowup" class="share-followup" hidden></div>
+    <nav class="tabs" aria-label="App sections">
+      <button id="vocabularyTab" class="tab-btn active" data-view="vocabulary">Vocabulary</button>
+      <button id="practiceTab" class="tab-btn" data-view="practice">Practice <span id="practiceCount" class="tab-count">0</span></button>
+    </nav>
+
+    <section id="vocabularyView" class="view">
+      <div class="tools"><input id="search" class="search" type="search" placeholder="Search vocabulary" /></div>
+      <div class="section-row"><h2>Saved vocabulary</h2><span id="count" class="count">0 words</span></div>
+      <section id="list" class="list" aria-live="polite"></section>
     </section>
 
-    <div class="tools"><input id="search" class="search" type="search" placeholder="Search vocabulary" autocomplete="off" /></div>
-    <div class="section-row"><h2>Your vocabulary</h2><span id="count" class="count">0 words</span></div>
-    <section id="list" class="list" aria-live="polite"></section>
-    <footer class="app-footer">v21 · Developed by <a href="https://wa.me/5541996106689" target="_blank" rel="noopener">Walden Nogueira</a></footer>
+    <section id="practiceView" class="view" hidden>
+      <div id="practiceHome">
+        <div class="section-row"><h2>Practice by lesson</h2><span id="practiceMeta" class="count">0 lessons</span></div>
+        <section id="practiceList" class="practice-list"></section>
+      </div>
+      <section id="practiceSession" hidden></section>
+    </section>
+
+    <footer class="app-footer">v24 · Developed by <a href="https://wa.me/5541996106689" target="_blank" rel="noopener">Walden Nogueira</a></footer>
   </main>
 
-  <div id="registration" class="registration" role="dialog" aria-modal="true" aria-labelledby="regTitle">
+  <div id="registration" class="registration" role="dialog" aria-modal="true">
     <div class="registration-card">
-      <h2 id="regTitle">Welcome</h2>
-      <p>Set up your Vocabulary app from Teacher Walden Nogueira on this device.</p>
-      <div class="field-grid">
-        <label class="field"><span>Your name</span><input id="studentName" class="field-input" autocomplete="name" /></label>
-        <label class="field"><span>WhatsApp number</span><input id="studentPhone" class="field-input" inputmode="tel" autocomplete="tel" placeholder="Example: 41999999999" /></label>
-      </div>
+      <h2>Welcome</h2>
+      <p>Set up your Vocabulary app.</p>
+      <label class="field"><span>Your name</span><input id="studentName" class="field-input" autocomplete="name" /></label>
+      <label class="field"><span>Your WhatsApp number</span><input id="studentPhone" class="field-input" inputmode="tel" autocomplete="tel" /></label>
       <button id="startBtn" class="btn primary" style="width:100%;margin-top:14px">Start</button>
-      <div class="registration-note">After setup, WhatsApp will open with a registration message for your teacher. That message also includes the app link, so you can open Vocabulary again from WhatsApp.</div>
+      <div class="registration-note">A WhatsApp message will open so your teacher can save your registration. The message also includes the link to reopen the app.</div>
     </div>
   </div>
 
-  <div id="toast" class="toast" role="status" aria-live="polite"></div>
-
-  <div id="editModal" class="modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="editTitle">
+  <div id="editModal" class="modal-backdrop">
     <div class="modal">
-      <div class="modal-head"><h3 id="editTitle">Edit card</h3><button id="closeEditBtn" class="close-btn" aria-label="Close">✕</button></div>
+      <div class="modal-head"><h3>Edit vocabulary</h3><button id="closeEditBtn" class="close-btn">×</button></div>
       <div class="field-grid">
         <label class="field"><span>Term</span><input id="editTerm" class="field-input" /></label>
-        <label class="field"><span>IPA</span><input id="editIpa" class="field-input" placeholder="/ˈlɪvliˌhʊd/" /></label>
+        <label class="field"><span>IPA</span><input id="editIpa" class="field-input" /></label>
         <label class="field"><span>Translation</span><textarea id="editTranslation" class="field-input"></textarea></label>
         <label class="field"><span>Definition</span><textarea id="editDefinition" class="field-input"></textarea></label>
-        <label class="field"><span>Examples</span><textarea id="editExample" class="field-input" placeholder="English example.&#10;Tradução do exemplo."></textarea></label>
-        <label class="field"><span>Note</span><textarea id="editNote" class="field-input"></textarea></label>
+        <label class="field"><span>Examples</span><textarea id="editExample" class="field-input long"></textarea></label>
+        <label class="field"><span>Note</span><textarea id="editNote" class="field-input long"></textarea></label>
       </div>
       <div class="modal-actions"><button id="cancelEditBtn" class="btn">Cancel</button><button id="saveEditBtn" class="btn primary">Save</button></div>
     </div>
   </div>
 
-  <div id="pasteModal" class="modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="pasteTitle">
-    <div class="modal">
-      <div class="modal-head"><h3 id="pasteTitle">Paste GPT response</h3><button id="closePasteBtn" class="close-btn" aria-label="Close">✕</button></div>
-      <label class="field"><span>Response text</span><textarea id="manualPasteText" class="field-input long" placeholder="TERM:&#10;...&#10;&#10;IPA:&#10;/.../&#10;&#10;TRANSLATION:&#10;...&#10;&#10;DEFINITION:&#10;...&#10;&#10;EXAMPLE:&#10;English example.&#10;Tradução do exemplo.&#10;&#10;NOTE:&#10;Nota em português."></textarea></label>
-      <div class="modal-actions"><button id="cancelPasteBtn" class="btn">Cancel</button><button id="savePasteBtn" class="btn primary">Save card</button></div>
-    </div>
-  </div>
+  <div id="toast" class="toast"></div>
 
   <script>
-    const STORAGE_KEY='student-vocabulary-items-v17';
-    const OLD_KEYS=[];
+    const WORDS_KEY='student-vocabulary-items-v17';
+    const PRACTICE_KEY='student-vocabulary-practice-v24';
+    const PROGRESS_KEY='student-vocabulary-practice-progress-v24';
     const PROFILE_KEY='student-vocabulary-profile-v17';
     const TEACHER_WHATSAPP='5541996106689';
-    const APP_LINK='https://waldennogueira.github.io/Student-Vocabulary/?v=21';
+    const APP_LINK='https://waldennogueira.github.io/Student-Vocabulary/?v=24';
     const $=id=>document.getElementById(id);
-    let items=[]; const expandedIds=new Set(); const noteExpandedIds=new Set(); let editingId=null; let deferredInstallPrompt=null; let pendingImportPack=null;
-    const els={manualTerm:$('manualTerm'),askGptBtn:$('askGptBtn'),pasteResponseBtn:$('pasteResponseBtn'),status:$('status'),shareFollowup:$('shareFollowup'),search:$('search'),list:$('list'),count:$('count'),toast:$('toast'),installBtn:$('installBtn'),importBox:$('importBox'),registration:$('registration'),studentName:$('studentName'),studentPhone:$('studentPhone'),startBtn:$('startBtn'),editModal:$('editModal'),closeEditBtn:$('closeEditBtn'),cancelEditBtn:$('cancelEditBtn'),saveEditBtn:$('saveEditBtn'),editTerm:$('editTerm'),editIpa:$('editIpa'),editTranslation:$('editTranslation'),editDefinition:$('editDefinition'),editExample:$('editExample'),editNote:$('editNote'),pasteModal:$('pasteModal'),closePasteBtn:$('closePasteBtn'),cancelPasteBtn:$('cancelPasteBtn'),savePasteBtn:$('savePasteBtn'),manualPasteText:$('manualPasteText')};
-    function capitalizeTerm(term){const t=String(term||'').trim();return t?t.charAt(0).toUpperCase()+t.slice(1):''} function normalizeItem(raw){const term=raw.term||raw.word||raw.phrase||'';return{id:raw.id||crypto.randomUUID(),term:capitalizeTerm(term),ipa:String(raw.ipa||raw.pronunciation||'').trim(),brPronunciation:String(raw.brPronunciation||raw.brazilianPronunciation||raw.brazilian_pronunciation||raw.pronunciationBr||raw.ptPronunciation||'').trim(),translation:String(raw.translation||'').trim(),definition:String(raw.definition||raw.meaning||'').trim(),example:String(raw.example||raw.examples||'').trim(),note:String(raw.note||raw.notes||'').trim(),favorite:Boolean(raw.favorite),updatedAt:raw.updatedAt||new Date().toISOString()};}
-    function migrateOldItems(){if(localStorage.getItem(STORAGE_KEY))return;for(const key of OLD_KEYS){try{const arr=JSON.parse(localStorage.getItem(key)||'[]');if(Array.isArray(arr)&&arr.length){localStorage.setItem(STORAGE_KEY,JSON.stringify(arr));return;}}catch{}}}
-    function loadItems(){migrateOldItems();try{const stored=JSON.parse(localStorage.getItem(STORAGE_KEY)||'[]');items=Array.isArray(stored)?stored.map(normalizeItem).filter(i=>i.term):[];}catch{items=[]}render();}
-    function persist(){localStorage.setItem(STORAGE_KEY,JSON.stringify(items));render();}
-    function setStatus(m){els.status.textContent=m||''} function toast(m){els.toast.textContent=m;els.toast.classList.add('show');clearTimeout(toast.timer);toast.timer=setTimeout(()=>els.toast.classList.remove('show'),2400)}
-    async function readClipboardText(){if(!navigator.clipboard?.readText)throw new Error('Clipboard unavailable');return(await navigator.clipboard.readText()||'').trim()} async function writeClipboardText(t){if(!navigator.clipboard?.writeText)return false;await navigator.clipboard.writeText(t);return true}
-    function cleanTerm(text){return String(text||'').replace(/```[\s\S]*?```/g,' ').replace(/https?:\/\/\S+/g,' ').replace(/\s+/g,' ').trim().slice(0,160)}
-    function buildGptPrompt(term){return `Create one English vocabulary card for a Brazilian Portuguese speaker.
 
-TERM:
-${term}
+    let words=[],exercises=[],editingId=null,pendingImportPack=null,deferredInstallPrompt=null;
+    let activeView='vocabulary',session=null;
+    const expandedIds=new Set(),noteExpandedIds=new Set();
 
-Requirements:
-- Use natural American English.
-- If the term is an expression, explain the expression as a whole, not word by word.
-- IPA must be American English pronunciation.
-- Translation must be in natural Brazilian Portuguese.
-- Definition must be simple, natural English.
-- Generate exactly 3 examples.
-- Each example must sound like something an American would actually say in real life.
-- In the EXAMPLES field, use bullet points. Each bullet must have the English example first and the Brazilian Portuguese translation directly below it.
-- Note must be in Brazilian Portuguese and should be more detailed than usual. Include practical usage tips, common situations, nuance, register (formal/informal), whether it is a phrasal verb, idiom, collocation, or false cognate when relevant, common mistakes Brazilian learners make, pronunciation warnings, and differences from similar words or expressions when useful.
-- In the NOTE, always include a short "Passado:" explanation when the term can function as a verb, phrasal verb, or action expression. Give the natural past form and a pronunciation tip for the past form, especially for -ed endings (/t/, /d/, or /ɪd/) or irregular forms. If the term is not normally used as a verb, do not force an unnatural past form.
-- Keep the note useful for a Brazilian learner who wants to understand how native speakers actually use the term.
+    const els={
+      vocabularyTab:$('vocabularyTab'),practiceTab:$('practiceTab'),vocabularyView:$('vocabularyView'),practiceView:$('practiceView'),
+      practiceCount:$('practiceCount'),practiceMeta:$('practiceMeta'),practiceList:$('practiceList'),practiceHome:$('practiceHome'),practiceSession:$('practiceSession'),
+      importBox:$('importBox'),search:$('search'),list:$('list'),count:$('count'),toast:$('toast'),installBtn:$('installBtn'),
+      registration:$('registration'),studentName:$('studentName'),studentPhone:$('studentPhone'),startBtn:$('startBtn'),
+      editModal:$('editModal'),closeEditBtn:$('closeEditBtn'),cancelEditBtn:$('cancelEditBtn'),saveEditBtn:$('saveEditBtn'),
+      editTerm:$('editTerm'),editIpa:$('editIpa'),editTranslation:$('editTranslation'),editDefinition:$('editDefinition'),editExample:$('editExample'),editNote:$('editNote')
+    };
 
-Return ONLY this exact format. Do not add markdown, headings outside the fields, or extra explanation.
+    function capitalizeTerm(value){const text=String(value||'').trim();return text?text.charAt(0).toUpperCase()+text.slice(1):''}
+    function uid(){return crypto.randomUUID?crypto.randomUUID():`${Date.now()}-${Math.random().toString(36).slice(2)}`}
+    function slug(value){return String(value||'lesson').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'').slice(0,80)||'lesson'}
+    function esc(value){return String(value??'').replace(/[&<>"]/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[char]))}
+    function attr(value){return esc(value).replace(/'/g,'&#39;')}
+    function toast(message){els.toast.textContent=message;els.toast.classList.add('show');clearTimeout(toast.timer);toast.timer=setTimeout(()=>els.toast.classList.remove('show'),2600)}
 
-TERM:
-${term}
+    function normalizeWord(raw={}){
+      return{
+        id:raw.id||uid(),term:capitalizeTerm(raw.term||raw.word||raw.phrase||''),ipa:String(raw.ipa||raw.pronunciation||'').trim(),
+        translation:String(raw.translation||'').trim(),definition:String(raw.definition||raw.meaning||'').trim(),
+        example:String(raw.example||raw.examples||'').trim(),note:String(raw.note||raw.notes||'').trim(),
+        favorite:Boolean(raw.favorite),updatedAt:raw.updatedAt||new Date().toISOString()
+      };
+    }
+    function normalizeType(type){
+      const value=String(type||'multiple_choice').toLowerCase().replace(/[\s-]+/g,'_');
+      if(['translate','translation','translate_to_english'].includes(value))return'translate_to_english';
+      if(['fill','fill_blank','complete','completion'].includes(value))return'fill_blank';
+      return'multiple_choice';
+    }
+    function normalizeQuestion(raw={},index=0){
+      const options=Array.isArray(raw.options)?raw.options:String(raw.options||'').split(/\n+/).map(v=>v.replace(/^(?:[-*•]|\d+[.)])\s*/, '').trim()).filter(Boolean);
+      const answers=Array.isArray(raw.answers)?raw.answers:String(raw.answer||raw.answers||'').split('|').map(v=>v.trim()).filter(Boolean);
+      return{
+        id:raw.id||`q-${index+1}`,type:normalizeType(raw.type),prompt:String(raw.prompt||raw.question||'').trim(),
+        options,answers,explanation:String(raw.explanation||raw.note||'').trim()
+      };
+    }
+    function normalizeExercise(raw={},fallbackTitle='Practice'){
+      const title=String(raw.title||raw.lesson||fallbackTitle).trim()||'Practice';
+      const questions=(raw.questions||[]).map(normalizeQuestion).filter(q=>q.prompt&&q.answers.length);
+      return{id:raw.id||`practice-${slug(title)}`,title,questions,updatedAt:raw.updatedAt||new Date().toISOString()};
+    }
+    function loadJson(key,fallback){try{const value=JSON.parse(localStorage.getItem(key)||'null');return value??fallback}catch{return fallback}}
+    function saveWords(){localStorage.setItem(WORDS_KEY,JSON.stringify(words));renderVocabulary()}
+    function saveExercises(){localStorage.setItem(PRACTICE_KEY,JSON.stringify(exercises));renderPracticeHome();updatePracticeCount()}
+    function loadData(){
+      const storedWords=loadJson(WORDS_KEY,[]);words=Array.isArray(storedWords)?storedWords.map(normalizeWord).filter(word=>word.term):[];
+      const storedExercises=loadJson(PRACTICE_KEY,[]);exercises=Array.isArray(storedExercises)?storedExercises.map(item=>normalizeExercise(item)).filter(item=>item.questions.length):[];
+      renderVocabulary();renderPracticeHome();updatePracticeCount();
+    }
 
-IPA:
-/ ... /
+    function setView(view){
+      activeView=view;
+      const vocab=view==='vocabulary';
+      els.vocabularyView.hidden=!vocab;els.practiceView.hidden=vocab;
+      els.vocabularyTab.classList.toggle('active',vocab);els.practiceTab.classList.toggle('active',!vocab);
+      if(!vocab)renderPracticeHome();
+    }
+    function updatePracticeCount(){els.practiceCount.textContent=String(exercises.length)}
 
+    function parseExamples(text){
+      const lines=String(text||'').split(/\n+/).map(line=>line.trim()).filter(Boolean);
+      if(!lines.length)return[];
+      let groups=[],current=[];const bullet=/^(?:[-*•]|\d+[.)])\s+/;
+      for(const line of lines){
+        if(bullet.test(line)){if(current.length)groups.push(current);current=[line.replace(bullet,'').trim()]}
+        else if(current.length)current.push(line);else current=[line];
+      }
+      if(current.length)groups.push(current);
+      if(groups.length<=1&&lines.length>=4){groups=[];for(let index=0;index<lines.length;index+=2)groups.push([lines[index],lines[index+1]||''])}
+      return groups.map(group=>({en:group[0]||'',pt:group.slice(1).join('\n')})).filter(example=>example.en||example.pt);
+    }
+    function itemLinks(term){const query=encodeURIComponent(term);return{youglish:`https://youglish.com/pronounce/${query}/english/us`,reverso:`https://context.reverso.net/translation/english-portuguese/${query}`}}
+    function speak(text){if(!('speechSynthesis'in window))return toast('Audio is not available.');speechSynthesis.cancel();const utterance=new SpeechSynthesisUtterance(text);utterance.lang='en-US';utterance.rate=.92;speechSynthesis.speak(utterance)}
+    function toggleWord(id){expandedIds.has(id)?expandedIds.delete(id):expandedIds.add(id);renderVocabulary()}
+    function toggleNote(id){noteExpandedIds.has(id)?noteExpandedIds.delete(id):noteExpandedIds.add(id);renderVocabulary()}
+    function toggleFavorite(id){const word=words.find(item=>item.id===id);if(!word)return;word.favorite=!word.favorite;saveWords()}
+    function deleteWord(id){const word=words.find(item=>item.id===id);if(!word||!confirm(`Delete “${word.term}”?`))return;words=words.filter(item=>item.id!==id);saveWords();toast('Deleted.')}
+    function openEdit(id){
+      const word=words.find(item=>item.id===id);if(!word)return;editingId=id;
+      els.editTerm.value=word.term;els.editIpa.value=word.ipa;els.editTranslation.value=word.translation;els.editDefinition.value=word.definition;els.editExample.value=word.example;els.editNote.value=word.note;
+      els.editModal.classList.add('open');
+    }
+    function closeEdit(){editingId=null;els.editModal.classList.remove('open')}
+    function saveEdit(){
+      const index=words.findIndex(item=>item.id===editingId);if(index<0)return closeEdit();
+      const term=capitalizeTerm(els.editTerm.value);if(!term)return toast('Term is required.');
+      words[index]=normalizeWord({...words[index],term,ipa:els.editIpa.value,translation:els.editTranslation.value,definition:els.editDefinition.value,example:els.editExample.value,note:els.editNote.value,updatedAt:new Date().toISOString()});
+      saveWords();closeEdit();toast('Saved.');
+    }
+    function renderVocabulary(){
+      const query=String(els.search.value||'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'');
+      const ordered=[...words].sort((a,b)=>a.favorite!==b.favorite?(a.favorite?-1:1):(b.updatedAt||'').localeCompare(a.updatedAt||''));
+      const filtered=ordered.filter(word=>!query||`${word.term} ${word.ipa} ${word.translation} ${word.definition} ${word.example} ${word.note}`.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').includes(query));
+      const favorites=words.filter(word=>word.favorite).length;
+      els.count.textContent=`${words.length} word${words.length===1?'':'s'}${favorites?` · ${favorites} favorite${favorites===1?'':'s'}`:''}`;
+      if(!filtered.length){els.list.innerHTML='<div class="empty">No vocabulary yet. Open an import link from your teacher to add words.</div>';return}
+      els.list.innerHTML=filtered.map(word=>{
+        const expanded=expandedIds.has(word.id),noteOpen=noteExpandedIds.has(word.id),links=itemLinks(word.term),examples=parseExamples(word.example);
+        const details=[
+          word.definition?`<div><div class="label">Definition</div><div class="value">${esc(word.definition)}</div></div>`:'',
+          examples.length?`<div><div class="label">Examples</div><ul class="value example-list">${examples.map(example=>`<li><div class="example-en">${esc(example.en)}</div>${example.pt?`<div class="example-pt">${esc(example.pt)}</div>`:''}</li>`).join('')}</ul></div>`:'',
+          word.note?`<div><button class="note-head ${noteOpen?'open':''}" data-word-action="note" data-id="${attr(word.id)}"><span class="label">Note</span><svg viewBox="0 0 24 24" fill="none"><path d="m6.5 9 5.5 5.5L17.5 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>${noteOpen?`<div class="value note-body">${esc(word.note)}</div>`:''}</div>`:''
+        ].filter(Boolean).join('');
+        const actions=`<div class="action-line"><a class="site-btn" href="${attr(links.youglish)}" target="_blank" rel="noopener"><span class="wordmark"><span class="you">You</span><span class="glish">Glish</span></span></a><a class="site-btn" href="${attr(links.reverso)}" target="_blank" rel="noopener" title="Reverso Context"><svg viewBox="0 0 24 24" fill="none"><path d="M7.5 8.5A5.7 5.7 0 0 1 17 6.8l1.5 1.5M18.5 4.8v3.5H15M16.5 15.5A5.7 5.7 0 0 1 7 17.2l-1.5-1.5M5.5 19.2v-3.5H9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a><button class="icon-btn ${word.favorite?'active':''}" data-word-action="favorite" data-id="${attr(word.id)}" title="Favorite">★</button><button class="icon-btn" data-word-action="edit" data-id="${attr(word.id)}" title="Edit">✎</button><button class="icon-btn danger" data-word-action="delete" data-id="${attr(word.id)}" title="Delete">⌫</button></div>`;
+        const expandedBody=expanded?`<div class="card-expanded">${word.ipa?`<div class="ipa-row"><span class="ipa">${esc(word.ipa)}</span></div>`:''}${word.translation?`<div class="translation">${esc(word.translation)}</div>`:''}${details?`<div class="details-body">${details}</div>`:''}${actions}</div>`:'';
+        return`<article class="card ${expanded?'is-expanded':''}"><div class="card-term-line"><button class="term-toggle" data-word-action="toggle" data-id="${attr(word.id)}"><div class="term">${esc(word.term)}</div></button><div class="card-top-actions"><button class="icon-btn" data-word-action="speak" data-id="${attr(word.id)}" title="Audio"><svg viewBox="0 0 24 24" fill="none"><path d="M5 9.5v5h3.2L13 18V6L8.2 9.5H5Z" stroke="currentColor" stroke-width="1.8"/><path d="M16 9c.8.8 1.2 1.8 1.2 3s-.4 2.2-1.2 3M18.7 6.8A7.2 7.2 0 0 1 21 12a7.2 7.2 0 0 1-2.3 5.2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></button><button class="icon-btn expand-btn" data-word-action="toggle" data-id="${attr(word.id)}"><svg viewBox="0 0 24 24" fill="none"><path d="m6.5 9 5.5 5.5L17.5 9" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button></div></div>${expandedBody}</article>`;
+      }).join('');
+    }
 
-TRANSLATION:
-...
+    function readProgress(){return loadJson(PROGRESS_KEY,{})}
+    function saveProgress(progress){localStorage.setItem(PROGRESS_KEY,JSON.stringify(progress))}
+    function renderPracticeHome(){
+      if(session)return;
+      els.practiceHome.hidden=false;els.practiceSession.hidden=true;
+      els.practiceMeta.textContent=`${exercises.length} lesson${exercises.length===1?'':'s'}`;
+      if(!exercises.length){els.practiceList.innerHTML='<div class="empty">No practice yet. Open an exercise link from your teacher.</div>';return}
+      const progress=readProgress();
+      els.practiceList.innerHTML=[...exercises].sort((a,b)=>(b.updatedAt||'').localeCompare(a.updatedAt||'')).map(exercise=>{
+        const saved=progress[exercise.id],best=saved?.bestScore;
+        return`<article class="practice-card"><h3 class="practice-title">${esc(exercise.title)}</h3><div class="practice-meta">${exercise.questions.length} questions · Works offline</div><div class="practice-actions"><span class="score-pill ${best>=8?'good':''}">${Number.isFinite(best)?`Best: ${best}/${exercise.questions.length}`:'Not completed'}</span><button class="btn primary small" data-practice-action="start" data-id="${attr(exercise.id)}">${saved?'Try again':'Start exercise'}</button></div></article>`;
+      }).join('');
+    }
+    function startExercise(id){
+      const exercise=exercises.find(item=>item.id===id);if(!exercise)return;
+      session={exercise,index:0,score:0,answered:false,choice:'',results:[]};els.practiceHome.hidden=true;els.practiceSession.hidden=false;renderQuestion();
+    }
+    function normalizeAnswer(value){return String(value||'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[“”‘’]/g,"'").replace(/[^\p{L}\p{N}'\s]/gu,'').replace(/\s+/g,' ').trim()}
+    function isCorrectAnswer(value,answers){const normalized=normalizeAnswer(value);return answers.some(answer=>normalizeAnswer(answer)===normalized)}
+    function questionInstruction(type){if(type==='translate_to_english')return'Translate into English';if(type==='fill_blank')return'Complete the sentence';return'Choose the best answer'}
+    function renderQuestion(){
+      const {exercise,index,answered,choice}=session;const question=exercise.questions[index],percent=((index+(answered?1:0))/exercise.questions.length)*100;
+      let answerArea='';
+      if(question.type==='translate_to_english'){
+        answerArea=`<input id="translationAnswer" class="answer-input" type="text" placeholder="Type your answer in English" autocomplete="off" value="${attr(choice)}" ${answered?'disabled':''}/>`;
+      }else{
+        answerArea=`<div class="option-list">${question.options.map(option=>`<button class="option-btn ${choice===option?'selected':''}" data-practice-action="select" data-value="${attr(option)}" ${answered?'disabled':''}>${esc(option)}</button>`).join('')}</div>`;
+      }
+      let feedback='';
+      if(answered){
+        const result=session.results[index];
+        feedback=`<div class="feedback ${result.correct?'correct':'wrong'}"><strong>${result.correct?'Correct!':'Not quite.'}</strong>${!result.correct?`<div class="expected">Answer: ${esc(question.answers[0])}</div>`:''}${question.explanation?`<div>${esc(question.explanation)}</div>`:''}</div>`;
+      }
+      els.practiceSession.innerHTML=`<article class="question-card"><div class="question-top"><span class="question-step">Question ${index+1} of ${exercise.questions.length}</span><span class="question-type">${questionInstruction(question.type)}</span></div><div class="progress-track"><div class="progress-bar" style="width:${percent}%"></div></div><div class="question-prompt">${esc(question.prompt)}</div>${answerArea}${feedback}<div class="question-actions"><button class="btn small" data-practice-action="exit">Back</button>${answered?`<button class="btn primary" data-practice-action="${index===exercise.questions.length-1?'finish':'next'}">${index===exercise.questions.length-1?'See result':'Next'}</button>`:`<button class="btn primary" data-practice-action="check" ${choice?'':'disabled'}>Check answer</button>`}</div></article>`;
+      if(question.type==='translate_to_english'&&!answered){
+        const input=$('translationAnswer');input.addEventListener('input',()=>{session.choice=input.value;const check=els.practiceSession.querySelector('[data-practice-action="check"]');if(check)check.disabled=!input.value.trim()});input.focus();
+      }
+    }
+    function checkCurrentAnswer(){
+      const question=session.exercise.questions[session.index];const correct=isCorrectAnswer(session.choice,question.answers);
+      session.answered=true;session.results[session.index]={answer:session.choice,correct};if(correct)session.score++;renderQuestion();
+    }
+    function nextQuestion(){session.index++;session.answered=false;session.choice='';renderQuestion()}
+    function finishExercise(){
+      const exercise=session.exercise,score=session.score,progress=readProgress(),old=progress[exercise.id]||{};
+      progress[exercise.id]={lastScore:score,bestScore:Math.max(old.bestScore||0,score),completedAt:new Date().toISOString()};saveProgress(progress);
+      els.practiceSession.innerHTML=`<article class="result-card"><h2>Exercise complete</h2><div class="result-score">${score}/${exercise.questions.length}</div><p>${score===exercise.questions.length?'Excellent — perfect score!':score>=8?'Great work. Review the questions you missed and try again later.':'Keep practicing. Your vocabulary will get stronger with repetition.'}</p><div class="question-actions"><button class="btn" data-practice-action="home">Back to lessons</button><button class="btn primary" data-practice-action="retry" data-id="${attr(exercise.id)}">Try again</button></div></article>`;
+    }
+    function closeSession(){session=null;renderPracticeHome()}
 
-DEFINITION:
-...
+    function getProfile(){return loadJson(PROFILE_KEY,null)}
+    function phoneOnly(value){return String(value||'').replace(/\D/g,'')}
+    function packWarning(pack){
+      const profile=getProfile(),packPhone=phoneOnly(pack?.student?.whatsapp),profilePhone=phoneOnly(profile?.whatsapp);
+      if(packPhone&&profilePhone&&packPhone!==profilePhone)return`<div class="import-meta" style="color:#9a3412;background:#fff7ed;border:1px solid #fed7aa;border-radius:10px;padding:8px">This package was created for ${esc(pack?.student?.name||'another student')}.</div>`;
+      return'';
+    }
+    function packExercises(pack){
+      const raw=Array.isArray(pack.exercises)?pack.exercises:(pack.exercise?[pack.exercise]:(pack.practice?[pack.practice]:[]));
+      return raw.map(item=>normalizeExercise(item,pack.lesson)).filter(item=>item.questions.length);
+    }
+    function showImportPack(pack){
+      pendingImportPack=pack;const cards=(pack.cards||[]).map(normalizeWord).filter(word=>word.term),practice=packExercises(pack),parts=[];
+      if(cards.length)parts.push(`${cards.length} word${cards.length===1?'':'s'}`);if(practice.length)parts.push(`${practice.length} exercise${practice.length===1?'':'s'}`);
+      els.importBox.hidden=false;els.importBox.innerHTML=`<div class="import-title">Import ${parts.join(' + ')||'lesson'}?</div><div class="import-meta">${esc(pack.lesson||'Class update')}${pack.teacher?` · ${esc(pack.teacher)}`:''}${pack.student?.name?` · for ${esc(pack.student.name)}`:''}</div>${packWarning(pack)}<div class="import-actions"><button class="btn primary" id="confirmImportBtn">Import</button><button class="btn" id="cancelImportBtn">Cancel</button></div>`;
+      $('confirmImportBtn').onclick=importPack;$('cancelImportBtn').onclick=()=>{pendingImportPack=null;els.importBox.hidden=true;history.replaceState(null,'',location.pathname)};
+    }
+    function importPack(){
+      const pack=pendingImportPack;if(!pack)return;
+      let added=0,updated=0;
+      (pack.cards||[]).map(normalizeWord).filter(word=>word.term).forEach(word=>{
+        const index=words.findIndex(item=>item.term.toLowerCase()===word.term.toLowerCase());word.updatedAt=new Date().toISOString();
+        if(index>=0){word.id=words[index].id;word.favorite=words[index].favorite;words[index]=word;updated++}else{words.unshift(word);added++}
+      });
+      const incoming=packExercises(pack);incoming.forEach(exercise=>{const index=exercises.findIndex(item=>item.id===exercise.id);if(index>=0)exercises[index]=exercise;else exercises.unshift(exercise)});
+      saveWords();saveExercises();pendingImportPack=null;els.importBox.hidden=true;
+      toast(`Imported ${added} new · ${updated} updated${incoming.length?` · ${incoming.length} exercise`:''}.`);
+      history.replaceState(null,'',location.pathname);if(incoming.length)setView('practice');
+    }
+    function decodeB64Url(value){let raw=String(value||'').replace(/-/g,'+').replace(/_/g,'/');while(raw.length%4)raw+='=';return decodeURIComponent(escape(atob(raw)))}
+    async function loadPackFromQuery(){
+      const params=new URLSearchParams(location.search),raw=params.get('pack')||params.get('p');if(!raw)return false;
+      const safe=raw.replace(/[^a-zA-Z0-9._-]/g,'');if(!safe)return false;const file=safe.endsWith('.json')?safe:`${safe}.json`;
+      try{els.importBox.hidden=false;els.importBox.innerHTML='<div class="import-title">Loading lesson...</div><div class="import-meta">Please wait.</div>';const response=await fetch(`./packs/${encodeURIComponent(file)}?v=${Date.now()}`,{cache:'no-store'});if(!response.ok)throw new Error();showImportPack(await response.json());return true}
+      catch{els.importBox.hidden=false;els.importBox.innerHTML='<div class="import-title">Package not found</div><div class="import-meta">Ask your teacher to resend the link.</div>';return true}
+    }
+    function handleImportLink(){
+      if(location.hash.startsWith('#import=')){try{showImportPack(JSON.parse(decodeB64Url(location.hash.slice(8))));return}catch{toast('Import link is invalid.')}}
+      loadPackFromQuery();
+    }
 
-EXAMPLES:
-- English example sentence 1.
-  Tradução natural em português do exemplo 1.
-- English example sentence 2.
-  Tradução natural em português do exemplo 2.
-- English example sentence 3.
-  Tradução natural em português do exemplo 3.
+    function normalizePhone(value){return String(value||'').replace(/\D/g,'')}
+    function registrationUrl(profile){
+      const message=`Hi Walden, this is my Vocabulary registration:\n\nName: ${profile.name}\nWhatsApp: ${profile.whatsapp}\nDevice ID: ${profile.deviceId}\n\nOpen my Vocabulary app again:\n${APP_LINK}`;
+      return`https://wa.me/${TEACHER_WHATSAPP}?text=${encodeURIComponent(message)}`;
+    }
+    function saveProfile(){
+      const name=els.studentName.value.trim();let phone=normalizePhone(els.studentPhone.value);
+      if(!name)return toast('Name is required.');if(phone.length<10)return toast('WhatsApp number is required.');if(!phone.startsWith('55')&&phone.length<=11)phone='55'+phone;
+      const profile={name,whatsapp:phone,deviceId:uid(),registeredAt:new Date().toISOString()};localStorage.setItem(PROFILE_KEY,JSON.stringify(profile));els.registration.classList.remove('open');window.open(registrationUrl(profile),'_blank','noopener');
+    }
+    function showRegistration(){if(!localStorage.getItem(PROFILE_KEY))els.registration.classList.add('open')}
 
-NOTE:
-Nota em português com dicas práticas, explicações adicionais, alertas de uso e, quando aplicável, uma seção curta “Passado:” com a forma no passado e uma dica de pronúncia do passado.`}
-    function chatGptUrl(p){return `https://chatgpt.com/?q=${encodeURIComponent(p)}`}
-    function showChatGptFallback(promptText){const url=chatGptUrl(promptText);els.shareFollowup.hidden=false;els.shareFollowup.innerHTML=`<a class="mini-btn primary" href="${escapeAttr(url)}" target="_blank" rel="noopener">Open ChatGPT</a><button class="mini-btn" type="button" id="copyPromptBtn">Copy prompt</button>`;$('copyPromptBtn')?.addEventListener('click',async()=>{try{await writeClipboardText(promptText);toast('Prompt copied.')}catch{toast('Copy failed.')}})}
-    function clearChatGptFallback(){els.shareFollowup.hidden=true;els.shareFollowup.innerHTML=''}
-    async function openPromptInChatGpt(promptText,term,auto=false){try{await writeClipboardText(promptText)}catch{}showChatGptFallback(promptText); if(auto){setStatus(`Shared text received: “${term}”. Opening ChatGPT...`);setTimeout(()=>{window.location.href=chatGptUrl(promptText)},650);return} setStatus(`Prompt ready for “${term}”. Copy the GPT answer and come back.`); if(navigator.share){try{await navigator.share({title:`Vocabulary: ${term}`,text:promptText});toast('Prompt shared.');return}catch{}} toast('Prompt copied. Opening ChatGPT.'); window.open(chatGptUrl(promptText),'_blank','noopener')}
-    async function askGptFromClipboard(){clearChatGptFallback();let term=cleanTerm(els.manualTerm.value);if(!term){try{term=cleanTerm(await readClipboardText())}catch{term=cleanTerm(prompt('Paste or type the English term:')||'')}} if(!term)return toast('Type a term or copy one first.');await openPromptInChatGpt(buildGptPrompt(term),term)}
-    function stripCodeFences(t){return String(t||'').replace(/^\s*```(?:text|txt|markdown)?\s*/i,'').replace(/\s*```\s*$/i,'').trim()} function escapeRegExp(s){return String(s).replace(/[.*+?^${}()|[\]\\]/g,'\\$&')} function getField(text,labels){const all=['TERM','WORD','PHRASE','IPA','PRONUNCIATION','BRAZILIAN PRONUNCIATION','BRAZILIAN PRONUNCIATION HINT','BR PRONUNCIATION','PT-BR PRONUNCIATION','TRANSLATION','DEFINITION','MEANING','EXAMPLE','EXAMPLES','NOTE','NOTES'];const lp=labels.map(escapeRegExp).join('|'), ap=all.map(escapeRegExp).join('|');const re=new RegExp(`^\\s*(?:${lp})\\s*:\\s*([\\s\\S]*?)(?=^\\s*(?:${ap})\\s*:|\\s*$)`,'im');const m=text.match(re);return m?m[1].trim():''}
-    function parseGptResponse(text){const c=stripCodeFences(text);return{term:getField(c,['TERM','WORD','PHRASE']),ipa:getField(c,['IPA','PRONUNCIATION']),brPronunciation:getField(c,['BRAZILIAN PRONUNCIATION','BRAZILIAN PRONUNCIATION HINT','BR PRONUNCIATION','PT-BR PRONUNCIATION']),translation:getField(c,['TRANSLATION']),definition:getField(c,['DEFINITION','MEANING']),example:getField(c,['EXAMPLE','EXAMPLES']),note:getField(c,['NOTE','NOTES'])}}
-    function saveParsedCard(parsed){const card=normalizeItem({id:crypto.randomUUID(),...parsed,updatedAt:new Date().toISOString()});if(!card.term)return false;const ix=items.findIndex(i=>i.term.toLowerCase()===card.term.toLowerCase());if(ix>=0){card.favorite=items[ix].favorite;card.id=items[ix].id;items[ix]=card}else items.unshift(card);persist();setStatus(`Saved: ${card.term}`);toast(ix>=0?'Card updated.':'Card saved.');return true}
-    async function pasteGptResponse(){try{const text=await readClipboardText();const parsed=parseGptResponse(text);if(!parsed.term||(!parsed.translation&&!parsed.definition&&!parsed.example)){openPasteModal(text);toast('Check the format before saving.');return}saveParsedCard(parsed)}catch{openPasteModal('')}}
-    function openPasteModal(text=''){els.manualPasteText.value=text;els.pasteModal.classList.add('open');setTimeout(()=>els.manualPasteText.focus(),50)} function closePasteModal(){els.pasteModal.classList.remove('open')} function saveManualPaste(){const parsed=parseGptResponse(els.manualPasteText.value);if(!parsed.term)return toast('TERM is required.');if(saveParsedCard(parsed))closePasteModal()}
-    function itemLinks(term){const q=encodeURIComponent(term);return{youglish:`https://youglish.com/pronounce/${q}/english/us`,reverso:`https://context.reverso.net/translation/english-portuguese/${q}`}}
-    function speak(text){if(!('speechSynthesis'in window))return toast('Audio is not available.');speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(text);u.lang='en-US';u.rate=.92;speechSynthesis.speak(u)} function toggleExpanded(id){expandedIds.has(id)?expandedIds.delete(id):expandedIds.add(id);render()} function toggleFavorite(id){const item=items.find(i=>i.id===id);if(!item)return;item.favorite=!item.favorite;persist()} function deleteItem(id){const item=items.find(i=>i.id===id);if(!item)return;if(!confirm(`Delete “${item.term}”?`))return;items=items.filter(i=>i.id!==id);persist();toast('Deleted.')}
-    function openEdit(id){const item=items.find(i=>i.id===id);if(!item)return;editingId=id;els.editTerm.value=item.term||'';els.editIpa.value=item.ipa||'';els.editTranslation.value=item.translation||'';els.editDefinition.value=item.definition||'';els.editExample.value=item.example||'';els.editNote.value=item.note||'';els.editModal.classList.add('open');setTimeout(()=>els.editTerm.focus(),50)} function closeEdit(){editingId=null;els.editModal.classList.remove('open')} function saveEdit(){const ix=items.findIndex(i=>i.id===editingId);if(ix<0)return closeEdit();const term=els.editTerm.value.trim();if(!term)return toast('Term is required.');items[ix]=normalizeItem({...items[ix],term,ipa:els.editIpa.value,translation:els.editTranslation.value,definition:els.editDefinition.value,example:els.editExample.value,note:els.editNote.value,updatedAt:new Date().toISOString()});persist();closeEdit();toast('Saved.')}
-    function normalizeSearch(t){return String(t||'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'')}
-    function parseExamples(example){const raw=String(example||'').trim();if(!raw)return[];const lines=raw.split(/\n+/).map(l=>l.trim()).filter(Boolean);if(!lines.length)return[];let groups=[],current=[];const bullet=/^(?:[-*•]|\d+[.)])\s+/;for(const line of lines){if(bullet.test(line)){if(current.length)groups.push(current);current=[line.replace(bullet,'').trim()]}else if(current.length){current.push(line)}else{current=[line]}}if(current.length)groups.push(current);if(groups.length<=1&&lines.length>=4){groups=[];for(let i=0;i<lines.length;i+=2){groups.push([lines[i],lines[i+1]||''])}}return groups.map(g=>({en:g[0]||'',pt:g.slice(1).join('\n')})).filter(x=>x.en||x.pt)}
-    function toggleNote(id){noteExpandedIds.has(id)?noteExpandedIds.delete(id):noteExpandedIds.add(id);render()}
-    function render(){const q=normalizeSearch(els.search.value);const favs=items.filter(i=>i.favorite);const ordered=[...items].sort((a,b)=>a.favorite!==b.favorite?(a.favorite?-1:1):(b.updatedAt||'').localeCompare(a.updatedAt||''));const filtered=ordered.filter(item=>!q||normalizeSearch(`${item.term} ${item.ipa} ${item.translation} ${item.definition} ${item.example} ${item.note}`).includes(q));els.count.textContent=`${items.length} word${items.length===1?'':'s'}${favs.length?` · ${favs.length} favorite${favs.length===1?'':'s'}`:''}`;if(!filtered.length){els.list.innerHTML='<div class="empty">No vocabulary yet. Open an import link from your teacher to add words.</div>';return}els.list.innerHTML=filtered.map(item=>{const links=itemLinks(item.term),isExpanded=expandedIds.has(item.id),noteOpen=noteExpandedIds.has(item.id);const examples=parseExamples(item.example);const exampleBlock=examples.length?`<div><div class="label">Examples</div><ul class="value example-list">${examples.map(ex=>`<li>${ex.en?`<div class="example-en">${escapeHtml(ex.en)}</div>`:''}${ex.pt?`<div class="example-pt">${escapeHtml(ex.pt)}</div>`:''}</li>`).join('')}</ul></div>`:'';const noteBlock=item.note?`<div class="note-section"><button class="note-head ${noteOpen?'open':''}" data-action="toggle-note" data-id="${escapeAttr(item.id)}" aria-expanded="${noteOpen}" title="${noteOpen?'Hide note':'Show note'}"><span class="label">Note</span><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m6.5 9 5.5 5.5L17.5 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>${noteOpen?`<div class="value note-body">${escapeHtml(item.note)}</div>`:''}</div>`:'';const details=[item.definition?`<div><div class="label">Definition</div><div class="value">${escapeHtml(item.definition)}</div></div>`:'',exampleBlock,noteBlock].filter(Boolean).join('');const bottom=`<div class="action-line" aria-label="Card actions"><a class="site-btn" href="${escapeAttr(links.youglish)}" target="_blank" rel="noopener" title="YouGlish"><span class="wordmark"><span class="you">You</span><span class="glish">Glish</span></span></a><a class="site-btn" href="${escapeAttr(links.reverso)}" target="_blank" rel="noopener" title="Reverso Context"><svg viewBox="0 0 24 24" fill="none"><path d="M7.5 8.5A5.7 5.7 0 0 1 17 6.8l1.5 1.5" stroke="#1f6fb2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M18.5 4.8v3.5H15" stroke="#1f6fb2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M16.5 15.5A5.7 5.7 0 0 1 7 17.2l-1.5-1.5" stroke="#d4242c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M5.5 19.2v-3.5H9" stroke="#d4242c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a><button class="icon-btn ${item.favorite?'active':''}" data-action="favorite" data-id="${escapeAttr(item.id)}" title="Favorite"><svg viewBox="0 0 24 24" fill="${item.favorite?'currentColor':'none'}"><path d="m12 3.8 2.4 4.9 5.4.8-3.9 3.8.9 5.4-4.8-2.5-4.8 2.5.9-5.4-3.9-3.8 5.4-.8L12 3.8Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg></button><button class="icon-btn" data-action="edit" data-id="${escapeAttr(item.id)}" title="Edit"><svg viewBox="0 0 24 24" fill="none"><path d="M4.5 19.5h4.1L19 9.1a2.1 2.1 0 0 0 0-3l-1.1-1.1a2.1 2.1 0 0 0-3 0L4.5 15.4v4.1Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M13.8 6.2l4 4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></button><button class="icon-btn danger" data-action="delete" data-id="${escapeAttr(item.id)}" title="Delete"><svg viewBox="0 0 24 24" fill="none"><path d="M5 7h14M9 7V5.5A1.5 1.5 0 0 1 10.5 4h3A1.5 1.5 0 0 1 15 5.5V7m2 0-.6 12a1.5 1.5 0 0 1-1.5 1.4H9.1A1.5 1.5 0 0 1 7.6 19L7 7m3.2 3.5v6m3.6-6v6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button></div>`;const ipaLine=item.ipa?`<div class="ipa-row"><span class="ipa">${escapeHtml(item.ipa)}</span></div>`:'';const expanded=isExpanded?`<div class="card-expanded">${ipaLine}${item.translation?`<div class="translation">${escapeHtml(item.translation)}</div>`:''}${details?`<div class="details-body">${details}</div>`:''}${bottom}</div>`:'';return`<article class="card ${isExpanded?'is-expanded':''}"><div class="card-term-line"><button class="term-toggle" data-action="toggle" data-id="${escapeAttr(item.id)}" aria-expanded="${isExpanded}"><div class="term">${escapeHtml(capitalizeTerm(item.term))}</div></button><div class="card-top-actions"><button class="icon-btn" data-action="speak" data-id="${escapeAttr(item.id)}" title="Audio"><svg viewBox="0 0 24 24" fill="none"><path d="M5 9.5v5h3.2L13 18V6L8.2 9.5H5Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M16 9c.8.8 1.2 1.8 1.2 3s-.4 2.2-1.2 3M18.7 6.8A7.2 7.2 0 0 1 21 12a7.2 7.2 0 0 1-2.3 5.2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></button><button class="icon-btn expand-btn" data-action="toggle" data-id="${escapeAttr(item.id)}" title="${isExpanded?'Collapse details':'Expand details'}" aria-expanded="${isExpanded}"><svg viewBox="0 0 24 24" fill="none"><path d="m6.5 9 5.5 5.5L17.5 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button></div></div>${expanded}</article>`}).join('')}
-    function escapeHtml(s){return String(s||'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))} function escapeAttr(s){return escapeHtml(s).replace(/'/g,'&#39;')}
-    function b64urlEncode(str){return btoa(unescape(encodeURIComponent(str))).replace(/\+/g,'-').replace(/\//g,'_').replace(/=+$/,'')} function b64urlDecode(str){str=String(str||'').replace(/-/g,'+').replace(/_/g,'/');while(str.length%4)str+='=';return decodeURIComponent(escape(atob(str)))}
-    function getProfile(){try{return JSON.parse(localStorage.getItem(PROFILE_KEY)||'null')}catch{return null}}
-    function phoneOnly(p){return String(p||'').replace(/\D/g,'')}
-    function packStudentWarning(pack){const profile=getProfile();const packPhone=phoneOnly(pack?.student?.whatsapp);const profilePhone=phoneOnly(profile?.whatsapp);if(packPhone&&profilePhone&&packPhone!==profilePhone){return `<div class="import-meta" style="color:#9a3412;background:#fff7ed;border:1px solid #fed7aa;border-radius:10px;padding:8px;margin:8px 0">This pack was created for ${escapeHtml(pack?.student?.name||'another student')} (${escapeHtml(packPhone)}). This app is registered to ${escapeHtml(profile?.name||'this device')} (${escapeHtml(profilePhone)}).</div>`}return ''}
-    function showImportPack(pack){pendingImportPack=pack;const cards=Array.isArray(pack.cards)?pack.cards.map(normalizeItem).filter(i=>i.term):[];els.importBox.hidden=false;els.importBox.innerHTML=`<div class="import-title">Import ${cards.length} word${cards.length===1?'':'s'}?</div><div class="import-meta">${escapeHtml(pack.lesson||'Vocabulary update')}${pack.teacher?` · ${escapeHtml(pack.teacher)}`:''}${pack.student?.name?` · for ${escapeHtml(pack.student.name)}`:''}</div>${packStudentWarning(pack)}<div class="import-actions"><button class="btn primary" id="confirmImportBtn">Import</button><button class="btn" id="cancelImportBtn">Cancel</button></div>`;$('confirmImportBtn').addEventListener('click',()=>importPack());$('cancelImportBtn').addEventListener('click',()=>{pendingImportPack=null;els.importBox.hidden=true;try{history.replaceState(null,'',location.pathname)}catch{}})}
-    function importPack(){const pack=pendingImportPack;if(!pack)return;const cards=(pack.cards||[]).map(normalizeItem).filter(i=>i.term);let added=0,updated=0;cards.forEach(card=>{const ix=items.findIndex(i=>i.term.toLowerCase()===card.term.toLowerCase());card.updatedAt=new Date().toISOString();if(ix>=0){card.id=items[ix].id;card.favorite=items[ix].favorite;items[ix]=card;updated++}else{items.unshift(card);added++}});persist();pendingImportPack=null;els.importBox.hidden=true;toast(`Imported ${added} new · ${updated} updated.`);try{history.replaceState(null,'',location.pathname)}catch{}}
-    async function loadPackFromQuery(){const params=new URLSearchParams(location.search);const raw=params.get('pack')||params.get('p');if(!raw)return false;const safe=raw.replace(/[^a-zA-Z0-9._-]/g,'');if(!safe)return false;const file=safe.endsWith('.json')?safe:`${safe}.json`;try{els.importBox.hidden=false;els.importBox.innerHTML='<div class="import-title">Loading vocabulary pack...</div><div class="import-meta">Please wait.</div>';const res=await fetch(`./packs/${encodeURIComponent(file)}?v=${Date.now()}`,{cache:'no-store'});if(!res.ok)throw new Error('Pack not found');const pack=await res.json();showImportPack(pack);return true}catch(e){els.importBox.hidden=false;els.importBox.innerHTML=`<div class="import-title">Pack not found</div><div class="import-meta">Ask your teacher to resend the link.</div>`;return true}}
-    function handleImportLink(){if(location.hash.startsWith('#import=')){try{const data=location.hash.slice(8);const pack=JSON.parse(b64urlDecode(data));showImportPack(pack);return}catch{toast('Import link is invalid.')}} loadPackFromQuery()}
-    function showRegistrationIfNeeded(){if(localStorage.getItem(PROFILE_KEY))return;els.registration.classList.add('open')}
-    function normalizePhone(p){return String(p||'').replace(/\D/g,'')} function teacherRegisterUrl(profile){const message=`Hi Walden, this is my Vocabulary registration:
-
-Name: ${profile.name}
-WhatsApp: ${profile.whatsapp}
-Device ID: ${profile.deviceId}
-
-Open my Vocabulary app again:
-${APP_LINK}`;return `https://wa.me/${TEACHER_WHATSAPP}?text=${encodeURIComponent(message)}`}
-    function saveProfile(){const name=els.studentName.value.trim();let phone=normalizePhone(els.studentPhone.value);if(!name)return toast('Name is required.');if(phone.length<10)return toast('WhatsApp number is required.');if(!phone.startsWith('55')&&phone.length<=11)phone='55'+phone;const profile={name,whatsapp:phone,deviceId:crypto.randomUUID(),registeredAt:new Date().toISOString()};localStorage.setItem(PROFILE_KEY,JSON.stringify(profile));els.registration.classList.remove('open');toast('Welcome!');window.open(teacherRegisterUrl(profile),'_blank','noopener')}
-    function handleIncomingShareTarget(){const p=new URLSearchParams(location.search);const has=p.has('share')||p.has('text')||p.has('title')||p.has('url');if(!has)return;const shared=[p.get('text'),p.get('title'),p.get('url')].filter(Boolean).join(' ').trim();try{history.replaceState(null,'',location.pathname+(location.hash||''))}catch{}const term=cleanTerm(shared);if(!term)return toast('No text received.');els.manualTerm.value=term;openPromptInChatGpt(buildGptPrompt(term),term,true)}
-    function bindEvents(){els.askGptBtn.addEventListener('click',askGptFromClipboard);els.pasteResponseBtn.addEventListener('click',pasteGptResponse);els.manualTerm.addEventListener('keydown',e=>{if(e.key==='Enter')askGptFromClipboard()});els.manualTerm.addEventListener('input',clearChatGptFallback);els.search.addEventListener('input',render);els.list.addEventListener('click',e=>{const btn=e.target.closest('[data-action]');if(!btn)return;const{action,id}=btn.dataset;const item=items.find(i=>i.id===id);if(action==='toggle')toggleExpanded(id);if(action==='toggle-note')toggleNote(id);if(action==='favorite')toggleFavorite(id);if(action==='speak'&&item)speak(item.term);if(action==='edit')openEdit(id);if(action==='delete')deleteItem(id)});els.closeEditBtn.addEventListener('click',closeEdit);els.cancelEditBtn.addEventListener('click',closeEdit);els.saveEditBtn.addEventListener('click',saveEdit);els.editModal.addEventListener('click',e=>{if(e.target===els.editModal)closeEdit()});els.closePasteBtn.addEventListener('click',closePasteModal);els.cancelPasteBtn.addEventListener('click',closePasteModal);els.savePasteBtn.addEventListener('click',saveManualPaste);els.pasteModal.addEventListener('click',e=>{if(e.target===els.pasteModal)closePasteModal()});els.startBtn.addEventListener('click',saveProfile);window.addEventListener('keydown',e=>{if(e.key==='Escape'){closeEdit();closePasteModal()}});window.addEventListener('beforeinstallprompt',e=>{e.preventDefault();deferredInstallPrompt=e;els.installBtn.classList.add('visible')});els.installBtn.addEventListener('click',async()=>{if(!deferredInstallPrompt)return;deferredInstallPrompt.prompt();await deferredInstallPrompt.userChoice;deferredInstallPrompt=null;els.installBtn.classList.remove('visible')})}
+    els.vocabularyTab.onclick=()=>setView('vocabulary');els.practiceTab.onclick=()=>setView('practice');els.search.oninput=renderVocabulary;
+    els.list.onclick=event=>{const button=event.target.closest('[data-word-action]');if(!button)return;const {wordAction,id}=button.dataset,word=words.find(item=>item.id===id);if(wordAction==='toggle')toggleWord(id);if(wordAction==='note')toggleNote(id);if(wordAction==='favorite')toggleFavorite(id);if(wordAction==='speak'&&word)speak(word.term);if(wordAction==='edit')openEdit(id);if(wordAction==='delete')deleteWord(id)};
+    els.practiceList.onclick=event=>{const button=event.target.closest('[data-practice-action="start"]');if(button)startExercise(button.dataset.id)};
+    els.practiceSession.onclick=event=>{
+      const button=event.target.closest('[data-practice-action]');if(!button)return;const action=button.dataset.practiceAction;
+      if(action==='select'){session.choice=button.dataset.value;renderQuestion()}if(action==='check')checkCurrentAnswer();if(action==='next')nextQuestion();if(action==='finish')finishExercise();if(action==='exit'||action==='home')closeSession();if(action==='retry')startExercise(button.dataset.id);
+    };
+    els.closeEditBtn.onclick=closeEdit;els.cancelEditBtn.onclick=closeEdit;els.saveEditBtn.onclick=saveEdit;els.editModal.onclick=event=>{if(event.target===els.editModal)closeEdit()};els.startBtn.onclick=saveProfile;
+    window.addEventListener('beforeinstallprompt',event=>{event.preventDefault();deferredInstallPrompt=event;els.installBtn.classList.add('visible')});
+    els.installBtn.onclick=async()=>{if(!deferredInstallPrompt)return;deferredInstallPrompt.prompt();await deferredInstallPrompt.userChoice;deferredInstallPrompt=null;els.installBtn.classList.remove('visible')};
     async function registerServiceWorker(){if('serviceWorker'in navigator){try{await navigator.serviceWorker.register('./sw.js')}catch{}}}
-    bindEvents();loadItems();handleImportLink();showRegistrationIfNeeded();registerServiceWorker();
+
+    loadData();handleImportLink();showRegistration();registerServiceWorker();
   </script>
 </body>
 </html>
