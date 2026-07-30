@@ -1,0 +1,115 @@
+{
+  "type": "vocabulary-practice-pack",
+  "version": 6,
+  "teacher": "Teacher Walden Nogueira",
+  "teacherWhatsApp": "5541996106689",
+  "student": {
+    "name": "Walden",
+    "whatsapp": "5541996106689"
+  },
+  "lesson": "B1 - 01 - ex",
+  "cards": [],
+  "createdAt": "2026-07-30T22:38:02.354Z",
+  "exercise": {
+    "id": "practice-8e80ccf7-8d39-42a7-b2fe-eb9c3d200fa3",
+    "title": "B1 - 01 - ex",
+    "questions": [
+      {
+        "id": "q-1",
+        "type": "multiple_choice",
+        "prompt": "I usually ______ at 6:30, but I stay in bed for another ten minutes.",
+        "options": [
+          "wake up"
+        ],
+        "answer": "wake up",
+        "explanation": "“Wake up” means to stop sleeping. “Get up” means to leave the bed."
+      },
+      {
+        "id": "q-2",
+        "type": "multiple_choice",
+        "prompt": "After I wake up, I usually ______ right away and take a shower.",
+        "options": [
+          "get up"
+        ],
+        "answer": "get up",
+        "explanation": "“Get up” means to leave your bed or stand up."
+      },
+      {
+        "id": "q-3",
+        "type": "multiple_choice",
+        "prompt": "My daily ______ takes about forty minutes by bus.",
+        "options": [
+          "commute"
+        ],
+        "answer": "commute",
+        "explanation": "A “commute” is the regular trip between home and work or school."
+      },
+      {
+        "id": "q-4",
+        "type": "multiple_choice",
+        "prompt": "I need to ______ after work: go to the bank, buy groceries, and pick up a package.",
+        "options": [
+          "run errands"
+        ],
+        "answer": "run errands",
+        "explanation": "“Run errands” means to make several short trips to complete practical tasks."
+      },
+      {
+        "id": "q-5",
+        "type": "multiple_choice",
+        "prompt": "I try to ______ three times a week to stay healthy.",
+        "options": [
+          "work out"
+        ],
+        "answer": "work out",
+        "explanation": "“Work out” means to exercise."
+      },
+      {
+        "id": "q-6",
+        "type": "multiple_choice",
+        "prompt": "I was exhausted, so I decided to ______ early.",
+        "options": [
+          "go to bed"
+        ],
+        "answer": "go to bed",
+        "explanation": "“Go to bed” means to get into bed because you intend to sleep."
+      },
+      {
+        "id": "q-7",
+        "type": "fill_blank",
+        "prompt": "My ______ at 6:00 every morning.",
+        "options": [
+          "alarm goes off"
+        ],
+        "answer": "alarm goes off",
+        "explanation": "When an alarm “goes off,” it starts making a sound."
+      },
+      {
+        "id": "q-8",
+        "type": "multiple_choice",
+        "prompt": "I only had twenty minutes, but I managed to ______ a quick workout.",
+        "options": [
+          "squeeze in"
+        ],
+        "answer": "squeeze in",
+        "explanation": "“Squeeze in” means to find time for something in a busy schedule."
+      },
+      {
+        "id": "q-9",
+        "type": "translate_to_english",
+        "prompt": "Na verdade, eu trabalho de casa às sextas-feiras.",
+        "options": [],
+        "answer": "Actually, I work from home on Fridays.|Actually, I work from home Fridays.",
+        "explanation": "Use “actually” to correct, clarify, or add information. It does not mean “currently.”"
+      },
+      {
+        "id": "q-10",
+        "type": "translate_to_english",
+        "prompt": "No fim, eu consegui terminar tudo.",
+        "options": [],
+        "answer": "Eventually, I managed to finish everything.|I eventually managed to finish everything.",
+        "explanation": "“Eventually” means “finally” or “after some time,” not “possibly.”"
+      }
+    ]
+  }
+}
