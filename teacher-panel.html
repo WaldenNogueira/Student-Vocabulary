@@ -81,7 +81,7 @@
     <p id="status" class="status"></p>
   </section>
 
-  <footer class="footer">v25 · Teacher Walden Nogueira</footer>
+  <footer class="footer">v26 · Teacher Walden Nogueira</footer>
 </main>
 
 <script>
@@ -132,7 +132,7 @@
   els.saveSettings.onclick=()=>{localStorage.setItem(SETTINGS_KEY,JSON.stringify({token:els.token.value.trim(),owner:els.owner.value.trim(),repo:els.repo.value.trim(),branch:els.branch.value.trim(),folder:els.folder.value.trim(),appUrl:els.appUrl.value.trim()}));setStatus('GitHub settings saved.','ok')};
 
   function stripFences(text){return String(text||'').replace(/^```[a-z]*\s*/i,'').replace(/\s*```$/,'').trim()}
-  const FIELD_LABELS=new Set(['LESSON','TERM','WORD','PHRASE','IPA','PRONUNCIATION','TRANSLATION','DEFINITION','MEANING','EXAMPLE','EXAMPLES','NOTE','NOTES','QUESTION','TYPE','PROMPT','OPTIONS','ANSWER','ANSWERS','EXPLANATION']);
+  const FIELD_LABELS=new Set(['LESSON','VOCABULARY','TERM','WORD','PHRASE','IPA','PRONUNCIATION','TRANSLATION','DEFINITION','MEANING','EXAMPLE','EXAMPLES','NOTE','NOTES','QUESTION','TYPE','TARGET','PROMPT','OPTIONS','ANSWER','ANSWERS','EXPLANATION']);
   function parseFields(block){
     const fields={};let active='';
     String(block||'').replace(/\r\n?/g,'\n').split('\n').forEach(line=>{
@@ -188,33 +188,70 @@
     if(['fill','fill_blank','complete','completion'].includes(type))return'fill_blank';
     return'multiple_choice';
   }
+  function parseVocabularyList(text){
+    const clean=stripFences(text).replace(/\r\n?/g,'\n'),lines=clean.split('\n');
+    let active=false;const items=[];
+    for(const line of lines){
+      const heading=line.match(/^\s*([A-Z][A-Z ]*)\s*:\s*(.*)$/);
+      if(heading){
+        const label=heading[1].trim();
+        if(label==='VOCABULARY'){
+          active=true;
+          if(heading[2].trim())items.push(...heading[2].split(','));
+          continue;
+        }
+        if(active)break;
+      }
+      if(active)items.push(...line.split(','));
+    }
+    const seen=new Set();
+    return items.map(value=>value.replace(/^(?:[-*•]|\d+[.)])\s*/,'').trim()).filter(value=>{
+      const key=value.toLowerCase();if(!value||seen.has(key))return false;seen.add(key);return true;
+    });
+  }
   function parseQuestions(text){
     return splitBlocks(text,'QUESTION').map((block,index)=>{
-      const fields=parseFields(block);
+      const fields=parseFields(block),answer=field(fields,['ANSWER','ANSWERS']);
       return{
         id:`q-${index+1}`,
         type:normalizeType(field(fields,['TYPE'])),
+        target:field(fields,['TARGET'])||String(answer).split('|')[0].trim(),
         prompt:field(fields,['PROMPT']),
         options:parseOptions(field(fields,['OPTIONS'])),
-        answer:field(fields,['ANSWER','ANSWERS']),
+        answer,
         explanation:field(fields,['EXPLANATION','NOTE'])
       };
     }).filter(question=>question.prompt&&question.answer);
   }
-  function validateQuestions(questions){
-    const errors=[];
+  function normalizeComparable(value){return String(value||'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9' ]/g,'').replace(/\s+/g,' ').trim()}
+  function validateQuestions(questions,vocabulary){
+    const errors=[],counts={multiple_choice:0,fill_blank:0,translate_to_english:0};
     questions.forEach((question,index)=>{
-      if(question.type!=='translate_to_english'&&question.options.length<4){
-        errors.push(`Question ${index+1} has ${question.options.length} option${question.options.length===1?'':'s'}; 4 are required.`);
-      }
-      if(question.type!=='translate_to_english'){
-        const accepted=String(question.answer||'').split('|').map(value=>value.trim().toLowerCase()).filter(Boolean);
-        const options=question.options.map(value=>value.toLowerCase());
-        if(accepted.length&&!accepted.some(answer=>options.includes(answer))){
-          errors.push(`Question ${index+1}: the answer must also appear in OPTIONS.`);
-        }
+      counts[question.type]=(counts[question.type]||0)+1;
+      if(!question.target)errors.push(`Question ${index+1} needs TARGET.`);
+      if(question.type==='multiple_choice'){
+        if(question.options.length!==4)errors.push(`Question ${index+1} must have exactly 4 options.`);
+        const accepted=String(question.answer||'').split('|').map(normalizeComparable).filter(Boolean),options=question.options.map(normalizeComparable);
+        if(accepted.length&&!accepted.some(answer=>options.includes(answer)))errors.push(`Question ${index+1}: the answer must also appear in OPTIONS.`);
+      }else if(question.options.length){
+        errors.push(`Question ${index+1}: only multiple-choice questions should contain OPTIONS.`);
       }
     });
+    if(counts.multiple_choice!==4||counts.fill_blank!==3||counts.translate_to_english!==3){
+      errors.push(`Use exactly 4 multiple choice, 3 fill blank, and 3 translate to English questions.`);
+    }
+    const targets=questions.map(question=>normalizeComparable(question.target)).filter(Boolean);
+    if(new Set(targets).size!==10)errors.push('Each of the 10 questions must use a different TARGET vocabulary item.');
+    if(vocabulary.length){
+      if(vocabulary.length!==10)errors.push(`VOCABULARY must contain exactly 10 unique items. Found ${vocabulary.length}.`);
+      const vocabularySet=new Set(vocabulary.map(normalizeComparable));
+      const targetSet=new Set(targets);
+      const missing=[...vocabularySet].filter(item=>!targetSet.has(item));
+      const extra=[...targetSet].filter(item=>!vocabularySet.has(item));
+      if(missing.length||extra.length)errors.push('The 10 TARGET values must match the 10 items listed under VOCABULARY.');
+    }else{
+      errors.push('Add a VOCABULARY section with the 10 lesson terms.');
+    }
     return errors;
   }
   function filenameToLesson(filename){return String(filename||'').replace(/\.[^.]+$/,'').replace(/[-_]+/g,' ').replace(/\b\w/g,char=>char.toUpperCase()).trim()}
@@ -252,14 +289,14 @@
   };
   els.generate.onclick=()=>{
     if(!sourceText.trim())return setStatus('Choose or drop a .txt file first.','err');
-    readyCards=parseCards(sourceText);readyQuestions=parseQuestions(sourceText);
+    readyCards=parseCards(sourceText);readyQuestions=parseQuestions(sourceText);const vocabulary=parseVocabularyList(sourceText);
     if(!readyCards.length&&!readyQuestions.length)return setStatus('No vocabulary cards or practice questions were found.','err');
     if(readyQuestions.length&&readyQuestions.length!==10)return setStatus(`Practice must contain exactly 10 questions. Found ${readyQuestions.length}.`,'err');
-    const questionErrors=validateQuestions(readyQuestions);
+    const questionErrors=validateQuestions(readyQuestions,vocabulary);
     if(questionErrors.length)return setStatus(questionErrors.join(' '),'err');
     const lesson=saveLesson();
-    els.ready.textContent=`Saved “${lesson.name}”: ${readyCards.length} vocabulary cards and ${readyQuestions.length} practice questions. Multiple-choice questions have 4 options.`;
-    els.ready.classList.add('show');els.sendArea.classList.add('show');updateSendButton();setStatus('Lesson saved. Select a student and send it.','ok');
+    els.ready.textContent=`Saved “${lesson.name}”: 10 questions using all 10 vocabulary items · 4 choose · 3 complete · 3 translate.`;
+    els.ready.classList.add('show');els.sendArea.classList.add('show');updateSendButton();setStatus('Lesson saved. Options will be shuffled in the student app.','ok');
   };
 
   function selectedStudent(){const index=Number(els.students.value),students=readStudents();return Number.isInteger(index)&&index>=0?students[index]:null}
@@ -267,7 +304,7 @@
   els.students.onchange=updateSendButton;
   function createPackage(student){
     const lessonName=els.lesson.value.trim()||filenameToLesson(sourceFileName)||'Class update';
-    const pack={type:'vocabulary-practice-pack',version:6,teacher:'Teacher Walden Nogueira',teacherWhatsApp:TEACHER_WHATSAPP,student:{name:student.name,whatsapp:student.phone},lesson:lessonName,cards:readyCards,createdAt:new Date().toISOString()};
+    const pack={type:'vocabulary-practice-pack',version:7,teacher:'Teacher Walden Nogueira',teacherWhatsApp:TEACHER_WHATSAPP,student:{name:student.name,whatsapp:student.phone},lesson:lessonName,cards:readyCards,createdAt:new Date().toISOString()};
     if(readyQuestions.length)pack.exercise={id:`practice-${slug(currentLessonId||lessonName)}`,title:lessonName,questions:readyQuestions};
     return pack;
   }

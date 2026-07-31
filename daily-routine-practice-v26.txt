@@ -1,0 +1,154 @@
+LESSON:
+Lesson 1 — Daily Routine
+
+VOCABULARY:
+- wake up
+- get up
+- commute
+- run errands
+- work out
+- go to bed
+- my alarm goes off
+- squeeze in
+- actually
+- eventually
+
+QUESTION:
+TYPE:
+multiple_choice
+TARGET:
+wake up
+PROMPT:
+I usually ______ at 6:30, but I stay in bed for another ten minutes.
+OPTIONS:
+- work out
+- wake up
+- go to bed
+- get up
+ANSWER:
+wake up
+EXPLANATION:
+“Wake up” means to stop sleeping. “Get up” means to leave the bed.
+
+QUESTION:
+TYPE:
+fill_blank
+TARGET:
+get up
+PROMPT:
+After I wake up, I usually ______ immediately and take a shower.
+ANSWER:
+get up
+EXPLANATION:
+“Get up” means to leave your bed or stand up.
+
+QUESTION:
+TYPE:
+multiple_choice
+TARGET:
+commute
+PROMPT:
+My daily ______ takes about forty minutes by bus.
+OPTIONS:
+- workout
+- commute
+- routine
+- errand
+ANSWER:
+commute
+EXPLANATION:
+A “commute” is the regular trip between home and work or school.
+
+QUESTION:
+TYPE:
+translate_to_english
+TARGET:
+run errands
+PROMPT:
+Eu preciso resolver algumas coisas depois do trabalho.
+ANSWER:
+I need to run errands after work.
+EXPLANATION:
+“Run errands” means to make short trips to complete practical tasks.
+
+QUESTION:
+TYPE:
+fill_blank
+TARGET:
+work out
+PROMPT:
+I try to ______ three times a week to stay healthy.
+ANSWER:
+work out
+EXPLANATION:
+“Work out” means to exercise.
+
+QUESTION:
+TYPE:
+multiple_choice
+TARGET:
+go to bed
+PROMPT:
+I was exhausted, so I decided to ______ early.
+OPTIONS:
+- wake up
+- squeeze in
+- go to bed
+- commute
+ANSWER:
+go to bed
+EXPLANATION:
+“Go to bed” means to get into bed because you intend to sleep.
+
+QUESTION:
+TYPE:
+translate_to_english
+TARGET:
+my alarm goes off
+PROMPT:
+Meu despertador toca às seis todos os dias.
+ANSWER:
+My alarm goes off at six every day.|My alarm goes off at 6 every day.|My alarm goes off at six o'clock every day.
+EXPLANATION:
+When an alarm “goes off,” it starts making a sound.
+
+QUESTION:
+TYPE:
+fill_blank
+TARGET:
+squeeze in
+PROMPT:
+I only had twenty minutes, but I managed to ______ a quick workout.
+ANSWER:
+squeeze in
+EXPLANATION:
+“Squeeze in” means to find time for something in a busy schedule.
+
+QUESTION:
+TYPE:
+multiple_choice
+TARGET:
+actually
+PROMPT:
+Which word naturally corrects this misunderstanding? “I don't work in the office every day. ______, I work from home on Fridays.”
+OPTIONS:
+- Eventually
+- Currently
+- Actually
+- Possibly
+ANSWER:
+Actually
+EXPLANATION:
+“Actually” corrects or clarifies information. It does not mean “currently.”
+
+QUESTION:
+TYPE:
+translate_to_english
+TARGET:
+eventually
+PROMPT:
+No fim, eu consegui terminar tudo.
+ANSWER:
+Eventually, I managed to finish everything.|I eventually managed to finish everything.|Eventually, I was able to finish everything.
+EXPLANATION:
+“Eventually” means “finally” or “after some time,” not “possibly.”

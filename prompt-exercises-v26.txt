@@ -1,0 +1,43 @@
+Create a UTF-8 .txt lesson file for the Student Vocabulary app from the vocabulary list I provide.
+
+Use exactly this exercise standard:
+- Exactly 10 vocabulary items under VOCABULARY.
+- Exactly 10 questions: one unique TARGET per vocabulary item.
+- 4 multiple_choice questions, each with exactly 4 plausible OPTIONS.
+- 3 fill_blank questions with no OPTIONS; the student types the missing word or phrase.
+- 3 translate_to_english questions with no OPTIONS; the student translates from Portuguese into English.
+- Never repeat a TARGET.
+- Use every vocabulary item exactly once.
+- Put multiple accepted natural answers on one ANSWER line separated by |.
+- Keep prompts natural, clear, and suitable for real English.
+- Avoid making the correct option consistently appear in the same source position. The app will also shuffle options automatically.
+- Include a short EXPLANATION for every question.
+
+Required format:
+
+LESSON:
+[lesson name]
+
+VOCABULARY:
+- [item 1]
+...
+- [item 10]
+
+QUESTION:
+TYPE:
+[multiple_choice | fill_blank | translate_to_english]
+TARGET:
+[one vocabulary item exactly as listed]
+PROMPT:
+[question]
+OPTIONS:
+- [option 1]
+- [option 2]
+- [option 3]
+- [option 4]
+ANSWER:
+[correct answer|accepted alternative]
+EXPLANATION:
+[brief explanation]
+
+Omit OPTIONS entirely for fill_blank and translate_to_english. Return only the file content, with no introduction and no Markdown code fences.

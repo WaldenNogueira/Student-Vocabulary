@@ -98,7 +98,7 @@
       <section id="practiceSession" hidden></section>
     </section>
 
-    <footer class="app-footer">v25 · Developed by <a href="https://wa.me/5541996106689" target="_blank" rel="noopener">Walden Nogueira</a></footer>
+    <footer class="app-footer">v26 · Developed by <a href="https://wa.me/5541996106689" target="_blank" rel="noopener">Walden Nogueira</a></footer>
   </main>
 
   <div id="registration" class="registration" role="dialog" aria-modal="true">
@@ -135,7 +135,7 @@
     const PROGRESS_KEY='student-vocabulary-practice-progress-v24';
     const PROFILE_KEY='student-vocabulary-profile-v17';
     const TEACHER_WHATSAPP='5541996106689';
-    const APP_LINK='https://waldennogueira.github.io/Student-Vocabulary/?v=25';
+    const APP_LINK='https://waldennogueira.github.io/Student-Vocabulary/?v=26';
     const $=id=>document.getElementById(id);
 
     let words=[],exercises=[],editingId=null,pendingImportPack=null,deferredInstallPrompt=null;
@@ -179,7 +179,7 @@
       });
       const answers=(Array.isArray(raw.answers)?raw.answers:String(raw.answer||raw.answers||'').split('|')).map(value=>String(value||'').trim()).filter(Boolean);
       return{
-        id:raw.id||`q-${index+1}`,type:normalizeType(raw.type),prompt:String(raw.prompt||raw.question||'').trim(),
+        id:raw.id||`q-${index+1}`,type:normalizeType(raw.type),target:String(raw.target||'').trim(),prompt:String(raw.prompt||raw.question||'').trim(),
         options,answers,explanation:String(raw.explanation||raw.note||'').trim()
       };
     }
@@ -269,10 +269,22 @@
         return`<article class="practice-card"><h3 class="practice-title">${esc(exercise.title)}</h3><div class="practice-meta">${exercise.questions.length} questions · Works offline</div><div class="practice-actions"><span class="score-pill ${best>=8?'good':''}">${Number.isFinite(best)?`Best: ${best}/${exercise.questions.length}`:'Not completed'}</span><button class="btn primary small" data-practice-action="start" data-id="${attr(exercise.id)}">${saved?'Try again':'Start exercise'}</button></div></article>`;
       }).join('');
     }
+    function shuffleArray(values){
+      const copy=[...values];
+      for(let index=copy.length-1;index>0;index--){
+        const randomIndex=Math.floor(Math.random()*(index+1));
+        [copy[index],copy[randomIndex]]=[copy[randomIndex],copy[index]];
+      }
+      return copy;
+    }
     function startExercise(id){
-      const exercise=exercises.find(item=>item.id===id);if(!exercise)return;
-      const invalid=exercise.questions.findIndex(question=>question.type!=='translate_to_english'&&question.options.length<2);
+      const stored=exercises.find(item=>item.id===id);if(!stored)return;
+      const invalid=stored.questions.findIndex(question=>question.type==='multiple_choice'&&question.options.length<4);
       if(invalid>=0)return toast(`Question ${invalid+1} is incomplete. Ask your teacher to resend this lesson.`);
+      const exercise={...stored,questions:stored.questions.map(question=>({
+        ...question,
+        options:question.type==='multiple_choice'?shuffleArray(question.options):[...question.options]
+      }))};
       session={exercise,index:0,score:0,answered:false,choice:'',results:[]};els.practiceHome.hidden=true;els.practiceSession.hidden=false;renderQuestion();
     }
     function normalizeAnswer(value){return String(value||'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[“”‘’]/g,"'").replace(/[^\p{L}\p{N}'\s]/gu,'').replace(/\s+/g,' ').trim()}
@@ -281,10 +293,11 @@
     function renderQuestion(){
       const {exercise,index,answered,choice}=session;const question=exercise.questions[index],percent=((index+(answered?1:0))/exercise.questions.length)*100;
       let answerArea='';
-      if(question.type==='translate_to_english'){
-        answerArea=`<input id="translationAnswer" class="answer-input" type="text" placeholder="Type your answer in English" autocomplete="off" value="${attr(choice)}" ${answered?'disabled':''}/>`;
-      }else{
+      if(question.type==='multiple_choice'){
         answerArea=`<div class="option-list">${question.options.map(option=>`<button class="option-btn ${choice===option?'selected':''}" data-practice-action="select" data-value="${attr(option)}" ${answered?'disabled':''}>${esc(option)}</button>`).join('')}</div>`;
+      }else{
+        const placeholder=question.type==='fill_blank'?'Type the missing word or phrase':'Type your translation in English';
+        answerArea=`<input id="writtenAnswer" class="answer-input" type="text" placeholder="${placeholder}" autocomplete="off" autocapitalize="sentences" value="${attr(choice)}" ${answered?'disabled':''}/>`;
       }
       let feedback='';
       if(answered){
@@ -292,8 +305,8 @@
         feedback=`<div class="feedback ${result.correct?'correct':'wrong'}"><strong>${result.correct?'Correct!':'Not quite.'}</strong>${!result.correct?`<div class="expected">Answer: ${esc(question.answers[0])}</div>`:''}${question.explanation?`<div>${esc(question.explanation)}</div>`:''}</div>`;
       }
       els.practiceSession.innerHTML=`<article class="question-card"><div class="question-top"><span class="question-step">Question ${index+1} of ${exercise.questions.length}</span><span class="question-type">${questionInstruction(question.type)}</span></div><div class="progress-track"><div class="progress-bar" style="width:${percent}%"></div></div><div class="question-prompt">${esc(question.prompt)}</div>${answerArea}${feedback}<div class="question-actions"><button class="btn small" data-practice-action="exit">Back</button>${answered?`<button class="btn primary" data-practice-action="${index===exercise.questions.length-1?'finish':'next'}">${index===exercise.questions.length-1?'See result':'Next'}</button>`:`<button class="btn primary" data-practice-action="check" ${choice?'':'disabled'}>Check answer</button>`}</div></article>`;
-      if(question.type==='translate_to_english'&&!answered){
-        const input=$('translationAnswer');input.addEventListener('input',()=>{session.choice=input.value;const check=els.practiceSession.querySelector('[data-practice-action="check"]');if(check)check.disabled=!input.value.trim()});input.focus();
+      if(question.type!=='multiple_choice'&&!answered){
+        const input=$('writtenAnswer');input.addEventListener('input',()=>{session.choice=input.value;const check=els.practiceSession.querySelector('[data-practice-action="check"]');if(check)check.disabled=!input.value.trim()});input.focus();
       }
     }
     function checkCurrentAnswer(){
