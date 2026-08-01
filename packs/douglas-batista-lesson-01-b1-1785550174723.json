@@ -1,0 +1,129 @@
+{
+  "type": "vocabulary-practice-pack",
+  "version": 7,
+  "teacher": "Teacher Walden Nogueira",
+  "teacherWhatsApp": "5541996106689",
+  "student": {
+    "name": "Douglas Batista",
+    "whatsapp": "5511976897770"
+  },
+  "lesson": "Lesson 01.b1",
+  "cards": [],
+  "createdAt": "2026-08-01T02:09:34.722Z",
+  "exercise": {
+    "id": "practice-832c6f24-f3fc-4cbc-8b6d-71722d225213",
+    "title": "Lesson 01.b1",
+    "questions": [
+      {
+        "id": "q-1",
+        "type": "multiple_choice",
+        "target": "wake up",
+        "prompt": "What does “wake up” mean?",
+        "options": [
+          "Stop sleeping",
+          "Leave the house",
+          "Start working",
+          "Take a shower"
+        ],
+        "answer": "Stop sleeping",
+        "explanation": "“Wake up” means to stop sleeping and become conscious."
+      },
+      {
+        "id": "q-2",
+        "type": "multiple_choice",
+        "target": "commute",
+        "prompt": "Which sentence uses “commute” correctly?",
+        "options": [
+          "I commute to work by train every morning.",
+          "I commute dinner before eight.",
+          "I commute at the gym after work.",
+          "I commute my emails during lunch."
+        ],
+        "answer": "I commute to work by train every morning.",
+        "explanation": "“To commute” means to travel regularly between home and work or school."
+      },
+      {
+        "id": "q-3",
+        "type": "multiple_choice",
+        "target": "run errands",
+        "prompt": "You need to go to the bank, buy groceries, and pick up a package. What are you doing?",
+        "options": [
+          "Going to bed",
+          "Running errands",
+          "Working out",
+          "Waking up"
+        ],
+        "answer": "Running errands",
+        "explanation": "“To run errands” means to make short trips to complete practical tasks."
+      },
+      {
+        "id": "q-4",
+        "type": "multiple_choice",
+        "target": "actually",
+        "prompt": "Choose the best word to complete the sentence: “I thought the store was closed, but it was _____ open.”",
+        "options": [
+          "eventually",
+          "actually",
+          "rarely",
+          "early"
+        ],
+        "answer": "actually",
+        "explanation": "“Actually” is used to show that the real situation is different from what someone thought."
+      },
+      {
+        "id": "q-5",
+        "type": "fill_blank",
+        "target": "get up",
+        "prompt": "I usually wake up at 6:30, but I do not _____ until 6:45.",
+        "options": [],
+        "answer": "get up",
+        "explanation": "“Get up” means to leave your bed after waking up."
+      },
+      {
+        "id": "q-6",
+        "type": "fill_blank",
+        "target": "work out",
+        "prompt": "She goes to the gym three times a week to _____.",
+        "options": [],
+        "answer": "work out|exercise",
+        "explanation": "“To work out” means to exercise, especially to improve fitness."
+      },
+      {
+        "id": "q-7",
+        "type": "fill_blank",
+        "target": "squeeze in",
+        "prompt": "My schedule is very busy, but I can _____ a quick lunch with you at noon.",
+        "options": [],
+        "answer": "squeeze in",
+        "explanation": "“To squeeze in” means to find time for something despite a busy schedule."
+      },
+      {
+        "id": "q-8",
+        "type": "translate_to_english",
+        "target": "go to bed",
+        "prompt": "Traduza para o inglês: “Eu geralmente vou para a cama às onze.”",
+        "options": [],
+        "answer": "I usually go to bed at eleven.|I usually go to bed at 11.",
+        "explanation": "“Go to bed” means to go to your bed because you are ready to sleep."
+      },
+      {
+        "id": "q-9",
+        "type": "translate_to_english",
+        "target": "my alarm goes off",
+        "prompt": "Traduza para o inglês: “Meu despertador toca às seis da manhã.”",
+        "options": [],
+        "answer": "My alarm goes off at six in the morning.|My alarm goes off at 6 a.m.",
+        "explanation": "“My alarm goes off” means that the alarm starts ringing or making a sound."
+      },
+      {
+        "id": "q-10",
+        "type": "translate_to_english",
+        "target": "eventually",
+        "prompt": "Traduza para o inglês: “Depois de várias tentativas, eu finalmente consegui.”",
+        "options": [],
+        "answer": "After several attempts, I eventually succeeded.|After several tries, I eventually managed to do it.|Eventually, I succeeded after several attempts.",
+        "explanation": "“Eventually” means in the end, especially after a delay or several attempts."
+      }
+    ]
+  }
+}
