@@ -1,0 +1,210 @@
+{
+  "type": "vocabulary-practice-pack",
+  "version": 7,
+  "teacher": "Teacher Walden Nogueira",
+  "teacherWhatsApp": "5541996106689",
+  "student": {
+    "name": "Douglas Batista",
+    "whatsapp": "5511976897770"
+  },
+  "lesson": "Lesson 03 B1 Vocabulary Practice",
+  "cards": [
+    {
+      "term": "Headquarters",
+      "ipa": "/ˈhedˌkwɔːrtərz/",
+      "translation": "sede; matriz",
+      "definition": "The main office or central location of an organization.",
+      "example": "- The company’s headquarters is in Chicago.\nA sede da empresa fica em Chicago.\n- We visited the headquarters during our business trip.\nNós visitamos a matriz durante nossa viagem de negócios.\n- The new headquarters will open next year.\nA nova sede será inaugurada no ano que vem.",
+      "note": "“Headquarters” termina em “s”, mas pode ser usado com verbo no singular quando se refere a uma única sede: “The headquarters is in Boston.” A forma abreviada “HQ” é comum em contextos empresariais."
+    },
+    {
+      "term": "Branch",
+      "ipa": "/bræntʃ/",
+      "translation": "filial; agência",
+      "definition": "A local office or division of a larger organization.",
+      "example": "- Our company opened a new branch downtown.\nNossa empresa abriu uma nova filial no centro.\n- She worked at the Miami branch for three years.\nEla trabalhou na filial de Miami por três anos.\n- Please contact your nearest bank branch.\nEntre em contato com a agência bancária mais próxima.",
+      "note": "“Branch” pode significar filial de empresa ou agência bancária. O plural é “branches”, pronunciado /ˈbræntʃɪz/."
+    },
+    {
+      "term": "Employee",
+      "ipa": "/ɪmˈplɔɪiː/",
+      "translation": "funcionário; empregado",
+      "definition": "A person who works for a company or organization in exchange for pay.",
+      "example": "- Every employee must complete the safety training.\nTodo funcionário deve concluir o treinamento de segurança.\n- The company hired twenty new employees last year.\nA empresa contratou vinte novos funcionários no ano passado.\n- She is one of our most experienced employees.\nEla é uma das nossas funcionárias mais experientes.",
+      "note": "“Employee” é a pessoa contratada. “Employer” é a empresa ou pessoa que contrata. A sílaba tônica de “employee” costuma estar no final: em-ploy-EE."
+    },
+    {
+      "term": "Customer",
+      "ipa": "/ˈkʌstəmər/",
+      "translation": "cliente; consumidor",
+      "definition": "A person or organization that buys a product or service.",
+      "example": "- We always try to understand the customer’s needs.\nNós sempre tentamos entender as necessidades do cliente.\n- A customer called to ask about her order.\nUma cliente ligou para perguntar sobre o pedido dela.\n- Good service helps keep customers loyal.\nUm bom atendimento ajuda a manter os clientes fiéis.",
+      "note": "“Customer” normalmente compra um produto ou serviço. “Client” é mais comum para relações profissionais contínuas, como advocacia, consultoria ou aulas particulares."
+    },
+    {
+      "term": "Provide",
+      "ipa": "/prəˈvaɪd/",
+      "translation": "fornecer; oferecer",
+      "definition": "To give someone something they need or make it available.",
+      "example": "- We provide technical support to all customers.\nNós fornecemos suporte técnico a todos os clientes.\n- The company provided laptops for the new employees.\nA empresa forneceu notebooks para os novos funcionários.\n- Please provide us with the correct information.\nPor favor, forneça-nos as informações corretas.",
+      "note": "Use “provide something to someone” ou “provide someone with something”: “provide support to customers” e “provide customers with support”. O passado e o particípio são “provided”."
+    },
+    {
+      "term": "Found",
+      "ipa": "/faʊnd/",
+      "translation": "fundar; criar oficialmente",
+      "definition": "To establish a company, organization, or institution.",
+      "example": "- They founded the company in 2015.\nEles fundaram a empresa em 2015.\n- She wants to found a nonprofit organization.\nEla quer fundar uma organização sem fins lucrativos.\n- The business was founded by two college friends.\nA empresa foi fundada por dois amigos da faculdade.",
+      "note": "“Found” como verbo significa “fundar”. O passado e o particípio são “founded”. Não confunda com “found”, passado de “find”: “I found my keys.”"
+    },
+    {
+      "term": "Market leader",
+      "ipa": "/ˈmɑːrkɪt ˌliːdər/",
+      "translation": "líder de mercado",
+      "definition": "A company or product with the largest share or strongest position in a market.",
+      "example": "- The company is a market leader in online payments.\nA empresa é líder de mercado em pagamentos on-line.\n- Their goal is to become the market leader in Brazil.\nO objetivo deles é se tornar líder de mercado no Brasil.\n- The market leader launched a new product this month.\nA líder de mercado lançou um novo produto neste mês.",
+      "note": "Use “a market leader” para uma empresa que está entre as líderes e “the market leader” para a empresa que ocupa a principal posição em determinado mercado."
+    },
+    {
+      "term": "Up and running",
+      "ipa": "/ˌʌp ən ˈrʌnɪŋ/",
+      "translation": "funcionando; em operação",
+      "definition": "Working correctly and ready to be used.",
+      "example": "- The new system is finally up and running.\nO novo sistema finalmente está funcionando.\n- We had the website up and running by Monday.\nNós deixamos o site em funcionamento até segunda-feira.\n- It took two hours to get the machine up and running.\nLevou duas horas para colocar a máquina em operação.",
+      "note": "“Up and running” é usado para sistemas, máquinas, serviços e operações que já estão funcionando. É comum com “be”, “get” e “have”: “is up and running”, “get it up and running”."
+    },
+    {
+      "term": "Fabric",
+      "ipa": "/ˈfæbrɪk/",
+      "translation": "tecido",
+      "definition": "Material made by weaving or joining fibers, used to make clothes and other products.",
+      "example": "- This shirt is made from a soft cotton fabric.\nEsta camisa é feita de um tecido macio de algodão.\n- The factory produces fabric for clothing companies.\nA fábrica produz tecido para empresas de vestuário.\n- We tested the fabric before starting production.\nNós testamos o tecido antes de iniciar a produção.",
+      "note": "“Fabric” significa tecido como material. “Cloth” também pode significar pano ou tecido, mas “fabric” é muito comum na indústria têxtil e na descrição de materiais."
+    },
+    {
+      "term": "Attend",
+      "ipa": "/əˈtend/",
+      "translation": "participar de; comparecer a",
+      "definition": "To be present at an event, meeting, class, or appointment.",
+      "example": "- I will attend the meeting tomorrow morning.\nEu participarei da reunião amanhã de manhã.\n- More than two hundred people attended the conference.\nMais de duzentas pessoas participaram da conferência.\n- She attends an English class twice a week.\nEla frequenta uma aula de inglês duas vezes por semana.",
+      "note": "“Attend” não usa “to” antes do evento: diga “attend a meeting”, não “attend to a meeting”. “Attend to” tem outro sentido: cuidar de algo ou dar atenção a algo."
+    }
+  ],
+  "createdAt": "2026-08-01T02:49:46.812Z",
+  "exercise": {
+    "id": "practice-9ea6c299-446b-432c-8754-56bcdc02fd52",
+    "title": "Lesson 03 B1 Vocabulary Practice",
+    "questions": [
+      {
+        "id": "q-1",
+        "type": "multiple_choice",
+        "target": "headquarters",
+        "prompt": "Which place is the main office of a company?",
+        "options": [
+          "A local branch",
+          "A customer service desk",
+          "The headquarters",
+          "A production line"
+        ],
+        "answer": "The headquarters",
+        "explanation": "“Headquarters” is the main office or central location of an organization."
+      },
+      {
+        "id": "q-2",
+        "type": "fill_blank",
+        "target": "provide",
+        "prompt": "Our company can _____ customers with technical support.",
+        "options": [],
+        "answer": "provide",
+        "explanation": "Use “provide someone with something” when giving or making something available."
+      },
+      {
+        "id": "q-3",
+        "type": "translate_to_english",
+        "target": "branch",
+        "prompt": "A empresa abriu uma nova filial em Curitiba.",
+        "options": [],
+        "answer": "The company opened a new branch in Curitiba.|The company has opened a new branch in Curitiba.",
+        "explanation": "A “branch” is a local office or division of a larger organization."
+      },
+      {
+        "id": "q-4",
+        "type": "multiple_choice",
+        "target": "employee",
+        "prompt": "Which person works for a company in exchange for pay?",
+        "options": [
+          "A customer",
+          "An employee",
+          "A supplier",
+          "A competitor"
+        ],
+        "answer": "An employee",
+        "explanation": "An “employee” is someone who works for a company or organization."
+      },
+      {
+        "id": "q-5",
+        "type": "fill_blank",
+        "target": "attend",
+        "prompt": "More than one hundred people will _____ the conference next week.",
+        "options": [],
+        "answer": "attend",
+        "explanation": "“Attend” means to be present at an event, meeting, or class."
+      },
+      {
+        "id": "q-6",
+        "type": "translate_to_english",
+        "target": "found",
+        "prompt": "Dois engenheiros fundaram a empresa em 2018.",
+        "options": [],
+        "answer": "Two engineers founded the company in 2018.|The company was founded by two engineers in 2018.",
+        "explanation": "“Found” means to establish a company or organization. Its past form is “founded”."
+      },
+      {
+        "id": "q-7",
+        "type": "multiple_choice",
+        "target": "market leader",
+        "prompt": "A company has the strongest position and the largest share in its industry. What is it?",
+        "options": [
+          "A new branch",
+          "A regular customer",
+          "A local supplier",
+          "A market leader"
+        ],
+        "answer": "A market leader",
+        "explanation": "A “market leader” has a leading position in a particular market."
+      },
+      {
+        "id": "q-8",
+        "type": "fill_blank",
+        "target": "up and running",
+        "prompt": "After several tests, the new payment system is finally _____.",
+        "options": [],
+        "answer": "up and running",
+        "explanation": "“Up and running” means working correctly and ready to be used."
+      },
+      {
+        "id": "q-9",
+        "type": "translate_to_english",
+        "target": "fabric",
+        "prompt": "Esta fábrica produz tecido para marcas de roupas.",
+        "options": [],
+        "answer": "This factory produces fabric for clothing brands.|This factory makes fabric for clothing brands.",
+        "explanation": "“Fabric” is material used to make clothes and other products."
+      },
+      {
+        "id": "q-10",
+        "type": "multiple_choice",
+        "target": "customer",
+        "prompt": "Who normally buys a company’s product or service?",
+        "options": [
+          "An employee",
+          "A manager",
+          "A customer",
+          "A colleague"
+        ],
+        "answer": "A customer",
+        "explanation": "A “customer” is a person or organization that buys a product or service."
+      }
+    ]
+  }
+}
