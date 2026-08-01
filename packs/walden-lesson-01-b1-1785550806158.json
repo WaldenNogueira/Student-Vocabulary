@@ -1,0 +1,129 @@
+{
+  "type": "vocabulary-practice-pack",
+  "version": 7,
+  "teacher": "Teacher Walden Nogueira",
+  "teacherWhatsApp": "5541996106689",
+  "student": {
+    "name": "Walden",
+    "whatsapp": "5541996106689"
+  },
+  "lesson": "Lesson 01.b1",
+  "cards": [],
+  "createdAt": "2026-08-01T02:20:06.158Z",
+  "exercise": {
+    "id": "practice-3929e080-9c9f-4ba2-a646-b218165947c3",
+    "title": "Lesson 01.b1",
+    "questions": [
+      {
+        "id": "q-1",
+        "type": "multiple_choice",
+        "target": "wake up",
+        "prompt": "What do you usually do when you stop sleeping in the morning?",
+        "options": [
+          "wake up",
+          "go to bed",
+          "run errands",
+          "work out"
+        ],
+        "answer": "wake up",
+        "explanation": "\"Wake up\" means to stop sleeping."
+      },
+      {
+        "id": "q-2",
+        "type": "multiple_choice",
+        "target": "commute",
+        "prompt": "Which word means traveling regularly between home and work?",
+        "options": [
+          "work out",
+          "get up",
+          "commute",
+          "squeeze in"
+        ],
+        "answer": "commute",
+        "explanation": "A commute is the regular trip between home and work."
+      },
+      {
+        "id": "q-3",
+        "type": "multiple_choice",
+        "target": "run errands",
+        "prompt": "What phrase means going out to complete small tasks like grocery shopping or picking up a prescription?",
+        "options": [
+          "go to bed",
+          "run errands",
+          "wake up",
+          "work out"
+        ],
+        "answer": "run errands",
+        "explanation": "\"Run errands\" means to complete small necessary tasks outside the home."
+      },
+      {
+        "id": "q-4",
+        "type": "multiple_choice",
+        "target": "actually",
+        "prompt": "Which word can correct or clarify something that was just said?",
+        "options": [
+          "eventually",
+          "commute",
+          "actually",
+          "squeeze in"
+        ],
+        "answer": "actually",
+        "explanation": "\"Actually\" is often used to correct or clarify information."
+      },
+      {
+        "id": "q-5",
+        "type": "fill_blank",
+        "target": "get up",
+        "prompt": "I usually _____ as soon as I hear my alarm.",
+        "options": [],
+        "answer": "get up",
+        "explanation": "\"Get up\" means to leave your bed after waking."
+      },
+      {
+        "id": "q-6",
+        "type": "fill_blank",
+        "target": "work out",
+        "prompt": "She tries to _____ at the gym three times a week.",
+        "options": [],
+        "answer": "work out",
+        "explanation": "\"Work out\" means to exercise."
+      },
+      {
+        "id": "q-7",
+        "type": "fill_blank",
+        "target": "squeeze in",
+        "prompt": "Even on busy days, I try to _____ a quick lunch with a friend.",
+        "options": [],
+        "answer": "squeeze in",
+        "explanation": "\"Squeeze in\" means to find time for something in a busy schedule."
+      },
+      {
+        "id": "q-8",
+        "type": "translate_to_english",
+        "target": "go to bed",
+        "prompt": "Eu geralmente vou para a cama às onze.",
+        "options": [],
+        "answer": "I usually go to bed at eleven.|I generally go to bed at eleven.",
+        "explanation": "\"Go to bed\" means to lie down to sleep."
+      },
+      {
+        "id": "q-9",
+        "type": "translate_to_english",
+        "target": "my alarm goes off",
+        "prompt": "Meu despertador toca às seis todas as manhãs.",
+        "options": [],
+        "answer": "My alarm goes off at six every morning.|Every morning, my alarm goes off at six.",
+        "explanation": "\"My alarm goes off\" means that the alarm starts ringing."
+      },
+      {
+        "id": "q-10",
+        "type": "translate_to_english",
+        "target": "eventually",
+        "prompt": "Depois de várias tentativas, ela finalmente conseguiu o emprego.",
+        "options": [],
+        "answer": "After several attempts, she eventually got the job.|She eventually got the job after several attempts.",
+        "explanation": "\"Eventually\" means in the end, after some time or effort."
+      }
+    ]
+  }
+}
