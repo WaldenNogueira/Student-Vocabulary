@@ -1,0 +1,210 @@
+{
+  "type": "vocabulary-practice-pack",
+  "version": 7,
+  "teacher": "Teacher Walden Nogueira",
+  "teacherWhatsApp": "5541996106689",
+  "student": {
+    "name": "Douglas Batista",
+    "whatsapp": "5511976897770"
+  },
+  "lesson": "Lesson 05 B1 Vocabulary Practice",
+  "cards": [
+    {
+      "term": "Spreadsheet",
+      "ipa": "/ˈspredˌʃiːt/",
+      "translation": "planilha",
+      "definition": "A digital document made of rows and columns, used to organize and calculate data.",
+      "example": "- I entered the sales figures into a spreadsheet.\nEu inseri os números de vendas em uma planilha.\n- She created a spreadsheet to track the project budget.\nEla criou uma planilha para acompanhar o orçamento do projeto.\n- Please update the spreadsheet before the meeting.\nPor favor, atualize a planilha antes da reunião.",
+      "note": "“Spreadsheet” é uma planilha digital, como um arquivo do Excel ou Google Sheets. Use “in a spreadsheet” para dados dentro dela e “on the spreadsheet” ao se referir ao documento ou à tela."
+    },
+    {
+      "term": "Log in",
+      "ipa": "/lɔːɡ ɪn/",
+      "translation": "entrar; acessar uma conta",
+      "definition": "To enter a computer system or online account by providing identification information.",
+      "example": "- I log in to the system with my work email.\nEu acesso o sistema com meu e-mail profissional.\n- She logged in before the online training started.\nEla entrou na conta antes de o treinamento on-line começar.\n- You need a password to log in to the platform.\nVocê precisa de uma senha para acessar a plataforma.",
+      "note": "Como verbo, escreva “log in” separado: “log in to the system”. Como substantivo ou adjetivo, “login” costuma ser uma palavra só: “login details” e “the login page”. O passado é “logged in”."
+    },
+    {
+      "term": "Attachment",
+      "ipa": "/əˈtætʃmənt/",
+      "translation": "anexo",
+      "definition": "A file that is sent together with an email or online message.",
+      "example": "- I included the report as an email attachment.\nEu incluí o relatório como anexo do e-mail.\n- She forgot to add the attachment before sending the message.\nEla se esqueceu de adicionar o anexo antes de enviar a mensagem.\n- Please open the attachment and review the document.\nPor favor, abra o anexo e revise o documento.",
+      "note": "As combinações mais comuns são “add an attachment”, “open an attachment” e “send an attachment”. Em e-mails, também é natural dizer “I’ve attached the file”."
+    },
+    {
+      "term": "Update",
+      "ipa": "/ˈʌpdeɪt/",
+      "translation": "atualização; atualizar",
+      "definition": "To add the newest information or make something more current.",
+      "example": "- Please update the customer information in the system.\nPor favor, atualize as informações do cliente no sistema.\n- We updated the software yesterday.\nNós atualizamos o software ontem.\n- I will send you an update after the meeting.\nEu enviarei uma atualização depois da reunião.",
+      "note": "“Update” pode ser verbo ou substantivo. Como verbo, a sílaba tônica costuma estar no final: /ʌpˈdeɪt/. Como substantivo, costuma estar no início: /ˈʌpdeɪt/."
+    },
+    {
+      "term": "Shortcut",
+      "ipa": "/ˈʃɔːrtˌkʌt/",
+      "translation": "atalho",
+      "definition": "A quicker way to reach a place or complete a task.",
+      "example": "- I use a keyboard shortcut to copy and paste text.\nEu uso um atalho de teclado para copiar e colar texto.\n- This icon is a shortcut to the shared folder.\nEste ícone é um atalho para a pasta compartilhada.\n- He took a shortcut through the park and arrived early.\nEle pegou um atalho pelo parque e chegou cedo.",
+      "note": "“Shortcut” pode ser um caminho mais curto ou uma maneira mais rápida de realizar uma tarefa. Em tecnologia, são comuns “keyboard shortcut” e “desktop shortcut”."
+    },
+    {
+      "term": "Crash",
+      "ipa": "/kræʃ/",
+      "translation": "travar; parar de funcionar",
+      "definition": "For a computer program or system to suddenly stop working.",
+      "example": "- The application crashed while I was saving the file.\nO aplicativo travou enquanto eu salvava o arquivo.\n- My computer keeps crashing during video calls.\nMeu computador continua travando durante as videochamadas.\n- The system may crash if too many users log in at once.\nO sistema pode travar se muitos usuários entrarem ao mesmo tempo.",
+      "note": "Em tecnologia, “crash” significa parar de funcionar repentinamente. O passado é “crashed”. Para congelar sem fechar, também se usa “freeze”: “The screen froze.”"
+    },
+    {
+      "term": "Back up",
+      "ipa": "/bæk ʌp/",
+      "translation": "fazer backup; criar uma cópia de segurança",
+      "definition": "To make a copy of digital information so it can be recovered later.",
+      "example": "- Remember to back up your files regularly.\nLembre-se de fazer backup dos seus arquivos regularmente.\n- We backed up the database before installing the update.\nNós fizemos backup do banco de dados antes de instalar a atualização.\n- The system automatically backs up our documents every night.\nO sistema faz backup automático dos nossos documentos todas as noites.",
+      "note": "Como verbo, escreva “back up” separado. Como substantivo ou adjetivo, use “backup”: “make a backup” e “backup file”. O passado é “backed up”."
+    },
+    {
+      "term": "Figure out",
+      "ipa": "/ˈfɪɡjər aʊt/",
+      "translation": "descobrir; entender; resolver",
+      "definition": "To understand something or find the solution to a problem.",
+      "example": "- I am trying to figure out why the file will not open.\nEstou tentando descobrir por que o arquivo não abre.\n- She figured out how to use the new software.\nEla descobriu como usar o novo software.\n- We need to figure out a better way to organize the data.\nPrecisamos encontrar uma maneira melhor de organizar os dados.",
+      "note": "“Figure out” é separável: “figure out the problem” ou “figure the problem out”. Com pronomes, a separação é obrigatória: “figure it out”. O passado é “figured out”."
+    },
+    {
+      "term": "Push",
+      "ipa": "/pʊʃ/",
+      "translation": "empurrar; pressionar; incentivar",
+      "definition": "To move something forward or strongly encourage progress or action.",
+      "example": "- The manager pushed the team to finish the project on time.\nO gerente incentivou a equipe a terminar o projeto no prazo.\n- We need to push the meeting back to Friday.\nPrecisamos adiar a reunião para sexta-feira.\n- She pushed the latest changes to the shared system.\nEla enviou as alterações mais recentes para o sistema compartilhado.",
+      "note": "“Push” pode significar empurrar fisicamente, pressionar alguém a agir ou mover algo no tempo. “Push a meeting back” significa adiar; “push it forward” pode significar antecipar ou fazer avançar, dependendo do contexto."
+    },
+    {
+      "term": "Notice",
+      "ipa": "/ˈnoʊtɪs/",
+      "translation": "perceber; aviso",
+      "definition": "To become aware of something, or a written message that gives information.",
+      "example": "- I noticed an error in the spreadsheet.\nEu percebi um erro na planilha.\n- She noticed that the attachment was missing.\nEla percebeu que o anexo estava faltando.\n- The company posted a notice about the system update.\nA empresa publicou um aviso sobre a atualização do sistema.",
+      "note": "“Notice” pode ser verbo ou substantivo. Como verbo, significa perceber. Como substantivo, significa aviso. O passado é “noticed”. “Notice” costuma indicar perceber algo por observação."
+    }
+  ],
+  "createdAt": "2026-08-01T02:55:19.637Z",
+  "exercise": {
+    "id": "practice-39893b95-6abc-4dc5-8697-0e015a2c12f9",
+    "title": "Lesson 05 B1 Vocabulary Practice",
+    "questions": [
+      {
+        "id": "q-1",
+        "type": "multiple_choice",
+        "target": "spreadsheet",
+        "prompt": "Which digital document organizes information in rows and columns?",
+        "options": [
+          "An attachment",
+          "A shortcut",
+          "A spreadsheet",
+          "A notice"
+        ],
+        "answer": "A spreadsheet",
+        "explanation": "A “spreadsheet” organizes data in rows and columns and can perform calculations."
+      },
+      {
+        "id": "q-2",
+        "type": "fill_blank",
+        "target": "log in",
+        "prompt": "Employees must _____ to the system with their company email addresses.",
+        "options": [],
+        "answer": "log in",
+        "explanation": "“Log in” means to enter a computer system or online account."
+      },
+      {
+        "id": "q-3",
+        "type": "translate_to_english",
+        "target": "attachment",
+        "prompt": "Eu me esqueci de adicionar o anexo ao e-mail.",
+        "options": [],
+        "answer": "I forgot to add the attachment to the email.|I forgot to attach the file to the email.",
+        "explanation": "An “attachment” is a file sent together with an email or message."
+      },
+      {
+        "id": "q-4",
+        "type": "multiple_choice",
+        "target": "crash",
+        "prompt": "The application suddenly closes and stops working. What happened?",
+        "options": [
+          "It logged in",
+          "It backed up",
+          "It updated",
+          "It crashed"
+        ],
+        "answer": "It crashed",
+        "explanation": "When a program “crashes,” it suddenly stops working."
+      },
+      {
+        "id": "q-5",
+        "type": "fill_blank",
+        "target": "update",
+        "prompt": "Please _____ the customer’s contact information in the system.",
+        "options": [],
+        "answer": "update",
+        "explanation": "“Update” means to add the newest information or make something current."
+      },
+      {
+        "id": "q-6",
+        "type": "translate_to_english",
+        "target": "back up",
+        "prompt": "Sempre faça backup dos seus arquivos antes de instalar um programa novo.",
+        "options": [],
+        "answer": "Always back up your files before installing a new program.|Always back up your files before you install a new program.",
+        "explanation": "“Back up” means to make a copy of digital information for protection."
+      },
+      {
+        "id": "q-7",
+        "type": "multiple_choice",
+        "target": "shortcut",
+        "prompt": "Pressing Ctrl+C instead of opening a menu is an example of what?",
+        "options": [
+          "A shortcut",
+          "An attachment",
+          "A system crash",
+          "A software update"
+        ],
+        "answer": "A shortcut",
+        "explanation": "A “shortcut” is a faster way to complete a task."
+      },
+      {
+        "id": "q-8",
+        "type": "fill_blank",
+        "target": "figure out",
+        "prompt": "We need to _____ why the report is showing the wrong totals.",
+        "options": [],
+        "answer": "figure out",
+        "explanation": "“Figure out” means to understand something or find the solution to a problem."
+      },
+      {
+        "id": "q-9",
+        "type": "translate_to_english",
+        "target": "notice",
+        "prompt": "Eu percebi um erro na planilha.",
+        "options": [],
+        "answer": "I noticed an error in the spreadsheet.|I noticed a mistake in the spreadsheet.",
+        "explanation": "As a verb, “notice” means to become aware of something."
+      },
+      {
+        "id": "q-10",
+        "type": "multiple_choice",
+        "target": "push",
+        "prompt": "The team needs more time, so the manager decides to move the deadline to next week. What will the manager do?",
+        "options": [
+          "Back up the deadline",
+          "Push the deadline back",
+          "Log in to the deadline",
+          "Attach the deadline"
+        ],
+        "answer": "Push the deadline back",
+        "explanation": "“Push a deadline back” means to move it to a later date."
+      }
+    ]
+  }
+}
