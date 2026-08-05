@@ -1,0 +1,210 @@
+{
+  "type": "vocabulary-practice-pack",
+  "version": 7,
+  "teacher": "Teacher Walden Nogueira",
+  "teacherWhatsApp": "5541996106689",
+  "student": {
+    "name": "Douglas Batista",
+    "whatsapp": "5511976897770"
+  },
+  "lesson": "Lesson 06 B1 Vocabulary Practice",
+  "cards": [
+    {
+      "term": "Subject line",
+      "ipa": "/ˈsʌbdʒekt laɪn/",
+      "translation": "linha de assunto; assunto do e-mail",
+      "definition": "The short title that indicates what an email is about.",
+      "example": "- Write a clear subject line before sending the email.\nEscreva um assunto claro antes de enviar o e-mail.\n- The subject line did not explain the purpose of the message.\nA linha de assunto não explicava o objetivo da mensagem.\n- I changed the subject line to make the email easier to find.\nEu alterei o assunto para facilitar a localização do e-mail.",
+      "note": "“Subject line” é o campo de assunto do e-mail. Use frases curtas e específicas, como “Updated Sales Report” ou “Meeting Rescheduled”."
+    },
+    {
+      "term": "Inbox",
+      "ipa": "/ˈɪnˌbɑːks/",
+      "translation": "caixa de entrada",
+      "definition": "The folder where new email messages are received.",
+      "example": "- I check my inbox first thing in the morning.\nEu verifico minha caixa de entrada logo pela manhã.\n- Her inbox was full after the vacation.\nA caixa de entrada dela estava cheia depois das férias.\n- The confirmation email should be in your inbox.\nO e-mail de confirmação deve estar na sua caixa de entrada.",
+      "note": "“Inbox” é a pasta onde chegam novas mensagens. “Outbox” é a caixa de saída, e “sent folder” é a pasta de mensagens enviadas."
+    },
+    {
+      "term": "Reply",
+      "ipa": "/rɪˈplaɪ/",
+      "translation": "responder; resposta",
+      "definition": "To answer a message, email, or question.",
+      "example": "- Please reply to the customer before noon.\nPor favor, responda ao cliente antes do meio-dia.\n- She replied to my email yesterday.\nEla respondeu ao meu e-mail ontem.\n- I am still waiting for his reply.\nEu ainda estou esperando a resposta dele.",
+      "note": "“Reply” pode ser verbo ou substantivo. Como verbo, use “reply to”: “reply to an email”. O passado e o particípio são “replied”."
+    },
+    {
+      "term": "Cc",
+      "ipa": "/ˌsiː ˈsiː/",
+      "translation": "colocar em cópia; copiar alguém no e-mail",
+      "definition": "To send a copy of an email to an additional recipient.",
+      "example": "- Please cc the project manager on the email.\nPor favor, coloque o gerente do projeto em cópia no e-mail.\n- She cc'd me on the message to the client.\nEla me colocou em cópia na mensagem para o cliente.\n- I will cc the finance team so they can follow the discussion.\nVou colocar a equipe financeira em cópia para que acompanhe a discussão.",
+      "note": "“CC” significa “carbon copy”. Use “cc someone on an email”. Para esconder os destinatários copiados, use “BCC”, que significa “blind carbon copy”."
+    },
+    {
+      "term": "Draft",
+      "ipa": "/dræft/",
+      "translation": "rascunho",
+      "definition": "An unfinished version of a document, message, or email.",
+      "example": "- I saved the email as a draft.\nEu salvei o e-mail como rascunho.\n- She sent me the first draft of the report.\nEla me enviou o primeiro rascunho do relatório.\n- Please review the draft before I send it to the client.\nPor favor, revise o rascunho antes que eu o envie ao cliente.",
+      "note": "“Draft” é uma versão ainda não finalizada. É comum dizer “first draft”, “final draft”, “save as a draft” e “draft an email”."
+    },
+    {
+      "term": "Typo",
+      "ipa": "/ˈtaɪpoʊ/",
+      "translation": "erro de digitação",
+      "definition": "A small mistake made while typing a word or text.",
+      "example": "- I noticed a typo in the subject line.\nEu percebi um erro de digitação no assunto.\n- The email had two typos, so I corrected them.\nO e-mail tinha dois erros de digitação, então eu os corrigi.\n- A simple typo changed the meaning of the sentence.\nUm simples erro de digitação mudou o sentido da frase.",
+      "note": "“Typo” é uma forma informal e muito comum de “typographical error”. Refere-se a erro de digitação, não necessariamente a erro gramatical."
+    },
+    {
+      "term": "Please find attached",
+      "ipa": "/pliːz faɪnd əˈtætʃt/",
+      "translation": "segue anexo; favor encontrar em anexo",
+      "definition": "A formal email phrase used to indicate that a file is included with the message.",
+      "example": "- Please find attached the updated contract.\nSegue anexo o contrato atualizado.\n- Please find attached my résumé for your review.\nSegue anexo meu currículo para sua análise.\n- Please find the requested spreadsheet attached.\nSegue anexa a planilha solicitada.",
+      "note": "“Please find attached” é correto, mas bastante formal. Em e-mails mais naturais, use “I’ve attached the report” ou “The report is attached”."
+    },
+    {
+      "term": "I look forward to hearing from you",
+      "ipa": "/aɪ lʊk ˈfɔːrwərd tə ˈhɪrɪŋ frəm juː/",
+      "translation": "aguardo seu retorno; fico no aguardo de sua resposta",
+      "definition": "A polite closing phrase used to say that you expect or hope to receive a response.",
+      "example": "- I look forward to hearing from you soon.\nAguardo seu retorno em breve.\n- Thank you for your time. I look forward to hearing from you.\nObrigado pelo seu tempo. Fico no aguardo de sua resposta.\n- We look forward to hearing from you after the meeting.\nAguardamos seu retorno depois da reunião.",
+      "note": "Depois de “look forward to”, use substantivo ou verbo com “-ing”: “look forward to hearing”, não “look forward to hear”. É uma frase educada e comum no fechamento de e-mails."
+    },
+    {
+      "term": "Sensible",
+      "ipa": "/ˈsensəbəl/",
+      "translation": "sensato; razoável",
+      "definition": "Showing good judgment and making practical decisions.",
+      "example": "- That sounds like a sensible solution.\nIsso parece uma solução sensata.\n- She made a sensible decision based on the available data.\nEla tomou uma decisão razoável com base nos dados disponíveis.\n- It would be sensible to back up the files first.\nSeria sensato fazer backup dos arquivos primeiro.",
+      "note": "“Sensible” significa sensato ou razoável. Não significa “sensível”. Para “sensível”, use “sensitive”."
+    },
+    {
+      "term": "Realize",
+      "ipa": "/ˈriːəlaɪz/",
+      "translation": "perceber; dar-se conta",
+      "definition": "To become aware of or understand something clearly.",
+      "example": "- I realized that I had attached the wrong file.\nEu percebi que havia anexado o arquivo errado.\n- She did not realize the meeting had been canceled.\nEla não percebeu que a reunião havia sido cancelada.\n- We realized the mistake before sending the email.\nNós percebemos o erro antes de enviar o e-mail.",
+      "note": "“Realize” geralmente significa perceber ou dar-se conta, não realizar no sentido de executar. Para “realizar uma tarefa”, use “carry out”, “perform” ou “complete”. O passado é “realized”."
+    }
+  ],
+  "createdAt": "2026-08-05T00:59:53.032Z",
+  "exercise": {
+    "id": "practice-0df753b2-1277-4110-bb7e-2ae030daf2b7",
+    "title": "Lesson 06 B1 Vocabulary Practice",
+    "questions": [
+      {
+        "id": "q-1",
+        "type": "multiple_choice",
+        "target": "subject line",
+        "prompt": "Which part of an email briefly tells the reader what the message is about?",
+        "options": [
+          "The inbox",
+          "The attachment",
+          "The subject line",
+          "The draft"
+        ],
+        "answer": "The subject line",
+        "explanation": "The “subject line” is the short title that describes the purpose of an email."
+      },
+      {
+        "id": "q-2",
+        "type": "fill_blank",
+        "target": "reply",
+        "prompt": "Please _____ to the customer before the end of the day.",
+        "options": [],
+        "answer": "reply",
+        "explanation": "“Reply” means to answer a message or email."
+      },
+      {
+        "id": "q-3",
+        "type": "translate_to_english",
+        "target": "cc",
+        "prompt": "Por favor, coloque o gerente em cópia no e-mail.",
+        "options": [],
+        "answer": "Please cc the manager on the email.|Please CC the manager on the email.",
+        "explanation": "Use “cc someone on an email” when sending that person a copy."
+      },
+      {
+        "id": "q-4",
+        "type": "multiple_choice",
+        "target": "sensible",
+        "prompt": "Which word describes a practical decision based on good judgment?",
+        "options": [
+          "Sensitive",
+          "Sensible",
+          "Attached",
+          "Unfinished"
+        ],
+        "answer": "Sensible",
+        "explanation": "“Sensible” means practical and based on good judgment."
+      },
+      {
+        "id": "q-5",
+        "type": "fill_blank",
+        "target": "draft",
+        "prompt": "I have not finished the email yet, so I saved it as a _____.",
+        "options": [],
+        "answer": "draft",
+        "explanation": "A “draft” is an unfinished version of a document or message."
+      },
+      {
+        "id": "q-6",
+        "type": "translate_to_english",
+        "target": "please find attached",
+        "prompt": "Segue anexo o relatório atualizado.",
+        "options": [],
+        "answer": "Please find attached the updated report.|Please find the updated report attached.",
+        "explanation": "“Please find attached” is a formal way to indicate that a file is included."
+      },
+      {
+        "id": "q-7",
+        "type": "multiple_choice",
+        "target": "typo",
+        "prompt": "You accidentally type “manger” instead of “manager.” What is this?",
+        "options": [
+          "A reply",
+          "A draft",
+          "A subject line",
+          "A typo"
+        ],
+        "answer": "A typo",
+        "explanation": "A “typo” is a small mistake made while typing."
+      },
+      {
+        "id": "q-8",
+        "type": "fill_blank",
+        "target": "inbox",
+        "prompt": "The confirmation email should be waiting in your _____.",
+        "options": [],
+        "answer": "inbox",
+        "explanation": "The “inbox” is the folder where new email messages are received."
+      },
+      {
+        "id": "q-9",
+        "type": "translate_to_english",
+        "target": "I look forward to hearing from you",
+        "prompt": "Aguardo seu retorno em breve.",
+        "options": [],
+        "answer": "I look forward to hearing from you soon.|I look forward to hearing from you.",
+        "explanation": "This is a polite phrase used to close an email and express that you expect a response."
+      },
+      {
+        "id": "q-10",
+        "type": "multiple_choice",
+        "target": "realize",
+        "prompt": "Which sentence means that someone suddenly became aware of a mistake?",
+        "options": [
+          "She replied to the message.",
+          "She drafted the message.",
+          "She realized the file was missing.",
+          "She cc'd the manager."
+        ],
+        "answer": "She realized the file was missing.",
+        "explanation": "“Realize” means to become aware of or understand something clearly."
+      }
+    ]
+  }
+}
