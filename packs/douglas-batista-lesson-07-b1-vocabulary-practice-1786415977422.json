@@ -1,0 +1,210 @@
+{
+  "type": "vocabulary-practice-pack",
+  "version": 7,
+  "teacher": "Teacher Walden Nogueira",
+  "teacherWhatsApp": "5541996106689",
+  "student": {
+    "name": "Douglas Batista",
+    "whatsapp": "5511976897770"
+  },
+  "lesson": "Lesson 07 B1 Vocabulary Practice",
+  "cards": [
+    {
+      "term": "Hang up",
+      "ipa": "/hæŋ ʌp/",
+      "translation": "desligar o telefone; encerrar uma ligação",
+      "definition": "To end a phone call by disconnecting it.",
+      "example": "- Please do not hang up while I check your account.\nPor favor, não desligue enquanto verifico sua conta.\n- She hung up before I could answer her question.\nEla desligou antes que eu pudesse responder à pergunta dela.\n- I need to hang up now, but I will call you later.\nPreciso desligar agora, mas ligarei para você mais tarde.",
+      "note": "“Hang up” é separável: “hang up the phone” ou “hang the phone up”. O passado e o particípio são “hung up”."
+    },
+    {
+      "term": "Call back",
+      "ipa": "/kɔːl bæk/",
+      "translation": "ligar de volta; retornar uma ligação",
+      "definition": "To make another phone call to someone who called earlier.",
+      "example": "- I am in a meeting, so I will call you back later.\nEstou em uma reunião, então ligarei de volta mais tarde.\n- She called the customer back after lunch.\nEla retornou a ligação do cliente depois do almoço.\n- Could you ask him to call me back?\nVocê poderia pedir para ele me ligar de volta?",
+      "note": "“Call back” é separável: “call the customer back” ou “call back the customer”. Com pronome, use “call me back”. O passado é “called back”."
+    },
+    {
+      "term": "Mute",
+      "ipa": "/mjuːt/",
+      "translation": "silenciar; colocar no mudo",
+      "definition": "To turn off the sound from a microphone, device, or conversation.",
+      "example": "- Please mute your microphone when you are not speaking.\nPor favor, silencie seu microfone quando não estiver falando.\n- I muted the call because there was noise in the background.\nEu coloquei a ligação no mudo porque havia barulho ao fundo.\n- You are still on mute.\nVocê ainda está no mudo.",
+      "note": "“Mute” pode ser verbo, substantivo ou adjetivo. Em reuniões on-line, são comuns “mute your microphone”, “unmute yourself” e “you’re on mute”."
+    },
+    {
+      "term": "Voicemail",
+      "ipa": "/ˈvɔɪsˌmeɪl/",
+      "translation": "correio de voz; mensagem de voz telefônica",
+      "definition": "A system that records phone messages when someone cannot answer a call.",
+      "example": "- I left you a voicemail this morning.\nEu deixei uma mensagem no seu correio de voz esta manhã.\n- Her phone went straight to voicemail.\nO telefone dela foi direto para o correio de voz.\n- Please check your voicemail after the meeting.\nPor favor, verifique seu correio de voz depois da reunião.",
+      "note": "As combinações mais comuns são “leave a voicemail”, “check your voicemail” e “go straight to voicemail”."
+    },
+    {
+      "term": "Speak up",
+      "ipa": "/spiːk ʌp/",
+      "translation": "falar mais alto; manifestar-se",
+      "definition": "To speak more loudly or express an opinion openly.",
+      "example": "- Could you speak up? I cannot hear you clearly.\nVocê poderia falar mais alto? Não consigo ouvir você claramente.\n- She spoke up during the meeting and shared her concerns.\nEla se manifestou durante a reunião e compartilhou suas preocupações.\n- Please speak up if you disagree with the proposal.\nPor favor, manifeste-se se você discordar da proposta.",
+      "note": "“Speak up” pode significar falar mais alto ou expressar uma opinião. O passado é “spoke up” e o particípio é “spoken up”."
+    },
+    {
+      "term": "Dial",
+      "ipa": "/ˈdaɪəl/",
+      "translation": "discar; ligar para um número",
+      "definition": "To enter a phone number in order to make a call.",
+      "example": "- Dial nine before entering the external number.\nDisque nove antes de digitar o número externo.\n- I dialed the wrong number by mistake.\nEu disquei o número errado por engano.\n- You can dial the extension after the message.\nVocê pode digitar o ramal depois da mensagem.",
+      "note": "“Dial” continua sendo usado para digitar um número de telefone. O passado e o particípio são “dialed” no inglês americano."
+    },
+    {
+      "term": "Put someone on hold",
+      "ipa": "/pʊt ˈsʌmwʌn ɑːn hoʊld/",
+      "translation": "colocar alguém em espera",
+      "definition": "To temporarily pause a phone call while the caller remains connected.",
+      "example": "- May I put you on hold for a moment?\nPosso colocar você em espera por um momento?\n- The receptionist put me on hold while she contacted the manager.\nA recepcionista me colocou em espera enquanto contatava o gerente.\n- Please do not put the customer on hold for too long.\nPor favor, não deixe o cliente em espera por muito tempo.",
+      "note": "A estrutura é “put + pessoa + on hold”: “put me on hold”. O passado e o particípio de “put” continuam sendo “put”."
+    },
+    {
+      "term": "You're breaking up",
+      "ipa": "/jʊr ˈbreɪkɪŋ ʌp/",
+      "translation": "sua voz está cortando; a ligação está falhando",
+      "definition": "Used to say that someone's voice is unclear because of a poor connection.",
+      "example": "- You are breaking up, so I cannot hear the full sentence.\nSua voz está cortando, então não consigo ouvir a frase inteira.\n- Sorry, you were breaking up for a few seconds.\nDesculpe, sua voz estava cortando por alguns segundos.\n- I think you are breaking up because the signal is weak.\nAcho que sua voz está falhando porque o sinal está fraco.",
+      "note": "Em ligações, “you’re breaking up” significa que o áudio está cortando. Não confunda com “break up with someone”, que significa terminar um relacionamento."
+    },
+    {
+      "term": "Compromise",
+      "ipa": "/ˈkɑːmprəmaɪz/",
+      "translation": "acordo; meio-termo; chegar a um acordo",
+      "definition": "An agreement in which each side accepts less than it originally wanted.",
+      "example": "- We reached a compromise after a long discussion.\nNós chegamos a um acordo depois de uma longa discussão.\n- Both departments compromised on the delivery date.\nOs dois departamentos chegaram a um meio-termo sobre a data de entrega.\n- A good compromise should address both sides’ main concerns.\nUm bom acordo deve considerar as principais preocupações dos dois lados.",
+      "note": "“Compromise” pode ser substantivo ou verbo. Use “reach a compromise” para chegar a um acordo e “compromise on something” para negociar um ponto específico."
+    },
+    {
+      "term": "Lecture",
+      "ipa": "/ˈlektʃər/",
+      "translation": "palestra; aula expositiva; sermão",
+      "definition": "A formal talk that teaches or explains a subject to an audience.",
+      "example": "- We attended a lecture on workplace communication.\nNós participamos de uma palestra sobre comunicação no trabalho.\n- The professor gave a lecture about international business.\nO professor deu uma aula expositiva sobre negócios internacionais.\n- My manager lectured me about being late.\nMeu gerente me deu um sermão por ter chegado atrasado.",
+      "note": "Como substantivo, “lecture” é palestra ou aula expositiva. Como verbo, pode significar dar uma palestra ou dar um sermão."
+    }
+  ],
+  "createdAt": "2026-08-11T02:39:37.421Z",
+  "exercise": {
+    "id": "practice-2aee09b4-4f6c-42a3-9afb-36c92cee67d0",
+    "title": "Lesson 07 B1 Vocabulary Practice",
+    "questions": [
+      {
+        "id": "q-1",
+        "type": "multiple_choice",
+        "target": "voicemail",
+        "prompt": "What system records a message when someone does not answer the phone?",
+        "options": [
+          "A lecture",
+          "Voicemail",
+          "A compromise",
+          "A conference line"
+        ],
+        "answer": "Voicemail",
+        "explanation": "“Voicemail” records phone messages when a call cannot be answered."
+      },
+      {
+        "id": "q-2",
+        "type": "fill_blank",
+        "target": "hang up",
+        "prompt": "Please do not _____ while I transfer your call.",
+        "options": [],
+        "answer": "hang up",
+        "explanation": "“Hang up” means to end a phone call."
+      },
+      {
+        "id": "q-3",
+        "type": "translate_to_english",
+        "target": "call back",
+        "prompt": "Estou em uma reunião agora, mas ligo de volta mais tarde.",
+        "options": [],
+        "answer": "I am in a meeting now, but I will call back later.|I'm in a meeting now, but I'll call you back later.",
+        "explanation": "“Call back” means to return someone’s phone call."
+      },
+      {
+        "id": "q-4",
+        "type": "multiple_choice",
+        "target": "you're breaking up",
+        "prompt": "The connection is poor and the other person’s voice keeps cutting out. What should you say?",
+        "options": [
+          "You are on hold.",
+          "You are on mute.",
+          "You are breaking up.",
+          "You are speaking up."
+        ],
+        "answer": "You are breaking up.",
+        "explanation": "“You’re breaking up” means the other person’s voice is unclear because of a poor connection."
+      },
+      {
+        "id": "q-5",
+        "type": "fill_blank",
+        "target": "mute",
+        "prompt": "Please _____ your microphone when you are not speaking.",
+        "options": [],
+        "answer": "mute",
+        "explanation": "“Mute” means to turn off the sound from a microphone or device."
+      },
+      {
+        "id": "q-6",
+        "type": "translate_to_english",
+        "target": "put someone on hold",
+        "prompt": "Posso colocar você em espera por um momento?",
+        "options": [],
+        "answer": "May I put you on hold for a moment?|Can I put you on hold for a moment?",
+        "explanation": "“Put someone on hold” means to pause a call while the person remains connected."
+      },
+      {
+        "id": "q-7",
+        "type": "multiple_choice",
+        "target": "compromise",
+        "prompt": "Two teams accept part of each other’s proposal to reach an agreement. What have they reached?",
+        "options": [
+          "A voicemail",
+          "A lecture",
+          "A compromise",
+          "A callback"
+        ],
+        "answer": "A compromise",
+        "explanation": "A “compromise” is an agreement in which both sides accept less than they originally wanted."
+      },
+      {
+        "id": "q-8",
+        "type": "fill_blank",
+        "target": "dial",
+        "prompt": "To reach the external line, _____ nine before entering the phone number.",
+        "options": [],
+        "answer": "dial",
+        "explanation": "“Dial” means to enter a phone number in order to make a call."
+      },
+      {
+        "id": "q-9",
+        "type": "translate_to_english",
+        "target": "speak up",
+        "prompt": "Você poderia falar mais alto? Não consigo ouvir você.",
+        "options": [],
+        "answer": "Could you speak up? I cannot hear you.|Could you speak up? I can't hear you.",
+        "explanation": "“Speak up” means to speak more loudly."
+      },
+      {
+        "id": "q-10",
+        "type": "multiple_choice",
+        "target": "lecture",
+        "prompt": "A professor gives a formal talk to explain a subject to a group of students. What is this?",
+        "options": [
+          "A callback",
+          "A lecture",
+          "A voicemail",
+          "A compromise"
+        ],
+        "answer": "A lecture",
+        "explanation": "A “lecture” is a formal educational talk given to an audience."
+      }
+    ]
+  }
+}
