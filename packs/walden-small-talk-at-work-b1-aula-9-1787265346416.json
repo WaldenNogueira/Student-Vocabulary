@@ -1,0 +1,215 @@
+{
+  "type": "vocabulary-practice-pack",
+  "version": 7,
+  "teacher": "Teacher Walden Nogueira",
+  "teacherWhatsApp": "5541996106689",
+  "student": {
+    "name": "Walden",
+    "whatsapp": "5511951700314"
+  },
+  "lesson": "Small talk at work (B1 · Aula 9)",
+  "cards": [
+    {
+      "term": "Weekend",
+      "ipa": "/ˌwiːkˈend/",
+      "translation": "fim de semana",
+      "definition": "Saturday and Sunday, when most people do not work.",
+      "example": "- How was your weekend? Did you relax a little?\nComo foi seu fim de semana? Descansou um pouco?",
+      "note": "AmE: on the weekend; BrE: at the weekend."
+    },
+    {
+      "term": "Weather",
+      "ipa": "/ˈweðər/",
+      "translation": "tempo, clima (do dia)",
+      "definition": "The condition of the air outside: sun, rain, wind, temperature.",
+      "example": "- The weather is crazy today — sun, rain, sun again.\nO tempo está maluco hoje — sol, chuva, sol de novo.",
+      "note": "Clima de um lugar (padrão do ano) = climate."
+    },
+    {
+      "term": "Traffic",
+      "ipa": "/ˈtræfɪk/",
+      "translation": "trânsito",
+      "definition": "The cars and buses moving on the roads.",
+      "example": "- The traffic was terrible this morning — forty minutes on Paulista.\nO trânsito estava terrível hoje de manhã — quarenta minutos na Paulista.",
+      "note": "Incontável: the traffic IS bad (nunca “are”)."
+    },
+    {
+      "term": "Plans",
+      "ipa": "/plænz/",
+      "translation": "planos",
+      "definition": "The things you have decided to do in the future.",
+      "example": "- Any plans for tonight?\nAlgum plano para hoje à noite?",
+      "note": "Any plans for…? é a pergunta social padrão de sexta-feira."
+    },
+    {
+      "term": "Holiday",
+      "ipa": "/ˈhɑːlədeɪ/",
+      "translation": "feriado",
+      "definition": "A day when people do not work, usually for a national celebration.",
+      "example": "- Thursday is a holiday, so the office will be quiet on Friday.\nQuinta é feriado, então o escritório vai estar vazio na sexta.",
+      "note": "AmE: férias = vacation; BrE usa holiday para férias também."
+    },
+    {
+      "term": "Catch up",
+      "ipa": "/ˌkætʃ ˈʌp/",
+      "translation": "pôr o papo em dia",
+      "definition": "To meet someone and share news after some time apart.",
+      "example": "- Let’s catch up over coffee — it has been a month!\nVamos pôr o papo em dia num café — já faz um mês!",
+      "note": "Catch up on work = pôr o trabalho em dia."
+    },
+    {
+      "term": "How's it going?",
+      "ipa": "",
+      "translation": "como vão as coisas? e aí?",
+      "definition": "A friendly, informal way of asking how someone is.",
+      "example": "- — How’s it going? — Pretty good! Busy week, though.\n— E aí, como vai? — Tudo certo! Semana corrida, mas bem.",
+      "note": "Resposta curta e positiva (pretty good), não um relatório da vida."
+    },
+    {
+      "term": "Long time no see!",
+      "ipa": "",
+      "translation": "quanto tempo!",
+      "definition": "A friendly phrase used when you meet someone after a long time.",
+      "example": "- Long time no see! How have you been?\nQuanto tempo! Como você tem passado?",
+      "note": "Expressão fixa e informal — universal em qualquer escritório."
+    },
+    {
+      "term": "Parents",
+      "ipa": "/ˈperənts/",
+      "translation": "pais (pai e mãe)",
+      "definition": "Your mother and your father.",
+      "example": "- My parents visit us every holiday.\nMeus pais nos visitam em todo feriado.",
+      "note": "“Parentes” = relatives. My parents = meus pais, só os dois."
+    },
+    {
+      "term": "Costume",
+      "ipa": "/ˈkɑːstuːm/",
+      "translation": "fantasia (de festa)",
+      "definition": "Special clothes worn to look like someone or something else.",
+      "example": "- Nice costume! Was the party fun?\nQue fantasia legal! A festa foi boa?",
+      "note": "“Costume (hábito)” = custom ou habit."
+    }
+  ],
+  "createdAt": "2026-08-20T22:35:46.416Z",
+  "exercise": {
+    "id": "practice-b1-aula9-small-talk-at-work",
+    "title": "Small talk at work (B1 · Aula 9)",
+    "questions": [
+      {
+        "id": "q-1",
+        "type": "multiple_choice",
+        "target": "weekend",
+        "prompt": "Which one is correct in American English?",
+        "options": [
+          "on the weekend",
+          "in the weekend",
+          "at weekend",
+          "on weekend"
+        ],
+        "answer": "on the weekend",
+        "explanation": "“On the weekend” (US) or “at the weekend” (UK). “In” comes from the Portuguese “no”."
+      },
+      {
+        "id": "q-2",
+        "type": "multiple_choice",
+        "target": "weather",
+        "prompt": "You want a description of today's conditions outside. You ask:",
+        "options": [
+          "What's the weather like?",
+          "How is the weather like?",
+          "What weather is?",
+          "How does the weather?"
+        ],
+        "answer": "What's the weather like?",
+        "explanation": "“What's it like?” is how English asks for a description."
+      },
+      {
+        "id": "q-3",
+        "type": "fill_blank",
+        "target": "traffic",
+        "prompt": "The _____ was terrible this morning — forty minutes on Paulista.",
+        "options": [],
+        "answer": "traffic",
+        "explanation": "“Traffic” is uncountable: no “a traffic”, no “traffics”, singular verb."
+      },
+      {
+        "id": "q-4",
+        "type": "fill_blank",
+        "target": "plans",
+        "prompt": "Any _____ for tonight?",
+        "options": [],
+        "answer": "plans",
+        "explanation": "In this expression the word is always plural."
+      },
+      {
+        "id": "q-5",
+        "type": "translate_to_english",
+        "target": "holiday",
+        "prompt": "Quinta é feriado, então a sexta vai ser vazia no escritório.",
+        "options": [],
+        "answer": "Thursday is a holiday, so the office will be quiet on Friday.|Thursday is a holiday, so Friday will be quiet at the office.",
+        "explanation": "“A holiday” is countable here: one specific day off."
+      },
+      {
+        "id": "q-6",
+        "type": "fill_blank",
+        "target": "catch up",
+        "prompt": "Let's _____ over coffee — it has been a month!",
+        "options": [],
+        "answer": "catch up",
+        "explanation": "“Catch up OVER coffee”: “over” is the preposition for doing something while eating or drinking."
+      },
+      {
+        "id": "q-7",
+        "type": "fill_blank",
+        "target": "How's it going?",
+        "prompt": "— _____ — Not bad, thanks. Busy week.",
+        "options": [],
+        "answer": "How's it going?",
+        "explanation": "Informal and very common; the expected answer is short."
+      },
+      {
+        "id": "q-8",
+        "type": "multiple_choice",
+        "target": "Long time no see!",
+        "prompt": "You meet a colleague you have not seen for a year. You say:",
+        "options": [
+          "Long time no see!",
+          "Long time not see!",
+          "Much time no see!",
+          "Long time without see!"
+        ],
+        "answer": "Long time no see!",
+        "explanation": "A fixed phrase — it breaks grammar on purpose and cannot be changed."
+      },
+      {
+        "id": "q-9",
+        "type": "multiple_choice",
+        "target": "parents",
+        "prompt": "You mean your uncles, cousins and grandparents. You say:",
+        "options": [
+          "my relatives",
+          "my parents",
+          "my parentages",
+          "my familiars"
+        ],
+        "answer": "my relatives",
+        "explanation": "“Parents” is only mother and father. The Portuguese “parentes” is “relatives”."
+      },
+      {
+        "id": "q-10",
+        "type": "multiple_choice",
+        "target": "costume",
+        "prompt": "You wear a suit and tie to the office. You wear a…",
+        "options": [
+          "suit",
+          "costume",
+          "custom",
+          "clothing"
+        ],
+        "answer": "suit",
+        "explanation": "“Costume” is a party or theatre outfit. The Portuguese “costume” (habit) is “custom”."
+      }
+    ]
+  }
+}
