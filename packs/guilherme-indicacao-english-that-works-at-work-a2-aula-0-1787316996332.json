@@ -1,0 +1,210 @@
+{
+  "type": "vocabulary-practice-pack",
+  "version": 7,
+  "teacher": "Teacher Walden Nogueira",
+  "teacherWhatsApp": "5541996106689",
+  "student": {
+    "name": "Guilherme indicação",
+    "whatsapp": "556198907657"
+  },
+  "lesson": "English that works at work (A2 · Aula 0)",
+  "cards": [
+    {
+      "term": "Deadline",
+      "ipa": "/ˈdedlaɪn/",
+      "translation": "prazo final",
+      "definition": "The last day or time when something must be finished.",
+      "example": "- The deadline is Friday, so I need your part by Thursday.\nO prazo é sexta, então preciso da sua parte até quinta.",
+      "note": "Meet a deadline (cumprir) x miss a deadline (perder)."
+    },
+    {
+      "term": "Meeting",
+      "ipa": "/ˈmiːtɪŋ/",
+      "translation": "reunião",
+      "definition": "A time when people come together to talk about work.",
+      "example": "- We have a short meeting every Monday to organize the week.\nTemos uma reunião curta toda segunda para organizar a semana.",
+      "note": "Have/attend a meeting; set up a meeting = marcar."
+    },
+    {
+      "term": "Report",
+      "ipa": "/rɪˈpɔːrt/",
+      "translation": "relatório; relatar",
+      "definition": "A document with information about work that was done.",
+      "example": "- I send the sales report to my manager every Friday.\nEnvio o relatório de vendas para minha gestora toda sexta.",
+      "note": "Write/send a report. Como verbo: report to = ser subordinado a."
+    },
+    {
+      "term": "Client",
+      "ipa": "/ˈklaɪənt/",
+      "translation": "cliente (de serviços)",
+      "definition": "A person or company that pays you for a service.",
+      "example": "- Our biggest client is in Portugal, so we speak English every day.\nNosso maior cliente é de Portugal, então falamos inglês todos os dias.",
+      "note": "Cliente de loja/produto é customer."
+    },
+    {
+      "term": "Busy",
+      "ipa": "/ˈbɪzi/",
+      "translation": "ocupado",
+      "definition": "Having a lot to do and no free time.",
+      "example": "- I'm busy until three, but I'm free after that.\nEstou ocupado até as três, mas fico livre depois disso.",
+      "note": "Busy WITH algo; a busy week = uma semana cheia."
+    },
+    {
+      "term": "Ready",
+      "ipa": "/ˈredi/",
+      "translation": "pronto",
+      "definition": "Finished and prepared to be used or shown.",
+      "example": "- The presentation is almost ready — I just need the numbers.\nA apresentação está quase pronta — só faltam os números.",
+      "note": "Be ready FOR algo ou ready TO + verbo."
+    },
+    {
+      "term": "Could you send me…?",
+      "ipa": "",
+      "translation": "você poderia me enviar…?",
+      "definition": "A polite way to ask someone to send you something.",
+      "example": "- Could you send me the file before the meeting, please?\nVocê poderia me enviar o arquivo antes da reunião, por favor?",
+      "note": "Fórmula educada universal: Could you + verbo. Muito melhor que “Send me”."
+    },
+    {
+      "term": "I'll get back to you",
+      "ipa": "",
+      "translation": "eu te retorno / eu te dou um retorno",
+      "definition": "Used to say you will answer later, when you have the information.",
+      "example": "- I don't have the answer now — I'll get back to you today.\nNão tenho a resposta agora — eu te retorno hoje.",
+      "note": "Salva qualquer situação em que você não sabe a resposta na hora."
+    },
+    {
+      "term": "Attend",
+      "ipa": "/əˈtend/",
+      "translation": "comparecer a, participar de",
+      "definition": "To go to a meeting, class or event.",
+      "example": "- I attend the weekly meeting, and I answer the phone when my colleague is out.\nParticipo da reunião semanal e atendo o telefone quando meu colega não está.",
+      "note": "“Atender o telefone” é answer the phone — nunca attend."
+    },
+    {
+      "term": "Actually",
+      "ipa": "/ˈæktʃuəli/",
+      "translation": "na verdade, na realidade",
+      "definition": "Used to correct information or give a surprising fact.",
+      "example": "- Actually, I prefer emails: I have time to think in English.\nNa verdade, eu prefiro e-mails: tenho tempo de pensar em inglês.",
+      "note": "“Atualmente” é currently. Actually corrige uma impressão."
+    }
+  ],
+  "createdAt": "2026-08-21T12:56:36.331Z",
+  "exercise": {
+    "id": "practice-a2-aula0-english-that-works-at-work-demo",
+    "title": "English that works at work (A2 · Aula 0)",
+    "questions": [
+      {
+        "id": "q-1",
+        "type": "fill_blank",
+        "target": "deadline",
+        "prompt": "The _____ is Friday, so I need your part by Thursday.",
+        "options": [],
+        "answer": "deadline",
+        "explanation": "“Deadline” is the final date."
+      },
+      {
+        "id": "q-2",
+        "type": "multiple_choice",
+        "target": "meeting",
+        "prompt": "Every Monday the team talks about the week. They have a…",
+        "options": [
+          "meeting",
+          "report",
+          "deadline",
+          "client"
+        ],
+        "answer": "meeting",
+        "explanation": "You HAVE a meeting — “make a meeting” is the Portuguese “fazer”."
+      },
+      {
+        "id": "q-3",
+        "type": "translate_to_english",
+        "target": "report",
+        "prompt": "Eu mando o relatório de vendas toda sexta.",
+        "options": [],
+        "answer": "I send the sales report every Friday.|I send the sales report on Fridays.",
+        "explanation": "“Report” is the document; it is also the verb “to report”."
+      },
+      {
+        "id": "q-4",
+        "type": "fill_blank",
+        "target": "client",
+        "prompt": "Our biggest _____ is in Portugal, so we speak English every day.",
+        "options": [],
+        "answer": "client",
+        "explanation": "“Client” pays for a service; “customer” buys a product."
+      },
+      {
+        "id": "q-5",
+        "type": "translate_to_english",
+        "target": "busy",
+        "prompt": "Estou ocupado até as três, mas depois estou livre.",
+        "options": [],
+        "answer": "I'm busy until three, but I'm free after that.|I am busy until three, but I am free after that.",
+        "explanation": "“Busy” is the opposite of free."
+      },
+      {
+        "id": "q-6",
+        "type": "fill_blank",
+        "target": "ready",
+        "prompt": "The presentation is almost _____ — I just need the numbers.",
+        "options": [],
+        "answer": "ready",
+        "explanation": "“Ready to” + verb, “ready for” + noun."
+      },
+      {
+        "id": "q-7",
+        "type": "multiple_choice",
+        "target": "Could you send me…?",
+        "prompt": "You want the file before the meeting. The polite way is:",
+        "options": [
+          "Could you send me the file?",
+          "Send me the file.",
+          "You send the file.",
+          "I want the file."
+        ],
+        "answer": "Could you send me the file?",
+        "explanation": "“Could you…?” turns an order into a request."
+      },
+      {
+        "id": "q-8",
+        "type": "fill_blank",
+        "target": "I'll get back to you",
+        "prompt": "I don't have the answer now — _____ today.",
+        "options": [],
+        "answer": "I'll get back to you",
+        "explanation": "“Get back to you” means to answer later."
+      },
+      {
+        "id": "q-9",
+        "type": "multiple_choice",
+        "target": "attend",
+        "prompt": "You go to the weekly meeting. You…",
+        "options": [
+          "attend it",
+          "assist it",
+          "attend to it",
+          "assist at it"
+        ],
+        "answer": "attend it",
+        "explanation": "“Attend” means to go to. The Portuguese “assistir” tempts “assist”, which means to help."
+      },
+      {
+        "id": "q-10",
+        "type": "multiple_choice",
+        "target": "actually",
+        "prompt": "Your colleague says the report is due today, but it is due tomorrow. You say:",
+        "options": [
+          "Actually, it is due tomorrow.",
+          "Currently, it is due tomorrow.",
+          "Eventually, it is due tomorrow.",
+          "Finally, it is due tomorrow."
+        ],
+        "answer": "Actually, it is due tomorrow.",
+        "explanation": "“Actually” corrects information. It is not “atualmente”, which is “currently”."
+      }
+    ]
+  }
+}
