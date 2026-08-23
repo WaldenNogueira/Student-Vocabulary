@@ -1,0 +1,210 @@
+{
+  "type": "vocabulary-practice-pack",
+  "version": 7,
+  "teacher": "Teacher Walden Nogueira",
+  "teacherWhatsApp": "5541996106689",
+  "student": {
+    "name": "André",
+    "whatsapp": "5516991454010"
+  },
+  "lesson": "Diplomatic language & softening bad news (B2 · Aula 5)",
+  "cards": [
+    {
+      "term": "Concern",
+      "ipa": "/kənˈsɜːrn/",
+      "translation": "preocupação; ressalva",
+      "definition": "A worry or a doubt that you raise politely about something.",
+      "example": "- I have a small concern about the timeline, not about the budget.\nTenho uma pequena ressalva sobre o cronograma, não sobre o orçamento.\n- Several stakeholders raised concerns about the new pricing model.\nVários stakeholders levantaram ressalvas sobre o novo modelo de preços.\n- My main concern is that we are promising a date we do not control.\nMinha principal preocupação é que estamos prometendo uma data que não controlamos.",
+      "note": "Raise a concern é levantar uma ressalva — o jeito diplomático de discordar sem dizer “I disagree”. Também funciona como verbo: that concerns me. Colocações úteis: a valid concern, address a concern."
+    },
+    {
+      "term": "Setback",
+      "ipa": "/ˈsetbæk/",
+      "translation": "revés; contratempo",
+      "definition": "A problem that delays progress without stopping it completely.",
+      "example": "- The failed test was a setback, not a disaster.\nO teste que falhou foi um revés, não um desastre.\n- We had a minor setback in week two, and the schedule absorbed it.\nTivemos um revés pequeno na segunda semana, e o cronograma absorveu.\n- After that setback, the board started asking for weekly updates.\nDepois daquele contratempo, o conselho passou a pedir atualizações semanais.",
+      "note": "Palavra-chave para reenquadrar problemas: a temporary setback soa muito menos grave do que a failure. Aqui é substantivo; separado, set back é verbo: the strike set us back two weeks."
+    },
+    {
+      "term": "Slightly",
+      "ipa": "/ˈslaɪtli/",
+      "translation": "levemente; um pouco",
+      "definition": "A little, in a small degree.",
+      "example": "- We are slightly behind schedule — about three days.\nEstamos levemente atrasados no cronograma — uns três dias.\n- The forecast is slightly more conservative than last quarter's.\nA projeção está um pouco mais conservadora que a do trimestre passado.\n- I slightly disagree with the conclusion, although the data is solid.\nDiscordo um pouco da conclusão, embora os dados sejam sólidos.",
+      "note": "Suavizador clássico: slightly late, slightly over budget. Vem antes do adjetivo ou do comparativo. Em excesso soa evasivo, e o interlocutor passa a duvidar do número real."
+    },
+    {
+      "term": "Tactful",
+      "ipa": "/ˈtæktfʊl/",
+      "translation": "diplomático; com tato",
+      "definition": "Careful not to hurt or embarrass people when you say something difficult.",
+      "example": "- Be tactful: say “challenging”, not “impossible”.\nSeja diplomático: diga “desafiador”, não “impossível”.\n- Her feedback was tactful but perfectly clear about the missed deadline.\nO feedback dela foi diplomático, mas perfeitamente claro sobre o prazo perdido.\n- A tactful message costs two extra minutes and saves two weeks of damage control.\nUma mensagem com tato custa dois minutos a mais e evita duas semanas de controle de danos.",
+      "note": "O substantivo é tact e o oposto é tactless (sem tato). Não confunda com tactical (tático). O advérbio é tactfully."
+    },
+    {
+      "term": "Rephrase",
+      "ipa": "/ˌriːˈfreɪz/",
+      "translation": "reformular (o que foi dito)",
+      "definition": "To say the same idea again with different words.",
+      "example": "- Let me rephrase that: it is not wrong, it is incomplete.\nDeixe-me reformular: não está errado, está incompleto.\n- She rephrased the objection as a question, and the room relaxed.\nEla reformulou a objeção como pergunta, e a sala relaxou.\n- If a sentence sounds harsh in writing, rephrase it before you send it.\nSe uma frase soa dura por escrito, reformule antes de enviar.",
+      "note": "Let me rephrase that é o botão de refazer da conversa: conserta o tom sem admitir erro de conteúdo. Passado: rephrased. Parente próximo: reword."
+    },
+    {
+      "term": "Downplay",
+      "ipa": "/ˌdaʊnˈpleɪ/",
+      "translation": "minimizar (a importância)",
+      "definition": "To make something seem less serious or less important than it really is.",
+      "example": "- Don't downplay the problem; soften the delivery, not the facts.\nNão minimize o problema; suavize a entrega, não os fatos.\n- He downplayed the churn numbers, and the board found out anyway.\nEle minimizou os números de churn, e o conselho descobriu do mesmo jeito.\n- There is a thin line between being diplomatic and downplaying a risk.\nExiste uma linha tênue entre ser diplomático e minimizar um risco.",
+      "note": "O contrário é play up (inflar). Passado: downplayed. Diplomacia mexe no tom; downplay mexe na importância do fato — por isso o segundo custa credibilidade."
+    },
+    {
+      "term": "Break the news",
+      "ipa": "/ˌbreɪk ðə ˈnuz/",
+      "translation": "dar a notícia (difícil)",
+      "definition": "To tell someone bad or important news for the first time.",
+      "example": "- The manager had to break the news about the canceled project.\nO gerente teve que dar a notícia sobre o projeto cancelado.\n- I would rather break the news on a call than in a long email.\nPrefiro dar a notícia numa ligação do que num e-mail longo.\n- She broke the news to the client before the press release went out.\nEla deu a notícia ao cliente antes de o comunicado sair.",
+      "note": "A estrutura é break the news to somebody. Passado: broke; particípio: broken. Aparece muito com gently: break the news gently."
+    },
+    {
+      "term": "With all due respect",
+      "ipa": "/wɪð ˌɔl du rɪˈspekt/",
+      "translation": "com todo o respeito",
+      "definition": "A polite phrase used right before you disagree with someone.",
+      "example": "- With all due respect, I see the data differently.\nCom todo o respeito, eu vejo os dados de forma diferente.\n- With all due respect, that deadline was never realistic.\nCom todo o respeito, aquele prazo nunca foi realista.\n- He started three sentences with “with all due respect”, and nobody felt respected.\nEle começou três frases com “com todo o respeito”, e ninguém se sentiu respeitado.",
+      "note": "Anuncia discordância frontal — use com parcimônia, ou vira ataque educado. Alternativas mais leves: I see your point, but… e I may be missing something, but…"
+    },
+    {
+      "term": "Deception",
+      "ipa": "/dɪˈsepʃn/",
+      "translation": "engano; fraude",
+      "definition": "The act of making someone believe something that is not true.",
+      "example": "- The audit revealed a deception, not a mistake.\nA auditoria revelou uma fraude, não um erro.\n- Hiding the real numbers from the board would be deception, not diplomacy.\nEsconder os números reais do conselho seria fraude, não diplomacia.\n- Investors sued the company for deception after the report came out.\nOs investidores processaram a empresa por fraude depois que o relatório saiu.",
+      "note": "“Decepção” é disappointment: What a disappointment! Deception é o ato deliberado de enganar. Verbo: deceive; adjetivo: deceptive."
+    },
+    {
+      "term": "Tentative",
+      "ipa": "/ˈtentətɪv/",
+      "translation": "provisório; hesitante",
+      "definition": "Not final yet, or said without full confidence.",
+      "example": "- We set a tentative date: March 10, to be confirmed.\nMarcamos uma data provisória: 10 de março, a confirmar.\n- The agreement is tentative until legal reviews the last clause.\nO acordo é provisório até o jurídico revisar a última cláusula.\n- She gave a tentative answer because the numbers were still moving.\nEla deu uma resposta hesitante porque os números ainda estavam mudando.",
+      "note": "“Tentativa” é attempt e “tentador” é tempting. A tentative plan é um plano provisório. O advérbio tentatively significa provisoriamente: we tentatively agreed on Friday."
+    }
+  ],
+  "createdAt": "2026-08-23T23:46:51.092Z",
+  "exercise": {
+    "id": "practice-b2-aula5-diplomatic-language-softening-bad-news",
+    "title": "Diplomatic language & softening bad news (B2 · Aula 5)",
+    "questions": [
+      {
+        "id": "q-1",
+        "type": "multiple_choice",
+        "target": "setback",
+        "prompt": "You want to present a delay as temporary and under control. Which word fits best?",
+        "options": [
+          "A setback",
+          "A disaster",
+          "A collapse",
+          "A breakdown"
+        ],
+        "answer": "A setback",
+        "explanation": "A “setback” delays progress; the other words suggest that everything failed."
+      },
+      {
+        "id": "q-2",
+        "type": "fill_blank",
+        "target": "slightly",
+        "prompt": "We are _____ over budget — three per cent, to be exact.",
+        "options": [],
+        "answer": "slightly",
+        "explanation": "“Slightly” softens the number without hiding it."
+      },
+      {
+        "id": "q-3",
+        "type": "translate_to_english",
+        "target": "break the news",
+        "prompt": "Alguém precisa dar a notícia ao cliente antes de sexta.",
+        "options": [],
+        "answer": "Someone has to break the news to the client before Friday.|Someone needs to break the news to the client before Friday.",
+        "explanation": "“Break the news” means to be the first person to tell someone bad news."
+      },
+      {
+        "id": "q-4",
+        "type": "multiple_choice",
+        "target": "deception",
+        "prompt": "The report hid the real churn figures on purpose. What is that, in English?",
+        "options": [
+          "A disappointment",
+          "A deception",
+          "A misunderstanding",
+          "An exaggeration"
+        ],
+        "answer": "A deception",
+        "explanation": "“Deception” is deliberate; “disappointment” is the false friend for “decepção”."
+      },
+      {
+        "id": "q-5",
+        "type": "fill_blank",
+        "target": "rephrase",
+        "prompt": "The client took my email badly, so let me _____ the whole second paragraph.",
+        "options": [],
+        "answer": "rephrase",
+        "explanation": "“Rephrase” means to say the same idea with different words."
+      },
+      {
+        "id": "q-6",
+        "type": "translate_to_english",
+        "target": "with all due respect",
+        "prompt": "Com todo o respeito, eu discordo dessa conclusão.",
+        "options": [],
+        "answer": "With all due respect, I disagree with that conclusion.|With all due respect, I have to disagree with that conclusion.",
+        "explanation": "This phrase announces polite but direct disagreement."
+      },
+      {
+        "id": "q-7",
+        "type": "multiple_choice",
+        "target": "tentative",
+        "prompt": "The date is already in the calendar, but it still has to be confirmed. How do you describe it?",
+        "options": [
+          "A binding date",
+          "A confirmed date",
+          "A tentative date",
+          "A definitive date"
+        ],
+        "answer": "A tentative date",
+        "explanation": "“Tentative” means provisional, not final."
+      },
+      {
+        "id": "q-8",
+        "type": "fill_blank",
+        "target": "downplay",
+        "prompt": "Investors punish teams that _____ bad numbers instead of explaining them.",
+        "options": [],
+        "answer": "downplay",
+        "explanation": "“Downplay” means to present something as less serious than it is."
+      },
+      {
+        "id": "q-9",
+        "type": "translate_to_english",
+        "target": "concern",
+        "prompt": "Eu gostaria de levantar uma ressalva sobre o orçamento.",
+        "options": [],
+        "answer": "I would like to raise a concern about the budget.|I'd like to raise a concern about the budget.",
+        "explanation": "“Raise a concern” is the diplomatic way to open a disagreement."
+      },
+      {
+        "id": "q-10",
+        "type": "multiple_choice",
+        "target": "tactful",
+        "prompt": "Which reply rejects a proposal in the most tactful way?",
+        "options": [
+          "This plan will never work here.",
+          "This plan is simply wrong for us.",
+          "This plan makes no sense at all.",
+          "This plan may need a second look."
+        ],
+        "answer": "This plan may need a second look.",
+        "explanation": "Being “tactful” means saying the difficult thing without embarrassing anyone."
+      }
+    ]
+  }
+}
