@@ -1,0 +1,210 @@
+{
+  "type": "vocabulary-practice-pack",
+  "version": 7,
+  "teacher": "Teacher Walden Nogueira",
+  "teacherWhatsApp": "5541996106689",
+  "student": {
+    "name": "Lucrecia",
+    "whatsapp": "553190883834"
+  },
+  "lesson": "Daily routines (A2 · Aula 3)",
+  "cards": [
+    {
+      "term": "Wake up",
+      "ipa": "/ˌweɪk ˈʌp/",
+      "translation": "acordar",
+      "definition": "To stop sleeping.",
+      "example": "- I wake up at six thirty, before my alarm rings.\nAcordo às seis e meia, antes do alarme tocar.\n- She woke up twice last night.\nEla acordou duas vezes na noite passada.\n- On Mondays I wake up earlier to prepare the weekly report.\nNas segundas eu acordo mais cedo para preparar o relatório semanal.",
+      "note": "Passado e particípio: woke up, woken up. Wake up é deixar de dormir; sair da cama é get up. É separável: wake me up at seven."
+    },
+    {
+      "term": "Have breakfast",
+      "ipa": "/hæv ˈbrekfəst/",
+      "translation": "tomar café da manhã",
+      "definition": "To eat the first meal of the day.",
+      "example": "- I have breakfast with my family before I start working.\nTomo café da manhã com a família antes de começar a trabalhar.\n- We had breakfast at the hotel before the conference.\nTomamos café da manhã no hotel antes da conferência.\n- She never has breakfast at home during the week.\nEla nunca toma café da manhã em casa durante a semana.",
+      "note": "Com have e sem artigo: have breakfast, have lunch, have dinner. Passado: had breakfast. Café da manhã de trabalho é a breakfast meeting."
+    },
+    {
+      "term": "Leave",
+      "ipa": "/liːv/",
+      "translation": "sair (de um lugar)",
+      "definition": "To go away from a place.",
+      "example": "- I leave home at eight and arrive at nine.\nSaio de casa às oito e chego às nove.\n- He left the office before the call ended.\nEle saiu do escritório antes de a ligação acabar.\n- What time do you leave work on Fridays?\nA que horas você sai do trabalho nas sextas?",
+      "note": "Leave + lugar, sem preposição: leave home, leave the office. Passado e particípio: left. Leave também é deixar algo: I left my badge at home."
+    },
+    {
+      "term": "Arrive",
+      "ipa": "/əˈraɪv/",
+      "translation": "chegar",
+      "definition": "To get to a place.",
+      "example": "- I arrive at the office ten minutes early.\nChego ao escritório dez minutos mais cedo.\n- The client arrived late for the meeting.\nO cliente chegou atrasado para a reunião.\n- We arrive in São Paulo on Tuesday morning.\nChegamos a São Paulo na terça de manhã.",
+      "note": "Arrive AT um lugar (arrive at the airport) e arrive IN uma cidade ou país (arrive in Lisbon). Nunca “arrive to”. Com home não vai preposição: arrive home."
+    },
+    {
+      "term": "Finish",
+      "ipa": "/ˈfɪnɪʃ/",
+      "translation": "terminar, acabar",
+      "definition": "To come to the end of something.",
+      "example": "- I finish work at six, but I check messages later.\nTermino o trabalho às seis, mas confiro mensagens depois.\n- We finished the presentation on Friday.\nTerminamos a apresentação na sexta.\n- Call me when you finish writing the report.\nMe ligue quando você terminar de escrever o relatório.",
+      "note": "Depois de finish, o verbo vai com -ing: finish working, finish writing. Nunca “finish to do”. Para eventos, end é mais comum: the meeting ends at five."
+    },
+    {
+      "term": "Relax",
+      "ipa": "/rɪˈlæks/",
+      "translation": "relaxar, descansar",
+      "definition": "To rest and stop feeling stressed.",
+      "example": "- I relax with a series after dinner — no screens for work.\nRelaxo com uma série depois do jantar — sem telas de trabalho.\n- She relaxed for ten minutes between two calls.\nEla relaxou dez minutos entre duas ligações.\n- Take a short walk. It helps you relax.\nDê uma caminhada curta. Isso ajuda você a relaxar.",
+      "note": "A pessoa fica relaxed e a coisa é relaxing: a relaxing weekend. Cuidado: “relaxado” no sentido de desleixado não é relaxed — é careless."
+    },
+    {
+      "term": "Get ready",
+      "ipa": "/ˌɡet ˈredi/",
+      "translation": "se arrumar, se preparar",
+      "definition": "To prepare yourself for something.",
+      "example": "- It takes me twenty minutes to get ready in the morning.\nLevo vinte minutos para me arrumar de manhã.\n- I got ready in five minutes and joined the call.\nMe arrumei em cinco minutos e entrei na ligação.\n- Let's get ready for the client visit tomorrow.\nVamos nos preparar para a visita do cliente amanhã.",
+      "note": "A preposição é for: get ready for the meeting, get ready for work. Passado: got ready. Be ready é o estado (I am ready); get ready é o processo."
+    },
+    {
+      "term": "First thing in the morning",
+      "ipa": "/ˌfɜrst ˈθɪŋ ɪn ðə ˈmɔrnɪŋ/",
+      "translation": "logo cedo, a primeira coisa do dia",
+      "definition": "Very early in the day, before anything else.",
+      "example": "- I answer the most difficult email first thing in the morning.\nRespondo o e-mail mais difícil logo cedo.\n- Can we talk first thing in the morning, before the daily?\nPodemos conversar logo cedo, antes da daily?\n- She called the supplier first thing in the morning.\nEla ligou para o fornecedor logo cedo.",
+      "note": "Expressão pronta para prioridades e prazos: I'll do it first thing tomorrow. Não leva artigo antes de first. O oposto é last thing at night."
+    },
+    {
+      "term": "Actually",
+      "ipa": "/ˈæktʃuəli/",
+      "translation": "na verdade, na realidade",
+      "definition": "In fact; used to correct or add real information.",
+      "example": "- I actually like Mondays — the office is quiet.\nNa verdade eu gosto de segunda-feira — o escritório fica quieto.\n- Actually, the meeting is at three, not at two.\nNa verdade, a reunião é às três, não às duas.\n- It looked difficult, but it was actually simple.\nParecia difícil, mas na verdade era simples.",
+      "note": "Falso amigo clássico: “atualmente” é currently. Actually corrige ou ajusta uma informação e soa educado no começo da frase."
+    },
+    {
+      "term": "Eventually",
+      "ipa": "/ɪˈventʃuəli/",
+      "translation": "no fim das contas, uma hora",
+      "definition": "In the end, after a long time.",
+      "example": "- I check social media, and eventually I start working.\nConfiro redes sociais e, no fim das contas, começo a trabalhar.\n- The system was slow, but it eventually worked.\nO sistema estava lento, mas no fim funcionou.\n- We will eventually move to a bigger office.\nUma hora vamos mudar para um escritório maior.",
+      "note": "Outro falso amigo: “eventualmente”, de vez em quando, é sometimes ou occasionally. Eventually é o resultado final, depois de algum tempo."
+    }
+  ],
+  "createdAt": "2026-08-24T12:22:57.530Z",
+  "exercise": {
+    "id": "practice-a2-aula3-daily-routines",
+    "title": "Daily routines (A2 · Aula 3)",
+    "questions": [
+      {
+        "id": "q-1",
+        "type": "multiple_choice",
+        "target": "wake up",
+        "prompt": "Which sentence describes the moment you stop sleeping?",
+        "options": [
+          "I wake up at six.",
+          "I get up at six.",
+          "I get ready at six.",
+          "I have breakfast at six."
+        ],
+        "answer": "I wake up at six.",
+        "explanation": "“Wake up” is to stop sleeping; “get up” is to leave the bed."
+      },
+      {
+        "id": "q-2",
+        "type": "fill_blank",
+        "target": "have breakfast",
+        "prompt": "I never _____ before eight o'clock.",
+        "options": [],
+        "answer": "have breakfast",
+        "explanation": "We say “have breakfast”, without an article."
+      },
+      {
+        "id": "q-3",
+        "type": "translate_to_english",
+        "target": "arrive",
+        "prompt": "Eu chego ao escritório às nove.",
+        "options": [],
+        "answer": "I arrive at the office at nine.|I arrive at the office at nine o'clock.",
+        "explanation": "Use “arrive at” with a place like an office."
+      },
+      {
+        "id": "q-4",
+        "type": "multiple_choice",
+        "target": "actually",
+        "prompt": "Your colleague thinks the report is late, but it is ready. How do you correct him?",
+        "options": [
+          "Currently, the report is ready.",
+          "Actually, the report is ready.",
+          "Eventually, the report is ready.",
+          "Finally, the report is ready."
+        ],
+        "answer": "Actually, the report is ready.",
+        "explanation": "“Actually” corrects wrong information. “Currently” means now."
+      },
+      {
+        "id": "q-5",
+        "type": "fill_blank",
+        "target": "finish",
+        "prompt": "Send me the file as soon as you _____ the last slide.",
+        "options": [],
+        "answer": "finish",
+        "explanation": "“Finish” means to come to the end of something."
+      },
+      {
+        "id": "q-6",
+        "type": "translate_to_english",
+        "target": "get ready",
+        "prompt": "Preciso de dez minutos para me preparar para a reunião.",
+        "options": [],
+        "answer": "I need ten minutes to get ready for the meeting.",
+        "explanation": "“Get ready for” means to prepare yourself for something."
+      },
+      {
+        "id": "q-7",
+        "type": "multiple_choice",
+        "target": "eventually",
+        "prompt": "You start your day slowly and begin working two hours later. Which sentence fits?",
+        "options": [
+          "I sometimes start working.",
+          "I currently start working.",
+          "I eventually start working.",
+          "I actually start working."
+        ],
+        "answer": "I eventually start working.",
+        "explanation": "“Eventually” means in the end, after some time."
+      },
+      {
+        "id": "q-8",
+        "type": "fill_blank",
+        "target": "leave",
+        "prompt": "I usually _____ the office at six thirty.",
+        "options": [],
+        "answer": "leave",
+        "explanation": "“Leave” takes the place directly, with no preposition."
+      },
+      {
+        "id": "q-9",
+        "type": "translate_to_english",
+        "target": "relax",
+        "prompt": "Nos fins de semana eu relaxo com a minha família.",
+        "options": [],
+        "answer": "On weekends I relax with my family.|I relax with my family on weekends.",
+        "explanation": "“Relax” means to rest and stop feeling stressed."
+      },
+      {
+        "id": "q-10",
+        "type": "multiple_choice",
+        "target": "first thing in the morning",
+        "prompt": "Your manager needs the report before anything else tomorrow. What do you say?",
+        "options": [
+          "I'll send it after lunch.",
+          "I'll send it at the end of the day.",
+          "I'll send it before I leave tonight.",
+          "I'll send it first thing in the morning."
+        ],
+        "answer": "I'll send it first thing in the morning.",
+        "explanation": "“First thing in the morning” means before anything else that day."
+      }
+    ]
+  }
+}
