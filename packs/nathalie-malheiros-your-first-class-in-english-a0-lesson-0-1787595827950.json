@@ -1,0 +1,210 @@
+{
+  "type": "vocabulary-practice-pack",
+  "version": 7,
+  "teacher": "Teacher Walden Nogueira",
+  "teacherWhatsApp": "5541996106689",
+  "student": {
+    "name": "Nathalie Malheiros",
+    "whatsapp": "5521980407926"
+  },
+  "lesson": "Your first class in English (A0 · Lesson 0)",
+  "cards": [
+    {
+      "term": "Hello",
+      "ipa": "/həˈloʊ/",
+      "translation": "olá",
+      "definition": "A friendly word you say when you meet someone.",
+      "example": "- Hello! I'm Walden.\nOlá! Eu sou o Walden.\n- Hello! How are you today?\nOlá! Como você está hoje?\n- She says hello to everyone at work.\nEla diz olá para todo mundo no trabalho.",
+      "note": "A porta de entrada de qualquer conversa: serve de manhã, à tarde e à noite. No telefone também se diz hello. Com amigos, hi é a versão curta e informal."
+    },
+    {
+      "term": "Thank you",
+      "ipa": "/ˈθæŋk juː/",
+      "translation": "obrigado(a)",
+      "definition": "The words you say when someone helps you.",
+      "example": "- Thank you very much!\nMuito obrigado!\n- Thank you for the coffee.\nObrigado pelo café.\n- He said thank you and left.\nEle disse obrigado e foi embora.",
+      "note": "Duas palavras, uma ideia só; com very much fica mais caloroso. Depois de thank you vem for: thank you for the help. A resposta pronta é you're welcome (de nada)."
+    },
+    {
+      "term": "Please",
+      "ipa": "/pliːz/",
+      "translation": "por favor",
+      "definition": "A polite word you use when you ask for something.",
+      "example": "- Coffee, please.\nCafé, por favor.\n- Two teas, please.\nDois chás, por favor.\n- Please wait one minute.\nEspere um minuto, por favor.",
+      "note": "No inglês, please transforma uma ordem em pedido; sem ele, a frase soa ríspida. Pode vir no começo (Please wait here) ou no fim (Coffee, please)."
+    },
+    {
+      "term": "Sorry",
+      "ipa": "/ˈsɑːri/",
+      "translation": "desculpe; sinto muito",
+      "definition": "A word you say when you make a mistake or do not understand.",
+      "example": "- Sorry! My English is new.\nDesculpe! Meu inglês é novo.\n- Sorry, I am late.\nDesculpe, estou atrasado.\n- Sorry? Can you repeat that?\nDesculpe? Você pode repetir?",
+      "note": "Serve para pedir desculpa e também para dizer que você não entendeu. Sorry? com entonação de pergunta é o jeito mais fácil de pedir para repetir. Para chamar a atenção de alguém antes de falar, use excuse me."
+    },
+    {
+      "term": "Help",
+      "ipa": "/help/",
+      "translation": "ajuda; ajudar",
+      "definition": "To do something for a person who needs it.",
+      "example": "- Can you help me, please?\nVocê pode me ajudar, por favor?\n- I need help with this computer.\nPreciso de ajuda com este computador.\n- My friend helped me yesterday.\nMeu amigo me ajudou ontem.",
+      "note": "Help é ajuda (substantivo) e ajudar (verbo), com a mesma forma. Can you help me? resolve o dia inteiro. Passado: helped."
+    },
+    {
+      "term": "English",
+      "ipa": "/ˈɪŋɡlɪʃ/",
+      "translation": "inglês",
+      "definition": "The language you are studying in this class.",
+      "example": "- I speak a little English.\nEu falo um pouco de inglês.\n- My English is better now.\nMeu inglês está melhor agora.\n- We use English at work every day.\nUsamos inglês no trabalho todo dia.",
+      "note": "Idioma em inglês sempre com letra maiúscula: English, Portuguese, Spanish. A mesma palavra serve para o povo e para o adjetivo: an English teacher."
+    },
+    {
+      "term": "My name is",
+      "ipa": "/maɪ ˈneɪm ɪz/",
+      "translation": "meu nome é…",
+      "definition": "The phrase you use to say your name.",
+      "example": "- Hello! My name is Carlos. And you?\nOlá! Meu nome é Carlos. E você?\n- My name is Ana. Nice to meet you.\nMeu nome é Ana. Prazer em conhecer você.\n- My name is Paulo and I work here.\nMeu nome é Paulo e eu trabalho aqui.",
+      "note": "Mais natural que I am Carlos quando você se apresenta a um desconhecido. A pergunta que combina é What is your name? As duas formas funcionam: my name is soa um pouco mais formal."
+    },
+    {
+      "term": "I'm learning English",
+      "ipa": "/aɪm ˈlɝnɪŋ ˈɪŋɡlɪʃ/",
+      "translation": "estou aprendendo inglês",
+      "definition": "A sentence you use to say that you are studying English now.",
+      "example": "- I'm learning English!\nEstou aprendendo inglês!\n- I'm learning English for my job.\nEstou aprendendo inglês para o meu trabalho.\n- Sorry, I'm learning English. Can you speak slowly?\nDesculpe, estou aprendendo inglês. Você pode falar devagar?",
+      "note": "Diga isso cedo e a outra pessoa desacelera para você: é a frase mais útil da aula. A forma completa é I am learning English; I'm é a contração do dia a dia."
+    },
+    {
+      "term": "Push",
+      "ipa": "/pʊʃ/",
+      "translation": "empurrar",
+      "definition": "To move something away from you with your hands.",
+      "example": "- PUSH: push the door!\nEMPURRE: empurre a porta!\n- Push the button for floor two.\nAperte o botão do segundo andar.\n- He pushed the chair to the table.\nEle empurrou a cadeira até a mesa.",
+      "note": "NÃO é “puxar”: puxar é pull. Nas portas do mundo inteiro, PUSH empurra e PULL puxa. Passado: pushed."
+    },
+    {
+      "term": "Parents",
+      "ipa": "/ˈperənts/",
+      "translation": "pais (pai e mãe)",
+      "definition": "Your mother and your father.",
+      "example": "- My parents are here.\nMeus pais estão aqui.\n- Her parents live in Recife.\nOs pais dela moram no Recife.\n- I call my parents every Sunday.\nEu ligo para os meus pais todo domingo.",
+      "note": "NÃO é “parentes”: primo, tio e sobrinho são relatives. Parents são só o pai e a mãe, e a palavra vive no plural."
+    }
+  ],
+  "createdAt": "2026-08-24T18:23:47.948Z",
+  "exercise": {
+    "id": "practice-a0-aula0-your-first-class-demo",
+    "title": "Your first class in English (A0 · Lesson 0)",
+    "questions": [
+      {
+        "id": "q-1",
+        "type": "multiple_choice",
+        "target": "hello",
+        "prompt": "You meet a new person at work. What do you say?",
+        "options": [
+          "Hello!",
+          "Goodbye!",
+          "Sorry!",
+          "Please!"
+        ],
+        "answer": "Hello!",
+        "explanation": "You say “hello” when you meet someone."
+      },
+      {
+        "id": "q-2",
+        "type": "translate_to_english",
+        "target": "My name is",
+        "prompt": "Oi! Meu nome é Ana.",
+        "options": [],
+        "answer": "Hi! My name is Ana.|Hello! My name is Ana.",
+        "explanation": "Use “my name is” with your name."
+      },
+      {
+        "id": "q-3",
+        "type": "fill_blank",
+        "target": "please",
+        "prompt": "Can you say that again, _____?",
+        "options": [],
+        "answer": "please",
+        "explanation": "“Please” makes a question polite."
+      },
+      {
+        "id": "q-4",
+        "type": "multiple_choice",
+        "target": "sorry",
+        "prompt": "You arrive ten minutes late. What do you say?",
+        "options": [
+          "Thank you!",
+          "Sorry!",
+          "Hello!",
+          "Please!"
+        ],
+        "answer": "Sorry!",
+        "explanation": "You say “sorry” when you do something wrong."
+      },
+      {
+        "id": "q-5",
+        "type": "translate_to_english",
+        "target": "I'm learning English",
+        "prompt": "Oi! Estou aprendendo inglês.",
+        "options": [],
+        "answer": "Hi! I'm learning English.|Hello! I'm learning English.",
+        "explanation": "This sentence asks people to speak slowly with you."
+      },
+      {
+        "id": "q-6",
+        "type": "fill_blank",
+        "target": "thank you",
+        "prompt": "I say _____ to my teacher every day.",
+        "options": [],
+        "answer": "thank you",
+        "explanation": "You say “thank you” when someone helps you."
+      },
+      {
+        "id": "q-7",
+        "type": "multiple_choice",
+        "target": "push",
+        "prompt": "The door says PUSH. What do you do?",
+        "options": [
+          "I pull the door.",
+          "I close the door.",
+          "I push the door.",
+          "I open the window."
+        ],
+        "answer": "I push the door.",
+        "explanation": "“Push” is not “pull”. “Pull” means to move it to you."
+      },
+      {
+        "id": "q-8",
+        "type": "translate_to_english",
+        "target": "help",
+        "prompt": "Eu preciso de ajuda.",
+        "options": [],
+        "answer": "I need help.|I need some help.",
+        "explanation": "“Help” is the noun and the verb."
+      },
+      {
+        "id": "q-9",
+        "type": "fill_blank",
+        "target": "English",
+        "prompt": "She writes her emails in _____.",
+        "options": [],
+        "answer": "English",
+        "explanation": "Languages start with a big letter in English."
+      },
+      {
+        "id": "q-10",
+        "type": "multiple_choice",
+        "target": "parents",
+        "prompt": "Which word means only your mother and your father?",
+        "options": [
+          "Relatives",
+          "Friends",
+          "Children",
+          "Parents"
+        ],
+        "answer": "Parents",
+        "explanation": "“Parents” is only the mother and the father. Uncles and cousins are “relatives”."
+      }
+    ]
+  }
+}
