@@ -1,0 +1,210 @@
+{
+  "type": "vocabulary-practice-pack",
+  "version": 7,
+  "teacher": "Teacher Walden Nogueira",
+  "teacherWhatsApp": "5541996106689",
+  "student": {
+    "name": "Vinícius Alexandre",
+    "whatsapp": "5511963968532"
+  },
+  "lesson": "Unlock your English: phrases that work today (A1 · Aula 0)",
+  "cards": [
+    {
+      "term": "I think",
+      "ipa": "/aɪ ˈθɪŋk/",
+      "translation": "eu acho / eu acho que",
+      "definition": "Used to say what your opinion is.",
+      "example": "- I think we need one more week for this project.\nAcho que precisamos de mais uma semana para este projeto.\n- I don't think so, but I can check.\nAcho que não, mas posso verificar.\n- I think she is right about the price.\nAcho que ela está certa sobre o preço.",
+      "note": "Abre qualquer opinião sem soar arrogante. O negativo vem no think: I don't think it works, e não I think it doesn't work. Resposta curta pronta: I don't think so."
+    },
+    {
+      "term": "I need",
+      "ipa": "/aɪ ˈniːd/",
+      "translation": "eu preciso (de)",
+      "definition": "Used to say that you must have something.",
+      "example": "- I need more information before I answer the client.\nPreciso de mais informação antes de responder ao cliente.\n- I need to leave at five today.\nPreciso sair às cinco hoje.\n- I need your help with this email.\nPreciso da sua ajuda com este e-mail.",
+      "note": "Não use of depois de need: I need help, I need time. Antes de um verbo entra to: I need to talk to you. O passado é I needed."
+    },
+    {
+      "term": "I'd like",
+      "ipa": "/aɪd ˈlaɪk/",
+      "translation": "eu queria / gostaria",
+      "definition": "A polite way to say what you want.",
+      "example": "- I'd like a coffee, please — and I'd like to ask something.\nEu queria um café, por favor — e queria perguntar uma coisa.\n- I'd like to start the meeting now.\nEu gostaria de começar a reunião agora.\n- I'd like a window seat, please.\nEu queria um lugar na janela, por favor.",
+      "note": "É a forma curta de I would like e soa bem mais educado que I want. Antes de verbo vem to: I'd like to ask. Antes de substantivo, nada: I'd like a coffee."
+    },
+    {
+      "term": "Can I…?",
+      "ipa": "/kən aɪ/",
+      "translation": "posso…?",
+      "definition": "A short and polite way to ask for permission.",
+      "example": "- Can I ask a question about the deadline?\nPosso fazer uma pergunta sobre o prazo?\n- Can I call you back in ten minutes?\nPosso te ligar de volta em dez minutos?\n- Can I use your pen for a second?\nPosso usar sua caneta por um segundo?",
+      "note": "Pedido rápido e educado; em situação formal, May I…? soa ainda mais polido. Depois de Can I vem o verbo sem to: Can I ask a question? Para pedir que o outro faça algo, use Can you…?"
+    },
+    {
+      "term": "How do you say…?",
+      "ipa": "/ˌhaʊ duː juː ˈseɪ/",
+      "translation": "como se diz…?",
+      "definition": "The question you use to ask for a word in English.",
+      "example": "- How do you say “prazo” in English?\nComo se diz “prazo” em inglês?\n- How do you say that in a formal email?\nComo se diz isso num e-mail formal?\n- I forgot the word — how do you say it?\nEsqueci a palavra — como se diz isso?",
+      "note": "É a pergunta que mantém a conversa em inglês em vez de travar. Termine com in English: How do you say this in English? Para pronúncia, a pergunta é How do you pronounce this?"
+    },
+    {
+      "term": "What does … mean?",
+      "ipa": "/ˌwʌt dʌz … ˈmiːn/",
+      "translation": "o que significa…?",
+      "definition": "The question you use to ask for the meaning of a word.",
+      "example": "- What does “ASAP” mean, exactly?\nO que significa “ASAP”, exatamente?\n- What does this word mean?\nO que significa esta palavra?\n- What does “on hold” mean in a call?\nO que significa “on hold” numa ligação?",
+      "note": "Nunca finja que entendeu: perguntar soa profissional, não fraco. A palavra fica no meio: What does “deadline” mean? No plural, use What do these words mean?"
+    },
+    {
+      "term": "I'm not sure, but…",
+      "ipa": "/aɪm nɑt ˈʃʊr bʌt/",
+      "translation": "não tenho certeza, mas…",
+      "definition": "A phrase you use before an answer you are not certain about.",
+      "example": "- I'm not sure, but I think the meeting is on Friday.\nNão tenho certeza, mas acho que a reunião é sexta.\n- I'm not sure, but I can check with my manager.\nNão tenho certeza, mas posso verificar com meu gerente.\n- I'm not sure, but the file went out yesterday.\nNão tenho certeza, mas o arquivo saiu ontem.",
+      "note": "Permite participar sem medo de errar e soa honesto, não inseguro. Depois dela vem uma frase completa: I'm not sure, but I think so. Para dizer só “não sei”, use I don't know."
+    },
+    {
+      "term": "Could you repeat that, please?",
+      "ipa": "/kʊd ju rɪˈpit ðæt pliz/",
+      "translation": "pode repetir, por favor?",
+      "definition": "A polite way to ask someone to say something again.",
+      "example": "- Sorry, could you repeat that, please? A little slower.\nDesculpe, pode repetir, por favor? Um pouco mais devagar.\n- Could you repeat that, please? The line is bad.\nPode repetir, por favor? A ligação está ruim.\n- I didn't catch the address. Could you repeat that, please?\nNão peguei o endereço. Pode repetir, por favor?",
+      "note": "Peça sem se desculpar demais e combine com a little slower quando precisar. Could soa mais educado que can. Outra saída pronta: Sorry, I didn't catch that."
+    },
+    {
+      "term": "Actually",
+      "ipa": "/ˈæktʃuəli/",
+      "translation": "na verdade / na realidade",
+      "definition": "Used to say what is really true, often to correct something.",
+      "example": "- Actually, I like online meetings — they save me two hours.\nNa verdade, eu gosto de reuniões online — economizam duas horas.\n- Actually, my name is Ana, not Ana Maria.\nNa verdade, meu nome é Ana, não Ana Maria.\n- It looks hard, but it is actually easy.\nParece difícil, mas na verdade é fácil.",
+      "note": "“Atualmente” é currently; actually corrige uma impressão errada. No começo da frase vem com vírgula: Actually, I sent it. Cuidado com o tom ao corrigir alguém."
+    },
+    {
+      "term": "Pretend",
+      "ipa": "/prɪˈtend/",
+      "translation": "fingir",
+      "definition": "To act as if something is true when it is not.",
+      "example": "- He pretends to understand everything in the call.\nEle finge que entende tudo na reunião.\n- I pretended to be busy when he called.\nFingi estar ocupado quando ele ligou.\n- Children love to pretend they are pilots.\nCrianças adoram fingir que são pilotos.",
+      "note": "“Pretendo estudar mais” não é I pretend: é I intend to ou I plan to. Passado: pretended. Depois vem to + verbo (pretend to know) ou that (pretend that you know)."
+    }
+  ],
+  "createdAt": "2026-08-25T19:27:45.661Z",
+  "exercise": {
+    "id": "practice-a1-aula0-unlock-your-english-demo",
+    "title": "Unlock your English: phrases that work today (A1 · Aula 0)",
+    "questions": [
+      {
+        "id": "q-1",
+        "type": "multiple_choice",
+        "target": "Can I…?",
+        "prompt": "You want permission to leave ten minutes early. What do you ask?",
+        "options": [
+          "Can I leave ten minutes early?",
+          "Can you leave ten minutes early?",
+          "Do I leave ten minutes early?",
+          "I can leave ten minutes early."
+        ],
+        "answer": "Can I leave ten minutes early?",
+        "explanation": "“Can I…?” asks for permission for yourself."
+      },
+      {
+        "id": "q-2",
+        "type": "fill_blank",
+        "target": "I need",
+        "prompt": "Before the call, _____ five minutes to check the numbers.",
+        "options": [],
+        "answer": "I need",
+        "explanation": "“I need” says that something is necessary for you."
+      },
+      {
+        "id": "q-3",
+        "type": "translate_to_english",
+        "target": "I think",
+        "prompt": "Acho que segunda-feira é melhor para todo mundo.",
+        "options": [],
+        "answer": "I think Monday is better for everyone.|I think that Monday is better for everyone.",
+        "explanation": "“I think” introduces your opinion."
+      },
+      {
+        "id": "q-4",
+        "type": "multiple_choice",
+        "target": "How do you say…?",
+        "prompt": "You do not know a word in English. What do you ask your teacher?",
+        "options": [
+          "What does this mean in English?",
+          "How do you say this in English?",
+          "How do you spell this in English?",
+          "Can you repeat this in English?"
+        ],
+        "answer": "How do you say this in English?",
+        "explanation": "“How do you say…?” asks for a word you do not know yet."
+      },
+      {
+        "id": "q-5",
+        "type": "translate_to_english",
+        "target": "I'd like",
+        "prompt": "Eu gostaria de falar com o gerente.",
+        "options": [],
+        "answer": "I'd like to speak to the manager.|I'd like to talk to the manager.",
+        "explanation": "“I'd like” is the polite way to say what you want."
+      },
+      {
+        "id": "q-6",
+        "type": "fill_blank",
+        "target": "actually",
+        "prompt": "The report is not late; it is _____ ready.",
+        "options": [],
+        "answer": "actually",
+        "explanation": "“Actually” corrects a wrong idea. “Currently” means “now”."
+      },
+      {
+        "id": "q-7",
+        "type": "multiple_choice",
+        "target": "What does … mean?",
+        "prompt": "A colleague writes “EOD” and you do not know the word. What do you ask?",
+        "options": [
+          "How do you say “EOD”?",
+          "How do you spell “EOD”?",
+          "What does “EOD” mean?",
+          "Can I write “EOD” here?"
+        ],
+        "answer": "What does “EOD” mean?",
+        "explanation": "“What does … mean?” asks for the meaning of a word."
+      },
+      {
+        "id": "q-8",
+        "type": "fill_blank",
+        "target": "pretend",
+        "prompt": "Please don't _____ to understand — just ask me to repeat.",
+        "options": [],
+        "answer": "pretend",
+        "explanation": "To “pretend” is to act as if something is true when it is not."
+      },
+      {
+        "id": "q-9",
+        "type": "translate_to_english",
+        "target": "Could you repeat that, please?",
+        "prompt": "Não ouvi o número. Pode repetir, por favor?",
+        "options": [],
+        "answer": "I didn't hear the number. Could you repeat that, please?|Sorry, I didn't hear the number. Could you repeat that, please?",
+        "explanation": "“Could you repeat that, please?” asks someone to say it again."
+      },
+      {
+        "id": "q-10",
+        "type": "multiple_choice",
+        "target": "I'm not sure, but…",
+        "prompt": "You think the answer is Friday, but you are not certain. How do you start?",
+        "options": [
+          "I know the answer, but…",
+          "I don't know, but…",
+          "I am sure, but…",
+          "I'm not sure, but…"
+        ],
+        "answer": "I'm not sure, but…",
+        "explanation": "“I'm not sure, but…” lets you answer without promising it is right."
+      }
+    ]
+  }
+}
