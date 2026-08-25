@@ -1,0 +1,190 @@
+{
+  "type": "vocabulary-practice-pack",
+  "version": 7,
+  "teacher": "Teacher Walden Nogueira",
+  "teacherWhatsApp": "5541996106689",
+  "student": {
+    "name": "Bruna",
+    "whatsapp": "5511991627789"
+  },
+  "lesson": "At the restaurant: ordering food (A0 · Lesson 4)",
+  "cards": [
+    {
+      "term": "Table",
+      "ipa": "/ˈteɪbl/",
+      "translation": "mesa",
+      "definition": "The thing you sit at to eat in a restaurant.",
+      "example": "- A table for two, please.\nUma mesa para dois, por favor.",
+      "note": "Ao chegar: a table for two. O garçom responde this way — “por aqui”."
+    },
+    {
+      "term": "Menu",
+      "ipa": "/ˈmenjuː/",
+      "translation": "cardápio",
+      "definition": "The paper or card with all the food and the prices.",
+      "example": "- Can I have the menu, please?\nPode me trazer o cardápio, por favor?",
+      "note": "Fala-se “MÉ-niu”, não “menú”. O cardápio de bebidas é o drinks menu."
+    },
+    {
+      "term": "Order",
+      "ipa": "/ˈɔːrdər/",
+      "translation": "pedir; pedido",
+      "definition": "To tell the waiter what food you want.",
+      "example": "- I want to order now, please.\nEu quero pedir agora, por favor.",
+      "note": "Verbo e substantivo: I order e my order. O garçom pergunta are you ready to order?"
+    },
+    {
+      "term": "Fish",
+      "ipa": "/fɪʃ/",
+      "translation": "peixe",
+      "definition": "Food that comes from the sea or a river.",
+      "example": "- The fish is very good here.\nO peixe é muito bom aqui.",
+      "note": "Plural igual ao singular: one fish, two fish. Nunca “fishes” no prato."
+    },
+    {
+      "term": "Chicken",
+      "ipa": "/ˈtʃɪkɪn/",
+      "translation": "frango",
+      "definition": "The most common meat on a menu.",
+      "example": "- I eat chicken every day.\nEu como frango todo dia.",
+      "note": "Incontável quando é a comida: I eat chicken, sem artigo. Com artigo vira o animal vivo."
+    },
+    {
+      "term": "Bill",
+      "ipa": "/bɪl/",
+      "translation": "a conta",
+      "definition": "The paper that says how much you have to pay.",
+      "example": "- The bill, please. We are ready.\nA conta, por favor. Estamos prontos.",
+      "note": "Na Inglaterra bill, nos Estados Unidos check. Os dois funcionam nos dois lugares."
+    },
+    {
+      "term": "Can I have…?",
+      "ipa": "",
+      "translation": "pode me trazer…? / eu queria…",
+      "definition": "The polite way to ask for anything in a restaurant or a shop.",
+      "example": "- Can I have the menu, please?\nPode me trazer o cardápio, por favor?",
+      "note": "A fórmula mais útil da viagem inteira. Serve para tudo: Can I have water? Can I have the bill?"
+    },
+    {
+      "term": "The bill, please",
+      "ipa": "",
+      "translation": "a conta, por favor",
+      "definition": "What you say when you finish and want to pay.",
+      "example": "- The bill, please. Card, thank you.\nA conta, por favor. Cartão, obrigado.",
+      "note": "Não precisa de frase longa. Duas palavras e o please resolvem, e é o que o nativo diz."
+    },
+    {
+      "term": "Lunch",
+      "ipa": "",
+      "translation": "almoço",
+      "definition": "The meal you eat in the middle of the day. It is NOT a small snack.",
+      "example": "- We have lunch at one o'clock.\nNós almoçamos à uma hora.",
+      "note": "“Lanche” é snack! Lunch é a refeição do meio-dia, com prato e tudo."
+    },
+    {
+      "term": "Pasta",
+      "ipa": "",
+      "translation": "massa (macarrão)",
+      "definition": "Italian food made of flour: spaghetti, penne. It is NOT a folder for papers.",
+      "example": "- I want pasta with the fish.\nEu quero macarrão com o peixe.",
+      "note": "“Pasta” de guardar papel é folder! No cardápio, pasta é sempre macarrão."
+    }
+  ],
+  "createdAt": "2026-08-25T13:53:46.741Z",
+  "exercise": {
+    "id": "practice-tv-a0-aula4-at-the-restaurant",
+    "title": "At the restaurant: ordering food (A0 · Lesson 4)",
+    "questions": [
+      {
+        "id": "q-1",
+        "type": "fill_blank",
+        "target": "table",
+        "prompt": "A _____ for two, please.",
+        "options": [],
+        "answer": "table",
+        "explanation": "“A table FOR two”, never “to two”."
+      },
+      {
+        "id": "q-2",
+        "type": "fill_blank",
+        "target": "table",
+        "prompt": "A table _____ two, please.",
+        "options": [],
+        "answer": "for",
+        "explanation": "Fixed phrase: a table FOR two."
+      },
+      {
+        "id": "q-3",
+        "type": "fill_blank",
+        "target": "menu",
+        "prompt": "Can I have the _____ , please?",
+        "options": [],
+        "answer": "menu",
+        "explanation": "Say “MÉ-niu”, not “menú”."
+      },
+      {
+        "id": "q-4",
+        "type": "fill_blank",
+        "target": "order",
+        "prompt": "Are you ready _____ order?",
+        "options": [],
+        "answer": "to",
+        "explanation": "“Ready TO” + verb. Portuguese pulls a “for” that is wrong here."
+      },
+      {
+        "id": "q-5",
+        "type": "fill_blank",
+        "target": "fish",
+        "prompt": "I want the _____ , please.",
+        "options": [],
+        "answer": "fish",
+        "explanation": "One fish, two fish — the plural does not change."
+      },
+      {
+        "id": "q-6",
+        "type": "fill_blank",
+        "target": "chicken",
+        "prompt": "I eat _____ every day.",
+        "options": [],
+        "answer": "chicken",
+        "explanation": "Food in general takes no article: “I eat chicken”."
+      },
+      {
+        "id": "q-7",
+        "type": "fill_blank",
+        "target": "bill",
+        "prompt": "The _____ , please. We are ready.",
+        "options": [],
+        "answer": "bill",
+        "explanation": "“Account” is a bank account. In a restaurant it is the bill."
+      },
+      {
+        "id": "q-8",
+        "type": "fill_blank",
+        "target": "Can I have…?",
+        "prompt": "_____ I have water, please?",
+        "options": [],
+        "answer": "Can",
+        "explanation": "The most useful phrase of the whole trip."
+      },
+      {
+        "id": "q-9",
+        "type": "fill_blank",
+        "target": "lunch",
+        "prompt": "We have _____ at one o’clock.",
+        "options": [],
+        "answer": "lunch",
+        "explanation": "“Lanche” is a snack. Lunch is the midday meal."
+      },
+      {
+        "id": "q-10",
+        "type": "fill_blank",
+        "target": "pasta",
+        "prompt": "I want _____ with the fish.",
+        "options": [],
+        "answer": "pasta",
+        "explanation": "On a menu, pasta is always food — never a folder."
+      }
+    ]
+  }
+}
