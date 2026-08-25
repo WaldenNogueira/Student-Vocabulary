@@ -1,0 +1,205 @@
+{
+  "type": "vocabulary-practice-pack",
+  "version": 7,
+  "teacher": "Teacher Walden Nogueira",
+  "teacherWhatsApp": "5541996106689",
+  "student": {
+    "name": "Patrick Bussolotti",
+    "whatsapp": "5511992125644"
+  },
+  "lesson": "Introducing yourself at work (A2 · Aula 1)",
+  "cards": [
+    {
+      "term": "Introduce",
+      "ipa": "/ˌɪntrəˈduːs/",
+      "translation": "apresentar (alguém)",
+      "definition": "To tell someone your name, or to present one person to another.",
+      "example": "- Let me introduce myself: I am Paula, from the sales team.\nDeixa eu me apresentar: sou a Paula, da equipe de vendas.",
+      "note": "Introduce myself = me apresentar. “Introdução” de texto = introduction."
+    },
+    {
+      "term": "Team",
+      "ipa": "/tiːm/",
+      "translation": "equipe, time",
+      "definition": "A group of people who work together on the same tasks.",
+      "example": "- I work on the marketing team with five other people.\nTrabalho na equipe de marketing com outras cinco pessoas.",
+      "note": "On/in a team. Time de futebol também é team."
+    },
+    {
+      "term": "Department",
+      "ipa": "/dɪˈpɑːrtmənt/",
+      "translation": "departamento, setor",
+      "definition": "A part of a company that does one type of work.",
+      "example": "- The finance department is on the second floor.\nO departamento financeiro fica no segundo andar.",
+      "note": "Abreviação comum: dept."
+    },
+    {
+      "term": "Boss",
+      "ipa": "/bɔːs/",
+      "translation": "chefe",
+      "definition": "The person who is in charge of you at work.",
+      "example": "- My boss is friendly, but she is very organized.\nMinha chefe é simpática, mas é muito organizada.",
+      "note": "Informal e universal; a versão formal é manager."
+    },
+    {
+      "term": "Intern",
+      "ipa": "/ˈɪntɜːrn/",
+      "translation": "estagiário(a)",
+      "definition": "A student or beginner who works to get experience, usually for a short time.",
+      "example": "- The new intern starts on Monday morning.\nO novo estagiário começa segunda de manhã.",
+      "note": "Estágio = internship."
+    },
+    {
+      "term": "Responsible for",
+      "ipa": "/rɪˈspɑːnsəbl fɔːr/",
+      "translation": "responsável por",
+      "definition": "Having the duty to take care of something.",
+      "example": "- I am responsible for the social media posts.\nSou responsável pelos posts das redes sociais.",
+      "note": "Sempre com for: responsible FOR something."
+    },
+    {
+      "term": "What do you do?",
+      "ipa": "",
+      "translation": "o que você faz (da vida)? qual é sua profissão?",
+      "definition": "A question that asks about someone's job.",
+      "example": "- — What do you do? — I am a designer.\n— O que você faz? — Sou designer.",
+      "note": "NÃO é “o que você está fazendo agora” (isso é What are you doing?)."
+    },
+    {
+      "term": "I work for",
+      "ipa": "",
+      "translation": "trabalho na/para (empresa)",
+      "definition": "Used to say which company employs you.",
+      "example": "- I work for a small tech company in Curitiba.\nTrabalho para uma empresa pequena de tecnologia em Curitiba.",
+      "note": "Work for + empresa; work at + lugar; work as + profissão."
+    },
+    {
+      "term": "Office",
+      "ipa": "/ˈɔːfɪs/",
+      "translation": "escritório",
+      "definition": "The room or building where you do your work.",
+      "example": "- My office is small, but it has a big window.\nMeu escritório é pequeno, mas tem uma janela grande.",
+      "note": "“Ofício” (documento) é official letter; “ofício” (profissão) é trade."
+    },
+    {
+      "term": "Notebook",
+      "ipa": "/ˈnoʊtbʊk/",
+      "translation": "caderno",
+      "definition": "A book with empty pages, used for writing notes.",
+      "example": "- I write all the new English words in a notebook.\nAnoto todas as palavras novas de inglês num caderno.",
+      "note": "O seu “notebook” (computador) em inglês é laptop!"
+    }
+  ],
+  "createdAt": "2026-08-25T16:54:17.475Z",
+  "exercise": {
+    "id": "practice-a2-aula1-introducing-yourself-at-work",
+    "title": "Introducing yourself at work (A2 · Aula 1)",
+    "questions": [
+      {
+        "id": "q-1",
+        "type": "fill_blank",
+        "target": "introduce",
+        "prompt": "Let me _____ myself: I am Paula, from the sales team.",
+        "options": [],
+        "answer": "introduce",
+        "explanation": "“Introduce myself” — the reflexive stays in English."
+      },
+      {
+        "id": "q-2",
+        "type": "fill_blank",
+        "target": "team",
+        "prompt": "I work on the marketing _____ with five other people.",
+        "options": [],
+        "answer": "team",
+        "explanation": "“On the team” in the US, “in the team” in the UK."
+      },
+      {
+        "id": "q-3",
+        "type": "translate_to_english",
+        "target": "department",
+        "prompt": "O departamento financeiro fica no segundo andar.",
+        "options": [],
+        "answer": "The finance department is on the second floor.|The finance department is on the 2nd floor.",
+        "explanation": "“On” + floor, not “in”."
+      },
+      {
+        "id": "q-4",
+        "type": "multiple_choice",
+        "target": "boss",
+        "prompt": "The person who is in charge of you at work is your…",
+        "options": [
+          "boss",
+          "intern",
+          "client",
+          "team"
+        ],
+        "answer": "boss",
+        "explanation": "“Boss” is your manager; an “intern” is a beginner."
+      },
+      {
+        "id": "q-5",
+        "type": "fill_blank",
+        "target": "intern",
+        "prompt": "The new _____ starts on Monday morning.",
+        "options": [],
+        "answer": "intern",
+        "explanation": "An “intern” works to gain experience, usually while studying."
+      },
+      {
+        "id": "q-6",
+        "type": "translate_to_english",
+        "target": "responsible for",
+        "prompt": "Eu sou responsável pelos posts nas redes sociais.",
+        "options": [],
+        "answer": "I am responsible for the social media posts.|I'm responsible for the social media posts.",
+        "explanation": "“Responsible FOR” — the Portuguese “por” tempts “by”."
+      },
+      {
+        "id": "q-7",
+        "type": "multiple_choice",
+        "target": "What do you do?",
+        "prompt": "You want to know someone's job. You ask:",
+        "options": [
+          "What do you do?",
+          "What are you doing?",
+          "What do you make?",
+          "How do you do?"
+        ],
+        "answer": "What do you do?",
+        "explanation": "“What are you doing?” asks about this exact moment."
+      },
+      {
+        "id": "q-8",
+        "type": "fill_blank",
+        "target": "I work for",
+        "prompt": "_____ a small tech company in Curitiba.",
+        "options": [],
+        "answer": "I work for",
+        "explanation": "“Work for” a company, “work at” a place, “work in” an area."
+      },
+      {
+        "id": "q-9",
+        "type": "fill_blank",
+        "target": "office",
+        "prompt": "My _____ is small, but it has a big window.",
+        "options": [],
+        "answer": "office",
+        "explanation": "“Office” is the room or the building where you work."
+      },
+      {
+        "id": "q-10",
+        "type": "multiple_choice",
+        "target": "notebook",
+        "prompt": "You write new English words on paper. You use a…",
+        "options": [
+          "notebook",
+          "laptop",
+          "report",
+          "notice"
+        ],
+        "answer": "notebook",
+        "explanation": "In English a “notebook” is paper. The computer is a “laptop”."
+      }
+    ]
+  }
+}
