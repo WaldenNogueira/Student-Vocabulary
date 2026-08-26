@@ -1,0 +1,210 @@
+{
+  "type": "vocabulary-practice-pack",
+  "version": 7,
+  "teacher": "Teacher Walden Nogueira",
+  "teacherWhatsApp": "5541996106689",
+  "student": {
+    "name": "Douglas",
+    "whatsapp": "5511976897770"
+  },
+  "lesson": "Describing your team & departments (B1 · Aula 10)",
+  "cards": [
+    {
+      "term": "Department",
+      "ipa": "/dɪˈpɑːrtmənt/",
+      "translation": "departamento, setor",
+      "definition": "An official section of a company with its own area of work.",
+      "example": "- The legal department reviews every contract before we sign it.\nO departamento jurídico revisa cada contrato antes de assinarmos.\n- I moved to the marketing department last year.\nFui para o departamento de marketing no ano passado.\n- Which department handles supplier payments?\nQual departamento cuida dos pagamentos a fornecedores?",
+      "note": "Abreviação comum em e-mails e organogramas: dept. Colocações: the finance department, the HR department, the IT department. Use in para dizer onde você trabalha: I work in the legal department."
+    },
+    {
+      "term": "Staff",
+      "ipa": "/stæf/",
+      "translation": "equipe, quadro de funcionários",
+      "definition": "All the people who work for a company or in one part of it.",
+      "example": "- Our staff grew from twenty to sixty people in two years.\nNossa equipe cresceu de vinte para sessenta pessoas em dois anos.\n- The staff were told about the change on Monday.\nA equipe foi avisada da mudança na segunda.\n- We have a staff of sixty in two offices.\nTemos um quadro de sessenta pessoas em dois escritórios.",
+      "note": "É incontável: “staffs” não existe. O verbo costuma vir no plural, porque a palavra pensa nas pessoas: the staff are ready. Para falar de uma pessoa só, diga a staff member ou an employee."
+    },
+    {
+      "term": "Head of",
+      "ipa": "/ˈhed əv/",
+      "translation": "chefe de, head de",
+      "definition": "The person who leads one area or department of a company.",
+      "example": "- She is the head of operations for Latin America.\nEla é a head de operações para a América Latina.\n- They promoted him to head of customer support.\nPromoveram ele a head de suporte ao cliente.\n- The head of finance signs every contract over ten thousand.\nO head de finanças assina todo contrato acima de dez mil.",
+      "note": "A expressão exige o of: head of sales, head of people. Depois do verbo to be o artigo é opcional: she is head of sales. Acima costuma vir director ou VP; abaixo, team lead."
+    },
+    {
+      "term": "Shift",
+      "ipa": "/ʃɪft/",
+      "translation": "turno",
+      "definition": "A fixed period of hours that one group of workers does before another group starts.",
+      "example": "- The support team works in three shifts, including nights.\nO time de suporte trabalha em três turnos, incluindo a noite.\n- She worked the night shift for six months.\nEla trabalhou no turno da noite por seis meses.\n- The company shifted its priorities after the merger.\nA empresa mudou suas prioridades depois da fusão.",
+      "note": "Colocações: the morning shift, the night shift, work in shifts. Como verbo, shift é mudar de posição ou de foco: shift priorities. Passado: shifted."
+    },
+    {
+      "term": "In-house",
+      "ipa": "/ˌɪn ˈhaʊs/",
+      "translation": "interno (feito dentro da empresa)",
+      "definition": "Done by your own employees instead of by an outside company.",
+      "example": "- We have an in-house design team instead of an agency.\nTemos um time de design interno em vez de uma agência.\n- We moved the translations in-house to save money.\nTrouxemos as traduções para dentro de casa para economizar.\n- All in-house training happens on Friday afternoons.\nTodo o treinamento interno acontece nas sextas à tarde.",
+      "note": "Antes do substantivo vai com hífen: an in-house lawyer. Depois do verbo funciona como advérbio: we do it in-house. O contrário é outsourced ou done by an agency."
+    },
+    {
+      "term": "Turnover",
+      "ipa": "/ˈtɜːrnoʊvər/",
+      "translation": "rotatividade (de pessoal); faturamento (UK)",
+      "definition": "The rate at which employees leave a company and new ones arrive.",
+      "example": "- High turnover in that department costs us three months of training.\nA alta rotatividade naquele departamento custa três meses de treinamento.\n- Turnover dropped after we changed the manager.\nA rotatividade caiu depois que trocamos o gerente.\n- British reports sometimes use turnover to mean total sales.\nRelatórios britânicos às vezes usam turnover no sentido de faturamento.",
+      "note": "No RH significa rotatividade de pessoal; no financeiro britânico, faturamento — o contexto decide. É incontável. Colocações: high turnover, low turnover, staff turnover."
+    },
+    {
+      "term": "Work closely with",
+      "ipa": "/ˌwɝk ˈkloʊsli wɪð/",
+      "translation": "trabalhar em conjunto / lado a lado com",
+      "definition": "To cooperate with someone very often and in detail.",
+      "example": "- I work closely with the finance team on every quarterly report.\nTrabalho lado a lado com o financeiro em todo relatório trimestral.\n- I worked closely with the legal team on the new contract.\nTrabalhei lado a lado com o jurídico no contrato novo.\n- Designers work closely with developers in every sprint.\nOs designers trabalham em conjunto com os desenvolvedores em cada sprint.",
+      "note": "Mostra proximidade real e diz muito mais que work with. A preposição é sempre with, nunca to. É a frase certa para explicar sua rotina numa entrevista ou numa reunião de apresentação."
+    },
+    {
+      "term": "On the same page",
+      "ipa": "/ɑn ðə ˌseɪm ˈpeɪdʒ/",
+      "translation": "alinhados, na mesma sintonia",
+      "definition": "Agreeing about a plan because everyone has the same information.",
+      "example": "- Let's have a quick call to make sure we are all on the same page.\nVamos fazer uma reunião rápida para garantir que estamos todos alinhados.\n- After the call, we were finally on the same page about the deadline.\nDepois da call, finalmente ficamos alinhados sobre o prazo.\n- I want to get everyone on the same page before we talk to the client.\nQuero alinhar todo mundo antes de falarmos com o cliente.",
+      "note": "Os verbos mais frequentes são be on the same page e get on the same page. É informal, mas circula em qualquer reunião de trabalho. Não existe plural: nunca on the same pages."
+    },
+    {
+      "term": "Prejudice",
+      "ipa": "/ˈpredʒudɪs/",
+      "translation": "preconceito",
+      "definition": "An unfair opinion about a person or group formed before you know them.",
+      "example": "- We have training about prejudice and bias in hiring.\nTemos treinamento sobre preconceito e viés na contratação.\n- The new hiring process was designed to reduce prejudice.\nO novo processo de contratação foi feito para reduzir o preconceito.\n- He spoke openly about the prejudice he faced at work.\nEle falou abertamente sobre o preconceito que enfrentou no trabalho.",
+      "note": "Não é “prejuízo”: perda financeira é a loss, e prejudicar é to harm ou to damage. Normalmente é incontável e vem com against: prejudice against a group. O adjetivo é prejudiced."
+    },
+    {
+      "term": "Policy",
+      "ipa": "/ˈpɑːləsi/",
+      "translation": "política interna, norma",
+      "definition": "An official rule or plan that a company follows.",
+      "example": "- Our remote work policy allows two days at home.\nNossa política de trabalho remoto permite dois dias em casa.\n- Every new employee reads the security policy on day one.\nTodo funcionário novo lê a política de segurança no primeiro dia.\n- They updated the expenses policy in January.\nEles atualizaram a política de despesas em janeiro.",
+      "note": "Não é “polícia”: isso é the police. Plural: policies. Colocações úteis: privacy policy, expenses policy, it is our policy to answer within 24 hours."
+    }
+  ],
+  "createdAt": "2026-08-26T01:55:50.528Z",
+  "exercise": {
+    "id": "practice-b1-aula10-describing-your-team-departments",
+    "title": "Describing your team & departments (B1 · Aula 10)",
+    "questions": [
+      {
+        "id": "q-1",
+        "type": "multiple_choice",
+        "target": "department",
+        "prompt": "Which word means an official section of a company, such as finance or IT?",
+        "options": [
+          "Department",
+          "Committee",
+          "Session",
+          "Category"
+        ],
+        "answer": "Department",
+        "explanation": "A “department” is a permanent section of a company with its own work."
+      },
+      {
+        "id": "q-2",
+        "type": "fill_blank",
+        "target": "turnover",
+        "prompt": "We reduced _____ by twenty percent after the new benefits package.",
+        "options": [],
+        "answer": "turnover",
+        "explanation": "“Turnover” is the rate at which people leave a company."
+      },
+      {
+        "id": "q-3",
+        "type": "translate_to_english",
+        "target": "head of",
+        "prompt": "Quem é o head de tecnologia agora?",
+        "options": [],
+        "answer": "Who is the head of technology now?|Who is head of technology now?",
+        "explanation": "“Head of” is always followed by the area, never by the person's name."
+      },
+      {
+        "id": "q-4",
+        "type": "multiple_choice",
+        "target": "staff",
+        "prompt": "Which word covers everyone who works at the company, from interns to directors?",
+        "options": [
+          "Turnover",
+          "Staff",
+          "Shift",
+          "Policy"
+        ],
+        "answer": "Staff",
+        "explanation": "“Staff” means all the employees, and the plural form “staffs” does not exist."
+      },
+      {
+        "id": "q-5",
+        "type": "fill_blank",
+        "target": "in-house",
+        "prompt": "Everything is produced _____ by our own team of six people.",
+        "options": [],
+        "answer": "in-house",
+        "explanation": "“In-house” means done inside the company, not by an agency."
+      },
+      {
+        "id": "q-6",
+        "type": "translate_to_english",
+        "target": "work closely with",
+        "prompt": "Nós trabalhamos lado a lado com os fornecedores todos os dias.",
+        "options": [],
+        "answer": "We work closely with our suppliers every day.|We work closely with the suppliers every day.",
+        "explanation": "“Work closely with” shows real, daily cooperation."
+      },
+      {
+        "id": "q-7",
+        "type": "multiple_choice",
+        "target": "shift",
+        "prompt": "The factory runs 24 hours a day with three different teams. What is each work period called?",
+        "options": [
+          "A schedule",
+          "A session",
+          "A shift",
+          "A break"
+        ],
+        "answer": "A shift",
+        "explanation": "A “shift” is the block of hours one team works before the next one starts."
+      },
+      {
+        "id": "q-8",
+        "type": "fill_blank",
+        "target": "policy",
+        "prompt": "It is against company _____ to share passwords with anyone.",
+        "options": [],
+        "answer": "policy",
+        "explanation": "A “policy” is an official company rule."
+      },
+      {
+        "id": "q-9",
+        "type": "translate_to_english",
+        "target": "on the same page",
+        "prompt": "Antes de começar, quero garantir que estamos todos alinhados.",
+        "options": [],
+        "answer": "Before we start, I want to make sure we are all on the same page.|Before we start, I want to be sure we are all on the same page.",
+        "explanation": "“On the same page” means everyone understands the plan in the same way."
+      },
+      {
+        "id": "q-10",
+        "type": "multiple_choice",
+        "target": "prejudice",
+        "prompt": "Which word means an unfair opinion about a group of people?",
+        "options": [
+          "Loss",
+          "Damage",
+          "Harm",
+          "Prejudice"
+        ],
+        "answer": "Prejudice",
+        "explanation": "“Prejudice” is an unfair opinion; a financial loss is “a loss”."
+      }
+    ]
+  }
+}
