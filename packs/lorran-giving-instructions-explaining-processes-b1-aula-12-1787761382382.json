@@ -1,0 +1,210 @@
+{
+  "type": "vocabulary-practice-pack",
+  "version": 7,
+  "teacher": "Teacher Walden Nogueira",
+  "teacherWhatsApp": "5541996106689",
+  "student": {
+    "name": "Lorran",
+    "whatsapp": "5511968412808"
+  },
+  "lesson": "Giving instructions & explaining processes (B1 · Aula 12)",
+  "cards": [
+    {
+      "term": "Step",
+      "ipa": "/step/",
+      "translation": "passo, etapa",
+      "definition": "One action in a process that has several parts.",
+      "example": "- The process has four steps, and step two takes the longest.\nO processo tem quatro passos, e o passo dois é o mais demorado.\n- Let me walk you through the first step.\nDeixa eu te mostrar o primeiro passo.\n- We skipped a step and had to start again.\nPulamos uma etapa e tivemos que começar de novo.",
+      "note": "Step by step = passo a passo. Verbo: step (dar um passo). Colocações úteis: follow the steps, skip a step, the next step."
+    },
+    {
+      "term": "Make sure",
+      "ipa": "/ˌmeɪk ˈʃʊr/",
+      "translation": "certifique-se de, garanta que",
+      "definition": "To check that something is true or done.",
+      "example": "- Make sure the file is saved before you close the system.\nCertifique-se de que o arquivo foi salvo antes de fechar o sistema.\n- I made sure everyone had the agenda before we started.\nGaranti que todo mundo tinha a pauta antes de começarmos.\n- Make sure to copy your manager on that email.\nNão esqueça de colocar seu gestor em cópia nesse e-mail.",
+      "note": "Instrução educada e firme. Depois vem uma oração: make sure THAT… (o that pode sumir). Também aceita make sure to + verbo, e o passado é made sure."
+    },
+    {
+      "term": "Avoid",
+      "ipa": "/əˈvɔɪd/",
+      "translation": "evitar",
+      "definition": "To try not to do something or not to let it happen.",
+      "example": "- Avoid sending the invoice before the client confirms the address.\nEvite enviar a nota fiscal antes de o cliente confirmar o endereço.\n- We avoided a big delay by testing the system on Friday.\nEvitamos um atraso grande testando o sistema na sexta.\n- Try to avoid technical words when you talk to clients.\nTente evitar palavras técnicas quando falar com clientes.",
+      "note": "Depois de avoid, verbo com -ing: avoid sending, nunca “avoid to send”. Passado: avoided. Para pessoas soa forte; prefira stay away from."
+    },
+    {
+      "term": "Press",
+      "ipa": "/pres/",
+      "translation": "apertar, pressionar (botão)",
+      "definition": "To push a button or a key with your finger.",
+      "example": "- Press “save”, then wait five seconds for the green message.\nAperte “salvar” e espere cinco segundos pela mensagem verde.\n- She pressed the wrong key and lost the file.\nEla apertou a tecla errada e perdeu o arquivo.\n- Press and hold the button for three seconds.\nAperte e segure o botão por três segundos.",
+      "note": "Botão de tela ou físico. Não confunda com push (empurrar objeto) nem com click, que é com o mouse. Passado: pressed."
+    },
+    {
+      "term": "Check",
+      "ipa": "/tʃek/",
+      "translation": "conferir, verificar",
+      "definition": "To look at something to see if it is correct.",
+      "example": "- Check the numbers twice before you send the report.\nConfira os números duas vezes antes de enviar o relatório.\n- I checked the file this morning and everything was fine.\nConferi o arquivo hoje de manhã e estava tudo certo.\n- Can you check whether the client received the contract?\nVocê pode verificar se o cliente recebeu o contrato?",
+      "note": "Check = conferir; “checar com alguém” é check WITH someone. Passado: checked. Aparece também em double-check (conferir de novo) e em check in / check out."
+    },
+    {
+      "term": "Deadline",
+      "ipa": "/ˈdedlaɪn/",
+      "translation": "prazo final",
+      "definition": "The last day or time when something must be finished.",
+      "example": "- The deadline for this task is Wednesday at noon.\nO prazo desta tarefa é quarta ao meio-dia.\n- We met the deadline even with two people on vacation.\nCumprimos o prazo mesmo com duas pessoas de férias.\n- If we miss this deadline, the client will charge us.\nSe perdermos este prazo, o cliente vai nos cobrar.",
+      "note": "Meet a deadline (cumprir) x miss a deadline (perder). A preposição de tempo é by: finish it by Friday. Prazo apertado é a tight deadline."
+    },
+    {
+      "term": "First of all",
+      "ipa": "/ˌfɝst əv ˈɔl/",
+      "translation": "antes de tudo, primeiro",
+      "definition": "A phrase that introduces the first action in a list.",
+      "example": "- First of all, log in with your company email — not your personal one.\nAntes de tudo, faça login com o e-mail da empresa — não o pessoal.\n- First of all, thank you for joining the call today.\nAntes de tudo, obrigado por entrar na call hoje.\n- First of all, we checked the data; then we called the client.\nPrimeiro conferimos os dados; depois ligamos para o cliente.",
+      "note": "Abre a sequência. Depois vêm then, after that e finally. É mais enfático que só first e vem sempre seguido de vírgula."
+    },
+    {
+      "term": "Keep in mind",
+      "ipa": "/ˌkip ɪn ˈmaɪnd/",
+      "translation": "tenha em mente, lembre-se de",
+      "definition": "To remember something important while you do a task.",
+      "example": "- Keep in mind that the system is slower at the end of the month.\nTenha em mente que o sistema fica mais lento no fim do mês.\n- Keep in mind that the client only reads emails in the morning.\nTenha em mente que o cliente só lê e-mails de manhã.\n- We kept in mind that the team was small and split the work.\nLevamos em conta que o time era pequeno e dividimos o trabalho.",
+      "note": "Avisa sobre uma exceção sem soar autoritário. Com objeto no meio: keep that in mind. Passado: kept in mind, e o mais comum é keep in mind that + oração."
+    },
+    {
+      "term": "Record",
+      "ipa": "/rɪˈkɔːrd/",
+      "translation": "gravar; registrar",
+      "definition": "To save sound or video, or to write information down officially.",
+      "example": "- Record the meeting and save the file in the shared folder.\nGrave a reunião e salve o arquivo na pasta compartilhada.\n- We recorded the training so the new team can watch it later.\nGravamos o treinamento para o time novo assistir depois.\n- Please record every change in the spreadsheet.\nPor favor, registre toda mudança na planilha.",
+      "note": "“Recordar” (lembrar) é remember ou recall; record é gravar ou registrar. Passado: recorded. Como substantivo, a record, a sílaba forte muda para a primeira."
+    },
+    {
+      "term": "Exit",
+      "ipa": "/ˈeɡzɪt/",
+      "translation": "sair (do sistema); saída",
+      "definition": "To leave a place or a program, or the way out.",
+      "example": "- Click “exit” only after the system confirms the update.\nClique em “sair” só depois que o sistema confirmar a atualização.\n- She exited the program without saving her work.\nEla saiu do programa sem salvar o trabalho.\n- The emergency exit is at the end of the corridor.\nA saída de emergência fica no fim do corredor.",
+      "note": "“Êxito” (sucesso) é success. Exit é sair — inclusive nas placas. Como verbo soa mais formal que leave, e no computador o par natural é log out."
+    }
+  ],
+  "createdAt": "2026-08-26T16:23:02.381Z",
+  "exercise": {
+    "id": "practice-b1-aula12-giving-instructions-explaining-processes",
+    "title": "Giving instructions & explaining processes (B1 · Aula 12)",
+    "questions": [
+      {
+        "id": "q-1",
+        "type": "multiple_choice",
+        "target": "avoid",
+        "prompt": "Which sentence is correct after the verb “avoid”?",
+        "options": [
+          "Avoid clicking the red button during the update.",
+          "Avoid to click the red button during the update.",
+          "Avoid click the red button during the update.",
+          "Avoid that you click the red button during the update."
+        ],
+        "answer": "Avoid clicking the red button during the update.",
+        "explanation": "“Avoid” is always followed by a verb in the -ing form."
+      },
+      {
+        "id": "q-2",
+        "type": "fill_blank",
+        "target": "step",
+        "prompt": "Let me explain the last _____ before you try the process alone.",
+        "options": [],
+        "answer": "step",
+        "explanation": "A “step” is one action inside a longer process."
+      },
+      {
+        "id": "q-3",
+        "type": "translate_to_english",
+        "target": "make sure",
+        "prompt": "Certifique-se de que todo mundo recebeu o link.",
+        "options": [],
+        "answer": "Make sure everyone got the link.|Make sure that everyone got the link.",
+        "explanation": "“Make sure” asks the other person to check that something is done."
+      },
+      {
+        "id": "q-4",
+        "type": "multiple_choice",
+        "target": "press",
+        "prompt": "The screen shows a green button. What do you do with it?",
+        "options": [
+          "You push it.",
+          "You press it.",
+          "You pull it.",
+          "You move it."
+        ],
+        "answer": "You press it.",
+        "explanation": "“Press” is for buttons and keys; “push” is for moving an object away from you."
+      },
+      {
+        "id": "q-5",
+        "type": "fill_blank",
+        "target": "deadline",
+        "prompt": "We cannot move the _____ again, because the client is already waiting.",
+        "options": [],
+        "answer": "deadline",
+        "explanation": "A “deadline” is the final time when the work must be ready."
+      },
+      {
+        "id": "q-6",
+        "type": "translate_to_english",
+        "target": "first of all",
+        "prompt": "Antes de tudo, abra o sistema com o seu login.",
+        "options": [],
+        "answer": "First of all, open the system with your login.|First of all, open the system with your own login.",
+        "explanation": "“First of all” introduces the first action of a sequence."
+      },
+      {
+        "id": "q-7",
+        "type": "multiple_choice",
+        "target": "record",
+        "prompt": "Which sentence means that you saved the meeting as a video file?",
+        "options": [
+          "I remembered the meeting.",
+          "I recalled the meeting.",
+          "I recorded the meeting.",
+          "I reminded the meeting."
+        ],
+        "answer": "I recorded the meeting.",
+        "explanation": "“Record” means to save sound or video. To bring something back to memory is “recall”."
+      },
+      {
+        "id": "q-8",
+        "type": "fill_blank",
+        "target": "check",
+        "prompt": "I always _____ the address twice before I send a contract.",
+        "options": [],
+        "answer": "check",
+        "explanation": "“Check” means to look at something to see if it is correct."
+      },
+      {
+        "id": "q-9",
+        "type": "translate_to_english",
+        "target": "keep in mind",
+        "prompt": "Tenha em mente que o time de suporte sai às seis.",
+        "options": [],
+        "answer": "Keep in mind that the support team leaves at six.|Keep in mind the support team leaves at six.",
+        "explanation": "“Keep in mind” warns about something important without sounding hard."
+      },
+      {
+        "id": "q-10",
+        "type": "multiple_choice",
+        "target": "exit",
+        "prompt": "Which word do you click when you want to leave the system?",
+        "options": [
+          "Success",
+          "Enter",
+          "Access",
+          "Exit"
+        ],
+        "answer": "Exit",
+        "explanation": "“Exit” means to leave. The Portuguese word “êxito” is “success”."
+      }
+    ]
+  }
+}
