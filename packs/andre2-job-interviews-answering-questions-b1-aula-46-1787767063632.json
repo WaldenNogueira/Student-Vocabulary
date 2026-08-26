@@ -1,0 +1,210 @@
+{
+  "type": "vocabulary-practice-pack",
+  "version": 7,
+  "teacher": "Teacher Walden Nogueira",
+  "teacherWhatsApp": "5541996106689",
+  "student": {
+    "name": "Andre2",
+    "whatsapp": "5531995145165"
+  },
+  "lesson": "Job interviews: answering questions (B1 · Aula 46)",
+  "cards": [
+    {
+      "term": "Strength",
+      "ipa": "/streŋθ/",
+      "translation": "ponto forte, força",
+      "definition": "Something you are naturally good at.",
+      "example": "- My main strength is staying calm when a client is angry.\nMeu principal ponto forte é manter a calma quando um cliente está irritado.\n- Her greatest strength is turning complaints into loyal customers.\nO maior ponto forte dela é transformar reclamações em clientes fiéis.\n- Interviewers usually ask about two strengths and one weak point.\nEntrevistadores costumam perguntar sobre dois pontos fortes e um ponto fraco.",
+      "note": "Plural: strengths. Numa entrevista, cada ponto forte precisa vir com um exemplo real, nunca só o adjetivo. O adjetivo é strong e o verbo, strengthen."
+    },
+    {
+      "term": "Weakness",
+      "ipa": "/ˈwiːknəs/",
+      "translation": "ponto fraco",
+      "definition": "Something you are not good at yet.",
+      "example": "- My biggest weakness was delegating, so I started training two colleagues.\nMeu maior ponto fraco era delegar, então comecei a treinar dois colegas.\n- Saying you have no weakness sounds arrogant in an interview.\nDizer que você não tem nenhum ponto fraco soa arrogante numa entrevista.\n- He turned a weakness into a story about learning fast.\nEle transformou um ponto fraco numa história sobre aprender rápido.",
+      "note": "A fórmula que funciona é a fraqueza mais o que você já está fazendo para melhorar. Plural: weaknesses. O adjetivo correspondente é weak."
+    },
+    {
+      "term": "Achievement",
+      "ipa": "/əˈtʃiːvmənt/",
+      "translation": "conquista, realização",
+      "definition": "Something good you did that took effort and skill.",
+      "example": "- My proudest achievement is the project that cut delivery time by 30%.\nMinha maior conquista é o projeto que cortou o tempo de entrega em 30%.\n- She listed three achievements from her last two years.\nEla listou três conquistas dos últimos dois anos.\n- Opening the Lisbon office was a team achievement, not a personal one.\nAbrir o escritório de Lisboa foi uma conquista de time, não pessoal.",
+      "note": "Use números: conquista sem número soa vaga. O verbo é achieve e o passado, achieved. Colocação frequente na entrevista: my proudest achievement."
+    },
+    {
+      "term": "Background",
+      "ipa": "/ˈbækɡraʊnd/",
+      "translation": "formação e experiência (trajetória)",
+      "definition": "Your studies and work experience up to now.",
+      "example": "- My background is in logistics, but I moved to customer success in 2023.\nMinha trajetória é em logística, mas migrei para customer success em 2023.\n- We hired someone with a background in data analysis.\nContratamos alguém com formação em análise de dados.\n- Her background in law helped her read every contract quickly.\nA formação dela em direito a ajudou a ler todo contrato rapidamente.",
+      "note": "Tell me about your background pede a trajetória profissional, não a infância. A colocação é a background in mais a área. A mesma palavra também é o fundo de uma imagem ou de uma chamada de vídeo."
+    },
+    {
+      "term": "Challenge",
+      "ipa": "/ˈtʃælɪndʒ/",
+      "translation": "desafio",
+      "definition": "A difficult situation that tests your skills.",
+      "example": "- The biggest challenge in that role was working with three time zones.\nO maior desafio naquela função era trabalhar com três fusos horários.\n- We faced a serious challenge when two suppliers cancelled.\nEnfrentamos um desafio sério quando dois fornecedores cancelaram.\n- She challenged the deadline and got two extra weeks.\nEla questionou o prazo e conseguiu duas semanas extras.",
+      "note": "Como verbo, challenge é desafiar ou questionar; o adjetivo é challenging, ou seja, desafiador. Colocações comuns: face a challenge, a major challenge. Soa mais positivo que problem numa entrevista."
+    },
+    {
+      "term": "Apply for",
+      "ipa": "/əˈplaɪ fɔːr/",
+      "translation": "candidatar-se a (uma vaga)",
+      "definition": "To officially ask for a job or a place.",
+      "example": "- I applied for this position because your company is growing in Latin America.\nMe candidatei a esta vaga porque a empresa de vocês está crescendo na América Latina.\n- She is going to apply for the team lead role next month.\nEla vai se candidatar à vaga de líder de time no mês que vem.\n- Three hundred people applied for the same opening.\nTrezentas pessoas se candidataram à mesma vaga.",
+      "note": "É apply FOR a job, mas apply TO a company. O substantivo é application e a pessoa é an applicant. Passado: applied for."
+    },
+    {
+      "term": "Tell me about yourself",
+      "ipa": "/ˈtel mi əˈbaʊt jɚˈself/",
+      "translation": "fale sobre você",
+      "definition": "The opening interview question about your career so far.",
+      "example": "- “Tell me about yourself” is not about your life — it is a 90-second career trailer.\n“Fale sobre você” não é sobre sua vida — é um trailer de 90 segundos da sua carreira.\n- She smiled and said, “Tell me about yourself.”\nEla sorriu e disse: “Fale sobre você”.\n- I practised my answer to “tell me about yourself” ten times.\nPratiquei minha resposta para “fale sobre você” dez vezes.",
+      "note": "A estrutura de ouro é presente, passado e futuro: o que você faz hoje, como chegou aqui e por que esta vaga. Mantenha a resposta entre 60 e 90 segundos. Para mais de uma pessoa, a pergunta vira tell me about yourselves."
+    },
+    {
+      "term": "Stand out",
+      "ipa": "/ˈstænd ˈaʊt/",
+      "translation": "destacar-se",
+      "definition": "To be clearly better or more noticeable than the others.",
+      "example": "- Two candidates had the same skills; her examples made her stand out.\nDois candidatos tinham as mesmas habilidades; os exemplos dela a fizeram se destacar.\n- His portfolio stood out because every project had results.\nO portfólio dele se destacou porque todo projeto tinha resultados.\n- A clear structure makes any answer stand out from the rest.\nUma estrutura clara faz qualquer resposta se destacar das outras.",
+      "note": "Phrasal verb inseparável, quase sempre com from: stand out from the other candidates. Passado: stood out. Como adjetivo vira uma palavra só, a standout candidate."
+    },
+    {
+      "term": "Resume",
+      "ipa": "/ˈrezəmeɪ/",
+      "translation": "currículo (AmE, também résumé); retomar",
+      "definition": "In American English, a short document with your work history; it can also mean to start again.",
+      "example": "- I sent my resume, and then we resumed the conversation after the break.\nEnviei meu currículo e depois retomamos a conversa após o intervalo.\n- Keep your resume to one page if you can.\nMantenha seu currículo em uma página, se possível.\n- The panel resumed the interviews at two o'clock.\nA banca retomou as entrevistas às duas horas.",
+      "note": "Resumir é summarize: Could you summarize your experience? No inglês britânico, o currículo é o CV. A grafia é a mesma para os dois sentidos, mas a sílaba tônica muda quando o sentido é retomar."
+    },
+    {
+      "term": "Support",
+      "ipa": "/səˈpɔːrt/",
+      "translation": "apoiar, dar suporte",
+      "definition": "To help someone or something to succeed.",
+      "example": "- I support my team when deadlines are tight — I don't just supervise them.\nEu apoio minha equipe quando os prazos apertam — não só supervisiono.\n- My manager supported my decision in front of the client.\nMeu gerente apoiou minha decisão na frente do cliente.\n- The company supports two training courses a year.\nA empresa banca dois cursos de treinamento por ano.",
+      "note": "“Não suporto essa pessoa” não é I don't support: é I can't stand. Support é sempre positivo, no sentido de apoiar ou sustentar. O substantivo também é support, e quem apoia é a supporter."
+    }
+  ],
+  "createdAt": "2026-08-26T17:57:43.631Z",
+  "exercise": {
+    "id": "practice-b1-aula46-job-interviews-answering-questions",
+    "title": "Job interviews: answering questions (B1 · Aula 46)",
+    "questions": [
+      {
+        "id": "q-1",
+        "type": "translate_to_english",
+        "target": "tell me about yourself",
+        "prompt": "Fale sobre você e comece pelo que você faz hoje.",
+        "options": [],
+        "answer": "Tell me about yourself, and start with what you do today.|Tell me about yourself and start with what you do now.",
+        "explanation": "“Tell me about yourself” opens almost every interview."
+      },
+      {
+        "id": "q-2",
+        "type": "multiple_choice",
+        "target": "weakness",
+        "prompt": "Which answer to “What is your greatest weakness?” works best in an interview?",
+        "options": [
+          "I used to avoid delegating, so I now plan handovers with my team.",
+          "I have no real weakness that affects my work in any way.",
+          "I work far too hard and I care too much about the results.",
+          "My weak point is that my last manager never trained me properly."
+        ],
+        "answer": "I used to avoid delegating, so I now plan handovers with my team.",
+        "explanation": "A good answer names a real weakness and shows what you are already doing about it."
+      },
+      {
+        "id": "q-3",
+        "type": "fill_blank",
+        "target": "apply for",
+        "prompt": "I decided to _____ the analyst position after reading the job ad twice.",
+        "options": [],
+        "answer": "apply for",
+        "explanation": "You “apply for” a job, but you “apply to” a company."
+      },
+      {
+        "id": "q-4",
+        "type": "multiple_choice",
+        "target": "background",
+        "prompt": "The interviewer says “Tell me about your background.” What should you talk about?",
+        "options": [
+          "Where you grew up and what your family does",
+          "Your studies and your professional experience",
+          "Your hobbies and how you spend your weekends",
+          "Your salary history and your holiday plans"
+        ],
+        "answer": "Your studies and your professional experience",
+        "explanation": "“Background” means your studies and work experience, not your personal life."
+      },
+      {
+        "id": "q-5",
+        "type": "translate_to_english",
+        "target": "strength",
+        "prompt": "Meu maior ponto forte é ouvir antes de decidir.",
+        "options": [],
+        "answer": "My greatest strength is listening before I decide.|My biggest strength is listening before deciding.",
+        "explanation": "A “strength” is something you are genuinely good at."
+      },
+      {
+        "id": "q-6",
+        "type": "fill_blank",
+        "target": "challenge",
+        "prompt": "Interviewers often ask you to describe a _____ you faced at work.",
+        "options": [],
+        "answer": "challenge",
+        "explanation": "A “challenge” is a difficult situation that tests your skills."
+      },
+      {
+        "id": "q-7",
+        "type": "multiple_choice",
+        "target": "resume",
+        "prompt": "You want the interviewer to give you a short version of the role. What do you say?",
+        "options": [
+          "Could you resume the role in one sentence?",
+          "Could you resume me the role in one sentence?",
+          "Could you summarize the role in one sentence?",
+          "Could you make a resume of the role in one sentence?"
+        ],
+        "answer": "Could you summarize the role in one sentence?",
+        "explanation": "A “resume” is your CV, or to start again; for a short version, use “summarize”."
+      },
+      {
+        "id": "q-8",
+        "type": "fill_blank",
+        "target": "stand out",
+        "prompt": "Concrete numbers make your answers _____ on a long interview day.",
+        "options": [],
+        "answer": "stand out",
+        "explanation": "To “stand out” is to be clearly more noticeable than the others."
+      },
+      {
+        "id": "q-9",
+        "type": "translate_to_english",
+        "target": "achievement",
+        "prompt": "Minha maior conquista foi reduzir os custos em vinte por cento.",
+        "options": [],
+        "answer": "My biggest achievement was cutting costs by twenty percent.|My greatest achievement was reducing costs by twenty percent.",
+        "explanation": "An “achievement” is a concrete result you can measure."
+      },
+      {
+        "id": "q-10",
+        "type": "multiple_choice",
+        "target": "support",
+        "prompt": "A teammate annoys you and you cannot stand him. Which sentence says that in English?",
+        "options": [
+          "I don't support that teammate at all.",
+          "I give no support to that teammate.",
+          "I am not supportive of that teammate.",
+          "I can't stand that teammate at all."
+        ],
+        "answer": "I can't stand that teammate at all.",
+        "explanation": "“Support” means to help or back someone; “não suportar” is “can't stand”."
+      }
+    ]
+  }
+}
