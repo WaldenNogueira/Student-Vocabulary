@@ -1,0 +1,215 @@
+{
+  "type": "vocabulary-practice-pack",
+  "version": 7,
+  "teacher": "Teacher Walden Nogueira",
+  "teacherWhatsApp": "5541996106689",
+  "student": {
+    "name": "DIEGO TAMOTSU HARA",
+    "whatsapp": "5511953037276"
+  },
+  "lesson": "First impressions & professional presence (B2 · Aula 1)",
+  "cards": [
+    {
+      "term": "Come across as",
+      "ipa": "/kʌm əˈkrɔːs æz/",
+      "translation": "passar a impressão de / parecer",
+      "definition": "To give people a particular impression of yourself.",
+      "example": "- In interviews, I want to come across as confident and prepared, never arrogant.\nEm entrevistas, quero passar a impressão de confiante e preparado, nunca arrogante.",
+      "note": "Estrutura: come across as + adjetivo: He comes across as rude. Sem o as, come across = encontrar por acaso."
+    },
+    {
+      "term": "Rapport",
+      "ipa": "/ræˈpɔːr/",
+      "translation": "sintonia / conexão com alguém",
+      "definition": "A comfortable connection between people who understand each other.",
+      "example": "- Good salespeople build rapport in the first minutes, long before they talk about price.\nBons vendedores criam sintonia nos primeiros minutos, muito antes de falar de preço.",
+      "note": "O “t” é mudo: /ræˈpɔːr/. Colocação fixa: build rapport with someone."
+    },
+    {
+      "term": "Demeanor",
+      "ipa": "/dɪˈmiːnər/",
+      "translation": "postura / jeito / comportamento",
+      "definition": "The way you look and behave, especially under pressure.",
+      "example": "- Her calm demeanor during the crisis impressed the whole executive panel.\nA postura calma dela durante a crise impressionou toda a banca executiva.",
+      "note": "Palavra elegante para descrever pessoas: a calm/professional demeanor. No inglês britânico, demeanour."
+    },
+    {
+      "term": "Self-assured",
+      "ipa": "/ˌself əˈʃʊrd/",
+      "translation": "seguro de si",
+      "definition": "Confident, without needing approval from others.",
+      "example": "- She sounded self-assured even when the investors asked difficult questions.\nEla soou segura de si mesmo quando os investidores fizeram perguntas difíceis.",
+      "note": "Um degrau acima de confident no registro. O substantivo é self-assurance."
+    },
+    {
+      "term": "Make eye contact",
+      "ipa": "/meɪk ˈaɪ ˌkɑːntækt/",
+      "translation": "fazer contato visual",
+      "definition": "To look directly into someone's eyes while speaking.",
+      "example": "- Try to make eye contact with everyone in the room, not only the decision-maker.\nTente fazer contato visual com todos na sala, não só com quem decide.",
+      "note": "O verbo é make, nunca “do”: make eye contact with someone."
+    },
+    {
+      "term": "Body language",
+      "ipa": "/ˈbɑːdi ˌlæŋɡwɪdʒ/",
+      "translation": "linguagem corporal",
+      "definition": "What your posture and movements say without words.",
+      "example": "- Your body language often says more about you than your words do.\nSua linguagem corporal costuma dizer mais sobre você do que as suas palavras.",
+      "note": "Incontável: your body language is (nunca “are”)."
+    },
+    {
+      "term": "Dress the part",
+      "ipa": "",
+      "translation": "vestir-se à altura do papel / da ocasião",
+      "definition": "To wear clothes that match the role you want people to see.",
+      "example": "- If you want to lead the project, dress the part at the next client meeting.\nSe você quer liderar o projeto, vista-se à altura na próxima reunião com o cliente.",
+      "note": "Existe também look the part (parecer à altura do papel)."
+    },
+    {
+      "term": "Win someone over",
+      "ipa": "",
+      "translation": "conquistar alguém / ganhar a confiança de alguém",
+      "definition": "To gain someone's support or trust, often gradually.",
+      "example": "- Her honesty and careful preparation won the most skeptical clients over.\nA honestidade e a preparação cuidadosa dela conquistaram os clientes mais céticos.",
+      "note": "Separável: win the client over ou win over the client. Muito usada em vendas e negociação."
+    },
+    {
+      "term": "Sympathetic",
+      "ipa": "/ˌsɪmpəˈθetɪk/",
+      "translation": "compreensivo, solidário",
+      "definition": "Showing that you understand and care about someone's problem.",
+      "example": "- My manager was very sympathetic when I explained the problem behind the delay.\nMeu gestor foi muito compreensivo quando expliquei o problema por trás do atraso.",
+      "note": "“Simpático” NÃO é sympathetic — é friendly, nice ou likeable."
+    },
+    {
+      "term": "Educated",
+      "ipa": "/ˈedʒukeɪtɪd/",
+      "translation": "instruído, com boa formação",
+      "definition": "Having had a good education; well informed.",
+      "example": "- She is a highly educated economist, with two master’s degrees and a PhD.\nEla é uma economista muito instruída, com dois mestrados e um doutorado.",
+      "note": "“Educado” (com boas maneiras) é polite ou well-mannered."
+    }
+  ],
+  "createdAt": "2026-08-26T00:50:18.279Z",
+  "exercise": {
+    "id": "practice-b2-aula1-first-impressions-professional-presence",
+    "title": "First impressions & professional presence (B2 · Aula 1)",
+    "questions": [
+      {
+        "id": "q-1",
+        "type": "fill_blank",
+        "target": "come across as",
+        "prompt": "In interviews I want to come across _____ confident, never arrogant.",
+        "options": [],
+        "answer": "as",
+        "explanation": "“Come across AS” + adjective or noun phrase."
+      },
+      {
+        "id": "q-2",
+        "type": "multiple_choice",
+        "target": "rapport",
+        "prompt": "Good salespeople do this in the first minutes. They…",
+        "options": [
+          "build rapport",
+          "make rapport",
+          "do rapport",
+          "take rapport"
+        ],
+        "answer": "build rapport",
+        "explanation": "Rapport is BUILT, slowly. “Make rapport” does not collocate."
+      },
+      {
+        "id": "q-3",
+        "type": "fill_blank",
+        "target": "demeanor",
+        "prompt": "Her calm _____ during the crisis impressed the whole panel.",
+        "options": [],
+        "answer": "demeanor",
+        "explanation": "“Demeanor” is how you carry yourself, especially under pressure."
+      },
+      {
+        "id": "q-4",
+        "type": "fill_blank",
+        "target": "self-assured",
+        "prompt": "She sounded _____ even when the investors asked difficult questions.",
+        "options": [],
+        "answer": "self-assured",
+        "explanation": "Confident without arrogance."
+      },
+      {
+        "id": "q-5",
+        "type": "multiple_choice",
+        "target": "make eye contact",
+        "prompt": "Which one is correct?",
+        "options": [
+          "Make eye contact with everyone.",
+          "Make eye contact to everyone.",
+          "Do eye contact with everyone.",
+          "Make eye contact in everyone."
+        ],
+        "answer": "Make eye contact with everyone.",
+        "explanation": "“Make eye contact WITH” a person — and it is “make”, not “do”."
+      },
+      {
+        "id": "q-6",
+        "type": "translate_to_english",
+        "target": "body language",
+        "prompt": "Sua linguagem corporal costuma dizer mais sobre você do que as suas palavras.",
+        "options": [],
+        "answer": "Your body language often says more about you than your words do.|Your body language often says more about you than your words.",
+        "explanation": "“Body language” is uncountable and takes a singular verb."
+      },
+      {
+        "id": "q-7",
+        "type": "fill_blank",
+        "target": "dress the part",
+        "prompt": "If you want the promotion, _____ before you get it.",
+        "options": [],
+        "answer": "dress the part",
+        "explanation": "“Dress the part” is to look like the role you are aiming at."
+      },
+      {
+        "id": "q-8",
+        "type": "multiple_choice",
+        "target": "win someone over",
+        "prompt": "The board was against it, and slowly she gained their support. She…",
+        "options": [
+          "won them over",
+          "won over them",
+          "win them over",
+          "won them out"
+        ],
+        "answer": "won them over",
+        "explanation": "Separable: the pronoun goes in the middle. Past of “win” is “won”."
+      },
+      {
+        "id": "q-9",
+        "type": "multiple_choice",
+        "target": "sympathetic",
+        "prompt": "The manager understood your problem and refunded the night. He was…",
+        "options": [
+          "sympathetic",
+          "nice-looking",
+          "likeable",
+          "funny"
+        ],
+        "answer": "sympathetic",
+        "explanation": "“Sympathetic” is understanding about a problem. The Portuguese “simpático” is “nice” or “friendly”."
+      },
+      {
+        "id": "q-10",
+        "type": "multiple_choice",
+        "target": "educated",
+        "prompt": "Which sentence uses “educated” correctly?",
+        "options": [
+          "She is highly educated: two degrees and a PhD.",
+          "He is very educated: he always says thank you.",
+          "She was educated with the waiter.",
+          "He is educated at the table."
+        ],
+        "answer": "She is highly educated: two degrees and a PhD.",
+        "explanation": "“Educated” is about schooling. Good manners is “polite” or “well-mannered”."
+      }
+    ]
+  }
+}
