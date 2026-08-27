@@ -1,0 +1,210 @@
+{
+  "type": "vocabulary-practice-pack",
+  "version": 7,
+  "teacher": "Teacher Walden Nogueira",
+  "teacherWhatsApp": "5541996106689",
+  "student": {
+    "name": "Patrick Bussolotti",
+    "whatsapp": "5511992125644"
+  },
+  "lesson": "My workplace (A2 · Aula 2)",
+  "cards": [
+    {
+      "term": "Floor",
+      "ipa": "/flɔːr/",
+      "translation": "andar; chão",
+      "definition": "One level of a building.",
+      "example": "- Our company is on the fifth floor.\nNossa empresa fica no quinto andar.\n- Take the elevator to the third floor.\nPegue o elevador até o terceiro andar.\n- There is a coffee machine on every floor.\nTem uma máquina de café em cada andar.",
+      "note": "Floor é o andar do prédio e também o chão da sala. Térreo é ground floor no inglês britânico e first floor no americano. A preposição certa é on: on the fifth floor."
+    },
+    {
+      "term": "Desk",
+      "ipa": "/desk/",
+      "translation": "mesa de trabalho; escrivaninha",
+      "definition": "The table where you work in an office.",
+      "example": "- My desk is next to the window, near the plants.\nMinha mesa fica ao lado da janela, perto das plantas.\n- I left my badge on my desk.\nDeixei meu crachá na minha mesa.\n- We book a desk when we go to the office.\nReservamos uma mesa quando vamos ao escritório.",
+      "note": "Mesa de jantar ou de reunião é table; desk é a mesa de trabalho. On my desk é em cima da mesa e at my desk é sentado, trabalhando."
+    },
+    {
+      "term": "Meeting room",
+      "ipa": "/ˈmiːtɪŋ ruːm/",
+      "translation": "sala de reunião",
+      "definition": "A room where people meet to talk about work.",
+      "example": "- The meeting room is busy from nine to ten.\nA sala de reunião fica ocupada das nove às dez.\n- Can you book the meeting room for Monday?\nVocê pode reservar a sala de reunião para segunda?\n- The meeting room on the third floor has a big screen.\nA sala de reunião do terceiro andar tem uma tela grande.",
+      "note": "Reservar é book ou reserve the meeting room. Muitas empresas americanas dizem conference room com o mesmo sentido. Escreve-se em duas palavras, sem hífen."
+    },
+    {
+      "term": "Break",
+      "ipa": "/breɪk/",
+      "translation": "pausa; intervalo",
+      "definition": "A short time when you stop working.",
+      "example": "- We take a coffee break at 10:30 every morning.\nFazemos uma pausa para o café às 10h30 toda manhã.\n- I took a short break after the call.\nFiz uma pausa curta depois da ligação.\n- Let's talk during the lunch break.\nVamos conversar no intervalo do almoço.",
+      "note": "O verbo certo é take a break, nunca “do a break”. Lunch break é o intervalo do almoço e coffee break é a pausa do café. Break também é o verbo quebrar, com passado broke."
+    },
+    {
+      "term": "Coworker",
+      "ipa": "/ˈkoʊwɜːrkər/",
+      "translation": "colega de trabalho",
+      "definition": "A person who works with you.",
+      "example": "- My coworkers help me when the system is slow.\nMeus colegas me ajudam quando o sistema está lento.\n- I had lunch with two coworkers today.\nAlmocei com dois colegas de trabalho hoje.\n- A new coworker starts on Monday.\nUm novo colega de trabalho começa na segunda.",
+      "note": "Coworker é mais americano; colleague significa o mesmo e soa um pouco mais formal. Colega de faculdade é classmate, não coworker. Também aparece escrito co-worker."
+    },
+    {
+      "term": "Kitchen",
+      "ipa": "/ˈkɪtʃɪn/",
+      "translation": "copa; cozinha do escritório",
+      "definition": "The room where people make coffee and keep food.",
+      "example": "- The office kitchen has free coffee and a big fridge.\nA copa do escritório tem café grátis e uma geladeira grande.\n- She is in the kitchen making tea.\nEla está na copa fazendo chá.\n- We had cake in the kitchen for her birthday.\nComemos bolo na copa no aniversário dela.",
+      "note": "No escritório, kitchen é a copa — o lugar mais popular da empresa. A preposição é in the kitchen. A copa com máquina de café e sofá às vezes é chamada de break room."
+    },
+    {
+      "term": "Next to",
+      "ipa": "/ˈnekst tu/",
+      "translation": "ao lado de",
+      "definition": "Beside something, with nothing between.",
+      "example": "- The printer is next to the kitchen.\nA impressora fica ao lado da copa.\n- I sit next to the window.\nEu sento ao lado da janela.\n- The bank is next to the pharmacy.\nO banco fica ao lado da farmácia.",
+      "note": "Preposição-chave para descrever lugares: next to the window, next to the door, next to the elevator. Beside quer dizer o mesmo, mas next to é bem mais comum na fala. Near é “perto”, sem estar colado."
+    },
+    {
+      "term": "On the right",
+      "ipa": "/ɑn ðə ˈraɪt/",
+      "translation": "à direita",
+      "definition": "On the right side of a place.",
+      "example": "- The bathroom is on the right, after the elevator.\nO banheiro fica à direita, depois do elevador.\n- My office is the second door on the right.\nMinha sala é a segunda porta à direita.\n- The printer is on the right, near the window.\nA impressora fica à direita, perto da janela.",
+      "note": "O par é on the left (à esquerda). Para dar direção com verbo, use turn right e turn left, sem the. Também se diz on the right of the elevator."
+    },
+    {
+      "term": "Pasta",
+      "ipa": "/ˈpɑːstə/",
+      "translation": "massa (comida italiana)",
+      "definition": "Italian food like spaghetti or lasagna.",
+      "example": "- We eat pasta at the Italian restaurant on Fridays.\nComemos massa no restaurante italiano às sextas.\n- I cooked pasta for dinner last night.\nFiz massa no jantar ontem à noite.\n- There is pasta and salad in the cafeteria today.\nTem massa e salada no refeitório hoje.",
+      "note": "Falso amigo clássico: “pasta” de arquivos é folder e pasta de dente é toothpaste. Em inglês, pasta é só a comida e não leva plural."
+    },
+    {
+      "term": "Library",
+      "ipa": "/ˈlaɪbreri/",
+      "translation": "biblioteca",
+      "definition": "A place where you borrow books.",
+      "example": "- There is a small library with business books on the second floor.\nTem uma bibliotequinha com livros de negócios no segundo andar.\n- I study at the library on Saturdays.\nEu estudo na biblioteca aos sábados.\n- She returned the books to the library.\nEla devolveu os livros para a biblioteca.",
+      "note": "Outro falso amigo: livraria, a loja de livros, é bookstore. Na library você pega livros emprestados; na bookstore você compra."
+    }
+  ],
+  "createdAt": "2026-08-27T15:51:43.175Z",
+  "exercise": {
+    "id": "practice-a2-aula2-my-workplace",
+    "title": "My workplace (A2 · Aula 2)",
+    "questions": [
+      {
+        "id": "q-1",
+        "type": "fill_blank",
+        "target": "desk",
+        "prompt": "I always clean my _____ before I go home.",
+        "options": [],
+        "answer": "desk",
+        "explanation": "Your “desk” is the table where you work."
+      },
+      {
+        "id": "q-2",
+        "type": "multiple_choice",
+        "target": "floor",
+        "prompt": "Your office is on level five of the building. How do you say it?",
+        "options": [
+          "We are on the fifth floor.",
+          "We are on the fifth room.",
+          "We are on the fifth desk.",
+          "We are on the fifth office."
+        ],
+        "answer": "We are on the fifth floor.",
+        "explanation": "Each level of a building is a “floor”."
+      },
+      {
+        "id": "q-3",
+        "type": "translate_to_english",
+        "target": "meeting room",
+        "prompt": "A sala de reunião está livre às três.",
+        "options": [],
+        "answer": "The meeting room is free at three.|The meeting room is available at three.",
+        "explanation": "A “meeting room” is the room where people meet for work."
+      },
+      {
+        "id": "q-4",
+        "type": "multiple_choice",
+        "target": "coworker",
+        "prompt": "How do you call the people who work with you every day?",
+        "options": [
+          "My clients",
+          "My coworkers",
+          "My managers",
+          "My neighbors"
+        ],
+        "answer": "My coworkers",
+        "explanation": "“Coworkers” work with you. “Clients” buy from you."
+      },
+      {
+        "id": "q-5",
+        "type": "fill_blank",
+        "target": "kitchen",
+        "prompt": "I wash my cup in the office _____ after lunch.",
+        "options": [],
+        "answer": "kitchen",
+        "explanation": "The office “kitchen” is where people make coffee and keep food."
+      },
+      {
+        "id": "q-6",
+        "type": "translate_to_english",
+        "target": "on the right",
+        "prompt": "O elevador fica à direita.",
+        "options": [],
+        "answer": "The elevator is on the right.|The elevator is on the right side.",
+        "explanation": "Use “on the right” to describe the side of a place."
+      },
+      {
+        "id": "q-7",
+        "type": "multiple_choice",
+        "target": "pasta",
+        "prompt": "Your Italian coworker offers you pasta. What is it?",
+        "options": [
+          "A folder for papers",
+          "A tube of toothpaste",
+          "A dish of Italian food",
+          "A page in a notebook"
+        ],
+        "answer": "A dish of Italian food",
+        "explanation": "“Pasta” is food. A file “pasta” in Portuguese is a “folder”."
+      },
+      {
+        "id": "q-8",
+        "type": "fill_blank",
+        "target": "break",
+        "prompt": "We usually take a short _____ at three o’clock.",
+        "options": [],
+        "answer": "break",
+        "explanation": "You “take a break” when you stop working for a few minutes."
+      },
+      {
+        "id": "q-9",
+        "type": "translate_to_english",
+        "target": "next to",
+        "prompt": "A impressora fica ao lado do elevador.",
+        "options": [],
+        "answer": "The printer is next to the elevator.|There is a printer next to the elevator.",
+        "explanation": "“Next to” means beside, with nothing between."
+      },
+      {
+        "id": "q-10",
+        "type": "multiple_choice",
+        "target": "library",
+        "prompt": "Which place has books that you borrow and give back?",
+        "options": [
+          "A bookstore",
+          "A newsstand",
+          "A stationery shop",
+          "A library"
+        ],
+        "answer": "A library",
+        "explanation": "A “library” lends books; a “bookstore” sells them."
+      }
+    ]
+  }
+}
