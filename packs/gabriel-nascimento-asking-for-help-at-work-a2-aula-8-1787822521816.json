@@ -1,0 +1,190 @@
+{
+  "type": "vocabulary-practice-pack",
+  "version": 7,
+  "teacher": "Teacher Walden Nogueira",
+  "teacherWhatsApp": "5541996106689",
+  "student": {
+    "name": "Gabriel Nascimento",
+    "whatsapp": "5527992357710"
+  },
+  "lesson": "Asking for help at work (A2 · Aula 8)",
+  "cards": [
+    {
+      "term": "Stuck",
+      "ipa": "/stʌk/",
+      "translation": "travado, empacado",
+      "definition": "I am stuck on this report. Can you look?. travado, empacado.",
+      "example": "- I am stuck on this report. Can you look?\nEstou travado neste relatório. Pode olhar?",
+      "note": "Be stuck ON alguma coisa. Não é “I stuck”, é I AM stuck."
+    },
+    {
+      "term": "Busy",
+      "ipa": "/ˈbɪzi/",
+      "translation": "ocupado",
+      "definition": "Are you busy? I have a quick question. ocupado.",
+      "example": "- Are you busy? I have a quick question.\nVocê está ocupado? Tenho uma pergunta rápida.",
+      "note": "Fala-se “BÍ-zi”, com i. Busy WITH uma coisa, busy DOING alguma coisa."
+    },
+    {
+      "term": "Show",
+      "ipa": "/ʃoʊ/",
+      "translation": "mostrar",
+      "definition": "Can you show me how to do it?. mostrar.",
+      "example": "- Can you show me how to do it?\nVocê pode me mostrar como fazer?",
+      "note": "Show ME how — duas coisas depois do verbo: a pessoa e depois o quê."
+    },
+    {
+      "term": "Hand",
+      "ipa": "/hænd/",
+      "translation": "mão (ajuda)",
+      "definition": "Can you give me a hand with these files?. mão (ajuda).",
+      "example": "- Can you give me a hand with these files?\nPode me dar uma mão com estes arquivos?",
+      "note": "Give me a hand é ajuda rápida e física. Sempre com a."
+    },
+    {
+      "term": "Quick",
+      "ipa": "/kwɪk/",
+      "translation": "rápido",
+      "definition": "It is a quick question, one minute. rápido.",
+      "example": "- It is a quick question, one minute.\nÉ uma pergunta rápida, um minuto.",
+      "note": "A quick question é a senha para interromper alguém educadamente."
+    },
+    {
+      "term": "Mistake",
+      "ipa": "/mɪˈsteɪk/",
+      "translation": "erro",
+      "definition": "I made a mistake in the numbers. Sorry. erro.",
+      "example": "- I made a mistake in the numbers. Sorry.\nCometi um erro nos números. Desculpa.",
+      "note": "MAKE a mistake, nunca “do a mistake”. É o erro mais comum sobre a palavra erro."
+    },
+    {
+      "term": "Can you help me with…?",
+      "ipa": "",
+      "translation": "você pode me ajudar com…?",
+      "definition": "você pode me ajudar com…?. Help me WITH a coisa, help me TO DO a ação. Duas formas, duas preposições.",
+      "example": "- Can you help me with this spreadsheet?\nVocê pode me ajudar com esta planilha?",
+      "note": "Help me WITH a coisa, help me TO DO a ação. Duas formas, duas preposições."
+    },
+    {
+      "term": "Do you have a minute?",
+      "ipa": "",
+      "translation": "você tem um minuto?",
+      "definition": "você tem um minuto?. Pergunte ANTES de explicar o problema. Dá à pessoa a chance de dizer “in ten minutes”.",
+      "example": "- Do you have a minute? It is quick.\nVocê tem um minuto? É rápido.",
+      "note": "Pergunte ANTES de explicar o problema. Dá à pessoa a chance de dizer “in ten minutes”."
+    },
+    {
+      "term": "Assist",
+      "ipa": "",
+      "translation": "auxiliar, ajudar",
+      "definition": "auxiliar, ajudar. “Assistir” (ver) é watch! Assist é ajudar.",
+      "example": "- My coworker assisted me with the report.\nMeu colega me auxiliou com o relatório.",
+      "note": "“Assistir” (ver) é watch! Assist é ajudar."
+    },
+    {
+      "term": "Support",
+      "ipa": "",
+      "translation": "apoiar, dar suporte",
+      "definition": "apoiar, dar suporte. “Suportar” (aguentar) é stand ou put up with! Support é apoiar.",
+      "example": "- I cannot support this decision. I do not agree.\nEu não posso apoiar esta decisão. Não concordo.",
+      "note": "“Suportar” (aguentar) é stand ou put up with! Support é apoiar."
+    }
+  ],
+  "createdAt": "2026-08-27T09:22:01.815Z",
+  "exercise": {
+    "id": "practice-a2-aula8-asking-for-help-at-work",
+    "title": "Asking for help at work (A2 · Aula 8)",
+    "questions": [
+      {
+        "id": "q-1",
+        "type": "fill_blank",
+        "target": "stuck",
+        "prompt": "I am _____ on this report. Can you look?",
+        "options": [],
+        "answer": "stuck",
+        "explanation": "Estou travado neste relatório. Pode olhar?"
+      },
+      {
+        "id": "q-2",
+        "type": "fill_blank",
+        "target": "busy",
+        "prompt": "Are you _____ ? I have a quick question.",
+        "options": [],
+        "answer": "busy",
+        "explanation": "Você está ocupado? Tenho uma pergunta rápida."
+      },
+      {
+        "id": "q-3",
+        "type": "fill_blank",
+        "target": "show",
+        "prompt": "Can you _____ me how to do it?",
+        "options": [],
+        "answer": "show",
+        "explanation": "Você pode me mostrar como fazer?"
+      },
+      {
+        "id": "q-4",
+        "type": "fill_blank",
+        "target": "hand",
+        "prompt": "Can you give me a _____ with these files?",
+        "options": [],
+        "answer": "hand",
+        "explanation": "Pode me dar uma mão com estes arquivos?"
+      },
+      {
+        "id": "q-5",
+        "type": "fill_blank",
+        "target": "quick",
+        "prompt": "It is a _____ question, one minute.",
+        "options": [],
+        "answer": "quick",
+        "explanation": "É uma pergunta rápida, um minuto."
+      },
+      {
+        "id": "q-6",
+        "type": "fill_blank",
+        "target": "mistake",
+        "prompt": "I made a _____ in the numbers. Sorry.",
+        "options": [],
+        "answer": "mistake",
+        "explanation": "Cometi um erro nos números. Desculpa."
+      },
+      {
+        "id": "q-7",
+        "type": "fill_blank",
+        "target": "Can you help me with…?",
+        "prompt": "_____ this spreadsheet?",
+        "options": [],
+        "answer": "Can you help me with…?",
+        "explanation": "Você pode me ajudar com esta planilha?"
+      },
+      {
+        "id": "q-8",
+        "type": "fill_blank",
+        "target": "Do you have a minute?",
+        "prompt": "_____ ? It is quick.",
+        "options": [],
+        "answer": "Do you have a minute?",
+        "explanation": "Você tem um minuto? É rápido."
+      },
+      {
+        "id": "q-9",
+        "type": "fill_blank",
+        "target": "assist",
+        "prompt": "My coworker _____ me with the report.",
+        "options": [],
+        "answer": "assist",
+        "explanation": "Meu colega me auxiliou com o relatório."
+      },
+      {
+        "id": "q-10",
+        "type": "fill_blank",
+        "target": "support",
+        "prompt": "I cannot _____ this decision. I do not agree.",
+        "options": [],
+        "answer": "support",
+        "explanation": "Eu não posso apoiar esta decisão. Não concordo."
+      }
+    ]
+  }
+}
