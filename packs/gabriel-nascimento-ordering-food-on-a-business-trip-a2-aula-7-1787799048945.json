@@ -1,0 +1,210 @@
+{
+  "type": "vocabulary-practice-pack",
+  "version": 7,
+  "teacher": "Teacher Walden Nogueira",
+  "teacherWhatsApp": "5541996106689",
+  "student": {
+    "name": "Gabriel Nascimento",
+    "whatsapp": "5527992357710"
+  },
+  "lesson": "Ordering food on a business trip (A2 · Aula 7)",
+  "cards": [
+    {
+      "term": "Menu",
+      "ipa": "/ˈmenjuː/",
+      "translation": "cardápio",
+      "definition": "The list of food and drinks a restaurant serves.",
+      "example": "- Could we see the menu, please?\nPodemos ver o cardápio, por favor?\n- The lunch menu changes every day.\nO cardápio do almoço muda todos os dias.\n- We looked at the menu online before the dinner.\nOlhamos o cardápio online antes do jantar.",
+      "note": "O prato do dia é today's special e a carta de bebidas é the drinks menu. Para pedir na mesa, use Could we see the menu, please? No almoço, muitos lugares têm um lunch menu mais curto."
+    },
+    {
+      "term": "Order",
+      "ipa": "/ˈɔːrdər/",
+      "translation": "pedir; o pedido",
+      "definition": "To ask for food in a restaurant, or the food you asked for.",
+      "example": "- Are you ready to order?\nVocês já querem fazer o pedido?\n- We ordered two pizzas and a salad.\nPedimos duas pizzas e uma salada.\n- Your order will be ready in five minutes.\nSeu pedido fica pronto em cinco minutos.",
+      "note": "Funciona como verbo e como substantivo, e o garçom costuma perguntar Can I take your order? O passado é ordered. Para levar, peça an order to go nos EUA."
+    },
+    {
+      "term": "Starter",
+      "ipa": "/ˈstɑːrtər/",
+      "translation": "entrada",
+      "definition": "The small first dish of a meal.",
+      "example": "- I'll skip the starter — I'm not very hungry.\nVou pular a entrada — não estou com muita fome.\n- The soup is a good starter for a cold day.\nA sopa é uma boa entrada para um dia frio.\n- We shared a starter while we waited.\nDividimos uma entrada enquanto esperávamos.",
+      "note": "No Reino Unido é starter; nos EUA, appetizer. A refeição vai de starter a main course e dessert. Cuidado: nos EUA, entrée é o prato principal, não a entrada."
+    },
+    {
+      "term": "Main course",
+      "ipa": "/ˌmeɪn ˈkɔːrs/",
+      "translation": "prato principal",
+      "definition": "The biggest and most important dish of a meal.",
+      "example": "- The main course takes about twenty minutes.\nO prato principal leva uns vinte minutos.\n- For my main course I had grilled fish.\nComo prato principal eu comi peixe grelhado.\n- They served the main course after the speeches.\nServiram o prato principal depois dos discursos.",
+      "note": "Course é cada etapa da refeição: starter, main course, dessert. São sempre duas palavras separadas. Nos EUA, o mesmo prato aparece no cardápio como entrée."
+    },
+    {
+      "term": "Bill",
+      "ipa": "/bɪl/",
+      "translation": "a conta",
+      "definition": "The paper that shows how much you have to pay.",
+      "example": "- Could we have the bill, please?\nPodemos pedir a conta, por favor?\n- We split the bill between four people.\nDividimos a conta entre quatro pessoas.\n- He paid the bill before I could say anything.\nEle pagou a conta antes que eu pudesse dizer qualquer coisa.",
+      "note": "No Reino Unido é bill; nos EUA, check. Dividir é split the bill. Bill também é a fatura de casa: the electricity bill."
+    },
+    {
+      "term": "Tip",
+      "ipa": "/tɪp/",
+      "translation": "gorjeta",
+      "definition": "Extra money you give someone for good service.",
+      "example": "- In the US, a fifteen percent tip is normal.\nNos EUA, uma gorjeta de quinze por cento é normal.\n- She always leaves a generous tip.\nEla sempre deixa uma gorjeta generosa.\n- Here is a useful tip for your first business dinner.\nAqui vai uma dica útil para o seu primeiro jantar de negócios.",
+      "note": "A mesma palavra significa dica: a useful tip. Como verbo, to tip the waiter. Nos EUA a gorjeta é esperada; em boa parte da Europa, não."
+    },
+    {
+      "term": "I'll have the…",
+      "ipa": "/aɪl hæv ðə/",
+      "translation": "vou querer o…",
+      "definition": "The standard phrase for choosing a dish in a restaurant.",
+      "example": "- I'll have the salmon, please.\nVou querer o salmão, por favor.\n- I'll have the soup and a glass of water.\nVou querer a sopa e um copo de água.\n- I'll have the steak, and my colleague will have the fish.\nVou querer o bife, e minha colega vai querer o peixe.",
+      "note": "É a fórmula do pedido: curta, natural e educada. I'll é a forma curta de I will, para uma decisão tomada na hora. Também funciona I'd like the… com o mesmo sentido."
+    },
+    {
+      "term": "It's on me",
+      "ipa": "/ɪts ˈɑn mi/",
+      "translation": "é por minha conta",
+      "definition": "Used to say that you will pay for everyone.",
+      "example": "- Put your card away — it's on me tonight.\nGuarde o seu cartão — hoje é por minha conta.\n- Don't worry about the check — it's on me.\nNão se preocupe com a conta — é por minha conta.\n- You paid last time, so today it's on me.\nVocê pagou da última vez, então hoje é por minha conta.",
+      "note": "Soa muito mais natural que I pay. A resposta pronta é Thank you — next time it's on me. Para dividir, use let's split the bill."
+    },
+    {
+      "term": "Entrée",
+      "ipa": "/ˈɑːntreɪ/",
+      "translation": "prato principal (nos EUA)",
+      "definition": "In American English, the main dish of a meal.",
+      "example": "- In the US, the entrée is the main dish.\nNos EUA, o entrée é o prato principal.\n- The entrée came with rice and vegetables.\nO prato principal veio com arroz e legumes.\n- I chose the fish entrée and a small salad.\nEscolhi o prato principal de peixe e uma salada pequena.",
+      "note": "Parece entrada, mas num cardápio americano é o prato principal. Se você quer mesmo a entrada, peça a starter ou an appetizer. A palavra vem do francês e mantém o acento."
+    },
+    {
+      "term": "Cup",
+      "ipa": "/kʌp/",
+      "translation": "xícara",
+      "definition": "A small container with a handle, used for hot drinks.",
+      "example": "- I drink three cups of coffee a day.\nEu tomo três xícaras de café por dia.\n- Could I have a cup of tea, please?\nPoderia me trazer uma xícara de chá, por favor?\n- She left an empty cup on the meeting table.\nEla deixou uma xícara vazia na mesa de reunião.",
+      "note": "Copo é glass: a glass of water. Cup é a xícara de café ou de chá. Em receitas, a cup também é uma medida de cerca de 240 ml."
+    }
+  ],
+  "createdAt": "2026-08-27T02:50:48.940Z",
+  "exercise": {
+    "id": "practice-a2-aula7-ordering-food-on-a-business-trip",
+    "title": "Ordering food on a business trip (A2 · Aula 7)",
+    "questions": [
+      {
+        "id": "q-1",
+        "type": "fill_blank",
+        "target": "menu",
+        "prompt": "There is no fish on the _____ today, only meat and pasta.",
+        "options": [],
+        "answer": "menu",
+        "explanation": "The “menu” is the list of dishes a restaurant serves."
+      },
+      {
+        "id": "q-2",
+        "type": "multiple_choice",
+        "target": "I'll have the…",
+        "prompt": "The waiter is waiting and you want the chicken. What do you say?",
+        "options": [
+          "I'll have the chicken, please.",
+          "I have the chicken, please.",
+          "I'm having the chicken, please.",
+          "I had the chicken, please."
+        ],
+        "answer": "I'll have the chicken, please.",
+        "explanation": "“I'll have the…” is the normal way to choose a dish at the table."
+      },
+      {
+        "id": "q-3",
+        "type": "translate_to_english",
+        "target": "order",
+        "prompt": "Nós queremos fazer o pedido agora, por favor.",
+        "options": [],
+        "answer": "We'd like to order now, please.|We want to order now, please.",
+        "explanation": "To “order” is to ask for the food you want."
+      },
+      {
+        "id": "q-4",
+        "type": "multiple_choice",
+        "target": "entrée",
+        "prompt": "You are in a restaurant in Chicago and the menu says “entrée”. What is it?",
+        "options": [
+          "A small first dish",
+          "The main dish",
+          "The drinks list",
+          "The dessert menu"
+        ],
+        "answer": "The main dish",
+        "explanation": "In the US, the “entrée” is the main dish, not the starter."
+      },
+      {
+        "id": "q-5",
+        "type": "translate_to_english",
+        "target": "starter",
+        "prompt": "Você vai pedir uma entrada?",
+        "options": [],
+        "answer": "Are you going to order a starter?|Will you order a starter?",
+        "explanation": "A “starter” is the small dish you eat before the main one."
+      },
+      {
+        "id": "q-6",
+        "type": "fill_blank",
+        "target": "main course",
+        "prompt": "I had soup as a starter and fish as the _____.",
+        "options": [],
+        "answer": "main course",
+        "explanation": "The “main course” is the central dish of the meal."
+      },
+      {
+        "id": "q-7",
+        "type": "multiple_choice",
+        "target": "tip",
+        "prompt": "In which sentence does “tip” mean money for the waiter?",
+        "options": [
+          "Here is a tip for your trip to Japan.",
+          "That is a very useful tip, thanks.",
+          "We left a tip for the waiter.",
+          "Can you give me a tip about the menu?"
+        ],
+        "answer": "We left a tip for the waiter.",
+        "explanation": "A “tip” can be extra money for service or a piece of advice."
+      },
+      {
+        "id": "q-8",
+        "type": "fill_blank",
+        "target": "bill",
+        "prompt": "After dessert we asked for the _____ and paid in cash.",
+        "options": [],
+        "answer": "bill",
+        "explanation": "The “bill” shows how much the meal costs."
+      },
+      {
+        "id": "q-9",
+        "type": "translate_to_english",
+        "target": "It's on me",
+        "prompt": "Peça a sobremesa também — é por minha conta.",
+        "options": [],
+        "answer": "Order dessert too — it's on me.|Order a dessert too — it's on me.",
+        "explanation": "“It's on me” means that you will pay."
+      },
+      {
+        "id": "q-10",
+        "type": "multiple_choice",
+        "target": "cup",
+        "prompt": "Which sentence uses “cup” correctly?",
+        "options": [
+          "I drank a cup of cold beer.",
+          "She poured a cup of orange juice.",
+          "He filled a cup with ice water.",
+          "I made her a cup of tea."
+        ],
+        "answer": "I made her a cup of tea.",
+        "explanation": "A “cup” is for hot drinks like tea and coffee; for cold drinks use a glass."
+      }
+    ]
+  }
+}
