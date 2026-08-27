@@ -1,0 +1,190 @@
+{
+  "type": "vocabulary-practice-pack",
+  "version": 7,
+  "teacher": "Teacher Walden Nogueira",
+  "teacherWhatsApp": "5541996106689",
+  "student": {
+    "name": "Bruna",
+    "whatsapp": "5511991627789"
+  },
+  "lesson": "Shopping: sizes, colours & prices (A0 · Lesson 5)",
+  "cards": [
+    {
+      "term": "Size",
+      "ipa": "/saɪz/",
+      "translation": "tamanho",
+      "definition": "How big or small a piece of clothing is: small, medium, large.",
+      "example": "- Do you have this in a small size?\nVocês têm isto em tamanho pequeno?",
+      "note": "Pergunta pronta: what size? Resposta: small, medium, large — S, M, L na etiqueta."
+    },
+    {
+      "term": "Fit",
+      "ipa": "/fɪt/",
+      "translation": "servir (caber)",
+      "definition": "To be the right size for your body.",
+      "example": "- This does not fit. It is too small.\nNão serve. Está pequeno demais.",
+      "note": "Fit é caber no corpo. Não confunda com like: pode servir e você não gostar."
+    },
+    {
+      "term": "Try on",
+      "ipa": "/traɪ ɒn/",
+      "translation": "experimentar (roupa)",
+      "definition": "To put clothes on in the shop, before you buy them.",
+      "example": "- Can I try on this shirt?\nPosso experimentar esta camisa?",
+      "note": "Separável: com pronome ele abre — try it on, nunca “try on it”. O provador é o fitting room."
+    },
+    {
+      "term": "Change",
+      "ipa": "/tʃeɪndʒ/",
+      "translation": "troco",
+      "definition": "The money the shop gives back to you.",
+      "example": "- Here is your change: two dollars.\nAqui está o seu troco: dois dólares.",
+      "note": "Também é “trocar” e “mudar”. Na loja, com dinheiro na mão, é sempre o troco."
+    },
+    {
+      "term": "Receipt",
+      "ipa": "/rɪˈsiːt/",
+      "translation": "recibo, nota",
+      "definition": "The small paper you keep, to return something later.",
+      "example": "- Keep the receipt. You can return it.\nGuarde a nota. Você pode devolver.",
+      "note": "O p é mudo: fala-se “ri-SÍT”. Sem ele não existe troca nem devolução."
+    },
+    {
+      "term": "Expensive",
+      "ipa": "/ɪkˈspensɪv/",
+      "translation": "caro",
+      "definition": "Costing a lot of money. The opposite of cheap.",
+      "example": "- This bag is very expensive.\nEsta bolsa é muito cara.",
+      "note": "O contrário é cheap. Para dizer “caro demais”: too expensive."
+    },
+    {
+      "term": "Can I try it on?",
+      "ipa": "",
+      "translation": "posso experimentar?",
+      "definition": "What you say when you want to test a piece of clothing.",
+      "example": "- I like this one. Can I try it on?\nEu gostei desta. Posso experimentar?",
+      "note": "O pronome vai NO MEIO. Try it on, nunca “try on it” — é o erro número um aqui."
+    },
+    {
+      "term": "Do you have this in…?",
+      "ipa": "",
+      "translation": "vocês têm isto em…?",
+      "definition": "How you ask for another colour or another size.",
+      "example": "- Do you have this in blue?\nVocês têm isto em azul?",
+      "note": "Serve para cor e tamanho: in blue, in a large, in another colour."
+    },
+    {
+      "term": "Costume",
+      "ipa": "",
+      "translation": "fantasia (roupa de festa)",
+      "definition": "Clothes for a party or a play. It is NOT a habit.",
+      "example": "- The shop sells Halloween costumes.\nA loja vende fantasias de Halloween.",
+      "note": "“Costume” de hábito é habit! Costume é roupa de fantasia, de teatro."
+    },
+    {
+      "term": "Collar",
+      "ipa": "",
+      "translation": "gola",
+      "definition": "The part of a shirt around your neck. It is NOT a necklace.",
+      "example": "- The shirt has a white collar.\nA camisa tem gola branca.",
+      "note": "“Colar” de pescoço é necklace! Collar é a gola da camisa."
+    }
+  ],
+  "createdAt": "2026-08-27T13:54:04.896Z",
+  "exercise": {
+    "id": "practice-tv-a0-aula5-shopping-and-prices",
+    "title": "Shopping: sizes, colours & prices (A0 · Lesson 5)",
+    "questions": [
+      {
+        "id": "q-1",
+        "type": "fill_blank",
+        "target": "size",
+        "prompt": "Do you have this in a small _____ ?",
+        "options": [],
+        "answer": "size",
+        "explanation": "Small, medium, large — S, M, L on the label."
+      },
+      {
+        "id": "q-2",
+        "type": "fill_blank",
+        "target": "size",
+        "prompt": "Do you have this _____ a small size?",
+        "options": [],
+        "answer": "in",
+        "explanation": "IN a size, IN a colour."
+      },
+      {
+        "id": "q-3",
+        "type": "fill_blank",
+        "target": "fit",
+        "prompt": "This shirt does not _____ me.",
+        "options": [],
+        "answer": "fit",
+        "explanation": "Fit takes the person straight: fit me, not fit in me."
+      },
+      {
+        "id": "q-4",
+        "type": "fill_blank",
+        "target": "try on",
+        "prompt": "Can I try _____ on?",
+        "options": [],
+        "answer": "it",
+        "explanation": "Separable: with a pronoun it splits. Never “try on it”."
+      },
+      {
+        "id": "q-5",
+        "type": "fill_blank",
+        "target": "change",
+        "prompt": "Here is your _____ : two dollars.",
+        "options": [],
+        "answer": "change",
+        "explanation": "With money in your hand, change is what comes back."
+      },
+      {
+        "id": "q-6",
+        "type": "fill_blank",
+        "target": "receipt",
+        "prompt": "Keep the _____ . You can return it.",
+        "options": [],
+        "answer": "receipt",
+        "explanation": "The p is silent: “ri-SÍT”."
+      },
+      {
+        "id": "q-7",
+        "type": "fill_blank",
+        "target": "expensive",
+        "prompt": "It is _____ expensive. I cannot pay.",
+        "options": [],
+        "answer": "too",
+        "explanation": "TOO expensive = more than you will pay. VERY expensive is only “quite dear”."
+      },
+      {
+        "id": "q-8",
+        "type": "fill_blank",
+        "target": "Do you have this in…?",
+        "prompt": "Do you _____ this in blue?",
+        "options": [],
+        "answer": "have",
+        "explanation": "Works for colour and for size."
+      },
+      {
+        "id": "q-9",
+        "type": "fill_blank",
+        "target": "costume",
+        "prompt": "The shop sells Halloween _____ .",
+        "options": [],
+        "answer": "costumes",
+        "explanation": "“Costume” de hábito is a custom. A costume is fancy dress."
+      },
+      {
+        "id": "q-10",
+        "type": "fill_blank",
+        "target": "collar",
+        "prompt": "The shirt has a white _____ .",
+        "options": [],
+        "answer": "collar",
+        "explanation": "A necklace goes around your neck; a collar is part of the shirt."
+      }
+    ]
+  }
+}
