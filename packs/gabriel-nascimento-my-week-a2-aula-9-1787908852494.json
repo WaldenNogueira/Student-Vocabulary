@@ -1,0 +1,190 @@
+{
+  "type": "vocabulary-practice-pack",
+  "version": 7,
+  "teacher": "Teacher Walden Nogueira",
+  "teacherWhatsApp": "5541996106689",
+  "student": {
+    "name": "Gabriel Nascimento",
+    "whatsapp": "5527992357710"
+  },
+  "lesson": "My week (A2 · Aula 9)",
+  "cards": [
+    {
+      "term": "Usually",
+      "ipa": "/ˈjuːʒuəli/",
+      "translation": "geralmente",
+      "definition": "I usually start at eight, but not on Mondays. geralmente.",
+      "example": "- I usually start at eight, but not on Mondays.\nEu geralmente começo às oito, mas não nas segundas.",
+      "note": "Vem ANTES do verbo: I usually start, nunca “I start usually”."
+    },
+    {
+      "term": "Hardly ever",
+      "ipa": "/ˈhɑːrdli ˈevər/",
+      "translation": "quase nunca",
+      "definition": "I hardly ever work on Fridays. quase nunca.",
+      "example": "- I hardly ever work on Fridays.\nEu quase nunca trabalho nas sextas.",
+      "note": "Já é negativo: nada de don't junto. I hardly ever work, não “I don't hardly”."
+    },
+    {
+      "term": "Weekday",
+      "ipa": "/ˈwiːkdeɪ/",
+      "translation": "dia útil, dia de semana",
+      "definition": "On weekdays I have lunch at my desk. dia útil, dia de semana.",
+      "example": "- On weekdays I have lunch at my desk.\nNos dias de semana eu almoço na minha mesa.",
+      "note": "Uma palavra só. O plural on weekdays é o normal para falar de rotina."
+    },
+    {
+      "term": "Day off",
+      "ipa": "/deɪ ɒf/",
+      "translation": "dia de folga",
+      "definition": "Tuesday is my day off this week. dia de folga.",
+      "example": "- Tuesday is my day off this week.\nTerça é meu dia de folga esta semana.",
+      "note": "A day off, com off separado. Take a day off é tirar folga."
+    },
+    {
+      "term": "Overtime",
+      "ipa": "/ˈoʊvərtaɪm/",
+      "translation": "hora extra",
+      "definition": "I did two hours of overtime on Thursday. hora extra.",
+      "example": "- I did two hours of overtime on Thursday.\nFiz duas horas extras na quinta.",
+      "note": "Incontável: some overtime, two hours OF overtime — nunca “two overtimes”."
+    },
+    {
+      "term": "Catch up on",
+      "ipa": "/kætʃ ʌp ɒn/",
+      "translation": "colocar em dia",
+      "definition": "On Friday I catch up on email. colocar em dia.",
+      "example": "- On Friday I catch up on email.\nNa sexta eu coloco o e-mail em dia.",
+      "note": "Catch up ON a coisa atrasada, catch up WITH a pessoa. Duas preposições."
+    },
+    {
+      "term": "It depends on the day",
+      "ipa": "",
+      "translation": "depende do dia",
+      "definition": "depende do dia. Depend ON, sempre. E é it depends, com s — o it é terceira pessoa.",
+      "example": "- Busy? It depends on the day. Monday is the worst.\nOcupado? Depende do dia. Segunda é o pior.",
+      "note": "Depend ON, sempre. E é it depends, com s — o it é terceira pessoa."
+    },
+    {
+      "term": "Most of the time",
+      "ipa": "",
+      "translation": "na maior parte do tempo",
+      "definition": "na maior parte do tempo. MOST OF the time, com of. Sem ele vira “most time”, que não existe.",
+      "example": "- Most of the time I finish at six.\nNa maior parte do tempo eu termino às seis.",
+      "note": "MOST OF the time, com of. Sem ele vira “most time”, que não existe."
+    },
+    {
+      "term": "Realize",
+      "ipa": "",
+      "translation": "perceber, dar-se conta",
+      "definition": "perceber, dar-se conta. “Realizar” (fazer acontecer) é carry out ou hold! Realize é perceber.",
+      "example": "- I realized on Wednesday that the file was wrong.\nPercebi na quarta que o arquivo estava errado.",
+      "note": "“Realizar” (fazer acontecer) é carry out ou hold! Realize é perceber."
+    },
+    {
+      "term": "Journal",
+      "ipa": "",
+      "translation": "diário; revista científica",
+      "definition": "diário; revista científica. “Jornal” é newspaper! Journal é diário pessoal ou revista técnica.",
+      "example": "- I keep a journal of my hours.\nEu mantenho um diário das minhas horas.",
+      "note": "“Jornal” é newspaper! Journal é diário pessoal ou revista técnica."
+    }
+  ],
+  "createdAt": "2026-08-28T09:20:52.493Z",
+  "exercise": {
+    "id": "practice-a2-aula9-my-week",
+    "title": "My week (A2 · Aula 9)",
+    "questions": [
+      {
+        "id": "q-1",
+        "type": "fill_blank",
+        "target": "usually",
+        "prompt": "I _____ start at eight, but not on Mondays.",
+        "options": [],
+        "answer": "usually",
+        "explanation": "Eu geralmente começo às oito, mas não nas segundas."
+      },
+      {
+        "id": "q-2",
+        "type": "fill_blank",
+        "target": "hardly ever",
+        "prompt": "I _____ work on Fridays.",
+        "options": [],
+        "answer": "hardly ever",
+        "explanation": "Eu quase nunca trabalho nas sextas."
+      },
+      {
+        "id": "q-3",
+        "type": "fill_blank",
+        "target": "weekday",
+        "prompt": "On _____ I have lunch at my desk.",
+        "options": [],
+        "answer": "weekday",
+        "explanation": "Nos dias de semana eu almoço na minha mesa."
+      },
+      {
+        "id": "q-4",
+        "type": "fill_blank",
+        "target": "day off",
+        "prompt": "Tuesday is my _____ this week.",
+        "options": [],
+        "answer": "day off",
+        "explanation": "Terça é meu dia de folga esta semana."
+      },
+      {
+        "id": "q-5",
+        "type": "fill_blank",
+        "target": "overtime",
+        "prompt": "I did two hours of _____ on Thursday.",
+        "options": [],
+        "answer": "overtime",
+        "explanation": "Fiz duas horas extras na quinta."
+      },
+      {
+        "id": "q-6",
+        "type": "fill_blank",
+        "target": "catch up on",
+        "prompt": "On Friday I _____ email.",
+        "options": [],
+        "answer": "catch up on",
+        "explanation": "Na sexta eu coloco o e-mail em dia."
+      },
+      {
+        "id": "q-7",
+        "type": "fill_blank",
+        "target": "It depends on the day",
+        "prompt": "Busy? _____ . Monday is the worst.",
+        "options": [],
+        "answer": "It depends on the day",
+        "explanation": "Ocupado? Depende do dia. Segunda é o pior."
+      },
+      {
+        "id": "q-8",
+        "type": "fill_blank",
+        "target": "Most of the time",
+        "prompt": "_____ I finish at six.",
+        "options": [],
+        "answer": "Most of the time",
+        "explanation": "Na maior parte do tempo eu termino às seis."
+      },
+      {
+        "id": "q-9",
+        "type": "fill_blank",
+        "target": "realize",
+        "prompt": "I _____ on Wednesday that the file was wrong.",
+        "options": [],
+        "answer": "realize",
+        "explanation": "Percebi na quarta que o arquivo estava errado."
+      },
+      {
+        "id": "q-10",
+        "type": "fill_blank",
+        "target": "journal",
+        "prompt": "I keep a _____ of my hours.",
+        "options": [],
+        "answer": "journal",
+        "explanation": "Eu mantenho um diário das minhas horas."
+      }
+    ]
+  }
+}
