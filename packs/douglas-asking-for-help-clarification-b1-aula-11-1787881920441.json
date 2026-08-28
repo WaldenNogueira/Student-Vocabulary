@@ -1,0 +1,210 @@
+{
+  "type": "vocabulary-practice-pack",
+  "version": 7,
+  "teacher": "Teacher Walden Nogueira",
+  "teacherWhatsApp": "5541996106689",
+  "student": {
+    "name": "Douglas",
+    "whatsapp": "5511976897770"
+  },
+  "lesson": "Asking for help & clarification (B1 · Aula 11)",
+  "cards": [
+    {
+      "term": "Clarify",
+      "ipa": "/ˈklærəfaɪ/",
+      "translation": "esclarecer",
+      "definition": "To make something easier to understand by explaining it again.",
+      "example": "- Could you clarify the second point before we vote on it?\nVocê poderia esclarecer o segundo ponto antes de votarmos?",
+      "note": "Pedido educado: Could you clarify…? Substantivo: clarification."
+    },
+    {
+      "term": "Confusing",
+      "ipa": "/kənˈfjuːzɪŋ/",
+      "translation": "confuso (algo que confunde)",
+      "definition": "Difficult to understand, so people are not sure what to do.",
+      "example": "- The instructions were confusing, so nobody knew who was responsible.\nAs instruções estavam confusas, então ninguém sabia quem era responsável.",
+      "note": "Coisa é confusing; pessoa fica confused. Nunca diga “I am confusing”."
+    },
+    {
+      "term": "Struggle",
+      "ipa": "/ˈstrʌɡl/",
+      "translation": "ter dificuldade, batalhar",
+      "definition": "To find something difficult and have to work hard at it.",
+      "example": "- I struggle with the new system, especially the reports.\nTenho dificuldade com o sistema novo, principalmente com os relatórios.",
+      "note": "Struggle with + coisa. Honesto e profissional: mostra esforço, não incompetência."
+    },
+    {
+      "term": "Figure",
+      "ipa": "/ˈfɪɡjər/",
+      "translation": "descobrir, entender (com out)",
+      "definition": "To understand or solve something, usually with “out”.",
+      "example": "- I couldn't figure the error out, so I asked the developer.\nNão consegui entender o erro, então perguntei ao desenvolvedor.",
+      "note": "Figure something out = sacar como funciona; separável: figure it out."
+    },
+    {
+      "term": "Walk through",
+      "ipa": "/ˌwɔːk ˈθruː/",
+      "translation": "explicar passo a passo",
+      "definition": "To explain something to someone step by step.",
+      "example": "- Can you walk me through the process one more time?\nVocê pode me explicar o processo passo a passo mais uma vez?",
+      "note": "Walk someone through something — o pedido mais útil do inglês corporativo."
+    },
+    {
+      "term": "Stuck",
+      "ipa": "/stʌk/",
+      "translation": "travado, empacado",
+      "definition": "Unable to continue because you do not know what to do next.",
+      "example": "- I'm stuck on the last part of the spreadsheet.\nEstou travado na última parte da planilha.",
+      "note": "Be/get stuck on something. Dizer “I'm stuck” abre ajuda imediatamente."
+    },
+    {
+      "term": "I didn't catch that",
+      "ipa": "",
+      "translation": "não entendi / não peguei o que você disse",
+      "definition": "Used to say politely that you did not hear or understand.",
+      "example": "- Sorry, I didn't catch that — the connection dropped for a second.\nDesculpe, não peguei — a conexão caiu por um segundo.",
+      "note": "Muito melhor que “I don't understand”: culpa o áudio, não a sua compreensão."
+    },
+    {
+      "term": "Just to make sure",
+      "ipa": "",
+      "translation": "só para confirmar / só para ter certeza",
+      "definition": "Used before repeating something to check you understood it.",
+      "example": "- Just to make sure: you need the report by Thursday, not Friday?\nSó para ter certeza: você precisa do relatório até quinta, não sexta?",
+      "note": "Abre a confirmação sem parecer que você duvida do outro."
+    },
+    {
+      "term": "Doubt",
+      "ipa": "/daʊt/",
+      "translation": "dúvida (incerteza, desconfiança)",
+      "definition": "A feeling of not being sure that something is true.",
+      "example": "- I have no doubt about her results; I just have a question about the method.\nNão tenho dúvida sobre os resultados dela; só tenho uma pergunta sobre o método.",
+      "note": "“Tenho uma dúvida” NÃO é I have a doubt — é I have a question. Doubt = descrer."
+    },
+    {
+      "term": "Explain",
+      "ipa": "/ɪkˈspleɪn/",
+      "translation": "explicar (para alguém)",
+      "definition": "To make something clear by giving details.",
+      "example": "- Could you explain the new rule to me?\nVocê poderia me explicar a regra nova?",
+      "note": "Nunca “explain me”: é explain something TO me. E “explicação” = explanation."
+    }
+  ],
+  "createdAt": "2026-08-28T01:52:00.440Z",
+  "exercise": {
+    "id": "practice-b1-aula11-asking-for-help-clarification",
+    "title": "Asking for help & clarification (B1 · Aula 11)",
+    "questions": [
+      {
+        "id": "q-1",
+        "type": "fill_blank",
+        "target": "clarify",
+        "prompt": "Could you _____ the second point before we vote on it?",
+        "options": [],
+        "answer": "clarify",
+        "explanation": "“Clarify” takes the object directly — no “about”."
+      },
+      {
+        "id": "q-2",
+        "type": "multiple_choice",
+        "target": "confusing",
+        "prompt": "The instructions confused everybody. The instructions were…",
+        "options": [
+          "confusing",
+          "confused",
+          "confusion",
+          "confuse"
+        ],
+        "answer": "confusing",
+        "explanation": "“-ing” for the thing that causes it, “-ed” for the person who feels it."
+      },
+      {
+        "id": "q-3",
+        "type": "fill_blank",
+        "target": "struggle",
+        "prompt": "I _____ with the new system, especially the reports.",
+        "options": [],
+        "answer": "struggle",
+        "explanation": "“Struggle with” + noun, “struggle to” + verb."
+      },
+      {
+        "id": "q-4",
+        "type": "multiple_choice",
+        "target": "figure",
+        "prompt": "You could not solve the error. You say:",
+        "options": [
+          "I couldn't figure it out.",
+          "I couldn't figure out it.",
+          "I couldn't figure out.",
+          "I couldn't figured it out."
+        ],
+        "answer": "I couldn't figure it out.",
+        "explanation": "Separable: with a pronoun, it must split."
+      },
+      {
+        "id": "q-5",
+        "type": "translate_to_english",
+        "target": "walk through",
+        "prompt": "Você pode me explicar o processo passo a passo mais uma vez?",
+        "options": [],
+        "answer": "Can you walk me through the process one more time?|Could you walk me through the process one more time?",
+        "explanation": "The person goes in the middle: walk me through it."
+      },
+      {
+        "id": "q-6",
+        "type": "fill_blank",
+        "target": "stuck",
+        "prompt": "I'm _____ on the last part of the spreadsheet.",
+        "options": [],
+        "answer": "stuck",
+        "explanation": "“Stuck ON” a problem, “stuck IN” traffic or a lift."
+      },
+      {
+        "id": "q-7",
+        "type": "fill_blank",
+        "target": "I didn't catch that",
+        "prompt": "Sorry, _____ — could you say it again?",
+        "options": [],
+        "answer": "I didn't catch that",
+        "explanation": "A polite way of saying you did not hear or follow."
+      },
+      {
+        "id": "q-8",
+        "type": "fill_blank",
+        "target": "Just to make sure",
+        "prompt": "_____, you want the file by Thursday, not Friday?",
+        "options": [],
+        "answer": "Just to make sure",
+        "explanation": "Used before repeating back what you understood."
+      },
+      {
+        "id": "q-9",
+        "type": "multiple_choice",
+        "target": "doubt",
+        "prompt": "You did not understand something and want to ask about it. You say:",
+        "options": [
+          "I have a question.",
+          "I have a doubt.",
+          "I have a doubt about.",
+          "I am with a doubt."
+        ],
+        "answer": "I have a question.",
+        "explanation": "“Doubt” is disbelief. The Portuguese “dúvida” in class is a “question”."
+      },
+      {
+        "id": "q-10",
+        "type": "multiple_choice",
+        "target": "explain",
+        "prompt": "Which one is correct?",
+        "options": [
+          "Can you explain it to me?",
+          "Can you explain me it?",
+          "Can you explain me?",
+          "Can you me explain?"
+        ],
+        "answer": "Can you explain it to me?",
+        "explanation": "“Explain something TO someone” — never “explain me”."
+      }
+    ]
+  }
+}
