@@ -1,0 +1,215 @@
+{
+  "type": "vocabulary-practice-pack",
+  "version": 7,
+  "teacher": "Teacher Walden Nogueira",
+  "teacherWhatsApp": "5541996106689",
+  "student": {
+    "name": "Gabriel Souza",
+    "whatsapp": "554188665762"
+  },
+  "lesson": "Persuasion & influence (B2 · Aula 4)",
+  "cards": [
+    {
+      "term": "Leverage",
+      "ipa": "/ˈlevərɪdʒ/",
+      "translation": "alavancar, usar a seu favor",
+      "definition": "To use something you already have to get an advantage.",
+      "example": "- She leveraged her network to get the proposal in front of the CEO.\nEla alavancou a rede de contatos para levar a proposta até o CEO.",
+      "note": "Verbo e substantivo; no financeiro, alavancagem."
+    },
+    {
+      "term": "Buy-in",
+      "ipa": "/ˈbaɪ ɪn/",
+      "translation": "adesão, apoio (a uma ideia)",
+      "definition": "Agreement and support from the people who have to make it work.",
+      "example": "- Without the team’s buy-in, even the best plan dies in a drawer.\nSem a adesão da equipe, até o melhor plano morre na gaveta.",
+      "note": "Get buy-in from — conquistar apoio antes de anunciar."
+    },
+    {
+      "term": "Objection",
+      "ipa": "/əbˈdʒekʃn/",
+      "translation": "objeção",
+      "definition": "A reason someone gives for not agreeing.",
+      "example": "- Good sellers welcome objections: each one is a map of the client’s mind.\nBons vendedores recebem bem as objeções: cada uma é um mapa da cabeça do cliente.",
+      "note": "Handle/overcome objections — lidar com objeções."
+    },
+    {
+      "term": "Trade-off",
+      "ipa": "/ˈtreɪd ɔːf/",
+      "translation": "troca, dilema entre duas coisas",
+      "definition": "A situation where you accept something worse to get something better.",
+      "example": "- Every decision is a trade-off between speed and quality.\nToda decisão é uma troca entre velocidade e qualidade.",
+      "note": "Não tem tradução exata — apresente como o preço de cada escolha."
+    },
+    {
+      "term": "Nudge",
+      "ipa": "/nʌdʒ/",
+      "translation": "empurrãozinho",
+      "definition": "A small push that changes what people choose.",
+      "example": "- A small nudge, like a default option, changes what people choose.\nUm empurrãozinho, como uma opção padrão, muda o que as pessoas escolhem.",
+      "note": "Termo da economia comportamental (Thaler); também verbo."
+    },
+    {
+      "term": "Credibility",
+      "ipa": "/ˌkredəˈbɪləti/",
+      "translation": "credibilidade",
+      "definition": "The quality of being believed and trusted.",
+      "example": "- You build credibility with small promises delivered on time.\nVocê constrói credibilidade com promessas pequenas entregues no prazo.",
+      "note": "Build/lose credibility — constrói-se devagar, perde-se rápido."
+    },
+    {
+      "term": "Win-win",
+      "ipa": "",
+      "translation": "ganha-ganha",
+      "definition": "An outcome where both sides gain something.",
+      "example": "- Frame the deal as a win-win, or someone will feel like a loser.\nApresente o acordo como ganha-ganha, ou alguém vai se sentir perdedor.",
+      "note": "A win-win situation; o contrário é zero-sum (soma zero)."
+    },
+    {
+      "term": "Put yourself in their shoes",
+      "ipa": "",
+      "translation": "colocar-se no lugar do outro",
+      "definition": "To imagine the situation from the other person's side.",
+      "example": "- Before the pitch, put yourself in their shoes for five minutes.\nAntes do pitch, coloque-se no lugar deles por cinco minutos.",
+      "note": "In someone’s shoes = na pele/situação de alguém."
+    },
+    {
+      "term": "Argument",
+      "ipa": "/ˈɑːrɡjumənt/",
+      "translation": "argumento; TAMBÉM briga, discussão",
+      "definition": "A reason given to support an idea; also a heated disagreement.",
+      "example": "- His argument was solid: data, a story, and a clear ask.\nO argumento dele era sólido: dados, uma história e um pedido claro.",
+      "note": "We had an argument = nós brigamos (não “tivemos um argumento”)."
+    },
+    {
+      "term": "Actual",
+      "ipa": "/ˈæktʃuəl/",
+      "translation": "real, verdadeiro",
+      "definition": "Real, as opposed to what was assumed.",
+      "example": "- The actual numbers tell a different story.\nOs números reais contam uma história diferente.",
+      "note": "“Atual” = current: the current numbers = os números atuais."
+    }
+  ],
+  "createdAt": "2026-09-01T23:53:05.111Z",
+  "exercise": {
+    "id": "practice-b2-aula4-persuasion-influence",
+    "title": "Persuasion & influence (B2 · Aula 4)",
+    "questions": [
+      {
+        "id": "q-1",
+        "type": "fill_blank",
+        "target": "leverage",
+        "prompt": "She _____ her network to get the proposal in front of the CEO.",
+        "options": [],
+        "answer": "leveraged",
+        "explanation": "As a verb it takes the object directly — no “on”."
+      },
+      {
+        "id": "q-2",
+        "type": "multiple_choice",
+        "target": "buy-in",
+        "prompt": "Which verb goes with “buy-in”?",
+        "options": [
+          "get buy-in",
+          "make buy-in",
+          "do buy-in",
+          "take buy-in"
+        ],
+        "answer": "get buy-in",
+        "explanation": "You GET or SECURE buy-in. It is uncountable — no “a buy-in”."
+      },
+      {
+        "id": "q-3",
+        "type": "multiple_choice",
+        "target": "objection",
+        "prompt": "Which verb goes with “objection”?",
+        "options": [
+          "raise an objection",
+          "lift an objection",
+          "put an objection",
+          "do an objection"
+        ],
+        "answer": "raise an objection",
+        "explanation": "You RAISE an objection and then HANDLE it."
+      },
+      {
+        "id": "q-4",
+        "type": "fill_blank",
+        "target": "trade-off",
+        "prompt": "Every decision is a _____ between speed and quality.",
+        "options": [],
+        "answer": "trade-off",
+        "explanation": "“A trade-off BETWEEN” two things."
+      },
+      {
+        "id": "q-5",
+        "type": "fill_blank",
+        "target": "nudge",
+        "prompt": "A small _____, like a default option, changes what people choose.",
+        "options": [],
+        "answer": "nudge",
+        "explanation": "“Nudge” is a gentle push, not a shove."
+      },
+      {
+        "id": "q-6",
+        "type": "multiple_choice",
+        "target": "credibility",
+        "prompt": "Which verb goes with “credibility”?",
+        "options": [
+          "build credibility",
+          "make credibility",
+          "do credibility",
+          "raise credibility"
+        ],
+        "answer": "build credibility",
+        "explanation": "Credibility is BUILT slowly, LOST quickly."
+      },
+      {
+        "id": "q-7",
+        "type": "fill_blank",
+        "target": "win-win",
+        "prompt": "They keep the deadline and we keep the scope — it's a _____.",
+        "options": [],
+        "answer": "win-win",
+        "explanation": "Both sides gain; the hyphen stays."
+      },
+      {
+        "id": "q-8",
+        "type": "fill_blank",
+        "target": "put yourself in their shoes",
+        "prompt": "Before you answer the complaint, _____ for a minute.",
+        "options": [],
+        "answer": "put yourself in their shoes",
+        "explanation": "“In their shoes”, not “in their place” — the idiom is fixed."
+      },
+      {
+        "id": "q-9",
+        "type": "multiple_choice",
+        "target": "argument",
+        "prompt": "You give a reason to support your idea. You make an…",
+        "options": [
+          "argument",
+          "arguing",
+          "argumentation",
+          "argue"
+        ],
+        "answer": "argument",
+        "explanation": "“Argument” is both a reason and a row; context decides which."
+      },
+      {
+        "id": "q-10",
+        "type": "multiple_choice",
+        "target": "actual",
+        "prompt": "Which sentence uses “actual” correctly?",
+        "options": [
+          "The actual cost was double the estimate.",
+          "The actual manager started last year.",
+          "In the actual moment we are busy.",
+          "Actual prices are rising this year."
+        ],
+        "answer": "The actual cost was double the estimate.",
+        "explanation": "“Actual” means real. The Portuguese “atual” is “current”."
+      }
+    ]
+  }
+}
