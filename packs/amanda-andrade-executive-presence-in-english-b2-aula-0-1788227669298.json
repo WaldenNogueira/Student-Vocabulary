@@ -1,0 +1,210 @@
+{
+  "type": "vocabulary-practice-pack",
+  "version": 7,
+  "teacher": "Teacher Walden Nogueira",
+  "teacherWhatsApp": "5541996106689",
+  "student": {
+    "name": "Amanda Andrade",
+    "whatsapp": "5522992674616"
+  },
+  "lesson": "Executive presence in English (B2 · Aula 0)",
+  "cards": [
+    {
+      "term": "Pushback",
+      "ipa": "/ˈpʊʃbæk/",
+      "translation": "resistência, objeção (a uma proposta)",
+      "definition": "Resistance or objections to a proposal.",
+      "example": "- We got some pushback from legal, but the argument was reasonable.\nTivemos alguma resistência do jurídico, mas o argumento era razoável.",
+      "note": "Verbo separado: push back on something. Substantivo junto: pushback."
+    },
+    {
+      "term": "Alignment",
+      "ipa": "/əˈlaɪnmənt/",
+      "translation": "alinhamento",
+      "definition": "Agreement between people or teams on what to do.",
+      "example": "- Before the board meeting, I need alignment between sales and product.\nAntes da reunião do conselho, preciso de alinhamento entre vendas e produto.",
+      "note": "Verbo align. Get alignment on = alinhar sobre."
+    },
+    {
+      "term": "Scope",
+      "ipa": "/skoʊp/",
+      "translation": "escopo",
+      "definition": "The limits of what a project includes.",
+      "example": "- That request is outside the scope of this quarter's project.\nAquele pedido está fora do escopo do projeto deste trimestre.",
+      "note": "Scope creep = escopo que cresce sem controle — termo de gestão de projetos."
+    },
+    {
+      "term": "Leverage",
+      "ipa": "/ˈlevərɪdʒ/",
+      "translation": "alavancar, usar a favor",
+      "definition": "To use something you already have to get an advantage.",
+      "example": "- We can leverage last year's data to justify the investment.\nPodemos alavancar os dados do ano passado para justificar o investimento.",
+      "note": "Verbo e substantivo; soa estratégico em reunião executiva."
+    },
+    {
+      "term": "Accountable",
+      "ipa": "/əˈkaʊntəbl/",
+      "translation": "responsável (que responde pelo resultado)",
+      "definition": "Answerable for a result, not only for the tasks.",
+      "example": "- I'm accountable for the result, not just for the tasks.\nEu respondo pelo resultado, não só pelas tarefas.",
+      "note": "Mais forte que responsible: implica prestar contas. -able final soa como “-a-bou”, quase engolido."
+    },
+    {
+      "term": "Mitigate",
+      "ipa": "/ˈmɪtɪɡeɪt/",
+      "translation": "mitigar, reduzir (risco)",
+      "definition": "To make a risk or a problem less serious.",
+      "example": "- We can mitigate the risk with a two-week pilot.\nPodemos mitigar o risco com um piloto de duas semanas.",
+      "note": "Colocação padrão: mitigate a risk. Substantivo: mitigation."
+    },
+    {
+      "term": "I'd like to challenge that",
+      "ipa": "",
+      "translation": "eu gostaria de questionar isso",
+      "definition": "A professional way of questioning what was just said.",
+      "example": "- I'd like to challenge that assumption, if I may — the data suggests otherwise.\nEu gostaria de questionar essa premissa, se me permite — os dados sugerem o contrário.",
+      "note": "Discordar de alguém sênior sem confronto: questiona a IDEIA, não a pessoa."
+    },
+    {
+      "term": "Let's park that",
+      "ipa": "",
+      "translation": "vamos deixar isso de lado por ora",
+      "definition": "Used to postpone a subject without rejecting it.",
+      "example": "- Good point — let's park that and come back to it after the numbers.\nBom ponto — vamos deixar isso de lado e voltar depois dos números.",
+      "note": "Controla a pauta sem descartar a contribuição de ninguém."
+    },
+    {
+      "term": "Eventual",
+      "ipa": "/ɪˈventʃuəl/",
+      "translation": "final, aquele que acaba acontecendo",
+      "definition": "Final; the one that happens in the end.",
+      "example": "- The eventual decision was to postpone the launch by one quarter.\nA decisão final foi adiar o lançamento em um trimestre.",
+      "note": "“Eventual” em português = ocasional; em inglês eventual = FINAL. Erro que passa batido até em C1."
+    },
+    {
+      "term": "Comprise",
+      "ipa": "/kəmˈpraɪz/",
+      "translation": "ser composto por, compreender (conter)",
+      "definition": "To consist of; to be made up of.",
+      "example": "- The board comprises seven members from four countries.\nO conselho é composto por sete membros de quatro países.",
+      "note": "“Comprometer-se” é commit; “comprometer” no sentido de pôr em risco é jeopardize. Compromise é o meio-termo (substantivo) e só combina com security, quality, safety. Comprise = ser formado por: “The board comprises five members.” s soa como Z."
+    }
+  ],
+  "createdAt": "2026-09-01T01:54:29.297Z",
+  "exercise": {
+    "id": "practice-b2-aula0-executive-presence-in-english-demo",
+    "title": "Executive presence in English (B2 · Aula 0)",
+    "questions": [
+      {
+        "id": "q-1",
+        "type": "fill_blank",
+        "target": "pushback",
+        "prompt": "We got some _____ from legal, but the argument was reasonable.",
+        "options": [],
+        "answer": "pushback",
+        "explanation": "“Pushback FROM” the people resisting. It is uncountable: some pushback."
+      },
+      {
+        "id": "q-2",
+        "type": "fill_blank",
+        "target": "alignment",
+        "prompt": "Before the board meeting, I need _____ between sales and product.",
+        "options": [],
+        "answer": "alignment",
+        "explanation": "“Alignment ON” a topic, “between” two teams."
+      },
+      {
+        "id": "q-3",
+        "type": "fill_blank",
+        "target": "scope",
+        "prompt": "That request is outside the _____ of this quarter's project.",
+        "options": [],
+        "answer": "scope",
+        "explanation": "“Outside the scope” is the standard way to refuse extra work politely."
+      },
+      {
+        "id": "q-4",
+        "type": "multiple_choice",
+        "target": "leverage",
+        "prompt": "Which one is correct?",
+        "options": [
+          "We can leverage last year's data.",
+          "We can leverage on last year's data.",
+          "We can leverage of last year's data.",
+          "We can leverage with last year's data."
+        ],
+        "answer": "We can leverage last year's data.",
+        "explanation": "As a verb, “leverage” takes the object directly."
+      },
+      {
+        "id": "q-5",
+        "type": "multiple_choice",
+        "target": "accountable",
+        "prompt": "Which one is correct?",
+        "options": [
+          "I'm accountable for the result.",
+          "I'm accountable by the result.",
+          "I'm accountable of the result.",
+          "I'm accountable to the result."
+        ],
+        "answer": "I'm accountable for the result.",
+        "explanation": "“Accountable FOR” a result, “accountable TO” a person. Portuguese “por” tempts “by”."
+      },
+      {
+        "id": "q-6",
+        "type": "translate_to_english",
+        "target": "mitigate",
+        "prompt": "A gente consegue reduzir o risco com um piloto de duas semanas.",
+        "options": [],
+        "answer": "We can mitigate the risk with a two-week pilot.|We can mitigate the risk with a two week pilot.",
+        "explanation": "“Mitigate” is to reduce the seriousness of a risk."
+      },
+      {
+        "id": "q-7",
+        "type": "fill_blank",
+        "target": "I'd like to challenge that",
+        "prompt": "_____ — the numbers from March point the other way.",
+        "options": [],
+        "answer": "I'd like to challenge that",
+        "explanation": "Questions the claim without attacking the person."
+      },
+      {
+        "id": "q-8",
+        "type": "fill_blank",
+        "target": "let's park that",
+        "prompt": "Good point, but _____ and come back to it after the budget.",
+        "options": [],
+        "answer": "let's park that",
+        "explanation": "Postpones a subject without rejecting it."
+      },
+      {
+        "id": "q-9",
+        "type": "multiple_choice",
+        "target": "eventual",
+        "prompt": "Which sentence uses “eventual” correctly?",
+        "options": [
+          "The eventual decision took three months.",
+          "We have eventual meetings on Fridays.",
+          "She is eventual in the office.",
+          "They call eventual to ask."
+        ],
+        "answer": "The eventual decision took three months.",
+        "explanation": "“Eventual” means final. The Portuguese “eventual” (occasional) is “occasional”."
+      },
+      {
+        "id": "q-10",
+        "type": "multiple_choice",
+        "target": "comprise",
+        "prompt": "The team has four analysts and one manager. The team…",
+        "options": [
+          "comprises five people",
+          "comprises of five people",
+          "is comprised by five people",
+          "comprise five people"
+        ],
+        "answer": "comprises five people",
+        "explanation": "“Comprise” takes the object directly — no “of”. And it is not the Portuguese “compreender” (to understand)."
+      }
+    ]
+  }
+}
