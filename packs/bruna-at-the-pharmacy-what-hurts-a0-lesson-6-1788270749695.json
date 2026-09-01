@@ -1,0 +1,190 @@
+{
+  "type": "vocabulary-practice-pack",
+  "version": 7,
+  "teacher": "Teacher Walden Nogueira",
+  "teacherWhatsApp": "5541996106689",
+  "student": {
+    "name": "Bruna",
+    "whatsapp": "5511991627789"
+  },
+  "lesson": "At the pharmacy: what hurts (A0 · Lesson 6)",
+  "cards": [
+    {
+      "term": "Pharmacy",
+      "ipa": "/ˈfɑːrməsi/",
+      "translation": "farmácia",
+      "definition": "Is there a pharmacy near the hotel?. farmácia.",
+      "example": "- Is there a pharmacy near the hotel?\nTem uma farmácia perto do hotel?",
+      "note": "Na Inglaterra também se diz chemist. Nos Estados Unidos, drugstore."
+    },
+    {
+      "term": "Hurt",
+      "ipa": "/hɜːrt/",
+      "translation": "doer",
+      "definition": "My head hurts. It started this morning. doer.",
+      "example": "- My head hurts. It started this morning.\nMinha cabeça dói. Começou hoje de manhã.",
+      "note": "A parte do corpo é o SUJEITO: my head hurts, não “I hurt my head”, que é machucar."
+    },
+    {
+      "term": "Headache",
+      "ipa": "/ˈhedeɪk/",
+      "translation": "dor de cabeça",
+      "definition": "I have a headache and I need something. dor de cabeça.",
+      "example": "- I have a headache and I need something.\nEstou com dor de cabeça e preciso de algo.",
+      "note": "Sempre com have A: I have a headache. O -ache fala-se “êik”."
+    },
+    {
+      "term": "Pill",
+      "ipa": "/pɪl/",
+      "translation": "comprimido",
+      "definition": "Two pills a day, after food. comprimido.",
+      "example": "- Two pills a day, after food.\nDois comprimidos por dia, depois da comida.",
+      "note": "Pill é o comprimido; o remédio em geral é medicine, incontável."
+    },
+    {
+      "term": "Doctor",
+      "ipa": "/ˈdɒktər/",
+      "translation": "médico",
+      "definition": "I need a doctor, not a pharmacy. médico.",
+      "example": "- I need a doctor, not a pharmacy.\nPreciso de um médico, não de uma farmácia.",
+      "note": "Com artigo: a doctor. Chamar de Doctor sem artigo é falar COM ele."
+    },
+    {
+      "term": "Sick",
+      "ipa": "/sɪk/",
+      "translation": "enjoado, mal",
+      "definition": "I feel sick. I want to go back to the hotel. enjoado, mal.",
+      "example": "- I feel sick. I want to go back to the hotel.\nEstou enjoado. Quero voltar para o hotel.",
+      "note": "Feel sick é enjoo. Doente de verdade é ill ou I am not well."
+    },
+    {
+      "term": "I need something for…",
+      "ipa": "",
+      "translation": "eu preciso de algo para…",
+      "definition": "eu preciso de algo para…. A fórmula que resolve a farmácia inteira: something for + o problema.",
+      "example": "- I need something for a headache, please.\nPreciso de algo para dor de cabeça, por favor.",
+      "note": "A fórmula que resolve a farmácia inteira: something for + o problema."
+    },
+    {
+      "term": "It hurts here",
+      "ipa": "",
+      "translation": "dói aqui",
+      "definition": "dói aqui. Duas palavras e o dedo. Funciona em qualquer país, inclusive onde ninguém fala inglês.",
+      "example": "- It hurts here, when I walk.\nDói aqui, quando eu ando.",
+      "note": "Duas palavras e o dedo. Funciona em qualquer país, inclusive onde ninguém fala inglês."
+    },
+    {
+      "term": "Constipated",
+      "ipa": "",
+      "translation": "com prisão de ventre",
+      "definition": "com prisão de ventre. “Constipado” (gripado) é to have a cold! Peça something for a cold — constipated é o intestino, e a farmacêutica vai te dar outra coisa.",
+      "example": "- The pills make some people constipated.\nOs comprimidos deixam algumas pessoas com prisão de ventre.",
+      "note": "“Constipado” (gripado) é to have a cold! Peça something for a cold — constipated é o intestino, e a farmacêutica vai te dar outra coisa."
+    },
+    {
+      "term": "Injury",
+      "ipa": "",
+      "translation": "lesão, machucado",
+      "definition": "lesão, machucado. “Injúria” (ofensa) é insult! Injury é machucado no corpo.",
+      "example": "- It is an old knee injury, not new.\nÉ uma lesão antiga no joelho, não é nova.",
+      "note": "“Injúria” (ofensa) é insult! Injury é machucado no corpo."
+    }
+  ],
+  "createdAt": "2026-09-01T13:52:29.692Z",
+  "exercise": {
+    "id": "practice-tv-a0-aula6-at-the-pharmacy",
+    "title": "At the pharmacy: what hurts (A0 · Lesson 6)",
+    "questions": [
+      {
+        "id": "q-1",
+        "type": "fill_blank",
+        "target": "pharmacy",
+        "prompt": "Is there a _____ near the hotel?",
+        "options": [],
+        "answer": "pharmacy",
+        "explanation": "Tem uma farmácia perto do hotel?"
+      },
+      {
+        "id": "q-2",
+        "type": "fill_blank",
+        "target": "hurt",
+        "prompt": "My head _____ . It started this morning.",
+        "options": [],
+        "answer": "hurt",
+        "explanation": "Minha cabeça dói. Começou hoje de manhã."
+      },
+      {
+        "id": "q-3",
+        "type": "fill_blank",
+        "target": "headache",
+        "prompt": "I have a _____ and I need something.",
+        "options": [],
+        "answer": "headache",
+        "explanation": "Estou com dor de cabeça e preciso de algo."
+      },
+      {
+        "id": "q-4",
+        "type": "fill_blank",
+        "target": "pill",
+        "prompt": "Two _____ a day, after food.",
+        "options": [],
+        "answer": "pill",
+        "explanation": "Dois comprimidos por dia, depois da comida."
+      },
+      {
+        "id": "q-5",
+        "type": "fill_blank",
+        "target": "doctor",
+        "prompt": "I need a _____ , not a pharmacy.",
+        "options": [],
+        "answer": "doctor",
+        "explanation": "Preciso de um médico, não de uma farmácia."
+      },
+      {
+        "id": "q-6",
+        "type": "fill_blank",
+        "target": "sick",
+        "prompt": "I feel _____ . I want to go back to the hotel.",
+        "options": [],
+        "answer": "sick",
+        "explanation": "Estou enjoado. Quero voltar para o hotel."
+      },
+      {
+        "id": "q-7",
+        "type": "fill_blank",
+        "target": "I need something for…",
+        "prompt": "_____ a headache, please.",
+        "options": [],
+        "answer": "I need something for…",
+        "explanation": "Preciso de algo para dor de cabeça, por favor."
+      },
+      {
+        "id": "q-8",
+        "type": "fill_blank",
+        "target": "It hurts here",
+        "prompt": "_____ , when I walk.",
+        "options": [],
+        "answer": "It hurts here",
+        "explanation": "Dói aqui, quando eu ando."
+      },
+      {
+        "id": "q-9",
+        "type": "fill_blank",
+        "target": "constipated",
+        "prompt": "The pills make some people _____ .",
+        "options": [],
+        "answer": "constipated",
+        "explanation": "Os comprimidos deixam algumas pessoas com prisão de ventre."
+      },
+      {
+        "id": "q-10",
+        "type": "fill_blank",
+        "target": "injury",
+        "prompt": "It is an old knee _____ , not new.",
+        "options": [],
+        "answer": "injury",
+        "explanation": "É uma lesão antiga no joelho, não é nova."
+      }
+    ]
+  }
+}
