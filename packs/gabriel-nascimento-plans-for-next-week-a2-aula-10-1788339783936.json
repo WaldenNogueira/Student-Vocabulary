@@ -1,0 +1,190 @@
+{
+  "type": "vocabulary-practice-pack",
+  "version": 7,
+  "teacher": "Teacher Walden Nogueira",
+  "teacherWhatsApp": "5541996106689",
+  "student": {
+    "name": "Gabriel Nascimento",
+    "whatsapp": "5527992357710"
+  },
+  "lesson": "Plans for next week (A2 · Aula 10)",
+  "cards": [
+    {
+      "term": "Plan",
+      "ipa": "/plæn/",
+      "translation": "plano; planejar",
+      "definition": "What are your plans for next week?. plano; planejar.",
+      "example": "- What are your plans for next week?\nQuais são seus planos para a semana que vem?",
+      "note": "Quase sempre no plural na pergunta: your plans. Verbo: plan TO do."
+    },
+    {
+      "term": "Cancel",
+      "ipa": "/ˈkænsl/",
+      "translation": "cancelar",
+      "definition": "They canceled the Monday meeting. cancelar.",
+      "example": "- They canceled the Monday meeting.\nEles cancelaram a reunião de segunda.",
+      "note": "Britânico dobra o L: cancelled. Americano escreve canceled. Os dois estão certos."
+    },
+    {
+      "term": "Join",
+      "ipa": "/dʒɔɪn/",
+      "translation": "participar de, entrar em",
+      "definition": "Can you join the call at three?. participar de, entrar em.",
+      "example": "- Can you join the call at three?\nVocê consegue entrar na call às três?",
+      "note": "Join não leva preposição: join the call, nunca “join IN the call”."
+    },
+    {
+      "term": "Remind",
+      "ipa": "/rɪˈmaɪnd/",
+      "translation": "lembrar (alguém)",
+      "definition": "Remind me on Tuesday, please. lembrar (alguém).",
+      "example": "- Remind me on Tuesday, please.\nMe lembre na terça, por favor.",
+      "note": "Remind ME — sempre tem alguém no meio. Lembrar sozinho é remember."
+    },
+    {
+      "term": "Soon",
+      "ipa": "/suːn/",
+      "translation": "em breve, logo",
+      "definition": "I will send the agenda soon. em breve, logo.",
+      "example": "- I will send the agenda soon.\nEu mando a pauta em breve.",
+      "note": "Vai no FIM da frase. Soon I will send soa a tradução literal."
+    },
+    {
+      "term": "Maybe",
+      "ipa": "/ˈmeɪbi/",
+      "translation": "talvez",
+      "definition": "Maybe Thursday. I will confirm tomorrow. talvez.",
+      "example": "- Maybe Thursday. I will confirm tomorrow.\nTalvez quinta. Eu confirmo amanhã.",
+      "note": "Uma palavra só, e vem no começo. May be, separado, é outro verbo."
+    },
+    {
+      "term": "Are you free on…?",
+      "ipa": "",
+      "translation": "você está livre na…?",
+      "definition": "você está livre na…?. Free ON um dia, free AT uma hora. É a forma curta de marcar.",
+      "example": "- Are you free on Wednesday morning?\nVocê está livre quarta de manhã?",
+      "note": "Free ON um dia, free AT uma hora. É a forma curta de marcar."
+    },
+    {
+      "term": "I'll be there",
+      "ipa": "",
+      "translation": "eu estarei lá / pode contar comigo",
+      "definition": "eu estarei lá / pode contar comigo. Três palavras e o compromisso está fechado. Não precisa de mais nada depois.",
+      "example": "- Ten o'clock? I'll be there.\nDez horas? Estarei lá.",
+      "note": "Três palavras e o compromisso está fechado. Não precisa de mais nada depois."
+    },
+    {
+      "term": "Pretend",
+      "ipa": "",
+      "translation": "fingir",
+      "definition": "fingir. “Pretender” é plan to ou intend! Pretend é fingir.",
+      "example": "- Do not pretend you are free if you are not.\nNão finja que está livre se não está.",
+      "note": "“Pretender” é plan to ou intend! Pretend é fingir."
+    },
+    {
+      "term": "Anticipate",
+      "ipa": "",
+      "translation": "prever, esperar que aconteça",
+      "definition": "prever, esperar que aconteça. “Antecipar” (trazer para antes) é bring forward! Anticipate é prever.",
+      "example": "- We anticipate a problem with the dates.\nA gente prevê um problema com as datas.",
+      "note": "“Antecipar” (trazer para antes) é bring forward! Anticipate é prever."
+    }
+  ],
+  "createdAt": "2026-09-02T09:03:03.934Z",
+  "exercise": {
+    "id": "practice-a2-aula10-plans-for-next-week",
+    "title": "Plans for next week (A2 · Aula 10)",
+    "questions": [
+      {
+        "id": "q-1",
+        "type": "fill_blank",
+        "target": "plan",
+        "prompt": "What are your _____ for next week?",
+        "options": [],
+        "answer": "plan",
+        "explanation": "Quais são seus planos para a semana que vem?"
+      },
+      {
+        "id": "q-2",
+        "type": "fill_blank",
+        "target": "cancel",
+        "prompt": "They _____ the Monday meeting.",
+        "options": [],
+        "answer": "cancel",
+        "explanation": "Eles cancelaram a reunião de segunda."
+      },
+      {
+        "id": "q-3",
+        "type": "fill_blank",
+        "target": "join",
+        "prompt": "Can you _____ the call at three?",
+        "options": [],
+        "answer": "join",
+        "explanation": "Você consegue entrar na call às três?"
+      },
+      {
+        "id": "q-4",
+        "type": "fill_blank",
+        "target": "remind",
+        "prompt": "_____ me on Tuesday, please.",
+        "options": [],
+        "answer": "remind",
+        "explanation": "Me lembre na terça, por favor."
+      },
+      {
+        "id": "q-5",
+        "type": "fill_blank",
+        "target": "soon",
+        "prompt": "I will send the agenda _____ .",
+        "options": [],
+        "answer": "soon",
+        "explanation": "Eu mando a pauta em breve."
+      },
+      {
+        "id": "q-6",
+        "type": "fill_blank",
+        "target": "maybe",
+        "prompt": "_____ Thursday. I will confirm tomorrow.",
+        "options": [],
+        "answer": "maybe",
+        "explanation": "Talvez quinta. Eu confirmo amanhã."
+      },
+      {
+        "id": "q-7",
+        "type": "fill_blank",
+        "target": "Are you free on…?",
+        "prompt": "_____ Wednesday morning?",
+        "options": [],
+        "answer": "Are you free on…?",
+        "explanation": "Você está livre quarta de manhã?"
+      },
+      {
+        "id": "q-8",
+        "type": "fill_blank",
+        "target": "I'll be there",
+        "prompt": "Ten o'clock? _____ .",
+        "options": [],
+        "answer": "I'll be there",
+        "explanation": "Dez horas? Estarei lá."
+      },
+      {
+        "id": "q-9",
+        "type": "fill_blank",
+        "target": "pretend",
+        "prompt": "Do not _____ you are free if you are not.",
+        "options": [],
+        "answer": "pretend",
+        "explanation": "Não finja que está livre se não está."
+      },
+      {
+        "id": "q-10",
+        "type": "fill_blank",
+        "target": "anticipate",
+        "prompt": "We _____ a problem with the dates.",
+        "options": [],
+        "answer": "anticipate",
+        "explanation": "A gente prevê um problema com as datas."
+      }
+    ]
+  }
+}
