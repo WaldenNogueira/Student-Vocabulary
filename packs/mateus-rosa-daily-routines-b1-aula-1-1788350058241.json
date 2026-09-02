@@ -1,0 +1,210 @@
+{
+  "type": "vocabulary-practice-pack",
+  "version": 7,
+  "teacher": "Teacher Walden Nogueira",
+  "teacherWhatsApp": "5541996106689",
+  "student": {
+    "name": "Mateus rosa",
+    "whatsapp": "5522999864533"
+  },
+  "lesson": "Daily routines (B1 · Aula 1)",
+  "cards": [
+    {
+      "term": "Wake up",
+      "ipa": "/weɪk ʌp/",
+      "translation": "acordar",
+      "definition": "To stop sleeping.",
+      "example": "- I usually wake up at 6:30 on weekdays, even when I forget to set an alarm.\nEu geralmente acordo às 6h30 nos dias de semana, mesmo quando esqueço de pôr o alarme.\n- She woke up twice during the night.\nEla acordou duas vezes durante a noite.\n- Try not to wake up the baby.\nTente não acordar o bebê.",
+      "note": "Passado: woke up. Wake up é deixar de dormir; sair da cama é get up. Pode ser separável: wake me up at seven."
+    },
+    {
+      "term": "Get up",
+      "ipa": "/ɡet ʌp/",
+      "translation": "levantar da cama",
+      "definition": "To leave your bed and stand up after sleeping.",
+      "example": "- I wake up early, but I only get up after checking my phone for ten minutes.\nEu acordo cedo, mas só levanto depois de checar o celular por dez minutos.\n- He got up at five to catch the first train.\nEle levantou às cinco para pegar o primeiro trem.\n- On Sundays I get up whenever I want.\nAos domingos eu levanto na hora que quero.",
+      "note": "Passado: got up. A dupla é sempre a mesma pergunta de prova: wake up = acordar, get up = sair da cama."
+    },
+    {
+      "term": "Commute",
+      "ipa": "/kəˈmjut/",
+      "translation": "trajeto diário; fazer o trajeto diário",
+      "definition": "The regular trip between home and work, or to make that trip.",
+      "example": "- My commute takes about forty minutes by bus, so I always listen to podcasts on the way.\nMeu trajeto leva uns quarenta minutos de ônibus, então sempre ouço podcasts no caminho.\n- She commutes to the office three days a week.\nEla vai ao escritório três dias por semana.\n- A short commute is worth a lot these days.\nUm trajeto curto vale muito hoje em dia.",
+      "note": "Serve como verbo e substantivo: I commute by bus / My commute is long. Não é qualquer viagem — é o trajeto de rotina."
+    },
+    {
+      "term": "Run errands",
+      "ipa": "/rʌn ˈerəndz/",
+      "translation": "resolver coisas na rua",
+      "definition": "To go out and do small practical tasks like shopping or going to the bank.",
+      "example": "- On Friday afternoons, I leave the office early to run errands like going to the bank.\nNas sextas à tarde, saio mais cedo do escritório para resolver coisas como ir ao banco.\n- I ran a few errands before lunch.\nResolvi umas coisas antes do almoço.\n- Saturday morning is for running errands.\nSábado de manhã é para resolver as pendências da rua.",
+      "note": "Expressão fixa: nada a ver com correr. Quase sempre no plural. Uma tarefa só é an errand."
+    },
+    {
+      "term": "Work out",
+      "ipa": "/ˈwɝk aʊt/",
+      "translation": "malhar; treinar",
+      "definition": "To do physical exercise to stay healthy or fit.",
+      "example": "- I try to work out at the gym twice a week, usually before dinner.\nTento malhar na academia duas vezes por semana, geralmente antes do jantar.\n- He worked out every morning last year.\nEle treinou toda manhã no ano passado.\n- I prefer to work out at home.\nPrefiro treinar em casa.",
+      "note": "Como verbo são duas palavras: work out. O substantivo é junto: a workout. Passado: worked out."
+    },
+    {
+      "term": "Go to bed",
+      "ipa": "/ˌɡoʊ tə ˈbed/",
+      "translation": "ir dormir; ir para a cama",
+      "definition": "To get into bed in order to sleep.",
+      "example": "- During the week I go to bed before 11 p.m., but on weekends it is much later.\nDurante a semana vou dormir antes das 23h, mas no fim de semana é bem mais tarde.\n- They went to bed right after dinner.\nEles foram dormir logo depois do jantar.\n- Go to bed earlier and you will feel better.\nVá dormir mais cedo e você vai se sentir melhor.",
+      "note": "Não diga go sleep. A cama não leva artigo nesta expressão: go to bed, nunca go to the bed."
+    },
+    {
+      "term": "My alarm goes off",
+      "ipa": "/maɪ əˈlɑrm ɡoʊz ˈɔf/",
+      "translation": "meu alarme toca",
+      "definition": "Used to say that your alarm starts ringing.",
+      "example": "- My alarm goes off at 6:15, but I usually stay in bed for five more minutes.\nMeu alarme toca às 6h15, mas normalmente fico na cama mais cinco minutos.\n- My alarm went off in the middle of a meeting.\nMeu alarme tocou no meio de uma reunião.\n- I hit snooze every time my alarm goes off.\nEu aperto soneca toda vez que meu alarme toca.",
+      "note": "Com alarm, go off é começar a tocar — o contrário do que a tradução literal sugere. Passado: went off."
+    },
+    {
+      "term": "Squeeze in",
+      "ipa": "/ˈskwiz ɪn/",
+      "translation": "encaixar na agenda",
+      "definition": "To find time for something in a schedule that is already full.",
+      "example": "- Even on my busiest days, I try to squeeze in a short walk after lunch.\nMesmo nos dias mais corridos, tento encaixar uma caminhada curta depois do almoço.\n- Can you squeeze in a quick call at three?\nVocê consegue encaixar uma ligação rápida às três?\n- We squeezed in one more meeting before the flight.\nEncaixamos mais uma reunião antes do voo.",
+      "note": "Separável: squeeze it in. Passado: squeezed in. Muito usado em e-mail para pedir um horário extra."
+    },
+    {
+      "term": "Actually",
+      "ipa": "/ˈæktʃuəli/",
+      "translation": "na verdade",
+      "definition": "Used to correct information or to say what is really true.",
+      "example": "- People think I hate mornings, but I actually enjoy my morning routine.\nAs pessoas acham que odeio manhãs, mas na verdade adoro minha rotina matinal.\n- Actually, the meeting is on Thursday.\nNa verdade, a reunião é na quinta.\n- It looks difficult, but it is actually simple.\nParece difícil, mas na verdade é simples.",
+      "note": "Não é “atualmente”. Para isso, use currently. Actually corrige ou surpreende — cuidado com o tom ao discordar."
+    },
+    {
+      "term": "Eventually",
+      "ipa": "/ɪˈventʃuəli/",
+      "translation": "no fim das contas; uma hora",
+      "definition": "After a long time or after several steps.",
+      "example": "- I check my emails first, and eventually I start the main tasks of the day.\nConfiro os e-mails primeiro e, por fim, começo as tarefas principais do dia.\n- The project was late, but it eventually worked.\nO projeto atrasou, mas no fim deu certo.\n- She eventually agreed with the proposal.\nEla acabou concordando com a proposta.",
+      "note": "Não é “eventualmente” no sentido de “às vezes”. Para isso, use sometimes ou occasionally."
+    }
+  ],
+  "createdAt": "2026-09-02T11:54:18.240Z",
+  "exercise": {
+    "id": "practice-b1-aula1-daily-routines",
+    "title": "Daily routines (B1 · Aula 1)",
+    "questions": [
+      {
+        "id": "q-1",
+        "type": "translate_to_english",
+        "target": "my alarm goes off",
+        "prompt": "Meu alarme toca às seis e quinze todos os dias.",
+        "options": [],
+        "answer": "My alarm goes off at six fifteen every day.|My alarm goes off at 6:15 every day.",
+        "explanation": "With an alarm, “go off” means to start ringing."
+      },
+      {
+        "id": "q-2",
+        "type": "multiple_choice",
+        "target": "get up",
+        "prompt": "Which sentence describes leaving the bed, not only stopping sleeping?",
+        "options": [
+          "I get up at seven.",
+          "I wake up at seven.",
+          "I go to bed at seven.",
+          "I work out at seven."
+        ],
+        "answer": "I get up at seven.",
+        "explanation": "“Wake up” is to stop sleeping; “get up” is to leave the bed."
+      },
+      {
+        "id": "q-3",
+        "type": "fill_blank",
+        "target": "run errands",
+        "prompt": "On Saturday mornings I _____ around the neighborhood before lunch.",
+        "options": [],
+        "answer": "run errands",
+        "explanation": "“Run errands” means to do small practical tasks outside the house."
+      },
+      {
+        "id": "q-4",
+        "type": "multiple_choice",
+        "target": "actually",
+        "prompt": "Your colleague says the report is due today, but it is due tomorrow. What do you say?",
+        "options": [
+          "Currently, it is due tomorrow.",
+          "Actually, it is due tomorrow.",
+          "Eventually, it is due tomorrow.",
+          "Finally, it is due tomorrow."
+        ],
+        "answer": "Actually, it is due tomorrow.",
+        "explanation": "“Actually” corrects information. “Currently” means “at the moment”."
+      },
+      {
+        "id": "q-5",
+        "type": "fill_blank",
+        "target": "work out",
+        "prompt": "I usually _____ before dinner because the gym is empty then.",
+        "options": [],
+        "answer": "work out",
+        "explanation": "“Work out” means to do physical exercise."
+      },
+      {
+        "id": "q-6",
+        "type": "translate_to_english",
+        "target": "squeeze in",
+        "prompt": "Você consegue encaixar uma ligação rápida às três?",
+        "options": [],
+        "answer": "Can you squeeze in a quick call at three?|Could you squeeze in a quick call at three?",
+        "explanation": "“Squeeze in” means to find time in a schedule that is already full."
+      },
+      {
+        "id": "q-7",
+        "type": "multiple_choice",
+        "target": "commute",
+        "prompt": "Which word describes the regular trip between home and work?",
+        "options": [
+          "Errand",
+          "Workout",
+          "Commute",
+          "Routine"
+        ],
+        "answer": "Commute",
+        "explanation": "A “commute” is the regular journey between home and work."
+      },
+      {
+        "id": "q-8",
+        "type": "fill_blank",
+        "target": "go to bed",
+        "prompt": "I never _____ before midnight on Fridays.",
+        "options": [],
+        "answer": "go to bed",
+        "explanation": "“Go to bed” means to get into bed to sleep. There is no article before “bed”."
+      },
+      {
+        "id": "q-9",
+        "type": "translate_to_english",
+        "target": "wake up",
+        "prompt": "Eu acordo às seis, mesmo no fim de semana.",
+        "options": [],
+        "answer": "I wake up at six, even on weekends.|I wake up at six o'clock, even on weekends.",
+        "explanation": "“Wake up” means to stop sleeping."
+      },
+      {
+        "id": "q-10",
+        "type": "multiple_choice",
+        "target": "eventually",
+        "prompt": "The project was delayed for months, but it worked in the end. Which word fits?",
+        "options": [
+          "Sometimes",
+          "Currently",
+          "Actually",
+          "Eventually"
+        ],
+        "answer": "Eventually",
+        "explanation": "“Eventually” means after a long time. “Sometimes” is the false friend trap."
+      }
+    ]
+  }
+}
