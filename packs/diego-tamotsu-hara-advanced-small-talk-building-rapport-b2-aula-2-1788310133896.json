@@ -1,0 +1,220 @@
+{
+  "type": "vocabulary-practice-pack",
+  "version": 7,
+  "teacher": "Teacher Walden Nogueira",
+  "teacherWhatsApp": "5541996106689",
+  "student": {
+    "name": "DIEGO TAMOTSU HARA",
+    "whatsapp": "5511953037276"
+  },
+  "lesson": "Advanced small talk & building rapport (B2 · Aula 2)",
+  "cards": [
+    {
+      "term": "Small talk",
+      "ipa": "/ˈsmɔːl tɔːk/",
+      "translation": "conversa leve, papo social",
+      "definition": "Light, friendly conversation about unimportant subjects.",
+      "example": "- Brazilians are naturally good at small talk, but the rules change across cultures.\nBrasileiros são naturalmente bons de small talk, mas as regras mudam entre culturas.",
+      "note": "Colocação: make small talk (nunca “do”)."
+    },
+    {
+      "term": "Common ground",
+      "ipa": "/ˌkɑːmən ˈɡraʊnd/",
+      "translation": "pontos em comum",
+      "definition": "Interests or opinions that two people share.",
+      "example": "- We found common ground in five minutes: both of us love trail running.\nEncontramos pontos em comum em cinco minutos: nós dois amamos trail running.",
+      "note": "Colocações: find/establish common ground."
+    },
+    {
+      "term": "Open-ended question",
+      "ipa": "/ˌoʊpən ˌendɪd ˈkwestʃən/",
+      "translation": "pergunta aberta",
+      "definition": "A question that cannot be answered with yes or no.",
+      "example": "- Open-ended questions keep the conversation flowing without any effort.\nPerguntas abertas mantêm a conversa fluindo sem nenhum esforço.",
+      "note": "O contrário é closed question (resposta sim/não)."
+    },
+    {
+      "term": "Genuine",
+      "ipa": "/ˈdʒenjuɪn/",
+      "translation": "genuíno, sincero, verdadeiro",
+      "definition": "Real and sincere, not pretended.",
+      "example": "- People can always tell when your interest in them is genuine.\nAs pessoas sempre percebem quando seu interesse por elas é genuíno.",
+      "note": "Pronúncia: JÉN-iu-in — não “genuáin”."
+    },
+    {
+      "term": "Engage",
+      "ipa": "/ɪnˈɡeɪdʒ/",
+      "translation": "envolver, engajar",
+      "definition": "To involve someone actively in a conversation or activity.",
+      "example": "- Great hosts engage everyone in the conversation, even the quiet ones.\nBons anfitriões envolvem todo mundo na conversa, até os mais quietos.",
+      "note": "Engage with someone; cuidado: engaged também significa noivo."
+    },
+    {
+      "term": "Awkward",
+      "ipa": "/ˈɔːkwərd/",
+      "translation": "constrangedor, sem jeito, desconfortável",
+      "definition": "Uncomfortable and slightly embarrassing.",
+      "example": "- There was an awkward silence after his joke about the CEO.\nHouve um silêncio constrangedor depois da piada dele sobre o CEO.",
+      "note": "Awkward silence é a colocação clássica."
+    },
+    {
+      "term": "Break the ice",
+      "ipa": "",
+      "translation": "quebrar o gelo",
+      "definition": "To say or do something that makes a first conversation easier.",
+      "example": "- I always break the ice with a question about the host city.\nEu sempre quebro o gelo com uma pergunta sobre a cidade do evento.",
+      "note": "Quem quebra o gelo usa um icebreaker."
+    },
+    {
+      "term": "Hit it off",
+      "ipa": "",
+      "translation": "ter química imediata, se dar bem de cara",
+      "definition": "To like each other immediately.",
+      "example": "- We hit it off immediately and talked for an hour after the meeting ended.\nTivemos química na hora e conversamos por uma hora depois da reunião.",
+      "note": "We hit it off = a conexão foi instantânea."
+    },
+    {
+      "term": "Discussion",
+      "ipa": "/dɪˈskʌʃn/",
+      "translation": "conversa, debate (sem briga)",
+      "definition": "A calm exchange of ideas about a subject.",
+      "example": "- We had a productive discussion about the new market strategy.\nTivemos uma conversa produtiva sobre a nova estratégia de mercado.",
+      "note": "“Discussão” (bate-boca) é argument. Discussion é neutro e profissional."
+    },
+    {
+      "term": "Resume",
+      "ipa": "/ˈrezəmeɪ/",
+      "translation": "retomar, continuar",
+      "definition": "To start again after a pause.",
+      "example": "- Let’s resume the conversation after the coffee break.\nVamos retomar a conversa depois do coffee break.",
+      "note": "“Resumir” é summarize; currículo é résumé ou CV."
+    }
+  ],
+  "createdAt": "2026-09-02T00:48:53.895Z",
+  "exercise": {
+    "id": "practice-b2-aula2-advanced-small-talk-building-rapport",
+    "title": "Advanced small talk & building rapport (B2 · Aula 2)",
+    "questions": [
+      {
+        "id": "q-1",
+        "type": "multiple_choice",
+        "target": "small talk",
+        "prompt": "Which verb goes with “small talk”?",
+        "options": [
+          "make small talk",
+          "do small talk",
+          "take small talk",
+          "have small talk"
+        ],
+        "answer": "make small talk",
+        "explanation": "One of the few places where “make” beats “do” outright."
+      },
+      {
+        "id": "q-2",
+        "type": "multiple_choice",
+        "target": "common ground",
+        "prompt": "You both love trail running. You…",
+        "options": [
+          "found common ground",
+          "found a common ground",
+          "made common ground",
+          "took common ground"
+        ],
+        "answer": "found common ground",
+        "explanation": "You FIND or HAVE common ground, and it is uncountable — no “a”."
+      },
+      {
+        "id": "q-3",
+        "type": "multiple_choice",
+        "target": "open-ended question",
+        "prompt": "Which verb goes with “question”?",
+        "options": [
+          "ask an open-ended question",
+          "make an open-ended question",
+          "do an open-ended question",
+          "take an open-ended question"
+        ],
+        "answer": "ask an open-ended question",
+        "explanation": "You ASK a question. “Fazer uma pergunta” is the trap behind “make”."
+      },
+      {
+        "id": "q-4",
+        "type": "fill_blank",
+        "target": "genuine",
+        "prompt": "People can always tell when your interest is _____.",
+        "options": [],
+        "answer": "genuine",
+        "explanation": "“Genuine” is sincere, not fake."
+      },
+      {
+        "id": "q-5",
+        "type": "fill_blank",
+        "target": "engage",
+        "prompt": "Great hosts _____ everyone in the conversation, even the quiet ones.",
+        "options": [],
+        "answer": "engage",
+        "explanation": "“Engage IN” an activity, “engage WITH” a person."
+      },
+      {
+        "id": "q-6",
+        "type": "fill_blank",
+        "target": "awkward",
+        "prompt": "There was an _____ silence after his joke about the CEO.",
+        "options": [],
+        "answer": "awkward",
+        "explanation": "“Awkward” is uncomfortable and slightly embarrassing."
+      },
+      {
+        "id": "q-7",
+        "type": "translate_to_english",
+        "target": "break the ice",
+        "prompt": "Uma pergunta sobre a viagem dele quebrou o gelo em dez segundos.",
+        "options": [],
+        "answer": "A question about his trip broke the ice in ten seconds.|A question about his trip broke the ice in 10 seconds.",
+        "explanation": "“Break the ice” — the article stays, and the past of “break” is “broke”."
+      },
+      {
+        "id": "q-8",
+        "type": "multiple_choice",
+        "target": "hit it off",
+        "prompt": "You liked each other from the first minute. You…",
+        "options": [
+          "hit it off",
+          "hit off",
+          "hit them off",
+          "hit it out"
+        ],
+        "answer": "hit it off",
+        "explanation": "A fixed phrase: the “it” never changes."
+      },
+      {
+        "id": "q-9",
+        "type": "multiple_choice",
+        "target": "discussion",
+        "prompt": "Which one is a calm exchange of ideas?",
+        "options": [
+          "a discussion",
+          "an argument",
+          "a fight",
+          "a row"
+        ],
+        "answer": "a discussion",
+        "explanation": "In English a “discussion” is calm; “argument” is the heated one. Portuguese “discussão” is the opposite."
+      },
+      {
+        "id": "q-10",
+        "type": "multiple_choice",
+        "target": "resume",
+        "prompt": "The meeting stopped for lunch and started again at two. It…",
+        "options": [
+          "resumed at two",
+          "summarized at two",
+          "resumed of two",
+          "was resumed to two"
+        ],
+        "answer": "resumed at two",
+        "explanation": "“Resume” is to continue after a pause. The Portuguese “resumir” is “summarize”."
+      }
+    ]
+  }
+}
