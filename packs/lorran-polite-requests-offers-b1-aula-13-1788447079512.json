@@ -1,0 +1,210 @@
+{
+  "type": "vocabulary-practice-pack",
+  "version": 7,
+  "teacher": "Teacher Walden Nogueira",
+  "teacherWhatsApp": "5541996106689",
+  "student": {
+    "name": "Lorran",
+    "whatsapp": "5511968412808"
+  },
+  "lesson": "Polite requests & offers (B1 · Aula 13)",
+  "cards": [
+    {
+      "term": "Favor",
+      "ipa": "/ˈfeɪvər/",
+      "translation": "favor",
+      "definition": "A kind action that you do for someone because they asked.",
+      "example": "- Could you do me a favor and forward that email to me?\nVocê poderia me fazer um favor e encaminhar aquele e-mail?",
+      "note": "Do someone a favor. No inglês britânico escreve-se favour."
+    },
+    {
+      "term": "Mind",
+      "ipa": "/maɪnd/",
+      "translation": "importar-se",
+      "definition": "To be annoyed or bothered by something.",
+      "example": "- Would you mind sending the file again? I lost the first one.\nVocê se importaria de enviar o arquivo de novo? Perdi o primeiro.",
+      "note": "Would you mind + verbo -ing. Atenção: “No, I don't mind” = SIM, pode."
+    },
+    {
+      "term": "Appreciate",
+      "ipa": "/əˈpriːʃieɪt/",
+      "translation": "agradecer, valorizar",
+      "definition": "To be grateful for something someone does.",
+      "example": "- I would appreciate a quick answer before the end of the day.\nEu agradeceria uma resposta rápida até o fim do dia.",
+      "note": "I'd appreciate it if you could… é o pedido mais elegante do inglês corporativo."
+    },
+    {
+      "term": "Bother",
+      "ipa": "/ˈbɑːðər/",
+      "translation": "incomodar",
+      "definition": "To interrupt or annoy someone.",
+      "example": "- Sorry to bother you, but the client is asking about the deadline.\nDesculpe incomodar, mas o cliente está perguntando do prazo.",
+      "note": "Sorry to bother you abre qualquer interrupção educada."
+    },
+    {
+      "term": "Offer",
+      "ipa": "/ˈɔːfər/",
+      "translation": "oferecer; oferta",
+      "definition": "To say you are willing to do or give something.",
+      "example": "- She offered to review my presentation before the meeting.\nEla se ofereceu para revisar minha apresentação antes da reunião.",
+      "note": "Offer TO + verbo: offer to help."
+    },
+    {
+      "term": "Polite",
+      "ipa": "/pəˈlaɪt/",
+      "translation": "educado, cortês",
+      "definition": "Behaving in a way that shows respect for other people.",
+      "example": "- In English, polite language is expected, not optional.\nEm inglês, linguagem educada é esperada, não opcional.",
+      "note": "“Educado” é polite; educated é instruído (formação)."
+    },
+    {
+      "term": "Would you mind…?",
+      "ipa": "",
+      "translation": "você se importaria de…?",
+      "definition": "A very polite way of asking someone to do something.",
+      "example": "- Would you mind joining the call ten minutes earlier?\nVocê se importaria de entrar na reunião dez minutos mais cedo?",
+      "note": "Sempre com verbo -ing. Resposta positiva: Not at all!"
+    },
+    {
+      "term": "I was wondering if…",
+      "ipa": "",
+      "translation": "eu queria saber se… / será que você poderia…",
+      "definition": "A soft, indirect way of introducing a request.",
+      "example": "- I was wondering if you could check these numbers today.\nEu queria saber se você poderia conferir estes números hoje.",
+      "note": "O pedido mais suave que existe. Use com chefes e clientes novos."
+    },
+    {
+      "term": "Exquisite",
+      "ipa": "/ɪkˈskwɪzɪt/",
+      "translation": "requintado, refinadíssimo",
+      "definition": "Extremely beautiful, refined or of very high quality.",
+      "example": "- The hotel served an exquisite dinner for the whole team.\nO hotel serviu um jantar requintado para a equipe inteira.",
+      "note": "“Esquisito” (estranho) é weird ou strange. Exquisite é elogio!"
+    },
+    {
+      "term": "Pretentious",
+      "ipa": "/prɪˈtenʃəs/",
+      "translation": "pretensioso, arrogante",
+      "definition": "Trying to seem more important or clever than you really are.",
+      "example": "- His email sounded pretentious, not confident.\nO e-mail dele soou pretensioso, não confiante.",
+      "note": "“Pretensioso” no sentido de ambicioso é ambitious. Pretentious é sempre negativo."
+    }
+  ],
+  "createdAt": "2026-09-03T14:51:19.506Z",
+  "exercise": {
+    "id": "practice-b1-aula13-polite-requests-offers",
+    "title": "Polite requests & offers (B1 · Aula 13)",
+    "questions": [
+      {
+        "id": "q-1",
+        "type": "multiple_choice",
+        "target": "favor",
+        "prompt": "You ask a colleague for a small kindness. You say:",
+        "options": [
+          "Could you do me a favor?",
+          "Could you make me a favor?",
+          "Could you do me a favour please me?",
+          "Could you give me a favor?"
+        ],
+        "answer": "Could you do me a favor?",
+        "explanation": "You DO a favor. The Portuguese “fazer” tempts “make”."
+      },
+      {
+        "id": "q-2",
+        "type": "multiple_choice",
+        "target": "mind",
+        "prompt": "Which one is correct?",
+        "options": [
+          "Would you mind sending the file?",
+          "Would you mind to send the file?",
+          "Would you mind send the file?",
+          "Would you mind that send the file?"
+        ],
+        "answer": "Would you mind sending the file?",
+        "explanation": "“Mind” takes -ing. And careful: “not at all” means yes, they will do it."
+      },
+      {
+        "id": "q-3",
+        "type": "fill_blank",
+        "target": "appreciate",
+        "prompt": "I'd _____ it if you could confirm before the end of the day.",
+        "options": [],
+        "answer": "appreciate",
+        "explanation": "“Appreciate” needs an object: “I'd appreciate it if…”."
+      },
+      {
+        "id": "q-4",
+        "type": "fill_blank",
+        "target": "bother",
+        "prompt": "Sorry to _____ you, but the client is asking about the deadline.",
+        "options": [],
+        "answer": "bother",
+        "explanation": "“Sorry to bother you” is said before the trouble; “sorry for bothering” comes after."
+      },
+      {
+        "id": "q-5",
+        "type": "translate_to_english",
+        "target": "offer",
+        "prompt": "Ela se ofereceu para revisar minha apresentação antes da reunião.",
+        "options": [],
+        "answer": "She offered to review my presentation before the meeting.|She offered to check my presentation before the meeting.",
+        "explanation": "“Offer TO” + verb."
+      },
+      {
+        "id": "q-6",
+        "type": "fill_blank",
+        "target": "polite",
+        "prompt": "In English, _____ language is expected, not optional.",
+        "options": [],
+        "answer": "polite",
+        "explanation": "“Polite” describes respectful behaviour or wording."
+      },
+      {
+        "id": "q-7",
+        "type": "fill_blank",
+        "target": "Would you mind…?",
+        "prompt": "_____ sending the file again? I lost the first one.",
+        "options": [],
+        "answer": "Would you mind",
+        "explanation": "The softest of the request forms; -ing follows."
+      },
+      {
+        "id": "q-8",
+        "type": "fill_blank",
+        "target": "I was wondering if…",
+        "prompt": "_____ you could take a look at this before Friday.",
+        "options": [],
+        "answer": "I was wondering if",
+        "explanation": "The past tense makes the request softer, even about now."
+      },
+      {
+        "id": "q-9",
+        "type": "multiple_choice",
+        "target": "exquisite",
+        "prompt": "The dessert was of the highest quality. It was…",
+        "options": [
+          "exquisite",
+          "strange",
+          "weird",
+          "odd"
+        ],
+        "answer": "exquisite",
+        "explanation": "“Exquisite” is refined. The Portuguese “esquisito” is “strange”."
+      },
+      {
+        "id": "q-10",
+        "type": "multiple_choice",
+        "target": "pretentious",
+        "prompt": "He tries to look cleverer than he is. He is…",
+        "options": [
+          "pretentious",
+          "pretending",
+          "intending",
+          "pretended"
+        ],
+        "answer": "pretentious",
+        "explanation": "“Pretentious” is showing off. To plan something is “intend”, not “pretend”."
+      }
+    ]
+  }
+}
