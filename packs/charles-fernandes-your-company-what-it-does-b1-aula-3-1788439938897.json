@@ -1,0 +1,205 @@
+{
+  "type": "vocabulary-practice-pack",
+  "version": 7,
+  "teacher": "Teacher Walden Nogueira",
+  "teacherWhatsApp": "5541996106689",
+  "student": {
+    "name": "Charles Fernandes",
+    "whatsapp": "5527981218697"
+  },
+  "lesson": "Your company & what it does (B1 · Aula 3)",
+  "cards": [
+    {
+      "term": "Headquarters",
+      "ipa": "/ˌhedˈkwɔːrtərz/",
+      "translation": "sede (da empresa)",
+      "definition": "The main office of a company, where the leadership works.",
+      "example": "- Our headquarters is in São Paulo, but I only visit the main office twice a month.\nNossa sede fica em São Paulo, mas eu só visito o escritório principal duas vezes por mês.",
+      "note": "Sempre com “s” no fim; abrevia-se HQ. A matriz também pode ser head office."
+    },
+    {
+      "term": "Branch",
+      "ipa": "/bræntʃ/",
+      "translation": "filial",
+      "definition": "A smaller office or shop of a company in another place.",
+      "example": "- We opened a new branch in Recife last year, and it is already profitable.\nAbrimos uma filial nova em Recife no ano passado, e ela já dá lucro.",
+      "note": "Agência de banco também é branch. Não confunda com brunch."
+    },
+    {
+      "term": "Employee",
+      "ipa": "/ˌemplɔɪˈiː/",
+      "translation": "funcionário",
+      "definition": "A person who is paid to work for a company.",
+      "example": "- The company has about three hundred employees in four different cities.\nA empresa tem cerca de trezentos funcionários em quatro cidades diferentes.",
+      "note": "Employer é o empregador; o conjunto é staff. A sílaba forte fica no fim: employEE."
+    },
+    {
+      "term": "Customer",
+      "ipa": "/ˈkʌstəmər/",
+      "translation": "cliente (que compra produtos)",
+      "definition": "A person or company that buys your products.",
+      "example": "- Our main customers are online stores that sell clothes and accessories.\nNossos principais clientes são lojas online que vendem roupas e acessórios.",
+      "note": "Cliente de serviços profissionais (advogado, agência) costuma ser client."
+    },
+    {
+      "term": "Provide",
+      "ipa": "/prəˈvaɪd/",
+      "translation": "fornecer, oferecer",
+      "definition": "To give or supply something that people need.",
+      "example": "- We provide software solutions and technical support for clothing brands.\nFornecemos soluções de software e suporte técnico para marcas de roupa.",
+      "note": "Estruturas: provide something ou provide someone WITH something."
+    },
+    {
+      "term": "Found",
+      "ipa": "/faʊnd/",
+      "translation": "fundar (uma empresa)",
+      "definition": "To start a company or an organisation.",
+      "example": "- The company was founded in 1998 by two friends from Blumenau.\nA empresa foi fundada em 1998 por dois amigos de Blumenau.",
+      "note": "Passado: founded. Não confunda com found, passado de find (achar)."
+    },
+    {
+      "term": "Market leader",
+      "ipa": "",
+      "translation": "líder de mercado",
+      "definition": "The company with the biggest share of a market.",
+      "example": "- After ten years of hard work, we became the market leader in cotton fabric.\nDepois de dez anos de trabalho duro, viramos líderes de mercado em tecido de algodão.",
+      "note": "Da mesma família: market share (fatia de mercado)."
+    },
+    {
+      "term": "Up and running",
+      "ipa": "",
+      "translation": "funcionando, em operação",
+      "definition": "Working and operating normally, after being set up.",
+      "example": "- The new factory will be up and running in March, two months ahead of schedule.\nA fábrica nova estará funcionando em março, dois meses antes do previsto.",
+      "note": "Ótima para sistemas e projetos: The website is up and running again."
+    },
+    {
+      "term": "Fabric",
+      "ipa": "/ˈfæbrɪk/",
+      "translation": "tecido",
+      "definition": "Cloth, the material used to make clothes.",
+      "example": "- We produce high-quality cotton fabric for clothing brands all over Brazil.\nProduzimos tecido de algodão de alta qualidade para marcas do Brasil inteiro.",
+      "note": "“Fábrica” NÃO é fabric — é factory ou plant."
+    },
+    {
+      "term": "Attend",
+      "ipa": "/əˈtend/",
+      "translation": "comparecer a, participar de",
+      "definition": "To go to a meeting, class or event.",
+      "example": "- I attend meetings with clients twice a week, usually with someone from the design team.\nParticipo de reuniões com clientes duas vezes por semana, geralmente com alguém do design.",
+      "note": "“Atender” não é attend: atender o telefone = answer the phone; atender um cliente = help/serve a customer."
+    }
+  ],
+  "createdAt": "2026-09-03T12:52:18.894Z",
+  "exercise": {
+    "id": "practice-b1-aula3-your-company-what-it-does",
+    "title": "Your company & what it does (B1 · Aula 3)",
+    "questions": [
+      {
+        "id": "q-1",
+        "type": "fill_blank",
+        "target": "headquarters",
+        "prompt": "Our _____ is in São Paulo, but I only visit twice a month.",
+        "options": [],
+        "answer": "headquarters",
+        "explanation": "The word always ends in “s” and normally takes a singular verb."
+      },
+      {
+        "id": "q-2",
+        "type": "fill_blank",
+        "target": "branch",
+        "prompt": "We opened a new _____ in Recife last year.",
+        "options": [],
+        "answer": "branch",
+        "explanation": "A “branch” is a secondary office or shop."
+      },
+      {
+        "id": "q-3",
+        "type": "multiple_choice",
+        "target": "employee",
+        "prompt": "A person paid to work for the company is an…",
+        "options": [
+          "employee",
+          "employer",
+          "employment",
+          "employ"
+        ],
+        "answer": "employee",
+        "explanation": "The “employer” is the company; the “employee” is the person."
+      },
+      {
+        "id": "q-4",
+        "type": "translate_to_english",
+        "target": "customer",
+        "prompt": "Nossos principais clientes são lojas online.",
+        "options": [],
+        "answer": "Our main customers are online stores.|Our main customers are online shops.",
+        "explanation": "“Customer” buys products; “client” pays for a service."
+      },
+      {
+        "id": "q-5",
+        "type": "fill_blank",
+        "target": "provide",
+        "prompt": "We _____ clothing brands with software and technical support.",
+        "options": [],
+        "answer": "provide",
+        "explanation": "“Provide someone WITH something”, or “provide something TO someone”."
+      },
+      {
+        "id": "q-6",
+        "type": "multiple_choice",
+        "target": "found",
+        "prompt": "Two friends started the company in 1998. The company…",
+        "options": [
+          "was founded in 1998",
+          "founded in 1998",
+          "was find in 1998",
+          "has found in 1998"
+        ],
+        "answer": "was founded in 1998",
+        "explanation": "The company did not found anything — it WAS founded. Passive."
+      },
+      {
+        "id": "q-7",
+        "type": "fill_blank",
+        "target": "market leader",
+        "prompt": "After ten years, we became the _____ in cotton fabric.",
+        "options": [],
+        "answer": "market leader",
+        "explanation": "A fixed pair: the company with the largest market share."
+      },
+      {
+        "id": "q-8",
+        "type": "fill_blank",
+        "target": "up and running",
+        "prompt": "The new factory will be _____ in March.",
+        "options": [],
+        "answer": "up and running",
+        "explanation": "“Up and running” means already operating."
+      },
+      {
+        "id": "q-9",
+        "type": "multiple_choice",
+        "target": "fabric",
+        "prompt": "You produce cotton material for clothing brands. You produce…",
+        "options": [
+          "fabric",
+          "factory",
+          "fabrication",
+          "manufacture"
+        ],
+        "answer": "fabric",
+        "explanation": "“Fabric” is cloth. The Portuguese “fábrica” is a “factory”."
+      },
+      {
+        "id": "q-10",
+        "type": "translate_to_english",
+        "target": "attend",
+        "prompt": "Eu participo de reuniões com clientes duas vezes por semana.",
+        "options": [],
+        "answer": "I attend meetings with clients twice a week.|I attend client meetings twice a week.",
+        "explanation": "“Attend” means to go to. “Assist” means to help."
+      }
+    ]
+  }
+}
