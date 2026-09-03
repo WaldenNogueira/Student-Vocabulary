@@ -1,0 +1,190 @@
+{
+  "type": "vocabulary-practice-pack",
+  "version": 7,
+  "teacher": "Teacher Walden Nogueira",
+  "teacherWhatsApp": "5541996106689",
+  "student": {
+    "name": "Gabriel Nascimento",
+    "whatsapp": "5527992357710"
+  },
+  "lesson": "Past simple: last week at work (A2 · Aula 11)",
+  "cards": [
+    {
+      "term": "Yesterday",
+      "ipa": "/ˈjestərdeɪ/",
+      "translation": "ontem",
+      "definition": "Yesterday I spent all morning on the budget. ontem.",
+      "example": "- Yesterday I spent all morning on the budget.\nOntem eu passei a manhã toda no orçamento.",
+      "note": "Pode ir no começo ou no fim da frase. Nunca no meio, entre sujeito e verbo."
+    },
+    {
+      "term": "Last week",
+      "ipa": "/lɑːst wiːk/",
+      "translation": "semana passada",
+      "definition": "Last week we decided to change the supplier. semana passada.",
+      "example": "- Last week we decided to change the supplier.\nSemana passada decidimos trocar o fornecedor.",
+      "note": "Sem preposição: last week, nunca “in the last week”, que quer dizer outra coisa."
+    },
+    {
+      "term": "Ago",
+      "ipa": "/əˈɡoʊ/",
+      "translation": "atrás (tempo)",
+      "definition": "I sent it two days ago. atrás (tempo).",
+      "example": "- I sent it two days ago.\nEu mandei dois dias atrás.",
+      "note": "Vem DEPOIS do tempo: two days ago. Em português é antes (“há dois dias”), e a ordem se inverte."
+    },
+    {
+      "term": "Spend",
+      "ipa": "/spend/",
+      "translation": "gastar, passar (tempo)",
+      "definition": "I spent three hours on that email. gastar, passar (tempo).",
+      "example": "- I spent three hours on that email.\nEu passei três horas naquele e-mail.",
+      "note": "Irregular: spend → spent. Spend time ON alguma coisa."
+    },
+    {
+      "term": "Decide",
+      "ipa": "/dɪˈsaɪd/",
+      "translation": "decidir",
+      "definition": "We decided to postpone the launch. decidir.",
+      "example": "- We decided to postpone the launch.\nDecidimos adiar o lançamento.",
+      "note": "Regular: decided. E decide TO do — sempre com to."
+    },
+    {
+      "term": "Forget",
+      "ipa": "/fərˈɡet/",
+      "translation": "esquecer",
+      "definition": "I forgot to copy her on the email. esquecer.",
+      "example": "- I forgot to copy her on the email.\nEsqueci de copiá-la no e-mail.",
+      "note": "Irregular: forget → forgot. Forget TO do é não fazer; forget DOING é não lembrar."
+    },
+    {
+      "term": "How was your week?",
+      "ipa": "",
+      "translation": "como foi sua semana?",
+      "definition": "como foi sua semana?. How WAS, no passado. How is your week pergunta sobre a semana de agora.",
+      "example": "- Morning! How was your week?\nBom dia! Como foi sua semana?",
+      "note": "How WAS, no passado. How is your week pergunta sobre a semana de agora."
+    },
+    {
+      "term": "It went well",
+      "ipa": "",
+      "translation": "foi bem",
+      "definition": "foi bem. Go no passado é went. A resposta pronta para qualquer “how was…?”",
+      "example": "- It went well, apart from Thursday.\nFoi bem, tirando a quinta.",
+      "note": "Go no passado é went. A resposta pronta para qualquer “how was…?”"
+    },
+    {
+      "term": "Record",
+      "ipa": "",
+      "translation": "gravar; registro",
+      "definition": "gravar; registro. “Recordar” (lembrar) é remember! Record é gravar ou registrar.",
+      "example": "- I recorded the call last Tuesday.\nEu gravei a call na terça passada.",
+      "note": "“Recordar” (lembrar) é remember! Record é gravar ou registrar."
+    },
+    {
+      "term": "Advise",
+      "ipa": "",
+      "translation": "aconselhar",
+      "definition": "aconselhar. “Avisar” é let someone know ou warn! Advise é dar conselho.",
+      "example": "- She advised me to wait one more day.\nEla me aconselhou a esperar mais um dia.",
+      "note": "“Avisar” é let someone know ou warn! Advise é dar conselho."
+    }
+  ],
+  "createdAt": "2026-09-03T09:21:21.122Z",
+  "exercise": {
+    "id": "practice-a2-aula11-past-simple-last-week-at-work",
+    "title": "Past simple: last week at work (A2 · Aula 11)",
+    "questions": [
+      {
+        "id": "q-1",
+        "type": "fill_blank",
+        "target": "yesterday",
+        "prompt": "_____ I spent all morning on the budget.",
+        "options": [],
+        "answer": "yesterday",
+        "explanation": "Ontem eu passei a manhã toda no orçamento."
+      },
+      {
+        "id": "q-2",
+        "type": "fill_blank",
+        "target": "last week",
+        "prompt": "_____ we decided to change the supplier.",
+        "options": [],
+        "answer": "last week",
+        "explanation": "Semana passada decidimos trocar o fornecedor."
+      },
+      {
+        "id": "q-3",
+        "type": "fill_blank",
+        "target": "ago",
+        "prompt": "I sent it two days _____ .",
+        "options": [],
+        "answer": "ago",
+        "explanation": "Eu mandei dois dias atrás."
+      },
+      {
+        "id": "q-4",
+        "type": "fill_blank",
+        "target": "spend",
+        "prompt": "I _____ three hours on that email.",
+        "options": [],
+        "answer": "spend",
+        "explanation": "Eu passei três horas naquele e-mail."
+      },
+      {
+        "id": "q-5",
+        "type": "fill_blank",
+        "target": "decide",
+        "prompt": "We _____ to postpone the launch.",
+        "options": [],
+        "answer": "decide",
+        "explanation": "Decidimos adiar o lançamento."
+      },
+      {
+        "id": "q-6",
+        "type": "fill_blank",
+        "target": "forget",
+        "prompt": "I _____ to copy her on the email.",
+        "options": [],
+        "answer": "forget",
+        "explanation": "Esqueci de copiá-la no e-mail."
+      },
+      {
+        "id": "q-7",
+        "type": "fill_blank",
+        "target": "How was your week?",
+        "prompt": "Morning! _____ ?",
+        "options": [],
+        "answer": "How was your week?",
+        "explanation": "Bom dia! Como foi sua semana?"
+      },
+      {
+        "id": "q-8",
+        "type": "fill_blank",
+        "target": "It went well",
+        "prompt": "_____ , apart from Thursday.",
+        "options": [],
+        "answer": "It went well",
+        "explanation": "Foi bem, tirando a quinta."
+      },
+      {
+        "id": "q-9",
+        "type": "fill_blank",
+        "target": "record",
+        "prompt": "I _____ the call last Tuesday.",
+        "options": [],
+        "answer": "record",
+        "explanation": "Eu gravei a call na terça passada."
+      },
+      {
+        "id": "q-10",
+        "type": "fill_blank",
+        "target": "advise",
+        "prompt": "She _____ me to wait one more day.",
+        "options": [],
+        "answer": "advise",
+        "explanation": "Ela me aconselhou a esperar mais um dia."
+      }
+    ]
+  }
+}
