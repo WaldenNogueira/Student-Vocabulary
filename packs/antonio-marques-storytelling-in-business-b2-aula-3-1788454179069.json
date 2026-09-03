@@ -1,0 +1,210 @@
+{
+  "type": "vocabulary-practice-pack",
+  "version": 7,
+  "teacher": "Teacher Walden Nogueira",
+  "teacherWhatsApp": "5541996106689",
+  "student": {
+    "name": "Antônio Marques",
+    "whatsapp": "5537999881945"
+  },
+  "lesson": "Storytelling in business (B2 · Aula 3)",
+  "cards": [
+    {
+      "term": "Compelling",
+      "ipa": "/kəmˈpelɪŋ/",
+      "translation": "envolvente; convincente",
+      "definition": "So interesting or convincing that people cannot ignore it.",
+      "example": "- A compelling story beats a perfect spreadsheet in almost every executive meeting.\nUma história envolvente ganha de uma planilha perfeita em quase toda reunião executiva.\n- She made a compelling argument for hiring two more analysts.\nEla apresentou um argumento convincente para contratar mais dois analistas.\n- The data was solid, but the case was not compelling.\nOs dados eram sólidos, mas o caso não era convincente.",
+      "note": "Colocações fortes: compelling story, compelling argument, compelling reason. Não confunda com competing (concorrente)."
+    },
+    {
+      "term": "Anecdote",
+      "ipa": "/ˈænɪkdoʊt/",
+      "translation": "caso curto; historinha real",
+      "definition": "A short true story about a real person or situation.",
+      "example": "- She opened the pitch with a short anecdote about her very first customer.\nEla abriu o pitch com um caso curto sobre a primeiríssima cliente dela.\n- He told an anecdote about his first day at the company.\nEle contou um caso do primeiro dia dele na empresa.\n- One good anecdote is worth three slides of data.\nUm bom caso vale mais que três slides de dados.",
+      "note": "Não é “anedota” de piada. Piada é joke. Anecdote é um caso breve, verdadeiro e com uma pessoa dentro."
+    },
+    {
+      "term": "Takeaway",
+      "ipa": "/ˈteɪkəweɪ/",
+      "translation": "lição principal; mensagem-chave",
+      "definition": "The main idea that people should remember after a talk or meeting.",
+      "example": "- End every presentation with one clear takeaway the audience can repeat tomorrow.\nTermine toda apresentação com uma lição clara que a plateia consiga repetir amanhã.\n- The takeaway is simple: we need a decision this week.\nA mensagem principal é simples: precisamos de uma decisão esta semana.\n- What was your main takeaway from the workshop?\nQual foi a sua principal lição do workshop?",
+      "note": "Em inglês britânico takeaway também é comida para viagem; nos negócios, o contexto resolve. Sinônimo: key message."
+    },
+    {
+      "term": "Hook",
+      "ipa": "/hʊk/",
+      "translation": "gancho de abertura",
+      "definition": "The first line or idea that catches the audience's attention.",
+      "example": "- Your first sentence is the hook: it decides who keeps listening to you.\nSua primeira frase é o gancho: ela decide quem continua te ouvindo.\n- The hook was a number nobody expected.\nO gancho foi um número que ninguém esperava.\n- Write the hook last, after you know the ending.\nEscreva o gancho por último, depois de saber o final.",
+      "note": "O mesmo hook das músicas e dos filmes. Verbo: to hook someone — prender a atenção de alguém."
+    },
+    {
+      "term": "Relatable",
+      "ipa": "/rɪˈleɪtəbl/",
+      "translation": "com que as pessoas se identificam",
+      "definition": "Easy to identify with, because it feels close to your own life.",
+      "example": "- Use relatable examples — traffic, deadlines, coffee — things everyone in the room lives.\nUse exemplos com que todos se identificam — trânsito, prazos, café — coisas que a sala inteira vive.\n- Her story was relatable because she admitted the mistake.\nA história dela gerou identificação porque ela admitiu o erro.\n- Numbers are useful, but they are rarely relatable.\nNúmeros são úteis, mas raramente geram identificação.",
+      "note": "Vem de relate to (se identificar com): I can relate to that. Não existe “relatable to me” — diga I can relate to it."
+    },
+    {
+      "term": "Vivid",
+      "ipa": "/ˈvɪvɪd/",
+      "translation": "vívido; nítido",
+      "definition": "Full of clear details that make you see the scene in your mind.",
+      "example": "- Vivid details make people see the scene instead of just hearing about it.\nDetalhes vívidos fazem as pessoas verem a cena em vez de só ouvirem sobre ela.\n- He gave a vivid description of the factory floor.\nEle fez uma descrição vívida do chão de fábrica.\n- I still have a vivid memory of that meeting.\nAinda tenho uma lembrança nítida daquela reunião.",
+      "note": "Colocações: vivid detail, vivid memory, vivid image. Um detalhe vívido vale mais que cinco adjetivos vagos."
+    },
+    {
+      "term": "Paint a picture",
+      "ipa": "/ˌpeɪnt ə ˈpɪktʃər/",
+      "translation": "pintar o cenário; descrever vividamente",
+      "definition": "To describe something so clearly that people can imagine it.",
+      "example": "- Good storytellers paint a picture before they show a single number.\nBons contadores de história pintam o cenário antes de mostrar um único número.\n- Let me paint a picture of what Monday morning looks like for our users.\nDeixe-me pintar o cenário de como é a segunda de manhã para os nossos usuários.\n- She painted a picture of the problem in thirty seconds.\nEla descreveu o problema vividamente em trinta segundos.",
+      "note": "Clássica de pitch: paint a picture of the problem. Passado: painted a picture. Nada a ver com pintura de parede."
+    },
+    {
+      "term": "Get to the point",
+      "ipa": "/ˌɡet tə ðə ˈpɔɪnt/",
+      "translation": "ir direto ao ponto",
+      "definition": "To say the most important thing without wasting time.",
+      "example": "- Executives love a good story, but they also want you to get to the point.\nExecutivos adoram uma boa história, mas também querem que você vá direto ao ponto.\n- It took him ten minutes to get to the point.\nEle levou dez minutos para ir direto ao ponto.\n- Let me get to the point: we need more time.\nVou direto ao ponto: precisamos de mais tempo.",
+      "note": "Como pedido a outra pessoa (Could you get to the point?) soa impaciente. Sobre si mesmo é elegante: let me get to the point."
+    },
+    {
+      "term": "History",
+      "ipa": "/ˈhɪstri/",
+      "translation": "a História; o passado",
+      "definition": "The record of past events, or the subject that studies them.",
+      "example": "- The history of the company is on the website; the story is what you tell in the room.\nA História da empresa está no site; a story é o que você conta na sala.\n- He studied history before moving into marketing.\nEle estudou História antes de migrar para o marketing.\n- That product has a long history of delays.\nEsse produto tem um longo histórico de atrasos.",
+      "note": "A história que você CONTA é story. History é o passado, o histórico ou a disciplina. Trocar os dois é o erro mais comum do brasileiro aqui."
+    },
+    {
+      "term": "Anticipate",
+      "ipa": "/ænˈtɪsɪpeɪt/",
+      "translation": "prever; antecipar-se a",
+      "definition": "To expect something and get ready for it before it happens.",
+      "example": "- Good speakers anticipate the hardest questions and answer them inside the story.\nBons apresentadores preveem as perguntas mais difíceis e as respondem dentro da própria história.\n- We did not anticipate such a strong reaction.\nNão prevíamos uma reação tão forte.\n- Anticipate the objection and address it on slide two.\nPreveja a objeção e responda a ela no slide dois.",
+      "note": "“Antecipar a reunião” (adiantar a data) é move the meeting up ou bring it forward, nunca anticipate the meeting."
+    }
+  ],
+  "createdAt": "2026-09-03T16:49:39.067Z",
+  "exercise": {
+    "id": "practice-b2-aula3-storytelling-in-business",
+    "title": "Storytelling in business (B2 · Aula 3)",
+    "questions": [
+      {
+        "id": "q-1",
+        "type": "multiple_choice",
+        "target": "anecdote",
+        "prompt": "Which word describes a short true story about a real person?",
+        "options": [
+          "An anecdote",
+          "A joke",
+          "A summary",
+          "A forecast"
+        ],
+        "answer": "An anecdote",
+        "explanation": "An “anecdote” is a short true story. A “joke” is something you tell to make people laugh."
+      },
+      {
+        "id": "q-2",
+        "type": "fill_blank",
+        "target": "compelling",
+        "prompt": "The numbers were correct, but the case was not _____ enough to change anyone's mind.",
+        "options": [],
+        "answer": "compelling",
+        "explanation": "“Compelling” describes something so convincing that people cannot ignore it."
+      },
+      {
+        "id": "q-3",
+        "type": "translate_to_english",
+        "target": "hook",
+        "prompt": "Sua primeira frase é o gancho da apresentação.",
+        "options": [],
+        "answer": "Your first sentence is the hook of the presentation.|Your first sentence is the hook.",
+        "explanation": "The “hook” is the opening line that catches attention."
+      },
+      {
+        "id": "q-4",
+        "type": "multiple_choice",
+        "target": "history",
+        "prompt": "Which word means the company's past, and not the tale you tell in a meeting?",
+        "options": [
+          "The story",
+          "The history",
+          "The narrative",
+          "The pitch"
+        ],
+        "answer": "The history",
+        "explanation": "“History” is the past or the record. The tale you tell is a “story”."
+      },
+      {
+        "id": "q-5",
+        "type": "fill_blank",
+        "target": "vivid",
+        "prompt": "One _____ detail is worth five vague adjectives.",
+        "options": [],
+        "answer": "vivid",
+        "explanation": "“Vivid” means full of clear details that people can picture."
+      },
+      {
+        "id": "q-6",
+        "type": "translate_to_english",
+        "target": "paint a picture",
+        "prompt": "Pinte o cenário antes de mostrar os números.",
+        "options": [],
+        "answer": "Paint a picture before you show the numbers.|Paint a picture before showing the numbers.",
+        "explanation": "“Paint a picture” means to describe something so clearly that people can imagine it."
+      },
+      {
+        "id": "q-7",
+        "type": "multiple_choice",
+        "target": "takeaway",
+        "prompt": "What should the audience be able to repeat the day after your presentation?",
+        "options": [
+          "The agenda",
+          "The disclaimer",
+          "The takeaway",
+          "The appendix"
+        ],
+        "answer": "The takeaway",
+        "explanation": "The “takeaway” is the one main idea people remember afterwards."
+      },
+      {
+        "id": "q-8",
+        "type": "fill_blank",
+        "target": "anticipate",
+        "prompt": "Good speakers _____ the hardest question and answer it early.",
+        "options": [],
+        "answer": "anticipate",
+        "explanation": "“Anticipate” means to expect something and prepare for it."
+      },
+      {
+        "id": "q-9",
+        "type": "translate_to_english",
+        "target": "get to the point",
+        "prompt": "Ele levou dez minutos para ir direto ao ponto.",
+        "options": [],
+        "answer": "It took him ten minutes to get to the point.|He took ten minutes to get to the point.",
+        "explanation": "“Get to the point” means to say the important thing without wasting time."
+      },
+      {
+        "id": "q-10",
+        "type": "multiple_choice",
+        "target": "relatable",
+        "prompt": "Which kind of example makes the audience think “that happens to me too”?",
+        "options": [
+          "A technical one",
+          "A statistical one",
+          "A historical one",
+          "A relatable one"
+        ],
+        "answer": "A relatable one",
+        "explanation": "Something “relatable” feels close to the listener's own life."
+      }
+    ]
+  }
+}
