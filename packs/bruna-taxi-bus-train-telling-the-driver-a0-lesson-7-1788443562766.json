@@ -1,0 +1,190 @@
+{
+  "type": "vocabulary-practice-pack",
+  "version": 7,
+  "teacher": "Teacher Walden Nogueira",
+  "teacherWhatsApp": "5541996106689",
+  "student": {
+    "name": "Bruna",
+    "whatsapp": "5511991627789"
+  },
+  "lesson": "Taxi, bus & train: telling the driver (A0 · Lesson 7)",
+  "cards": [
+    {
+      "term": "Driver",
+      "ipa": "/ˈdraɪvər/",
+      "translation": "motorista",
+      "definition": "The driver does not speak English. motorista.",
+      "example": "- The driver does not speak English.\nO motorista não fala inglês.",
+      "note": "Verbo drive, pessoa driver. O do ônibus também é driver."
+    },
+    {
+      "term": "Stop",
+      "ipa": "/stɒp/",
+      "translation": "parar; parada",
+      "definition": "Stop here, please. This is fine. parar; parada.",
+      "example": "- Stop here, please. This is fine.\nPare aqui, por favor. Aqui está bom.",
+      "note": "Verbo e substantivo: stop here e the bus stop. Nunca “stop in here”."
+    },
+    {
+      "term": "Corner",
+      "ipa": "/ˈkɔːrnər/",
+      "translation": "esquina",
+      "definition": "The hotel is on the corner. esquina.",
+      "example": "- The hotel is on the corner.\nO hotel fica na esquina.",
+      "note": "ON the corner, não “in”. A esquina fica na superfície, e o inglês usa on."
+    },
+    {
+      "term": "Address",
+      "ipa": "/əˈdres/",
+      "translation": "endereço",
+      "definition": "This is the address. Can you read it?. endereço.",
+      "example": "- This is the address. Can you read it?\nEste é o endereço. Você consegue ler?",
+      "note": "Fala-se “a-DRÉS”, com a força no fim. Mostre escrito: resolve mais que falar."
+    },
+    {
+      "term": "Fare",
+      "ipa": "/fer/",
+      "translation": "tarifa, valor da corrida",
+      "definition": "How much is the fare to the airport?. tarifa, valor da corrida.",
+      "example": "- How much is the fare to the airport?\nQuanto é a corrida até o aeroporto?",
+      "note": "Fare é o preço da viagem; ticket é o papel. Não confunda com fair (justo)."
+    },
+    {
+      "term": "Get off",
+      "ipa": "/ɡet ɒf/",
+      "translation": "descer (de ônibus, trem)",
+      "definition": "I get off at the next stop. descer (de ônibus, trem).",
+      "example": "- I get off at the next stop.\nEu desço na próxima parada.",
+      "note": "Get off de ônibus e trem, get out of de carro e táxi. São dois verbos diferentes."
+    },
+    {
+      "term": "Take me to…",
+      "ipa": "",
+      "translation": "me leve para…",
+      "definition": "me leve para…. Frase de comando, e é educada com please. Não precisa de can you.",
+      "example": "- Take me to this address, please.\nMe leve para este endereço, por favor.",
+      "note": "Frase de comando, e é educada com please. Não precisa de can you."
+    },
+    {
+      "term": "Stop here, please",
+      "ipa": "",
+      "translation": "pare aqui, por favor",
+      "definition": "pare aqui, por favor. Diga um pouco ANTES do ponto exato. Táxi não para no meio da palavra.",
+      "example": "- Stop here, please. Right here.\nPare aqui, por favor. Bem aqui.",
+      "note": "Diga um pouco ANTES do ponto exato. Táxi não para no meio da palavra."
+    },
+    {
+      "term": "Conductor",
+      "ipa": "",
+      "translation": "cobrador, fiscal (e maestro)",
+      "definition": "cobrador, fiscal (e maestro). “Condutor” (quem dirige) é driver! Conductor é quem checa passagem — ou rege orquestra.",
+      "example": "- The conductor checks the tickets on the train.\nO cobrador confere as passagens no trem.",
+      "note": "“Condutor” (quem dirige) é driver! Conductor é quem checa passagem — ou rege orquestra."
+    },
+    {
+      "term": "Large",
+      "ipa": "",
+      "translation": "grande",
+      "definition": "grande. “Largo” é wide! Large é grande, de tamanho — o mesmo L da etiqueta da roupa.",
+      "example": "- The station has a large door on the left.\nA estação tem uma porta grande à esquerda.",
+      "note": "“Largo” é wide! Large é grande, de tamanho — o mesmo L da etiqueta da roupa."
+    }
+  ],
+  "createdAt": "2026-09-03T13:52:42.765Z",
+  "exercise": {
+    "id": "practice-tv-a0-aula7-taxi-bus-and-train",
+    "title": "Taxi, bus & train: telling the driver (A0 · Lesson 7)",
+    "questions": [
+      {
+        "id": "q-1",
+        "type": "fill_blank",
+        "target": "driver",
+        "prompt": "The _____ does not speak English.",
+        "options": [],
+        "answer": "driver",
+        "explanation": "O motorista não fala inglês."
+      },
+      {
+        "id": "q-2",
+        "type": "fill_blank",
+        "target": "stop",
+        "prompt": "_____ here, please. This is fine.",
+        "options": [],
+        "answer": "stop",
+        "explanation": "Pare aqui, por favor. Aqui está bom."
+      },
+      {
+        "id": "q-3",
+        "type": "fill_blank",
+        "target": "corner",
+        "prompt": "The hotel is on the _____ .",
+        "options": [],
+        "answer": "corner",
+        "explanation": "O hotel fica na esquina."
+      },
+      {
+        "id": "q-4",
+        "type": "fill_blank",
+        "target": "address",
+        "prompt": "This is the _____ . Can you read it?",
+        "options": [],
+        "answer": "address",
+        "explanation": "Este é o endereço. Você consegue ler?"
+      },
+      {
+        "id": "q-5",
+        "type": "fill_blank",
+        "target": "fare",
+        "prompt": "How much is the _____ to the airport?",
+        "options": [],
+        "answer": "fare",
+        "explanation": "Quanto é a corrida até o aeroporto?"
+      },
+      {
+        "id": "q-6",
+        "type": "fill_blank",
+        "target": "get off",
+        "prompt": "I _____ at the next stop.",
+        "options": [],
+        "answer": "get off",
+        "explanation": "Eu desço na próxima parada."
+      },
+      {
+        "id": "q-7",
+        "type": "fill_blank",
+        "target": "Take me to…",
+        "prompt": "_____ this address, please.",
+        "options": [],
+        "answer": "Take me to…",
+        "explanation": "Me leve para este endereço, por favor."
+      },
+      {
+        "id": "q-8",
+        "type": "fill_blank",
+        "target": "Stop here, please",
+        "prompt": "_____ . Right here.",
+        "options": [],
+        "answer": "Stop here, please",
+        "explanation": "Pare aqui, por favor. Bem aqui."
+      },
+      {
+        "id": "q-9",
+        "type": "fill_blank",
+        "target": "conductor",
+        "prompt": "The _____ checks the tickets on the train.",
+        "options": [],
+        "answer": "conductor",
+        "explanation": "O cobrador confere as passagens no trem."
+      },
+      {
+        "id": "q-10",
+        "type": "fill_blank",
+        "target": "large",
+        "prompt": "The station has a _____ door on the left.",
+        "options": [],
+        "answer": "large",
+        "explanation": "A estação tem uma porta grande à esquerda."
+      }
+    ]
+  }
+}
