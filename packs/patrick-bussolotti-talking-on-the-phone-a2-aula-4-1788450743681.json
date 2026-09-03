@@ -1,0 +1,210 @@
+{
+  "type": "vocabulary-practice-pack",
+  "version": 7,
+  "teacher": "Teacher Walden Nogueira",
+  "teacherWhatsApp": "5541996106689",
+  "student": {
+    "name": "Patrick Bussolotti",
+    "whatsapp": "5511992125644"
+  },
+  "lesson": "Talking on the phone (A2 · Aula 4)",
+  "cards": [
+    {
+      "term": "Answer",
+      "ipa": "/ˈænsər/",
+      "translation": "atender (telefone); responder",
+      "definition": "To pick up the phone when it rings, or to reply to a question.",
+      "example": "- I always answer the phone with my name and my company.\nSempre atendo o telefone com meu nome e o da empresa.\n- Nobody answered, so I left a voicemail.\nNinguém atendeu, então deixei uma mensagem de voz.\n- Can you answer my question before the call ends?\nVocê pode responder minha pergunta antes de a ligação acabar?",
+      "note": "“Atender o telefone” é answer the phone — nunca attend. Passado: answered. Também é substantivo: the answer (a resposta)."
+    },
+    {
+      "term": "Speaking",
+      "ipa": "/ˈspiːkɪŋ/",
+      "translation": "é ele falando; é ela falando (ao telefone)",
+      "definition": "The word you say on the phone to show that you are the person the caller wants.",
+      "example": "- — Is Ana there? — Speaking!\n— A Ana está? — É ela falando!\n- “Can I talk to Mr. Costa?” “Speaking. How can I help you?”\n“Posso falar com o Sr. Costa?” “É ele falando. Como posso ajudar?”\n- This is Paula speaking. How can I help you?\nAqui é a Paula falando. Como posso ajudar?",
+      "note": "Fórmula fixa ao telefone: quando alguém procura você, responda Speaking. Versão mais formal: This is he/she speaking. Fora do telefone, speaking é só o gerúndio de speak."
+    },
+    {
+      "term": "Message",
+      "ipa": "/ˈmesɪdʒ/",
+      "translation": "mensagem; recado",
+      "definition": "Information you leave for someone who cannot talk now.",
+      "example": "- Can I leave a message for Mr. Costa, please?\nPosso deixar um recado para o Sr. Costa, por favor?\n- I took a message and sent it to her by email.\nAnotei o recado e mandei para ela por e-mail.\n- Would you like to leave a message?\nVocê gostaria de deixar um recado?",
+      "note": "Take a message é anotar o recado; leave a message é deixar o recado. Passado de take: took. No celular também se diz text ou voicemail."
+    },
+    {
+      "term": "Extension",
+      "ipa": "/ɪkˈstenʃn/",
+      "translation": "ramal",
+      "definition": "The short number that connects you to one person inside a company.",
+      "example": "- My extension is 4-2-0-7, if you need to call back.\nMeu ramal é 4-2-0-7, se você precisar retornar.\n- Please dial extension 215 and ask for finance.\nPor favor, disque o ramal 215 e peça o financeiro.\n- I called your extension twice this morning.\nLiguei para o seu ramal duas vezes hoje de manhã.",
+      "note": "Ao telefone, extension é o ramal; fora do telefone, é extensão ou prorrogação de prazo. Combinações úteis: dial an extension, transfer someone to extension 302."
+    },
+    {
+      "term": "Available",
+      "ipa": "/əˈveɪləbl/",
+      "translation": "disponível",
+      "definition": "Free to talk or to do something at this moment.",
+      "example": "- She is not available right now — she is in a meeting.\nEla não está disponível agora — está em reunião.\n- Are you available for a quick call at four?\nVocê está disponível para uma ligação rápida às quatro?\n- He was not available yesterday, so we rescheduled.\nEle não estava disponível ontem, então remarcamos.",
+      "note": "É a fórmula educada para dizer que a pessoa não pode atender. Depois vem for + substantivo ou to + verbo: available for a call, available to talk. Substantivo: availability."
+    },
+    {
+      "term": "Line",
+      "ipa": "/laɪn/",
+      "translation": "linha (telefônica)",
+      "definition": "The phone connection between two people.",
+      "example": "- The line is bad; I can hear you every two words.\nA linha está ruim; escuto você a cada duas palavras.\n- Mr. Silva is on the other line right now.\nO Sr. Silva está na outra linha agora.\n- The line was busy, so I called again after lunch.\nA linha estava ocupada, então liguei de novo depois do almoço.",
+      "note": "Hold the line é aguardar na linha; the line is busy é linha ocupada. Em inglês americano, line também é fila."
+    },
+    {
+      "term": "Could you hold on?",
+      "ipa": "/kʊd ju ˈhoʊld ɑn/",
+      "translation": "pode aguardar um momento?",
+      "definition": "A polite question asking the caller to wait for a moment.",
+      "example": "- Could you hold on a moment, please? I'll check with my colleague.\nPode aguardar um momento, por favor? Vou verificar com meu colega.\n- Could you hold on? I need to find your order number.\nPode aguardar? Preciso encontrar o número do seu pedido.\n- I asked the client to hold on for a second.\nPedi ao cliente para aguardar um segundo.",
+      "note": "Sozinho, hold on significa espera. Ao voltar, diga Thanks for holding. Com could o pedido soa mais educado do que com can."
+    },
+    {
+      "term": "I'll call you back",
+      "ipa": "/aɪl ˈkɔl ju bæk/",
+      "translation": "eu te retorno",
+      "definition": "A promise to phone someone again later.",
+      "example": "- I'm in a meeting — I'll call you back in twenty minutes.\nEstou em reunião — eu te retorno em vinte minutos.\n- I'll call you back as soon as I have the numbers.\nEu te retorno assim que eu tiver os números.\n- Sorry, my battery is low. I'll call you back from the office.\nDesculpe, minha bateria está fraca. Eu te retorno do escritório.",
+      "note": "O phrasal verb é separável: call you back, call her back. I'll é a forma curta de I will. Promessa mais forte quando você dá o horário: I'll call you back at four."
+    },
+    {
+      "term": "Attend",
+      "ipa": "/əˈtend/",
+      "translation": "comparecer a; participar de",
+      "definition": "To go to a meeting, a class or an event.",
+      "example": "- I can't attend the meeting, but I can join by phone.\nNão posso comparecer à reunião, mas posso entrar por telefone.\n- She attended the training last week.\nEla participou do treinamento na semana passada.\n- Fifty people attended the online event.\nCinquenta pessoas participaram do evento online.",
+      "note": "“Atender o telefone” é answer the phone; “atender um cliente” é help a customer. Attend não leva preposição: attend the meeting, nunca attend to the meeting."
+    },
+    {
+      "term": "Actual",
+      "ipa": "/ˈæktʃuəl/",
+      "translation": "real; verdadeiro",
+      "definition": "Real, and not what people think or say.",
+      "example": "- The actual number is 300, not 3,000 — there is a typo in the email.\nO número real é 300, não 3.000 — tem um erro de digitação no e-mail.\n- The actual cost was higher than the first estimate.\nO custo real foi maior do que a primeira estimativa.\n- What was the actual reason for the delay?\nQual foi o motivo real do atraso?",
+      "note": "“Atual” é current: the current price é o preço atual. Actual é o que é de fato. O advérbio actually significa “na verdade”."
+    }
+  ],
+  "createdAt": "2026-09-03T15:52:23.679Z",
+  "exercise": {
+    "id": "practice-a2-aula4-talking-on-the-phone",
+    "title": "Talking on the phone (A2 · Aula 4)",
+    "questions": [
+      {
+        "id": "q-1",
+        "type": "multiple_choice",
+        "target": "attend",
+        "prompt": "Which sentence uses “attend” correctly?",
+        "options": [
+          "I will attend the sales meeting tomorrow.",
+          "I will attend the phone in a second.",
+          "I will attend a client at the front desk.",
+          "I will attend to your call right now."
+        ],
+        "answer": "I will attend the sales meeting tomorrow.",
+        "explanation": "“Attend” means to go to a meeting or an event, not to pick up the phone."
+      },
+      {
+        "id": "q-2",
+        "type": "fill_blank",
+        "target": "extension",
+        "prompt": "If you need the finance team, dial _____ 215.",
+        "options": [],
+        "answer": "extension",
+        "explanation": "An “extension” is the short internal number of one person or team."
+      },
+      {
+        "id": "q-3",
+        "type": "translate_to_english",
+        "target": "I'll call you back",
+        "prompt": "Estou em reunião agora — eu te retorno às quatro.",
+        "options": [],
+        "answer": "I'm in a meeting now — I'll call you back at four.|I am in a meeting now — I'll call you back at four.",
+        "explanation": "“I'll call you back” promises another call later."
+      },
+      {
+        "id": "q-4",
+        "type": "multiple_choice",
+        "target": "speaking",
+        "prompt": "Someone calls the office and asks for you by name. What is the standard reply?",
+        "options": [
+          "Here I am now.",
+          "Speaking!",
+          "It is me talking.",
+          "Yes, I talk here."
+        ],
+        "answer": "Speaking!",
+        "explanation": "On the phone, “Speaking” means “you are talking to that person now”."
+      },
+      {
+        "id": "q-5",
+        "type": "fill_blank",
+        "target": "available",
+        "prompt": "She is in a meeting and is not _____ until three o'clock.",
+        "options": [],
+        "answer": "available",
+        "explanation": "“Available” means free to talk or to help at that moment."
+      },
+      {
+        "id": "q-6",
+        "type": "translate_to_english",
+        "target": "Could you hold on?",
+        "prompt": "Pode aguardar? Vou transferir a ligação.",
+        "options": [],
+        "answer": "Could you hold on? I'll transfer the call.|Could you hold on? I am going to transfer the call.",
+        "explanation": "“Could you hold on?” is a polite way to ask the caller to wait."
+      },
+      {
+        "id": "q-7",
+        "type": "multiple_choice",
+        "target": "actual",
+        "prompt": "The team thinks the delay was two days, but it was five. Which sentence is correct?",
+        "options": [
+          "The current delay was five days.",
+          "The present delay was five days.",
+          "The actual delay was five days.",
+          "The late delay was five days."
+        ],
+        "answer": "The actual delay was five days.",
+        "explanation": "“Actual” means real. “Current” means “at this moment”."
+      },
+      {
+        "id": "q-8",
+        "type": "fill_blank",
+        "target": "line",
+        "prompt": "Please hold the _____ while I transfer your call to finance.",
+        "options": [],
+        "answer": "line",
+        "explanation": "“Hold the line” means to wait on the phone."
+      },
+      {
+        "id": "q-9",
+        "type": "translate_to_english",
+        "target": "message",
+        "prompt": "Posso anotar um recado?",
+        "options": [],
+        "answer": "Can I take a message?|May I take a message?",
+        "explanation": "“Take a message” means to write down information for a colleague."
+      },
+      {
+        "id": "q-10",
+        "type": "multiple_choice",
+        "target": "answer",
+        "prompt": "The phone is ringing. Which sentence is correct?",
+        "options": [
+          "I will attend the phone.",
+          "I will assist the phone.",
+          "I will respond the phone.",
+          "I will answer the phone."
+        ],
+        "answer": "I will answer the phone.",
+        "explanation": "In English you “answer the phone”; “attend” is a false friend here."
+      }
+    ]
+  }
+}
