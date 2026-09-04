@@ -1,0 +1,210 @@
+{
+  "type": "vocabulary-practice-pack",
+  "version": 7,
+  "teacher": "Teacher Walden Nogueira",
+  "teacherWhatsApp": "5541996106689",
+  "student": {
+    "name": "Lorran",
+    "whatsapp": "5511968412808"
+  },
+  "lesson": "Agreeing & disagreeing politely (B1 · Aula 14)",
+  "cards": [
+    {
+      "term": "Agree",
+      "ipa": "/əˈɡriː/",
+      "translation": "concordar",
+      "definition": "To have the same opinion as someone else.",
+      "example": "- I agree with Ana about the timeline, but not about the budget.\nConcordo com a Ana sobre o cronograma, mas não sobre o orçamento.",
+      "note": "Agree WITH pessoa, agree ON assunto. Nunca “I am agree”!"
+    },
+    {
+      "term": "Point",
+      "ipa": "/pɔɪnt/",
+      "translation": "ponto, argumento",
+      "definition": "An idea or argument that someone makes.",
+      "example": "- That's a fair point, and I hadn't thought about the extra cost.\nEsse é um argumento justo, e eu não tinha pensado no custo extra.",
+      "note": "You have a point = você tem razão nisso. Good point! é elogio rápido."
+    },
+    {
+      "term": "View",
+      "ipa": "/vjuː/",
+      "translation": "visão, opinião",
+      "definition": "Your opinion about something.",
+      "example": "- In my view, we should test with ten clients first.\nNa minha visão, deveríamos testar com dez clientes primeiro.",
+      "note": "In my view = na minha visão. Mais formal que I think."
+    },
+    {
+      "term": "Partly",
+      "ipa": "/ˈpɑːrtli/",
+      "translation": "em parte, parcialmente",
+      "definition": "Not completely; only in some ways.",
+      "example": "- I partly agree: the idea is good, but the timing is wrong.\nConcordo em parte: a ideia é boa, mas o momento está errado.",
+      "note": "Chave da discordância educada: concorde em parte antes de discordar."
+    },
+    {
+      "term": "Concern",
+      "ipa": "/kənˈsɜːrn/",
+      "translation": "preocupação, ressalva",
+      "definition": "A worry about something that might go wrong.",
+      "example": "- My only concern is that we have never done this before.\nMinha única ressalva é que nunca fizemos isso antes.",
+      "note": "Raise a concern = levantar uma ressalva — discordar sem confronto."
+    },
+    {
+      "term": "Reconsider",
+      "ipa": "/ˌriːkənˈsɪdər/",
+      "translation": "reconsiderar, repensar",
+      "definition": "To think about a decision again, to see if you should change it.",
+      "example": "- Could we reconsider the deadline after the client's answer?\nPoderíamos reconsiderar o prazo depois da resposta do cliente?",
+      "note": "Sugere mudança sem dizer que a decisão foi errada."
+    },
+    {
+      "term": "I see your point, but",
+      "ipa": "",
+      "translation": "entendo seu ponto, mas…",
+      "definition": "Used to accept someone's argument before disagreeing.",
+      "example": "- I see your point, but the client asked for something different.\nEntendo seu ponto, mas o cliente pediu algo diferente.",
+      "note": "Reconhece antes de discordar — reduz a defensiva do outro pela metade."
+    },
+    {
+      "term": "Have you considered…?",
+      "ipa": "",
+      "translation": "você já considerou…?",
+      "definition": "A soft way of suggesting an idea the other person may have missed.",
+      "example": "- Have you considered starting with the smaller market?\nVocê já considerou começar pelo mercado menor?",
+      "note": "Transforma sua opinião em pergunta: soa colaborativo, não crítico."
+    },
+    {
+      "term": "Discuss",
+      "ipa": "/dɪˈskʌs/",
+      "translation": "conversar sobre, debater",
+      "definition": "To talk about something with other people.",
+      "example": "- Let's discuss the numbers calmly before we decide.\nVamos conversar sobre os números com calma antes de decidir.",
+      "note": "Nunca “discuss ABOUT”. E “discutir” (brigar) é argue."
+    },
+    {
+      "term": "Argument",
+      "ipa": "/ˈɑːrɡjumənt/",
+      "translation": "argumento; TAMBÉM discussão, briga",
+      "definition": "A reason given to support an idea; also a heated disagreement.",
+      "example": "- Her argument was strong, but the meeting never became an argument.\nO argumento dela era forte, mas a reunião nunca virou uma briga.",
+      "note": "“Discutir (brigar)” é argue; have an argument = ter uma briga. O contexto decide."
+    }
+  ],
+  "createdAt": "2026-09-04T15:54:09.153Z",
+  "exercise": {
+    "id": "practice-b1-aula14-agreeing-disagreeing-politely",
+    "title": "Agreeing & disagreeing politely (B1 · Aula 14)",
+    "questions": [
+      {
+        "id": "q-1",
+        "type": "multiple_choice",
+        "target": "agree",
+        "prompt": "Which one is correct?",
+        "options": [
+          "I agree with you.",
+          "I am agree with you.",
+          "I agree you.",
+          "I am agreed with you."
+        ],
+        "answer": "I agree with you.",
+        "explanation": "“Agree” is a verb: never “I am agree”. With a person, use “with”."
+      },
+      {
+        "id": "q-2",
+        "type": "multiple_choice",
+        "target": "point",
+        "prompt": "Your colleague says something correct. You want to admit it. You say:",
+        "options": [
+          "You have a point.",
+          "You have reason.",
+          "You have the reason.",
+          "You are with reason."
+        ],
+        "answer": "You have a point.",
+        "explanation": "“Você tem razão” becomes “you have a point”, never “you have reason”."
+      },
+      {
+        "id": "q-3",
+        "type": "fill_blank",
+        "target": "view",
+        "prompt": "In my _____, we should test with ten clients first.",
+        "options": [],
+        "answer": "view",
+        "explanation": "“In my view”, but “from my point of view” — do not mix the two."
+      },
+      {
+        "id": "q-4",
+        "type": "fill_blank",
+        "target": "partly",
+        "prompt": "I _____ agree: the idea is good, but the timing is wrong.",
+        "options": [],
+        "answer": "partly",
+        "explanation": "“Partly” softens the disagreement by conceding half of it."
+      },
+      {
+        "id": "q-5",
+        "type": "translate_to_english",
+        "target": "concern",
+        "prompt": "Minha única preocupação é que a gente nunca fez isso antes.",
+        "options": [],
+        "answer": "My only concern is that we have never done this before.|My only concern is that we've never done this before.",
+        "explanation": "“Concerned ABOUT” when you are worried; “concerned with” means involved in."
+      },
+      {
+        "id": "q-6",
+        "type": "fill_blank",
+        "target": "reconsider",
+        "prompt": "Could we _____ the deadline after the client's answer?",
+        "options": [],
+        "answer": "reconsider",
+        "explanation": "“Reconsider” takes the object directly."
+      },
+      {
+        "id": "q-7",
+        "type": "fill_blank",
+        "target": "I see your point, but",
+        "prompt": "_____ the budget will not cover three extra weeks.",
+        "options": [],
+        "answer": "I see your point, but",
+        "explanation": "Conceding first makes the disagreement easier to hear."
+      },
+      {
+        "id": "q-8",
+        "type": "fill_blank",
+        "target": "Have you considered…?",
+        "prompt": "_____ doing the pilot with one client before we launch?",
+        "options": [],
+        "answer": "Have you considered",
+        "explanation": "“Consider” takes -ing, and the question form softens the suggestion."
+      },
+      {
+        "id": "q-9",
+        "type": "multiple_choice",
+        "target": "discuss",
+        "prompt": "Which one is correct?",
+        "options": [
+          "Let's discuss the budget.",
+          "Let's discuss about the budget.",
+          "Let's discuss on the budget.",
+          "Let's discuss of the budget."
+        ],
+        "answer": "Let's discuss the budget.",
+        "explanation": "“Discuss” takes the object directly — the Portuguese “discutir sobre” adds a preposition English does not want."
+      },
+      {
+        "id": "q-10",
+        "type": "multiple_choice",
+        "target": "argument",
+        "prompt": "They shouted at each other for ten minutes. They had an…",
+        "options": [
+          "argument",
+          "agreement",
+          "arguing",
+          "argumentation"
+        ],
+        "answer": "argument",
+        "explanation": "“Argument” is both a reason and a row — context decides."
+      }
+    ]
+  }
+}
