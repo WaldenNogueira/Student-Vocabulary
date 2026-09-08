@@ -1,0 +1,205 @@
+{
+  "type": "vocabulary-practice-pack",
+  "version": 7,
+  "teacher": "Teacher Walden Nogueira",
+  "teacherWhatsApp": "5541996106689",
+  "student": {
+    "name": "Patrick Bussolotti",
+    "whatsapp": "5511992125644"
+  },
+  "lesson": "Simple emails (A2 · Aula 5)",
+  "cards": [
+    {
+      "term": "Send",
+      "ipa": "/send/",
+      "translation": "enviar, mandar",
+      "definition": "To make a message or object go to someone.",
+      "example": "- I send the report every Friday before six.\nEnvio o relatório toda sexta antes das seis.",
+      "note": "Passado irregular: sent. Send someone something ou send something TO someone."
+    },
+    {
+      "term": "Receive",
+      "ipa": "/rɪˈsiːv/",
+      "translation": "receber",
+      "definition": "To get something that someone sent you.",
+      "example": "- Did you receive my email from Tuesday?\nVocê recebeu meu e-mail de terça?",
+      "note": "Grafia: rec-EI-ve. O substantivo receipt (recibo) tem o P mudo."
+    },
+    {
+      "term": "Forward",
+      "ipa": "/ˈfɔːrwərd/",
+      "translation": "encaminhar",
+      "definition": "To send a message you received on to another person.",
+      "example": "- I'll forward you the client's message right now.\nVou te encaminhar a mensagem do cliente agora.",
+      "note": "Botão “Fw”. Também: look forward to (aguardar com expectativa)."
+    },
+    {
+      "term": "Regards",
+      "ipa": "/rɪˈɡɑːrdz/",
+      "translation": "atenciosamente (fechamento)",
+      "definition": "A polite word used to end an email before your name.",
+      "example": "- Best regards, Paula Lima — Sales team.\nAtenciosamente, Paula Lima — equipe de Vendas.",
+      "note": "Best regards (padrão), Kind regards (britânico), Regards (mais seco)."
+    },
+    {
+      "term": "Urgent",
+      "ipa": "/ˈɜːrdʒənt/",
+      "translation": "urgente",
+      "definition": "Needing action immediately.",
+      "example": "- This is not urgent — you can answer tomorrow.\nIsso não é urgente — você pode responder amanhã.",
+      "note": "Dizer o que NÃO é urgente é um dos hábitos mais elegantes do e-mail."
+    },
+    {
+      "term": "Confirm",
+      "ipa": "/kənˈfɜːrm/",
+      "translation": "confirmar",
+      "definition": "To say clearly that something is true or agreed.",
+      "example": "- Could you confirm you received the invoice?\nVocê poderia confirmar que recebeu a nota fiscal?",
+      "note": "Confirm receipt = confirmar o recebimento — muito usado em compras."
+    },
+    {
+      "term": "I'm writing to",
+      "ipa": "",
+      "translation": "estou escrevendo para…",
+      "definition": "A phrase used to open an email and say why you are writing.",
+      "example": "- I'm writing to ask about the delivery date.\nEstou escrevendo para perguntar sobre a data de entrega.",
+      "note": "Abre o e-mail dizendo o motivo na primeira linha. Direto e educado."
+    },
+    {
+      "term": "Let me know",
+      "ipa": "",
+      "translation": "me avise / me diga",
+      "definition": "Used to ask someone to tell you their answer.",
+      "example": "- Let me know if Thursday works for you.\nMe avise se quinta funcionar para você.",
+      "note": "Fechamento amigável e curto. Formal: Please let me know."
+    },
+    {
+      "term": "Attach",
+      "ipa": "/əˈtætʃ/",
+      "translation": "anexar",
+      "definition": "To add a file to an email.",
+      "example": "- I'm attaching the contract in PDF — please check page two.\nEstou anexando o contrato em PDF — confira a página dois, por favor.",
+      "note": "Substantivo: attachment (anexo). Não confunda com attack (atacar)."
+    },
+    {
+      "term": "Notice",
+      "ipa": "/ˈnoʊtɪs/",
+      "translation": "perceber, notar; aviso",
+      "definition": "To see or realise something; also a written announcement.",
+      "example": "- I didn't notice your email — it went to the spam folder.\nNão percebi seu e-mail — ele foi para a pasta de spam.",
+      "note": "“Notícia” é news: good news = boa notícia."
+    }
+  ],
+  "createdAt": "2026-09-08T15:54:27.092Z",
+  "exercise": {
+    "id": "practice-a2-aula5-simple-emails",
+    "title": "Simple emails (A2 · Aula 5)",
+    "questions": [
+      {
+        "id": "q-1",
+        "type": "fill_blank",
+        "target": "send",
+        "prompt": "I _____ the report every Friday before six.",
+        "options": [],
+        "answer": "send",
+        "explanation": "“Send something to someone”, or “send someone something”."
+      },
+      {
+        "id": "q-2",
+        "type": "translate_to_english",
+        "target": "receive",
+        "prompt": "Você recebeu meu e-mail de terça?",
+        "options": [],
+        "answer": "Did you receive my email from Tuesday?|Did you receive my email on Tuesday?",
+        "explanation": "“Receive” is to get what someone sent."
+      },
+      {
+        "id": "q-3",
+        "type": "fill_blank",
+        "target": "forward",
+        "prompt": "I'll _____ you the client's message right now.",
+        "options": [],
+        "answer": "forward",
+        "explanation": "“Forward” passes a message you received to someone else."
+      },
+      {
+        "id": "q-4",
+        "type": "multiple_choice",
+        "target": "regards",
+        "prompt": "How do you close a work email in English?",
+        "options": [
+          "Best regards,",
+          "Attentiously,",
+          "Cordially yours truly,",
+          "Hugs,"
+        ],
+        "answer": "Best regards,",
+        "explanation": "“Atenciosamente” translated word for word gives “attentiously”, which is not English."
+      },
+      {
+        "id": "q-5",
+        "type": "fill_blank",
+        "target": "urgent",
+        "prompt": "This is not _____ — you can answer tomorrow.",
+        "options": [],
+        "answer": "urgent",
+        "explanation": "“Urgent” means it needs action now."
+      },
+      {
+        "id": "q-6",
+        "type": "translate_to_english",
+        "target": "confirm",
+        "prompt": "Você poderia confirmar que recebeu a fatura?",
+        "options": [],
+        "answer": "Could you confirm you received the invoice?|Could you confirm that you received the invoice?",
+        "explanation": "“Confirm” + clause; no preposition after it."
+      },
+      {
+        "id": "q-7",
+        "type": "fill_blank",
+        "target": "I'm writing to",
+        "prompt": "_____ ask about the delivery date.",
+        "options": [],
+        "answer": "I'm writing to",
+        "explanation": "A standard email opener: “I'm writing to” + verb."
+      },
+      {
+        "id": "q-8",
+        "type": "fill_blank",
+        "target": "Let me know",
+        "prompt": "_____ if Thursday works for you.",
+        "options": [],
+        "answer": "Let me know",
+        "explanation": "“Let me know” asks for an answer later."
+      },
+      {
+        "id": "q-9",
+        "type": "multiple_choice",
+        "target": "attach",
+        "prompt": "The contract goes with the email. You…",
+        "options": [
+          "attach it",
+          "annex it",
+          "link it",
+          "forward it"
+        ],
+        "answer": "attach it",
+        "explanation": "In English you “attach” a file; “in attachment” is the Portuguese “em anexo”."
+      },
+      {
+        "id": "q-10",
+        "type": "multiple_choice",
+        "target": "notice",
+        "prompt": "Your colleague's email went to spam and you never saw it. You say:",
+        "options": [
+          "I didn't notice your email.",
+          "I didn't note your email.",
+          "I didn't notice of your email.",
+          "I didn't noticed your email."
+        ],
+        "answer": "I didn't notice your email.",
+        "explanation": "“Notice” takes the object directly, with no preposition."
+      }
+    ]
+  }
+}
