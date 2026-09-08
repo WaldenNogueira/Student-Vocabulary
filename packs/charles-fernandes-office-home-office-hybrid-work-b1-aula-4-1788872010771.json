@@ -1,0 +1,210 @@
+{
+  "type": "vocabulary-practice-pack",
+  "version": 7,
+  "teacher": "Teacher Walden Nogueira",
+  "teacherWhatsApp": "5541996106689",
+  "student": {
+    "name": "Charles Fernandes",
+    "whatsapp": "5527981218697"
+  },
+  "lesson": "Office, home office & hybrid work (B1 · Aula 4)",
+  "cards": [
+    {
+      "term": "Work from home",
+      "ipa": "/ˌwɜːrk frəm ˈhoʊm/",
+      "translation": "trabalhar de casa",
+      "definition": "To do your job from your house instead of going to the office.",
+      "example": "- I work from home twice a week, usually on Mondays and Fridays.\nTrabalho de casa duas vezes por semana, geralmente segunda e sexta.\n- Can I work from home tomorrow? I have a delivery in the morning.\nPosso trabalhar de casa amanhã? Tenho uma entrega de manhã.\n- We worked from home for almost two years.\nTrabalhamos de casa por quase dois anos.",
+      "note": "A sigla WFH é comum em vagas e no chat do trabalho: WFH on Friday. Também se diz work remotely. Home office, em inglês, é o cômodo ou o móvel, não o modelo de trabalho."
+    },
+    {
+      "term": "Open-plan office",
+      "ipa": "/ˌoʊpən plæn ˈɔːfɪs/",
+      "translation": "escritório aberto, sem divisórias",
+      "definition": "A large office with no walls between the desks.",
+      "example": "- Our open-plan office is great for quick questions, but bad for concentration.\nNosso escritório aberto é ótimo para perguntas rápidas, mas péssimo para concentração.\n- They moved us into an open-plan office last year.\nEles nos mudaram para um escritório aberto no ano passado.\n- In an open-plan office, headphones are almost a uniform.\nNum escritório aberto, os fones são quase um uniforme.",
+      "note": "No Brasil se fala open space, mas em inglês o padrão é open-plan office. O hífen aparece porque o adjetivo composto vem antes do substantivo. O contrário é a private office ou os cubicles."
+    },
+    {
+      "term": "Set up",
+      "ipa": "/ˌset ˈʌp/",
+      "translation": "montar, instalar, configurar",
+      "definition": "To prepare or arrange something so that it is ready to use.",
+      "example": "- It took me a week to set up a comfortable home office with a good chair.\nLevei uma semana para montar um home office confortável com uma boa cadeira.\n- Can you set up the video call for three o’clock?\nVocê pode marcar a chamada de vídeo para as três?\n- IT set up my new laptop in twenty minutes.\nO TI configurou meu notebook novo em vinte minutos.",
+      "note": "Serve para equipamentos, contas e reuniões: set up a meeting. É separável: set it up, set the room up. Irregular e igual nas três formas: set up, set up, set up. O substantivo é junto: the setup."
+    },
+    {
+      "term": "Schedule",
+      "ipa": "/ˈskedʒuːl/",
+      "translation": "agenda, horário; também verbo (agendar)",
+      "definition": "A plan of the times when things happen, or to arrange a time for something.",
+      "example": "- My schedule is more flexible now, so I can pick up my kids at school.\nMinha agenda está mais flexível agora, então consigo buscar as crianças na escola.\n- Let’s schedule the review for Thursday morning.\nVamos agendar a revisão para quinta de manhã.\n- The training was scheduled twice and cancelled twice.\nO treinamento foi agendado duas vezes e cancelado duas vezes.",
+      "note": "A pauta de uma reunião é agenda; a sua agenda do dia é schedule. Funciona como substantivo e como verbo: my schedule, to schedule a call. Colocações: a tight schedule, behind schedule, ahead of schedule."
+    },
+    {
+      "term": "Distraction",
+      "ipa": "/dɪˈstrækʃn/",
+      "translation": "distração",
+      "definition": "Something that takes your attention away from what you are doing.",
+      "example": "- For me, the biggest distraction at home is the fridge, not the TV.\nPara mim, a maior distração em casa é a geladeira, não a TV.\n- Working near the kitchen is a constant distraction.\nTrabalhar perto da cozinha é uma distração constante.\n- He turns off notifications to avoid distractions during calls.\nEle desliga as notificações para evitar distrações durante as chamadas.",
+      "note": "O verbo é distract: my phone distracts me. O adjetivo distracted descreve a pessoa: I was distracted. Colocações: a major distraction, avoid distractions, a distraction from the work."
+    },
+    {
+      "term": "Hybrid",
+      "ipa": "/ˈhaɪbrɪd/",
+      "translation": "híbrido",
+      "definition": "Mixing two different things, like office days and home days.",
+      "example": "- We follow a hybrid model: three days on-site and two days at home.\nSeguimos um modelo híbrido: três dias presenciais e dois em casa.\n- Most candidates now ask if the role is hybrid.\nA maioria dos candidatos hoje pergunta se a vaga é híbrida.\n- The company went hybrid right after the pandemic.\nA empresa virou híbrida logo depois da pandemia.",
+      "note": "Colocações: hybrid work, a hybrid model, a hybrid role. Serve como adjetivo e como substantivo: a hybrid of two systems. Os opostos são fully remote e fully on-site."
+    },
+    {
+      "term": "Dress code",
+      "ipa": "/ˈdres koʊd/",
+      "translation": "código de vestimenta",
+      "definition": "The rules about what people can wear in a place.",
+      "example": "- Our office has a casual dress code, but client meetings are still formal.\nNosso escritório tem dress code casual, mas reuniões com cliente ainda são formais.\n- The invitation says the dress code is business casual.\nO convite diz que o dress code é business casual.\n- Nobody explained the dress code on my first day.\nNinguém explicou o código de vestimenta no meu primeiro dia.",
+      "note": "Colocações: a casual dress code, a strict dress code, to follow the dress code. Escreve-se em duas palavras. Os níveis mais citados são business casual e smart casual."
+    },
+    {
+      "term": "Water cooler chat",
+      "ipa": "/ˈwɔtər ˌkulər ˈtʃæt/",
+      "translation": "conversa de corredor / papo de café do escritório",
+      "definition": "Informal conversation between colleagues during a break at work.",
+      "example": "- When I work from home, I honestly miss the water cooler chat.\nQuando trabalho de casa, sinceramente sinto falta da conversa de corredor.\n- A lot of decisions really start as water cooler chat.\nMuita decisão começa mesmo como conversa de corredor.\n- Remote teams try to replace water cooler chat with virtual coffees.\nTimes remotos tentam substituir a conversa de corredor por cafés virtuais.",
+      "note": "Vem do bebedouro do escritório, o water cooler. Também aparece como water cooler talk e water cooler moment. Descreve o papo informal e sem pauta, o oposto de uma reunião."
+    },
+    {
+      "term": "Assist",
+      "ipa": "/əˈsɪst/",
+      "translation": "ajudar, auxiliar",
+      "definition": "To help someone do something.",
+      "example": "- Our IT team assists employees with home-office equipment.\nNossa equipe de TI ajuda os funcionários com os equipamentos de home office.\n- A colleague assisted me with the expense report.\nUm colega me ajudou com o relatório de despesas.\n- Two interns will assist the team during the launch.\nDois estagiários vão auxiliar o time durante o lançamento.",
+      "note": "“Assistir” a um filme é watch e “assistir” a uma reunião é attend — nunca assist. É mais formal que help e pede with ou in: assist you with the setup. Regular: passado assisted."
+    },
+    {
+      "term": "Comprehensive",
+      "ipa": "/ˌkɑːmprɪˈhensɪv/",
+      "translation": "completo, abrangente",
+      "definition": "Covering everything that is needed, with nothing important missing.",
+      "example": "- HR sent a comprehensive guide about the hybrid work rules.\nO RH enviou um guia completo sobre as regras do trabalho híbrido.\n- The onboarding pack is comprehensive but a little long.\nO material de integração é completo, mas um pouco longo.\n- They ran a comprehensive survey about hybrid work.\nEles fizeram uma pesquisa abrangente sobre trabalho híbrido.",
+      "note": "“Compreensivo”, falando de uma pessoa, é understanding ou sympathetic. Colocações: a comprehensive guide, a comprehensive review, comprehensive insurance. Fala de cobertura e abrangência, nunca de gentileza."
+    }
+  ],
+  "createdAt": "2026-09-08T12:53:30.771Z",
+  "exercise": {
+    "id": "practice-b1-aula4-office-home-office-hybrid-work",
+    "title": "Office, home office & hybrid work (B1 · Aula 4)",
+    "questions": [
+      {
+        "id": "q-1",
+        "type": "multiple_choice",
+        "target": "assist",
+        "prompt": "Which sentence uses “assist” correctly?",
+        "options": [
+          "The help desk can assist you with the new laptop.",
+          "I assisted the whole training online yesterday.",
+          "We assisted a great presentation this morning.",
+          "She assists a series every night after work."
+        ],
+        "answer": "The help desk can assist you with the new laptop.",
+        "explanation": "“Assist” means to help. To see something is “watch” or “attend”."
+      },
+      {
+        "id": "q-2",
+        "type": "fill_blank",
+        "target": "open-plan office",
+        "prompt": "I love the energy of an _____, but I need headphones to concentrate.",
+        "options": [],
+        "answer": "open-plan office",
+        "explanation": "An “open-plan office” has no walls between the desks."
+      },
+      {
+        "id": "q-3",
+        "type": "translate_to_english",
+        "target": "work from home",
+        "prompt": "Eu trabalho de casa às terças e quintas.",
+        "options": [],
+        "answer": "I work from home on Tuesdays and Thursdays.|I work from home every Tuesday and Thursday.",
+        "explanation": "“Work from home” means to do your job from your house."
+      },
+      {
+        "id": "q-4",
+        "type": "multiple_choice",
+        "target": "schedule",
+        "prompt": "In a meeting, the list of topics is the agenda. What do you call the list of times in your working day?",
+        "options": [
+          "The agenda",
+          "The schedule",
+          "The routine",
+          "The plan"
+        ],
+        "answer": "The schedule",
+        "explanation": "Your “schedule” is your times and appointments; the “agenda” is the topics."
+      },
+      {
+        "id": "q-5",
+        "type": "fill_blank",
+        "target": "distraction",
+        "prompt": "The notifications on my phone are my biggest _____ during calls.",
+        "options": [],
+        "answer": "distraction",
+        "explanation": "A “distraction” takes your attention away from your work."
+      },
+      {
+        "id": "q-6",
+        "type": "translate_to_english",
+        "target": "set up",
+        "prompt": "Você pode marcar uma reunião com o cliente para amanhã?",
+        "options": [],
+        "answer": "Can you set up a meeting with the client tomorrow?|Could you set up a meeting with the client tomorrow?",
+        "explanation": "“Set up a meeting” means to arrange it."
+      },
+      {
+        "id": "q-7",
+        "type": "multiple_choice",
+        "target": "hybrid",
+        "prompt": "Three days at the office and two days at home. What is this model called?",
+        "options": [
+          "A remote model",
+          "An on-site model",
+          "A hybrid model",
+          "A flexible model"
+        ],
+        "answer": "A hybrid model",
+        "explanation": "“Hybrid” mixes office days and home days."
+      },
+      {
+        "id": "q-8",
+        "type": "fill_blank",
+        "target": "dress code",
+        "prompt": "Our team has a relaxed _____ and nobody wears a tie.",
+        "options": [],
+        "answer": "dress code",
+        "explanation": "The “dress code” is the rule about what people wear."
+      },
+      {
+        "id": "q-9",
+        "type": "translate_to_english",
+        "target": "water cooler chat",
+        "prompt": "Não existe conversa de corredor numa chamada de vídeo.",
+        "options": [],
+        "answer": "There is no water cooler chat on a video call.|There’s no water cooler chat on a video call.",
+        "explanation": "“Water cooler chat” is the informal talk between colleagues at work."
+      },
+      {
+        "id": "q-10",
+        "type": "multiple_choice",
+        "target": "comprehensive",
+        "prompt": "HR sent a document that covers every rule, with nothing missing. How do you describe it?",
+        "options": [
+          "A sympathetic guide",
+          "An understanding guide",
+          "A straightforward guide",
+          "A comprehensive guide"
+        ],
+        "answer": "A comprehensive guide",
+        "explanation": "“Comprehensive” means it covers everything."
+      }
+    ]
+  }
+}
