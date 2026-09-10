@@ -1,0 +1,190 @@
+{
+  "type": "vocabulary-practice-pack",
+  "version": 7,
+  "teacher": "Teacher Walden Nogueira",
+  "teacherWhatsApp": "5541996106689",
+  "student": {
+    "name": "Bruna",
+    "whatsapp": "5511991627789"
+  },
+  "lesson": "Numbers, prices & times you will hear (A0 · Lesson 8)",
+  "cards": [
+    {
+      "term": "Number",
+      "ipa": "ˈnʌmbər",
+      "translation": "número",
+      "definition": "My room number is nine. número.",
+      "example": "- My room number is nine.\nO número do meu quarto é nove.",
+      "note": "Ele vem DEPOIS do substantivo: room number, gate number. O “número do quarto” inverte, e a frase some."
+    },
+    {
+      "term": "Price",
+      "ipa": "praɪs",
+      "translation": "preço",
+      "definition": "The price is on the menu. preço.",
+      "example": "- The price is on the menu.\nO preço está no cardápio.",
+      "note": "The price OF alguma coisa. E o preço se PERGUNTA com how much, não com what price."
+    },
+    {
+      "term": "Card",
+      "ipa": "kɑːrd",
+      "translation": "cartão",
+      "definition": "I pay with card, please. cartão.",
+      "example": "- I pay with card, please.\nEu pago com cartão, por favor.",
+      "note": "Pay WITH card ou BY card. E cartão-postal é postcard, uma palavra só."
+    },
+    {
+      "term": "Coin",
+      "ipa": "kɔɪn",
+      "translation": "moeda",
+      "definition": "I have one coin here. moeda.",
+      "example": "- I have one coin here.\nEu tenho uma moeda aqui.",
+      "note": "Coin é a moedinha de metal; note (ou bill) é o papel. A moeda do país (real, euro) é currency."
+    },
+    {
+      "term": "O'clock",
+      "ipa": "əˈklɑːk",
+      "translation": "em ponto (hora cheia)",
+      "definition": "The bus goes at nine o’clock. em ponto (hora cheia).",
+      "example": "- The bus goes at nine o'clock.\nO ônibus sai às nove em ponto.",
+      "note": "Só com hora CHEIA: nine o'clock. Com minutos ele some — nine fifteen, sem o'clock."
+    },
+    {
+      "term": "Free",
+      "ipa": "friː",
+      "translation": "grátis; livre",
+      "definition": "The water is free here. grátis; livre.",
+      "example": "- The water is free here.\nA água é grátis aqui.",
+      "note": "As duas coisas: de graça E livre. Is this seat free? é “está livre?”, e vale ouro no trem."
+    },
+    {
+      "term": "What time is it?",
+      "ipa": "",
+      "translation": "que horas são?",
+      "definition": "que horas são?. Sai quase como uma palavra só: “uât-TAIM-is-it”.",
+      "example": "- Excuse me. What time is it?\nCom licença. Que horas são?",
+      "note": "Sai quase como uma palavra só: “uât-TAIM-is-it”. Treine assim, não separado."
+    },
+    {
+      "term": "That is too much",
+      "ipa": "",
+      "translation": "isso é caro demais",
+      "definition": "isso é caro demais. Too much é demais; very much é muito.",
+      "example": "- Sixty? That is too much.\nSessenta? Isso é caro demais.",
+      "note": "Too much é demais, very much é muito. Trocar os dois muda o preço da conversa."
+    },
+    {
+      "term": "Once",
+      "ipa": "",
+      "translation": "uma vez",
+      "definition": "uma vez. “Onze” é eleven! Once é uma vez — e num preço a diferença é grande.",
+      "example": "- I say it once, then I say it again.\nEu digo uma vez, depois de novo.",
+      "note": "“Onze” é eleven! Once é uma vez — e num preço a diferença é grande."
+    },
+    {
+      "term": "Quarter",
+      "ipa": "",
+      "translation": "um quarto; quinze minutos",
+      "definition": "um quarto; quinze minutos. “Quarto” do hotel é room! Quarter é 1/4.",
+      "example": "- It is a quarter past nine.\nSão nove e quinze.",
+      "note": "“Quarto” (do hotel) é room! Quarter é 1/4 — e na hora, quinze minutos."
+    }
+  ],
+  "createdAt": "2026-09-10T13:54:34.056Z",
+  "exercise": {
+    "id": "practice-tv-a0-aula8-numbers-prices-and-times",
+    "title": "Numbers, prices & times you will hear (A0 · Lesson 8)",
+    "questions": [
+      {
+        "id": "q-1",
+        "type": "fill_blank",
+        "target": "number",
+        "prompt": "My room _____ is nine.",
+        "options": [],
+        "answer": "number",
+        "explanation": "O número do meu quarto é nove."
+      },
+      {
+        "id": "q-2",
+        "type": "fill_blank",
+        "target": "price",
+        "prompt": "The _____ is on the menu.",
+        "options": [],
+        "answer": "price",
+        "explanation": "O preço está no cardápio."
+      },
+      {
+        "id": "q-3",
+        "type": "fill_blank",
+        "target": "card",
+        "prompt": "I pay with _____ , please.",
+        "options": [],
+        "answer": "card",
+        "explanation": "Eu pago com cartão, por favor."
+      },
+      {
+        "id": "q-4",
+        "type": "fill_blank",
+        "target": "coin",
+        "prompt": "I have one _____ here.",
+        "options": [],
+        "answer": "coin",
+        "explanation": "Eu tenho uma moeda aqui."
+      },
+      {
+        "id": "q-5",
+        "type": "fill_blank",
+        "target": "o'clock",
+        "prompt": "The bus goes at nine _____ .",
+        "options": [],
+        "answer": "o'clock",
+        "explanation": "O ônibus sai às nove em ponto."
+      },
+      {
+        "id": "q-6",
+        "type": "fill_blank",
+        "target": "free",
+        "prompt": "The water is _____ here.",
+        "options": [],
+        "answer": "free",
+        "explanation": "A água é grátis aqui."
+      },
+      {
+        "id": "q-7",
+        "type": "fill_blank",
+        "target": "What time is it?",
+        "prompt": "Excuse me. _____",
+        "options": [],
+        "answer": "What time is it?",
+        "explanation": "Com licença. Que horas são?"
+      },
+      {
+        "id": "q-8",
+        "type": "fill_blank",
+        "target": "That is too much",
+        "prompt": "Sixty? _____ .",
+        "options": [],
+        "answer": "That is too much",
+        "explanation": "Sessenta? Isso é caro demais."
+      },
+      {
+        "id": "q-9",
+        "type": "fill_blank",
+        "target": "once",
+        "prompt": "I say it _____ , then again.",
+        "options": [],
+        "answer": "once",
+        "explanation": "Eu digo uma vez, depois de novo."
+      },
+      {
+        "id": "q-10",
+        "type": "fill_blank",
+        "target": "quarter",
+        "prompt": "It is a _____ past nine.",
+        "options": [],
+        "answer": "quarter",
+        "explanation": "São nove e quinze."
+      }
+    ]
+  }
+}
