@@ -1,0 +1,210 @@
+{
+  "type": "vocabulary-practice-pack",
+  "version": 7,
+  "teacher": "Teacher Walden Nogueira",
+  "teacherWhatsApp": "5541996106689",
+  "student": {
+    "name": "Mayara da Maia",
+    "whatsapp": "5545998390735"
+  },
+  "lesson": "Speak with confidence at work (B1 · Aula 0)",
+  "cards": [
+    {
+      "term": "Highlight",
+      "ipa": "/ˈhaɪlaɪt/",
+      "translation": "destacar, ressaltar",
+      "definition": "To draw attention to the most important part of something.",
+      "example": "- Let me highlight the two numbers that really matter in this report.\nDeixa eu destacar os dois números que realmente importam neste relatório.\n- The report highlights three risks we cannot ignore.\nO relatório destaca três riscos que não podemos ignorar.\n- She highlighted the client’s main concern in one slide.\nEla destacou a principal preocupação do cliente em um slide.",
+      "note": "Bem melhor que show quando você quer chamar atenção para um ponto: highlight the main point. É regular: passado highlighted. Também é o marca-texto e o melhor momento de um jogo ou vídeo."
+    },
+    {
+      "term": "Outcome",
+      "ipa": "/ˈaʊtkʌm/",
+      "translation": "resultado, desfecho",
+      "definition": "The final result of a process, a meeting or a decision.",
+      "example": "- The outcome was better than we expected: fifteen percent more sales.\nO resultado foi melhor do que esperávamos: quinze por cento mais vendas.\n- Nobody could predict the outcome of the negotiation.\nNinguém conseguia prever o resultado da negociação.\n- We are happy with the outcome of the pilot project.\nEstamos satisfeitos com o resultado do projeto piloto.",
+      "note": "Mais elegante que result quando você fala da consequência de um processo. Colocações: the outcome of the meeting, a positive outcome, the likely outcome. Placar de jogo e nota de prova continuam sendo result."
+    },
+    {
+      "term": "Straightforward",
+      "ipa": "/ˌstreɪtˈfɔːrwərd/",
+      "translation": "simples, direto, sem complicação",
+      "definition": "Simple and clear, with no complications.",
+      "example": "- The process is straightforward: three steps and two approvals.\nO processo é simples: três etapas e duas aprovações.\n- Her answer was straightforward: no, not this quarter.\nA resposta dela foi direta: não, não neste trimestre.\n- I thought the migration would be straightforward, but it took three weeks.\nAchei que a migração seria simples, mas levou três semanas.",
+      "note": "Soa mais sênior que easy e serve para processos, respostas e pessoas. Sobre gente, significa direta e honesta, e é elogio. Escreve-se sempre numa palavra só, sem hífen."
+    },
+    {
+      "term": "Bottleneck",
+      "ipa": "/ˈbɑːtlnek/",
+      "translation": "gargalo",
+      "definition": "The point in a process where everything slows down or stops.",
+      "example": "- The approval stage is the bottleneck — everything stops there.\nA etapa de aprovação é o gargalo — tudo para ali.\n- We hired two reviewers to remove the bottleneck.\nContratamos dois revisores para eliminar o gargalo.\n- Approvals became the bottleneck as soon as the team grew.\nAs aprovações viraram o gargalo assim que o time cresceu.",
+      "note": "Vem da imagem do gargalo da garrafa e é comum em processos, projetos e sistemas. Colocações: the main bottleneck, create a bottleneck, remove a bottleneck. Escreve-se numa palavra só."
+    },
+    {
+      "term": "Workaround",
+      "ipa": "/ˈwɜːrkəraʊnd/",
+      "translation": "solução alternativa, contorno",
+      "definition": "A temporary solution that avoids a problem instead of fixing it.",
+      "example": "- We found a workaround while the system is down.\nEncontramos uma solução alternativa enquanto o sistema está fora.\n- The team created a simple workaround for the login error.\nO time criou uma solução alternativa simples para o erro de login.\n- We used a workaround for two months before the real fix arrived.\nUsamos uma solução alternativa por dois meses até a correção de verdade chegar.",
+      "note": "Diferente de solution: é temporário e resolve só por agora. O substantivo é junto, workaround; o verbo é separado, work around the problem. Colocação frequente: a quick workaround."
+    },
+    {
+      "term": "Takeaway",
+      "ipa": "/ˈteɪkəweɪ/",
+      "translation": "lição, mensagem principal",
+      "definition": "The main idea people should remember after a meeting or a talk.",
+      "example": "- My main takeaway from the meeting: we need clearer deadlines.\nMinha lição principal da reunião: precisamos de prazos mais claros.\n- Let me leave you with one takeaway before we close.\nDeixo vocês com uma lição principal antes de encerrarmos.\n- Her takeaway from the feedback was clear: less detail, more decisions.\nA lição que ela tirou do feedback foi clara: menos detalhe, mais decisões.",
+      "note": "Fechamento clássico de reunião: the main takeaway is… Sinônimo: key message. No inglês britânico, takeaway também é comida para viagem, mas no trabalho o contexto resolve."
+    },
+    {
+      "term": "From my point of view",
+      "ipa": "/frəm maɪ ˈpɔɪnt əv ˈvju/",
+      "translation": "do meu ponto de vista",
+      "definition": "A polite phrase used to introduce your personal opinion.",
+      "example": "- From my point of view, the second option is safer for the client.\nDo meu ponto de vista, a segunda opção é mais segura para o cliente.\n- From my point of view, the risk is bigger than the gain.\nDo meu ponto de vista, o risco é maior que o ganho.\n- The plan works, but from my point of view it is too slow.\nO plano funciona, mas do meu ponto de vista ele é lento demais.",
+      "note": "Abre uma opinião com autoridade e sem arrogância. Diga from my point of view, nunca “in my point of view”. Alternativas: in my view e the way I see it."
+    },
+    {
+      "term": "The way I see it",
+      "ipa": "/ðə ˈweɪ aɪ ˈsi ɪt/",
+      "translation": "do jeito que eu vejo / na minha leitura",
+      "definition": "An informal phrase used to introduce your own reading of a situation.",
+      "example": "- The way I see it, we have two weeks — not four.\nDo jeito que eu vejo, temos duas semanas — não quatro.\n- The way I see it, the price is not the real problem.\nDo jeito que eu vejo, o preço não é o problema de verdade.\n- The way I see it, we have already made the decision.\nNa minha leitura, nós já tomamos a decisão.",
+      "note": "Mais natural e conversacional que I think, e soa mais confiante. Vem no começo da frase e é seguida de vírgula. Em texto muito formal, prefira in my view."
+    },
+    {
+      "term": "Eventually",
+      "ipa": "/ɪˈventʃuəli/",
+      "translation": "no fim das contas, uma hora",
+      "definition": "After a long time or after several steps.",
+      "example": "- We had three delays, and eventually the client approved the budget.\nTivemos três atrasos e, no fim das contas, o cliente aprovou o orçamento.\n- The system was slow for weeks, but IT eventually fixed it.\nO sistema ficou lento por semanas, mas o TI acabou consertando.\n- She eventually agreed to move the deadline.\nEla acabou concordando em mudar o prazo.",
+      "note": "“Eventualmente”, no sentido de às vezes, é sometimes ou occasionally — erro clássico de brasileiro em reunião. Eventually carrega a ideia de depois de muito tempo ou de várias tentativas. Fica antes do verbo principal ou no começo da frase."
+    },
+    {
+      "term": "Comprehensive",
+      "ipa": "/ˌkɑːmprɪˈhensɪv/",
+      "translation": "completo, abrangente",
+      "definition": "Including everything that is necessary, with nothing important missing.",
+      "example": "- She sent a comprehensive report: fifty pages, every detail.\nEla enviou um relatório completo: cinquenta páginas, cada detalhe.\n- We need a comprehensive review of all the contracts.\nPrecisamos de uma revisão completa de todos os contratos.\n- The training was comprehensive, but it lasted two full days.\nO treinamento foi completo, mas durou dois dias inteiros.",
+      "note": "“Compreensivo”, falando de uma pessoa, é understanding ou sympathetic. Colocações: a comprehensive report, a comprehensive guide, comprehensive coverage. Fala de abrangência, nunca de gentileza."
+    }
+  ],
+  "createdAt": "2026-09-10T02:51:22.386Z",
+  "exercise": {
+    "id": "practice-b1-aula00-speak-with-confidence-demo",
+    "title": "Speak with confidence at work (B1 · Aula 0)",
+    "questions": [
+      {
+        "id": "q-1",
+        "type": "multiple_choice",
+        "target": "outcome",
+        "prompt": "Which word describes the final result of a long negotiation?",
+        "options": [
+          "Outcome",
+          "Schedule",
+          "Process",
+          "Budget"
+        ],
+        "answer": "Outcome",
+        "explanation": "The “outcome” is what a process finally produces."
+      },
+      {
+        "id": "q-2",
+        "type": "fill_blank",
+        "target": "bottleneck",
+        "prompt": "Testing is the real _____ in this process, not development.",
+        "options": [],
+        "answer": "bottleneck",
+        "explanation": "A “bottleneck” is the point where a process slows down or stops."
+      },
+      {
+        "id": "q-3",
+        "type": "translate_to_english",
+        "target": "highlight",
+        "prompt": "Deixe-me destacar os riscos principais antes das perguntas.",
+        "options": [],
+        "answer": "Let me highlight the main risks before the questions.|Let me highlight the key risks before the questions.",
+        "explanation": "“Highlight” means to draw attention to the most important part."
+      },
+      {
+        "id": "q-4",
+        "type": "multiple_choice",
+        "target": "comprehensive",
+        "prompt": "Which sentence uses “comprehensive” the way a native speaker would?",
+        "options": [
+          "My boss was very comprehensive when I explained the delay.",
+          "HR published a comprehensive guide with every rule inside.",
+          "She was comprehensive about my problem at home.",
+          "Please be comprehensive with the new intern this week."
+        ],
+        "answer": "HR published a comprehensive guide with every rule inside.",
+        "explanation": "“Comprehensive” means complete. A kind person is “understanding”."
+      },
+      {
+        "id": "q-5",
+        "type": "fill_blank",
+        "target": "straightforward",
+        "prompt": "Do not worry, the form is _____ and takes about two minutes.",
+        "options": [],
+        "answer": "straightforward",
+        "explanation": "“Straightforward” means simple and clear, with no complications."
+      },
+      {
+        "id": "q-6",
+        "type": "translate_to_english",
+        "target": "workaround",
+        "prompt": "Precisamos de uma solução alternativa até a próxima semana.",
+        "options": [],
+        "answer": "We need a workaround until next week.|We need a workaround by next week.",
+        "explanation": "A “workaround” is a temporary fix that avoids the problem."
+      },
+      {
+        "id": "q-7",
+        "type": "multiple_choice",
+        "target": "The way I see it",
+        "prompt": "You want to give your opinion in a meeting without sounding arrogant. Which opening is natural English?",
+        "options": [
+          "In my opinion is that we should wait.",
+          "For me, I think that we should wait.",
+          "The way I see it, we should wait.",
+          "According to me, we should wait."
+        ],
+        "answer": "The way I see it, we should wait.",
+        "explanation": "“The way I see it” is a natural, confident way to open an opinion."
+      },
+      {
+        "id": "q-8",
+        "type": "fill_blank",
+        "target": "takeaway",
+        "prompt": "If you remember only one _____ from today, remember this number.",
+        "options": [],
+        "answer": "takeaway",
+        "explanation": "The “takeaway” is the main idea people should remember."
+      },
+      {
+        "id": "q-9",
+        "type": "translate_to_english",
+        "target": "From my point of view",
+        "prompt": "Do meu ponto de vista, o prazo é curto demais.",
+        "options": [],
+        "answer": "From my point of view, the deadline is too short.|From my point of view, the deadline is too tight.",
+        "explanation": "“From my point of view” introduces a personal opinion politely."
+      },
+      {
+        "id": "q-10",
+        "type": "multiple_choice",
+        "target": "eventually",
+        "prompt": "The client said no three times, but he signed the contract in the end. Which word fits?",
+        "options": [
+          "Sometimes",
+          "Occasionally",
+          "Actually",
+          "Eventually"
+        ],
+        "answer": "Eventually",
+        "explanation": "“Eventually” means after a long time or several attempts."
+      }
+    ]
+  }
+}
