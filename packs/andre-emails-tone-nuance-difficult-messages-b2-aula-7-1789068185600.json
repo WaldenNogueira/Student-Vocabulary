@@ -1,0 +1,210 @@
+{
+  "type": "vocabulary-practice-pack",
+  "version": 7,
+  "teacher": "Teacher Walden Nogueira",
+  "teacherWhatsApp": "5541996106689",
+  "student": {
+    "name": "André",
+    "whatsapp": "5516991454010"
+  },
+  "lesson": "Emails: tone, nuance & difficult messages (B2 · Aula 7)",
+  "cards": [
+    {
+      "term": "Wording",
+      "ipa": "/ˈwɜːrdɪŋ/",
+      "translation": "redação, escolha das palavras",
+      "definition": "The exact words chosen to express something.",
+      "example": "- Let's soften the wording of the second paragraph before we send it.\nVamos suavizar a redação do segundo parágrafo antes de enviar.\n- The wording of the clause left too much room for interpretation.\nA redação da cláusula deixou espaço demais para interpretação.\n- Legal changed the wording twice before we sent the notice.\nO jurídico mudou a redação duas vezes antes de enviarmos o aviso.",
+      "note": "É incontável: the wording, nunca “the wordings”. Change the wording é reescrever com outras palavras, sem mudar o conteúdo. Colocações: careful wording, vague wording, the exact wording."
+    },
+    {
+      "term": "Curt",
+      "ipa": "/kɜːrt/",
+      "translation": "seco, ríspido (curto ao ponto de ofender)",
+      "definition": "So short in speech or writing that it sounds rude.",
+      "example": "- His reply was polite but curt: three words and a period.\nA resposta dele foi educada, mas seca: três palavras e um ponto final.\n- I did not mean to sound curt; I was answering from my phone.\nNão quis soar seco; eu estava respondendo do celular.\n- A curt “no” with no explanation can cost you the relationship.\nUm “não” seco e sem explicação pode custar a relação.",
+      "note": "Armadilha dupla: e-mails de nativos soam curt para nós, e os nossos soam longos demais para eles. É mais forte que brief ou short, porque carrega julgamento de má educação. Colocações: a curt reply, a curt tone, curt with someone."
+    },
+    {
+      "term": "Loop in",
+      "ipa": "/ˌluːp ˈɪn/",
+      "translation": "incluir alguém na conversa",
+      "definition": "To add someone to a conversation so that they know what is happening.",
+      "example": "- I'll loop in the finance team so nobody is surprised later.\nVou incluir o time financeiro para ninguém ser surpreendido depois.\n- Could you loop me in on the next round of feedback?\nVocê pode me incluir na próxima rodada de feedback?\n- Nobody looped in the legal team, and we lost a week.\nNinguém incluiu o jurídico, e perdemos uma semana.",
+      "note": "É separável: loop me in, loop her in. Keep someone in the loop é manter a pessoa informada, e out of the loop é estar por fora. Copiar alguém sem avisar é exatamente o oposto do gesto."
+    },
+    {
+      "term": "Flag",
+      "ipa": "/flæɡ/",
+      "translation": "sinalizar, alertar sobre",
+      "definition": "To point out something that needs attention, especially a risk or a problem.",
+      "example": "- I want to flag one risk before we sign anything.\nQuero sinalizar um risco antes de assinarmos qualquer coisa.\n- Two people flagged the same error in the spreadsheet.\nDuas pessoas sinalizaram o mesmo erro na planilha.\n- If the numbers look wrong, flag it early rather than at the end.\nSe os números parecerem errados, sinalize cedo em vez de no final.",
+      "note": "Ouro no e-mail difícil: levanta o problema sem acusar ninguém de tê-lo criado. É regular: passado flagged. Colocações: flag a risk, flag an issue, flag it to someone."
+    },
+    {
+      "term": "Overdue",
+      "ipa": "/ˌoʊvərˈduː/",
+      "translation": "vencido, em atraso",
+      "definition": "Not done or not paid by the date it was expected.",
+      "example": "- The invoice is now three weeks overdue.\nA fatura já está vencida há três semanas.\n- Two of the deliverables are overdue by more than a week.\nDuas das entregas estão em atraso há mais de uma semana.\n- That conversation with the supplier was long overdue.\nAquela conversa com o fornecedor já passava muito da hora.",
+      "note": "Mais neutro e mais factual que late, por isso funciona melhor numa cobrança. Long overdue significa que já passou muito da hora e pode até ser elogio a uma decisão. Colocações: an overdue invoice, three weeks overdue."
+    },
+    {
+      "term": "Thread",
+      "ipa": "/θred/",
+      "translation": "fio, sequência de e-mails",
+      "definition": "A series of emails or messages that belong to the same conversation.",
+      "example": "- I'm moving this to a separate thread to keep the discussion clean.\nVou mover isso para uma thread separada para manter a discussão limpa.\n- Please keep everything in this thread so we do not lose the history.\nPor favor, mantenha tudo nesta thread para não perdermos o histórico.\n- The thread had forty messages and three different decisions.\nA thread tinha quarenta mensagens e três decisões diferentes.",
+      "note": "This thread significa esta conversa. Trocar de thread é uma forma educada de isolar um conflito ou abrir um assunto novo. Colocações: start a new thread, reply in the thread, a long thread."
+    },
+    {
+      "term": "As per my last email",
+      "ipa": "/əz ˈpɜr maɪ ˌlæst ˈimeɪl/",
+      "translation": "conforme meu e-mail anterior",
+      "definition": "A phrase used to point back to something you already wrote.",
+      "example": "- As per my last email, the deadline has not changed.\nConforme meu e-mail anterior, o prazo não mudou.\n- As per my last email, we cannot release the payment without the invoice.\nConforme meu e-mail anterior, não podemos liberar o pagamento sem a nota.\n- He opened with “as per my last email”, and the client never replied again.\nEle começou com “conforme meu e-mail anterior”, e o cliente nunca mais respondeu.",
+      "note": "É a frase mais passivo-agressiva do inglês corporativo: todo nativo lê como “eu já disse isso”. Use de propósito, quando quiser deixar o registro claro, ou troque por following up on my note below. Variante igualmente afiada: as previously mentioned."
+    },
+    {
+      "term": "Just a gentle reminder",
+      "ipa": "/ˌdʒʌst ə ˌdʒentl rɪˈmaɪndər/",
+      "translation": "só um lembrete (gentil)",
+      "definition": "A soft way to remind someone about something they still have to do.",
+      "example": "- Just a gentle reminder that the form closes on Friday.\nSó um lembrete de que o formulário fecha na sexta.\n- Just a gentle reminder that we still need two approvals before Friday.\nSó um lembrete de que ainda precisamos de duas aprovações antes de sexta.\n- She sent a third “just a gentle reminder”, and everyone understood the message.\nEla mandou um terceiro “só um lembrete”, e todo mundo entendeu o recado.",
+      "note": "Gentle faz o trabalho pesado: cobra sem soar como cobrança. Funciona uma vez; na segunda vez soa irônico e, na terceira, hostil. Alternativas mais neutras: a quick reminder e just following up."
+    },
+    {
+      "term": "Notice",
+      "ipa": "/ˈnoʊtɪs/",
+      "translation": "perceber, notar; aviso prévio",
+      "definition": "To become aware of something, or a warning given in advance.",
+      "example": "- I didn't notice the second attachment until she asked about it.\nEu não percebi o segundo anexo até ela perguntar.\n- Did you notice how the tone changed after the third message?\nVocê percebeu como o tom mudou depois da terceira mensagem?\n- They cancelled the meeting at very short notice.\nEles cancelaram a reunião em cima da hora.",
+      "note": "“Notícia” é news, incontável e com verbo no singular: the news is good. Como substantivo, notice é aviso prévio: two weeks’ notice, at short notice. É regular: passado noticed."
+    },
+    {
+      "term": "Advise",
+      "ipa": "/ədˈvaɪz/",
+      "translation": "aconselhar, orientar",
+      "definition": "To tell someone what you think they should do.",
+      "example": "- Our lawyer advised us not to answer that email at all.\nNosso advogado nos aconselhou a não responder aquele e-mail.\n- I would advise against replying while you are angry.\nEu aconselharia não responder enquanto você está com raiva.\n- Our compliance team advised us to keep everything in writing.\nNosso time de compliance nos orientou a manter tudo por escrito.",
+      "note": "“Avisar” é let someone know ou inform. Please advise pede orientação, não um aviso, e soa formal e um pouco impaciente. O verbo é advise, com s; o substantivo é advice, com c e incontável."
+    }
+  ],
+  "createdAt": "2026-09-10T19:23:05.598Z",
+  "exercise": {
+    "id": "practice-b2-aula7-emails-tone-nuance-difficult-messages",
+    "title": "Emails: tone, nuance & difficult messages (B2 · Aula 7)",
+    "questions": [
+      {
+        "id": "q-1",
+        "type": "multiple_choice",
+        "target": "As per my last email",
+        "prompt": "Your colleague ignored your previous message. Which opening will most native readers hear as “I already told you this”?",
+        "options": [
+          "As per my last email",
+          "Following up on my note below",
+          "Just checking in on this one",
+          "Sorry to come back to this"
+        ],
+        "answer": "As per my last email",
+        "explanation": "This phrase sounds passive-aggressive to most native readers."
+      },
+      {
+        "id": "q-2",
+        "type": "fill_blank",
+        "target": "wording",
+        "prompt": "The message is accurate, but the _____ of the last paragraph sounds harsh.",
+        "options": [],
+        "answer": "wording",
+        "explanation": "“Wording” is the exact choice of words, not the content."
+      },
+      {
+        "id": "q-3",
+        "type": "translate_to_english",
+        "target": "loop in",
+        "prompt": "Vou incluir o jurídico antes de responder.",
+        "options": [],
+        "answer": "I’ll loop in legal before I reply.|I will loop in the legal team before I reply.",
+        "explanation": "“Loop in” means to add someone to the conversation."
+      },
+      {
+        "id": "q-4",
+        "type": "multiple_choice",
+        "target": "curt",
+        "prompt": "A reply to your long email says only “Noted. Thanks.” How would a native speaker describe that tone?",
+        "options": [
+          "Warm",
+          "Curt",
+          "Vague",
+          "Formal"
+        ],
+        "answer": "Curt",
+        "explanation": "“Curt” is so short that it sounds rude."
+      },
+      {
+        "id": "q-5",
+        "type": "fill_blank",
+        "target": "overdue",
+        "prompt": "Three of those invoices are more than a month _____ and nobody has replied.",
+        "options": [],
+        "answer": "overdue",
+        "explanation": "“Overdue” means past the date it was expected, and it sounds neutral."
+      },
+      {
+        "id": "q-6",
+        "type": "translate_to_english",
+        "target": "flag",
+        "prompt": "Ela sinalizou o problema na semana passada e ninguém respondeu.",
+        "options": [],
+        "answer": "She flagged the problem last week and nobody replied.|She flagged the issue last week and nobody answered.",
+        "explanation": "“Flag” means to point out a risk or a problem for attention."
+      },
+      {
+        "id": "q-7",
+        "type": "multiple_choice",
+        "target": "advise",
+        "prompt": "Which closing line asks for guidance rather than for information?",
+        "options": [
+          "Please keep me posted.",
+          "Please let me know.",
+          "Please advise.",
+          "Please confirm."
+        ],
+        "answer": "Please advise.",
+        "explanation": "“Advise” is to say what someone should do; the others ask for facts."
+      },
+      {
+        "id": "q-8",
+        "type": "fill_blank",
+        "target": "thread",
+        "prompt": "I lost track of who decided what in that long email _____ about the budget.",
+        "options": [],
+        "answer": "thread",
+        "explanation": "A “thread” is the whole series of messages in one conversation."
+      },
+      {
+        "id": "q-9",
+        "type": "translate_to_english",
+        "target": "Just a gentle reminder",
+        "prompt": "Só um lembrete de que o relatório vence amanhã.",
+        "options": [],
+        "answer": "Just a gentle reminder that the report is due tomorrow.|Just a gentle reminder: the report is due tomorrow.",
+        "explanation": "“Just a gentle reminder” chases something without sounding like a complaint."
+      },
+      {
+        "id": "q-10",
+        "type": "multiple_choice",
+        "target": "notice",
+        "prompt": "Which sentence says that you became aware of a mistake by yourself?",
+        "options": [
+          "The team informed me about the mistake.",
+          "The client pointed out the mistake to me.",
+          "My manager warned me about the mistake.",
+          "I noticed the mistake this morning."
+        ],
+        "answer": "I noticed the mistake this morning.",
+        "explanation": "“Notice” means to become aware of something on your own."
+      }
+    ]
+  }
+}
