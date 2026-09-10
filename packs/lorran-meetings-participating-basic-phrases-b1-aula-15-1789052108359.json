@@ -1,0 +1,215 @@
+{
+  "type": "vocabulary-practice-pack",
+  "version": 7,
+  "teacher": "Teacher Walden Nogueira",
+  "teacherWhatsApp": "5541996106689",
+  "student": {
+    "name": "Lorran",
+    "whatsapp": "5511968412808"
+  },
+  "lesson": "Meetings: participating & basic phrases (B1 · Aula 15)",
+  "cards": [
+    {
+      "term": "Minutes",
+      "ipa": "/ˈmɪnɪts/",
+      "translation": "ata (o registro escrito da reunião)",
+      "definition": "The written record of what was said and decided in a meeting.",
+      "example": "- Could you send the minutes to everyone after the call?\nVocê poderia mandar a ata para todos depois da reunião?",
+      "note": "Nesse sentido é sempre plural. Take the minutes = fazer a ata."
+    },
+    {
+      "term": "Attendee",
+      "ipa": "/əˌtenˈdiː/",
+      "translation": "participante",
+      "definition": "A person who is present at a meeting or event.",
+      "example": "- There were twelve attendees, but only four of them spoke.\nHavia doze participantes, mas só quatro deles falaram.",
+      "note": "De attend. O sufixo -ee marca quem recebe a ação: employee, interviewee, trainee."
+    },
+    {
+      "term": "Wrap up",
+      "ipa": "/ˌræp ˈʌp/",
+      "translation": "encerrar, finalizar",
+      "definition": "To finish something, especially a meeting.",
+      "example": "- Let's wrap up — we're already two minutes over.\nVamos encerrar — já estamos dois minutos além do tempo.",
+      "note": "Muito comum e nada rude. Substantivo: a quick wrap-up = um fechamento rápido."
+    },
+    {
+      "term": "Go over",
+      "ipa": "/ˌɡoʊ ˈoʊvər/",
+      "translation": "revisar, repassar",
+      "definition": "To review or check something again.",
+      "example": "- Can we go over the numbers one more time before we vote?\nPodemos revisar os números mais uma vez antes de votar?",
+      "note": "Go over = revisar por cima; go through = percorrer item por item."
+    },
+    {
+      "term": "Bring up",
+      "ipa": "/ˌbrɪŋ ˈʌp/",
+      "translation": "levantar (um assunto)",
+      "definition": "To mention a subject so people can talk about it.",
+      "example": "- She brought up a good point about the budget.\nEla levantou um bom ponto sobre o orçamento.",
+      "note": "Separável: bring it up. Quem levanta o ponto certo é lembrado depois."
+    },
+    {
+      "term": "Briefly",
+      "ipa": "/ˈbriːfli/",
+      "translation": "brevemente, rapidamente",
+      "definition": "For a short time, using few words.",
+      "example": "- Can I comment briefly on the second item?\nPosso comentar brevemente o segundo item?",
+      "note": "Pedir espaço com briefly quase nunca é negado — você está prometendo ser curto."
+    },
+    {
+      "term": "Can I jump in?",
+      "ipa": "",
+      "translation": "posso entrar? / posso interromper?",
+      "definition": "A polite way of asking to interrupt and speak.",
+      "example": "- Sorry — can I jump in here for a second?\nDesculpe — posso entrar aqui por um segundo?",
+      "note": "A forma educada de interromper em inglês. Alternativa: Can I add something?"
+    },
+    {
+      "term": "Let's move on",
+      "ipa": "",
+      "translation": "vamos seguir em frente",
+      "definition": "Used to suggest going to the next subject.",
+      "example": "- Good point. Let's move on to the next item.\nBom ponto. Vamos seguir para o próximo item.",
+      "note": "Fecha um assunto sem soar rude. Suaviza ainda mais com for now: let's move on for now."
+    },
+    {
+      "term": "Agenda",
+      "ipa": "/əˈdʒendə/",
+      "translation": "pauta (a lista de assuntos)",
+      "definition": "The list of subjects to be discussed in a meeting.",
+      "example": "- The agenda has four items and we're still on the first one.\nA pauta tem quatro itens e ainda estamos no primeiro.",
+      "note": "“Agenda” de anotar compromissos é planner, diary ou calendar. Agenda = a pauta."
+    },
+    {
+      "term": "Anticipate",
+      "ipa": "/ænˈtɪsɪpeɪt/",
+      "translation": "prever, esperar que algo aconteça",
+      "definition": "To expect something and prepare for it.",
+      "example": "- We anticipate some resistance from the client.\nPrevemos alguma resistência do cliente.",
+      "note": "“Antecipar a reunião” NÃO é anticipate — é move the meeting up."
+    }
+  ],
+  "createdAt": "2026-09-10T14:55:08.357Z",
+  "exercise": {
+    "id": "practice-b1-aula15-meetings-participating-basic-phrases",
+    "title": "Meetings: participating & basic phrases (B1 · Aula 15)",
+    "questions": [
+      {
+        "id": "q-1",
+        "type": "multiple_choice",
+        "target": "minutes",
+        "prompt": "Someone writes down the decisions of the meeting. They…",
+        "options": [
+          "take the minutes",
+          "make the minutes",
+          "do the minutes",
+          "write the minute"
+        ],
+        "answer": "take the minutes",
+        "explanation": "You TAKE minutes. “Fazer a ata” tempts “make”."
+      },
+      {
+        "id": "q-2",
+        "type": "fill_blank",
+        "target": "attendee",
+        "prompt": "There were twelve _____, but only four of them spoke.",
+        "options": [],
+        "answer": "attendees",
+        "explanation": "An “attendee” is someone present; the plural takes -s."
+      },
+      {
+        "id": "q-3",
+        "type": "multiple_choice",
+        "target": "wrap up",
+        "prompt": "The meeting is running over. You say:",
+        "options": [
+          "Let's wrap it up.",
+          "Let's wrap up it.",
+          "Let's wrap up.",
+          "Let's wrapping it up."
+        ],
+        "answer": "Let's wrap it up.",
+        "explanation": "Separable: the pronoun goes inside."
+      },
+      {
+        "id": "q-4",
+        "type": "multiple_choice",
+        "target": "go over",
+        "prompt": "You want to review the numbers once more. You say:",
+        "options": [
+          "Let's go over it again.",
+          "Let's go it over again.",
+          "Let's go over again it.",
+          "Let's go it again over."
+        ],
+        "answer": "Let's go over it again.",
+        "explanation": "“Go over” does NOT split — compare with “bring up”, which does."
+      },
+      {
+        "id": "q-5",
+        "type": "multiple_choice",
+        "target": "bring up",
+        "prompt": "She mentioned the budget in the meeting. She…",
+        "options": [
+          "brought it up",
+          "brought up it",
+          "bring it up",
+          "brought up"
+        ],
+        "answer": "brought it up",
+        "explanation": "“Bring up” splits with a pronoun. Two phrasal verbs, opposite rules."
+      },
+      {
+        "id": "q-6",
+        "type": "fill_blank",
+        "target": "briefly",
+        "prompt": "Can I comment _____ on the second item?",
+        "options": [],
+        "answer": "briefly",
+        "explanation": "“Briefly” = shortly, using few words."
+      },
+      {
+        "id": "q-7",
+        "type": "fill_blank",
+        "target": "Can I jump in?",
+        "prompt": "_____ I think we are missing one number here.",
+        "options": [],
+        "answer": "Can I jump in?",
+        "explanation": "A polite way of interrupting in a meeting."
+      },
+      {
+        "id": "q-8",
+        "type": "fill_blank",
+        "target": "Let's move on",
+        "prompt": "We have decided that one — _____ to the next item.",
+        "options": [],
+        "answer": "Let's move on",
+        "explanation": "“Move on TO” the next subject."
+      },
+      {
+        "id": "q-9",
+        "type": "translate_to_english",
+        "target": "agenda",
+        "prompt": "Você pode mandar a pauta antes da reunião?",
+        "options": [],
+        "answer": "Could you send the agenda before the meeting?|Can you send the agenda before the meeting?",
+        "explanation": "“Agenda” is the list of subjects. Your personal diary is a “schedule” or “calendar”."
+      },
+      {
+        "id": "q-10",
+        "type": "multiple_choice",
+        "target": "anticipate",
+        "prompt": "We expected the delay and prepared for it. We…",
+        "options": [
+          "anticipated it",
+          "anticipated it forward",
+          "advanced it",
+          "anticipated to it"
+        ],
+        "answer": "anticipated it",
+        "explanation": "“Anticipate” is to foresee. It does not mean to bring a date forward — that is “move up” or “bring forward”."
+      }
+    ]
+  }
+}
