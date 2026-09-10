@@ -1,0 +1,205 @@
+{
+  "type": "vocabulary-practice-pack",
+  "version": 7,
+  "teacher": "Teacher Walden Nogueira",
+  "teacherWhatsApp": "5541996106689",
+  "student": {
+    "name": "Patrick Bussolotti",
+    "whatsapp": "5511992125644"
+  },
+  "lesson": "Numbers, dates & schedules (A2 · Aula 6)",
+  "cards": [
+    {
+      "term": "Schedule",
+      "ipa": "/ˈskedʒuːl/",
+      "translation": "agenda, cronograma; agendar",
+      "definition": "The list of things you have to do and when; also to arrange a time.",
+      "example": "- My schedule is full until the fifteenth.\nMinha agenda está cheia até o dia quinze.",
+      "note": "EUA: “SKÉ-jul”. Reino Unido: “SHÉ-dyul”. Também é verbo: to schedule a reunião."
+    },
+    {
+      "term": "Appointment",
+      "ipa": "/əˈpɔɪntmənt/",
+      "translation": "compromisso marcado, consulta",
+      "definition": "A fixed time to meet someone, often a doctor or a client.",
+      "example": "- I have an appointment with the dentist at four.\nTenho uma consulta com o dentista às quatro.",
+      "note": "Com médico, dentista ou cliente: appointment. Com colegas: meeting."
+    },
+    {
+      "term": "Delay",
+      "ipa": "/dɪˈleɪ/",
+      "translation": "atraso; atrasar",
+      "definition": "Extra time before something happens; a hold-up.",
+      "example": "- There is a two-day delay in the delivery.\nTem um atraso de dois dias na entrega.",
+      "note": "Coisa atrasada é delayed; pessoa atrasada é late. Nunca “I am delayed”."
+    },
+    {
+      "term": "Weekly",
+      "ipa": "/ˈwiːkli/",
+      "translation": "semanal, semanalmente",
+      "definition": "Happening once every week.",
+      "example": "- We have a weekly call every Monday.\nTemos uma reunião semanal toda segunda.",
+      "note": "A família toda: daily, weekly, monthly, quarterly, yearly."
+    },
+    {
+      "term": "Twice",
+      "ipa": "/twaɪs/",
+      "translation": "duas vezes",
+      "definition": "Two times.",
+      "example": "- I check my email twice a day.\nEu checo meu e-mail duas vezes por dia.",
+      "note": "Uma vez = once; duas = twice; de três em diante = three times."
+    },
+    {
+      "term": "Due",
+      "ipa": "/duː/",
+      "translation": "com prazo para, previsto para",
+      "definition": "Expected or required by a certain date.",
+      "example": "- The report is due on Friday.\nO relatório tem prazo até sexta.",
+      "note": "Be due = ter prazo. Já passou do prazo? overdue."
+    },
+    {
+      "term": "What time works for you?",
+      "ipa": "",
+      "translation": "que horário funciona para você?",
+      "definition": "A polite question to agree on a time.",
+      "example": "- I'm free after three. What time works for you?\nEstou livre depois das três. Que horário funciona para você?",
+      "note": "Mais natural que “what time can you”. A resposta usa o mesmo verbo: Three works for me."
+    },
+    {
+      "term": "Let's move it to",
+      "ipa": "",
+      "translation": "vamos passar para / vamos remarcar para",
+      "definition": "Used to suggest changing something to another day or time.",
+      "example": "- Let's move it to Thursday morning, then.\nEntão vamos passar para quinta de manhã.",
+      "note": "O jeito leve de adiar. Formal: postpone. Adiantar: move it up."
+    },
+    {
+      "term": "Data",
+      "ipa": "/ˈdeɪtə/",
+      "translation": "dados, informações",
+      "definition": "Facts and numbers used to make decisions.",
+      "example": "- I need more data before the meeting.\nPreciso de mais dados antes da reunião.",
+      "note": "“Data” (o dia) é date! Data = números e informações."
+    },
+    {
+      "term": "Compromise",
+      "ipa": "/ˈkɑːmprəmaɪz/",
+      "translation": "acordo, meio-termo (os dois lados cedem)",
+      "definition": "An agreement where each side gives up something.",
+      "example": "- Nobody was happy, so we found a compromise.\nNinguém ficou feliz, então achamos um meio-termo.",
+      "note": "“Compromisso” é appointment ou commitment. Compromise = ceder um pouco."
+    }
+  ],
+  "createdAt": "2026-09-10T15:52:28.724Z",
+  "exercise": {
+    "id": "practice-a2-aula6-numbers-dates-and-schedules",
+    "title": "Numbers, dates & schedules (A2 · Aula 6)",
+    "questions": [
+      {
+        "id": "q-1",
+        "type": "fill_blank",
+        "target": "schedule",
+        "prompt": "My _____ is full until the fifteenth.",
+        "options": [],
+        "answer": "schedule",
+        "explanation": "“Schedule” is your agenda; it is also a verb."
+      },
+      {
+        "id": "q-2",
+        "type": "fill_blank",
+        "target": "appointment",
+        "prompt": "I have an _____ with the dentist at four.",
+        "options": [],
+        "answer": "appointment",
+        "explanation": "You HAVE an appointment and you MAKE one — never “mark” it."
+      },
+      {
+        "id": "q-3",
+        "type": "translate_to_english",
+        "target": "delay",
+        "prompt": "Há um atraso de dois dias na entrega.",
+        "options": [],
+        "answer": "There is a two-day delay in the delivery.|There's a two-day delay in the delivery.",
+        "explanation": "“Delay IN” something, not “of”."
+      },
+      {
+        "id": "q-4",
+        "type": "fill_blank",
+        "target": "weekly",
+        "prompt": "We have a _____ call every Monday.",
+        "options": [],
+        "answer": "weekly",
+        "explanation": "“Weekly” = once a week; “daily”, “monthly” follow the same pattern."
+      },
+      {
+        "id": "q-5",
+        "type": "multiple_choice",
+        "target": "twice",
+        "prompt": "You check your email two times a day. You check it…",
+        "options": [
+          "twice a day",
+          "two times in the day",
+          "twice at day",
+          "two time a day"
+        ],
+        "answer": "twice a day",
+        "explanation": "“A” here means “per”: twice a day, three times a week."
+      },
+      {
+        "id": "q-6",
+        "type": "fill_blank",
+        "target": "due",
+        "prompt": "The report is _____ on Friday.",
+        "options": [],
+        "answer": "due",
+        "explanation": "“Due on” a day, “due in” two weeks."
+      },
+      {
+        "id": "q-7",
+        "type": "multiple_choice",
+        "target": "What time works for you?",
+        "prompt": "You want the other person to choose the time. You ask:",
+        "options": [
+          "What time works for you?",
+          "What hour works for you?",
+          "Which time you prefer?",
+          "What time do you work?"
+        ],
+        "answer": "What time works for you?",
+        "explanation": "English asks “what time”, never “what hour”."
+      },
+      {
+        "id": "q-8",
+        "type": "fill_blank",
+        "target": "Let's move it to",
+        "prompt": "_____ Thursday morning, then.",
+        "options": [],
+        "answer": "Let's move it to",
+        "explanation": "“Move it to” + the new day."
+      },
+      {
+        "id": "q-9",
+        "type": "fill_blank",
+        "target": "data",
+        "prompt": "I need more _____ before the meeting.",
+        "options": [],
+        "answer": "data",
+        "explanation": "“Data” is normally uncountable in everyday English: more data, not more datas."
+      },
+      {
+        "id": "q-10",
+        "type": "multiple_choice",
+        "target": "compromise",
+        "prompt": "Nobody was happy, but both sides gave up something. They reached a…",
+        "options": [
+          "compromise",
+          "appointment",
+          "commitment",
+          "schedule"
+        ],
+        "answer": "compromise",
+        "explanation": "“Compromise” is a middle-ground deal. The Portuguese “compromisso” is “appointment” or “commitment”."
+      }
+    ]
+  }
+}
