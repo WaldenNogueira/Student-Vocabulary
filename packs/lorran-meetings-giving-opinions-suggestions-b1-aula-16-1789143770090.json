@@ -1,0 +1,215 @@
+{
+  "type": "vocabulary-practice-pack",
+  "version": 7,
+  "teacher": "Teacher Walden Nogueira",
+  "teacherWhatsApp": "5541996106689",
+  "student": {
+    "name": "Lorran",
+    "whatsapp": "5511968412808"
+  },
+  "lesson": "Meetings: giving opinions & suggestions (B1 · Aula 16)",
+  "cards": [
+    {
+      "term": "Suggest",
+      "ipa": "/səˈdʒest/",
+      "translation": "sugerir",
+      "definition": "To offer an idea for other people to consider.",
+      "example": "- I'd like to suggest a different order for the agenda.\nEu gostaria de sugerir uma ordem diferente para a pauta.",
+      "note": "Nunca “suggest me”. É suggest something to someone ou I suggest that we…"
+    },
+    {
+      "term": "Input",
+      "ipa": "/ˈɪnpʊt/",
+      "translation": "contribuição, opinião dada",
+      "definition": "The ideas or opinions someone gives to help a decision.",
+      "example": "- Thanks for your input — that changes my view.\nObrigado pela sua contribuição — isso muda a minha visão.",
+      "note": "Incontável: some input, nunca “an input”. Thanks for the input é elogio pronto."
+    },
+    {
+      "term": "Alternative",
+      "ipa": "/ɔːlˈtɜːrnətɪv/",
+      "translation": "alternativa, outra opção",
+      "definition": "Another option you can choose instead.",
+      "example": "- There is a cheaper alternative, but it takes longer.\nExiste uma alternativa mais barata, mas leva mais tempo.",
+      "note": "Use an alternative TO something. Serve como adjetivo e substantivo."
+    },
+    {
+      "term": "Downside",
+      "ipa": "/ˈdaʊnsaɪd/",
+      "translation": "desvantagem, ponto negativo",
+      "definition": "The negative part of an otherwise good idea.",
+      "example": "- The downside is that we lose two weeks.\nA desvantagem é que perdemos duas semanas.",
+      "note": "O oposto é upside. Apontar o downside da sua própria ideia gera confiança."
+    },
+    {
+      "term": "Worth",
+      "ipa": "/wɜːrθ/",
+      "translation": "que vale a pena",
+      "definition": "Good enough to justify the time, money or effort.",
+      "example": "- It's worth trying for one month before we decide.\nVale a pena tentar por um mês antes de decidirmos.",
+      "note": "Sempre com verbo -ing: worth doing, worth testing. Ou worth a try."
+    },
+    {
+      "term": "Rather",
+      "ipa": "/ˈræðər/",
+      "translation": "preferir; em vez de",
+      "definition": "Used to say what you prefer.",
+      "example": "- I'd rather wait than send it with errors.\nEu prefiro esperar a mandar com erros.",
+      "note": "I'd rather + verbo sem to. Comparando duas coisas: rather than."
+    },
+    {
+      "term": "What if we…?",
+      "ipa": "",
+      "translation": "e se a gente…?",
+      "definition": "Used to introduce a hypothetical suggestion.",
+      "example": "- What if we tested it with one client first?\nE se a gente testasse com um cliente primeiro?",
+      "note": "Abre a sugestão como convite, e não como ordem. O verbo vai para o passado: what if we tried…?"
+    },
+    {
+      "term": "In my experience",
+      "ipa": "",
+      "translation": "na minha experiência",
+      "definition": "Used to base an opinion on what has happened to you before.",
+      "example": "- In my experience, that only works with small teams.\nNa minha experiência, isso só funciona com times pequenos.",
+      "note": "Transforma opinião em evidência. Muito mais forte do que abrir com I think."
+    },
+    {
+      "term": "Intend",
+      "ipa": "/ɪnˈtend/",
+      "translation": "pretender, ter a intenção de",
+      "definition": "To plan to do something.",
+      "example": "- We intend to close the project by June.\nNós pretendemos fechar o projeto até junho.",
+      "note": "“Entender” é understand! Intend é sobre plano, não sobre compreensão."
+    },
+    {
+      "term": "Proper",
+      "ipa": "/ˈprɑːpər/",
+      "translation": "adequado, de verdade, como deve ser",
+      "definition": "Real, correct or of an acceptable standard.",
+      "example": "- We need a proper process here, not a workaround.\nPrecisamos de um processo adequado aqui, não de um remendo.",
+      "note": "“Meu próprio” é my own. Proper é qualidade: a proper meeting, a proper answer."
+    }
+  ],
+  "createdAt": "2026-09-11T16:22:50.088Z",
+  "exercise": {
+    "id": "practice-b1-aula16-meetings-giving-opinions-suggestions",
+    "title": "Meetings: giving opinions & suggestions (B1 · Aula 16)",
+    "questions": [
+      {
+        "id": "q-1",
+        "type": "multiple_choice",
+        "target": "suggest",
+        "prompt": "Which one is correct?",
+        "options": [
+          "I suggest changing the order.",
+          "I suggest to change the order.",
+          "I suggest me to change the order.",
+          "I suggest you to change the order."
+        ],
+        "answer": "I suggest changing the order.",
+        "explanation": "“Suggest” takes -ing or “that”, and never a person straight after it."
+      },
+      {
+        "id": "q-2",
+        "type": "fill_blank",
+        "target": "input",
+        "prompt": "I'd like your _____ on the proposal before we decide.",
+        "options": [],
+        "answer": "input",
+        "explanation": "“Input ON” something is what gets said in meetings."
+      },
+      {
+        "id": "q-3",
+        "type": "fill_blank",
+        "target": "alternative",
+        "prompt": "There is a cheaper _____, but it takes longer.",
+        "options": [],
+        "answer": "alternative",
+        "explanation": "“An alternative TO” something."
+      },
+      {
+        "id": "q-4",
+        "type": "fill_blank",
+        "target": "downside",
+        "prompt": "The _____ is that we lose two weeks.",
+        "options": [],
+        "answer": "downside",
+        "explanation": "“Downside” is the drawback of an otherwise good plan."
+      },
+      {
+        "id": "q-5",
+        "type": "multiple_choice",
+        "target": "worth",
+        "prompt": "Which one is correct?",
+        "options": [
+          "It's worth trying for one month.",
+          "It's worth to try for one month.",
+          "It worth trying for one month.",
+          "It's worth try for one month."
+        ],
+        "answer": "It's worth trying for one month.",
+        "explanation": "“Worth” is always followed by -ing."
+      },
+      {
+        "id": "q-6",
+        "type": "multiple_choice",
+        "target": "rather",
+        "prompt": "Which one is correct?",
+        "options": [
+          "I'd rather wait than send it with errors.",
+          "I'd rather to wait than send it with errors.",
+          "I'd rather waiting than send it.",
+          "I rather wait that send it with errors."
+        ],
+        "answer": "I'd rather wait than send it with errors.",
+        "explanation": "Bare infinitive after “would rather”, and the comparison uses “than”."
+      },
+      {
+        "id": "q-7",
+        "type": "fill_blank",
+        "target": "What if we…?",
+        "prompt": "_____ started with one team and expanded next quarter?",
+        "options": [],
+        "answer": "What if we",
+        "explanation": "A soft way of putting an idea on the table."
+      },
+      {
+        "id": "q-8",
+        "type": "fill_blank",
+        "target": "In my experience",
+        "prompt": "_____, clients answer faster when the email is shorter.",
+        "options": [],
+        "answer": "In my experience",
+        "explanation": "Grounds the opinion in what you have lived, not in theory."
+      },
+      {
+        "id": "q-9",
+        "type": "multiple_choice",
+        "target": "intend",
+        "prompt": "You plan to change jobs next year. You say:",
+        "options": [
+          "I intend to change jobs.",
+          "I pretend to change jobs.",
+          "I intend changing to jobs.",
+          "I pretend changing jobs."
+        ],
+        "answer": "I intend to change jobs.",
+        "explanation": "“Pretend” is to fake. The Portuguese “pretender” is “intend”."
+      },
+      {
+        "id": "q-10",
+        "type": "multiple_choice",
+        "target": "proper",
+        "prompt": "You want a real meeting, not a quick chat in the corridor. You ask for a…",
+        "options": [
+          "proper meeting",
+          "propose meeting",
+          "property meeting",
+          "proposal meeting"
+        ],
+        "answer": "proper meeting",
+        "explanation": "“Proper” here means real, done as it should be."
+      }
+    ]
+  }
+}
