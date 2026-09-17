@@ -1,0 +1,210 @@
+{
+  "type": "vocabulary-practice-pack",
+  "version": 7,
+  "teacher": "Teacher Walden Nogueira",
+  "teacherWhatsApp": "5541996106689",
+  "student": {
+    "name": "Lorran",
+    "whatsapp": "5511968412808"
+  },
+  "lesson": "When the trip goes off script (B1 · Aula demo · grátis)",
+  "cards": [
+    {
+      "term": "Sort out",
+      "ipa": "/ˌsɔːrt ˈaʊt/",
+      "translation": "resolver, dar um jeito em",
+      "definition": "To solve a problem or put a situation right.",
+      "example": "- The agent sorted out a new seat for me in about four minutes.\nA atendente resolveu um assento novo para mim em uns quatro minutos.",
+      "note": "Separável: com pronome ele abre — sort it out, nunca sort out it."
+    },
+    {
+      "term": "Run out of",
+      "ipa": "/rʌn ˈaʊt əv/",
+      "translation": "ficar sem (acabar o estoque de algo)",
+      "definition": "To have no more of something because it finished.",
+      "example": "- The hotel had run out of double rooms, so they gave us a suite.\nO hotel tinha ficado sem quartos de casal, então nos deram uma suíte.",
+      "note": "O que acabou vem depois do of. Sem o of, quem acaba é você: my visa ran out."
+    },
+    {
+      "term": "Overbooked",
+      "ipa": "/ˌoʊvərˈbʊkt/",
+      "translation": "com mais passagens vendidas do que assentos",
+      "definition": "With more tickets sold than there are seats.",
+      "example": "- The flight was overbooked and they asked for volunteers at the gate.\nO voo estava com overbooking e pediram voluntários no portão.",
+      "note": "É adjetivo e anda com be. Overbooking é o substantivo que o português adotou."
+    },
+    {
+      "term": "Refund",
+      "ipa": "/ˈriːfʌnd/",
+      "translation": "reembolso, dinheiro de volta",
+      "definition": "Money given back to you when something did not happen.",
+      "example": "- I asked for a refund, not a voucher, and I asked twice.\nPedi reembolso, não voucher, e pedi duas vezes.",
+      "note": "Substantivo com força no RÍ. Como verbo, a força muda: they refunded me."
+    },
+    {
+      "term": "Stopover",
+      "ipa": "/ˈstɑːpoʊvər/",
+      "translation": "escala longa, com tempo de sair",
+      "definition": "A long stop between flights, with time to leave the airport.",
+      "example": "- I had a six-hour stopover in Madrid, so I left the airport and walked.\nEu tinha uma escala de seis horas em Madri, então saí do aeroporto e fui andando.",
+      "note": "Escala curta, só trocar de avião, é layover. Stopover é a que vira passeio."
+    },
+    {
+      "term": "Get by",
+      "ipa": "/ˌɡet ˈbaɪ/",
+      "translation": "se virar, dar conta com pouco",
+      "definition": "To manage with the little you have.",
+      "example": "- I got by with about fifty words of Spanish and a lot of pointing.\nMe virei com umas cinquenta palavras de espanhol e muito gesto.",
+      "note": "Get by with o que você tem, get by on quanto você ganha. Não é get out."
+    },
+    {
+      "term": "Is there any chance…?",
+      "ipa": "",
+      "translation": "Tem como…? / Existe alguma chance de…?",
+      "definition": "A polite way of asking for something difficult.",
+      "example": "- Is there any chance you could put me on the earlier flight?\nTem como você me colocar no voo mais cedo?",
+      "note": "Pede muito e não soa exigente. Depois vem you could + verbo, nunca to."
+    },
+    {
+      "term": "That doesn't work for me",
+      "ipa": "",
+      "translation": "Isso não me serve. / Assim não resolve",
+      "definition": "A firm but polite way of refusing an offer.",
+      "example": "- A voucher doesn't work for me — I have to be in Porto tonight.\nVoucher não me serve — eu preciso estar no Porto hoje à noite.",
+      "note": "Recusa firme sem grosseria. Diga logo em seguida o que VOCÊ precisa, ou vira só reclamação."
+    },
+    {
+      "term": "Local",
+      "ipa": "",
+      "translation": "morador, quem é da cidade — substantivo, quase sempre no plural",
+      "definition": "A person who lives in the place you are visiting.",
+      "example": "- The locals eat at ten at night, and no guidebook tells you that.\nOs moradores jantam às dez da noite, e nenhum guia te conta isso.",
+      "note": "Em português é lugar; lugar em inglês é place."
+    },
+    {
+      "term": "Exquisite",
+      "ipa": "",
+      "translation": "requintado, primoroso, de altíssima qualidade",
+      "definition": "Extremely beautiful, refined or of very high quality.",
+      "example": "- The dessert was exquisite — I went back the next night just for it.\nA sobremesa estava primorosa — voltei na noite seguinte só por causa dela.",
+      "note": "Soa como esquisito e é o oposto: esquisito é strange."
+    }
+  ],
+  "createdAt": "2026-09-17T17:53:30.563Z",
+  "exercise": {
+    "id": "practice-tv-b1-aula0-when-the-trip-goes-off-script-demo",
+    "title": "When the trip goes off script (B1 · Aula demo · grátis)",
+    "questions": [
+      {
+        "id": "q-1",
+        "type": "multiple_choice",
+        "target": "sort out",
+        "prompt": "Which one is correct?",
+        "options": [
+          "The agent sorted it out.",
+          "The agent sorted out it.",
+          "The agent sort it out.",
+          "The agent sorted out."
+        ],
+        "answer": "The agent sorted it out.",
+        "explanation": "Separable: with a pronoun it must split."
+      },
+      {
+        "id": "q-2",
+        "type": "fill_blank",
+        "target": "run out of",
+        "prompt": "The hotel had _____ double rooms, so they gave us a suite.",
+        "options": [],
+        "answer": "run out of",
+        "explanation": "“Run out OF” + the thing that finished."
+      },
+      {
+        "id": "q-3",
+        "type": "multiple_choice",
+        "target": "overbooked",
+        "prompt": "They sold more tickets than seats. The flight was…",
+        "options": [
+          "overbooked",
+          "overbooking",
+          "overbook",
+          "with overbooking"
+        ],
+        "answer": "overbooked",
+        "explanation": "The adjective is “overbooked”; “overbooking” is the noun Portuguese borrowed."
+      },
+      {
+        "id": "q-4",
+        "type": "fill_blank",
+        "target": "refund",
+        "prompt": "I asked _____ a refund, not a voucher.",
+        "options": [],
+        "answer": "for",
+        "explanation": "“Ask FOR” a refund — Portuguese “pedir reembolso” has no preposition."
+      },
+      {
+        "id": "q-5",
+        "type": "fill_blank",
+        "target": "stopover",
+        "prompt": "I had a six-hour _____ in Madrid, so I left the airport.",
+        "options": [],
+        "answer": "stopover",
+        "explanation": "A short one, just changing planes, is a “layover”."
+      },
+      {
+        "id": "q-6",
+        "type": "fill_blank",
+        "target": "get by",
+        "prompt": "I got by _____ fifty words of Spanish and a lot of pointing.",
+        "options": [],
+        "answer": "with",
+        "explanation": "“Get by WITH” what you have, “get by ON” what you earn."
+      },
+      {
+        "id": "q-7",
+        "type": "translate_to_english",
+        "target": "Is there any chance…?",
+        "prompt": "Tem como você me colocar no voo mais cedo?",
+        "options": [],
+        "answer": "Is there any chance you could put me on the earlier flight?|Is there any chance you could put me on the earlier one?",
+        "explanation": "“You could” + bare verb follows — never “to”."
+      },
+      {
+        "id": "q-8",
+        "type": "fill_blank",
+        "target": "That doesn't work for me",
+        "prompt": "A voucher _____ — I have to be in Porto tonight.",
+        "options": [],
+        "answer": "doesn't work for me",
+        "explanation": "Refuse firmly, then say what you do need."
+      },
+      {
+        "id": "q-9",
+        "type": "multiple_choice",
+        "target": "local",
+        "prompt": "You want dinner advice from someone who lives there. You ask a…",
+        "options": [
+          "local",
+          "place",
+          "venue",
+          "location"
+        ],
+        "answer": "local",
+        "explanation": "In English a “local” is a person. The Portuguese “local” (place) is “place”."
+      },
+      {
+        "id": "q-10",
+        "type": "multiple_choice",
+        "target": "exquisite",
+        "prompt": "The dessert was outstanding. It was…",
+        "options": [
+          "exquisite",
+          "strange",
+          "weird",
+          "awkward"
+        ],
+        "answer": "exquisite",
+        "explanation": "“Exquisite” is refined. The Portuguese “esquisito” is “strange”."
+      }
+    ]
+  }
+}
