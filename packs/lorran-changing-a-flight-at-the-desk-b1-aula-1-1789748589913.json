@@ -1,0 +1,190 @@
+{
+  "type": "vocabulary-practice-pack",
+  "version": 7,
+  "teacher": "Teacher Walden Nogueira",
+  "teacherWhatsApp": "5541996106689",
+  "student": {
+    "name": "Lorran",
+    "whatsapp": "5511968412808"
+  },
+  "lesson": "Changing a flight at the desk (B1 · Aula 1)",
+  "cards": [
+    {
+      "term": "Rebook",
+      "ipa": "/ˌriːˈbʊk/",
+      "translation": "remarcar",
+      "definition": "To arrange a different flight after you already have a booking.",
+      "example": "- Could you rebook my flight for tomorrow morning instead of this evening, please?\nVocê poderia remarcar meu voo para amanhã de manhã em vez de hoje à noite, por favor?",
+      "note": "Rebook my flight for tomorrow: use FOR antes da nova data."
+    },
+    {
+      "term": "Fare",
+      "ipa": "/fer/",
+      "translation": "tarifa da passagem",
+      "definition": "The price you pay to travel by plane, train, or another vehicle.",
+      "example": "- The fare for the morning flight is lower, but it does not include a checked bag.\nA tarifa do voo da manhã é menor, mas não inclui uma mala despachada.",
+      "note": "Fare é o preço da viagem; fee é uma cobrança por um serviço."
+    },
+    {
+      "term": "Change fee",
+      "ipa": "/ˈtʃeɪndʒ fiː/",
+      "translation": "taxa de alteração",
+      "definition": "An extra charge for changing an existing booking.",
+      "example": "- Is there a change fee if I move my flight to tomorrow morning?\nHá uma taxa de alteração se eu passar meu voo para amanhã de manhã?",
+      "note": "Pergunte sobre a taxa e sobre a diferença de tarifa: são valores distintos."
+    },
+    {
+      "term": "Available",
+      "ipa": "/əˈveɪləbəl/",
+      "translation": "disponível",
+      "definition": "Free for someone to use or book.",
+      "example": "- Are there any seats available on a later flight to the same airport today?\nHá assentos disponíveis em um voo mais tarde para o mesmo aeroporto hoje?",
+      "note": "Seats available ON a flight. Use ARE com seats, que está no plural."
+    },
+    {
+      "term": "Departure",
+      "ipa": "/dɪˈpɑːrtʃər/",
+      "translation": "partida, saída",
+      "definition": "The act or time of leaving a place.",
+      "example": "- Please check the departure time before you send me the new ticket by email.\nPor favor, confira o horário de partida antes de me enviar a nova passagem por email.",
+      "note": "Departure time é horário de saída; arrival time é horário de chegada."
+    },
+    {
+      "term": "Fare difference",
+      "ipa": "/ˈfer ˌdɪfərəns/",
+      "translation": "diferença de tarifa",
+      "definition": "The amount between the price of your old ticket and your new ticket.",
+      "example": "- I can pay the fare difference, but I need to know the total first.\nPosso pagar a diferença de tarifa, mas preciso saber o total primeiro.",
+      "note": "Pay the fare difference, sem FOR. Pode existir mesmo sem taxa de alteração."
+    },
+    {
+      "term": "What are my options?",
+      "ipa": "",
+      "translation": "Quais são as minhas opções?",
+      "definition": "A question asking which choices you have.",
+      "example": "- What are my options? I need to arrive before noon, but I can leave tomorrow.\nQuais são as minhas opções? Preciso chegar antes do meio-dia, mas posso sair amanhã.",
+      "note": "Use para pedir alternativas antes de aceitar a primeira oferta."
+    },
+    {
+      "term": "Does that include everything?",
+      "ipa": "",
+      "translation": "Isso inclui tudo?",
+      "definition": "A question checking whether a price covers all costs.",
+      "example": "- Does that include everything? I do not want another charge when I reach the airport.\nIsso inclui tudo? Não quero outra cobrança quando chegar ao aeroporto.",
+      "note": "Confirme o valor total antes de pagar; THAT retoma o preço que você ouviu."
+    },
+    {
+      "term": "Actually",
+      "ipa": "",
+      "translation": "na verdade",
+      "definition": "A word used to correct information or say what is really true.",
+      "example": "- I actually need to fly tomorrow, because my daughter is still in the hospital.\nNa verdade, preciso voar amanhã, porque minha filha ainda está no hospital.",
+      "note": "“Atualmente” é currently. Use actually para corrigir uma informação."
+    },
+    {
+      "term": "Pretend",
+      "ipa": "",
+      "translation": "fingir",
+      "definition": "To act as if something is true when it is not.",
+      "example": "- I cannot pretend to be happy when the new ticket costs more than my hotel.\nNão consigo fingir que estou feliz quando a nova passagem custa mais que meu hotel.",
+      "note": "“Pretender” é intend to ou plan to. Pretend to be é fingir ser/estar."
+    }
+  ],
+  "createdAt": "2026-09-18T16:23:09.911Z",
+  "exercise": {
+    "id": "practice-tv-b1-aula1-changing-a-flight-at-the-desk",
+    "title": "Changing a flight at the desk (B1 · Aula 1)",
+    "questions": [
+      {
+        "id": "q-1",
+        "type": "fill_blank",
+        "target": "rebook",
+        "prompt": "Could you ___ my flight for tomorrow morning instead of this evening, please?",
+        "options": [],
+        "answer": "rebook",
+        "explanation": "Você poderia remarcar meu voo para amanhã de manhã em vez de hoje à noite, por favor?"
+      },
+      {
+        "id": "q-2",
+        "type": "fill_blank",
+        "target": "fare",
+        "prompt": "The ___ for the morning flight is lower, but it does not include a checked bag.",
+        "options": [],
+        "answer": "fare",
+        "explanation": "A tarifa do voo da manhã é menor, mas não inclui uma mala despachada."
+      },
+      {
+        "id": "q-3",
+        "type": "fill_blank",
+        "target": "change fee",
+        "prompt": "Is there a ___ if I move my flight to tomorrow morning?",
+        "options": [],
+        "answer": "change fee",
+        "explanation": "Há uma taxa de alteração se eu passar meu voo para amanhã de manhã?"
+      },
+      {
+        "id": "q-4",
+        "type": "fill_blank",
+        "target": "available",
+        "prompt": "Are there any seats ___ on a later flight to the same airport today?",
+        "options": [],
+        "answer": "available",
+        "explanation": "Há assentos disponíveis em um voo mais tarde para o mesmo aeroporto hoje?"
+      },
+      {
+        "id": "q-5",
+        "type": "fill_blank",
+        "target": "departure",
+        "prompt": "Please check the ___ time before you send me the new ticket by email.",
+        "options": [],
+        "answer": "departure",
+        "explanation": "Por favor, confira o horário de partida antes de me enviar a nova passagem por email."
+      },
+      {
+        "id": "q-6",
+        "type": "fill_blank",
+        "target": "fare difference",
+        "prompt": "I can pay the ___, but I need to know the total first.",
+        "options": [],
+        "answer": "fare difference",
+        "explanation": "Posso pagar a diferença de tarifa, mas preciso saber o total primeiro."
+      },
+      {
+        "id": "q-7",
+        "type": "fill_blank",
+        "target": "What are my options?",
+        "prompt": "___ I need to arrive before noon, but I can leave tomorrow.",
+        "options": [],
+        "answer": "What are my options?",
+        "explanation": "Quais são as minhas opções? Preciso chegar antes do meio-dia, mas posso sair amanhã."
+      },
+      {
+        "id": "q-8",
+        "type": "fill_blank",
+        "target": "Does that include everything?",
+        "prompt": "___ I do not want another charge when I reach the airport.",
+        "options": [],
+        "answer": "Does that include everything?",
+        "explanation": "Isso inclui tudo? Não quero outra cobrança quando chegar ao aeroporto."
+      },
+      {
+        "id": "q-9",
+        "type": "fill_blank",
+        "target": "actually",
+        "prompt": "I ___ need to fly tomorrow, because my daughter is still in the hospital.",
+        "options": [],
+        "answer": "actually",
+        "explanation": "Na verdade, preciso voar amanhã, porque minha filha ainda está no hospital."
+      },
+      {
+        "id": "q-10",
+        "type": "fill_blank",
+        "target": "pretend",
+        "prompt": "I cannot ___ to be happy when the new ticket costs more than my hotel.",
+        "options": [],
+        "answer": "pretend",
+        "explanation": "Não consigo fingir que estou feliz quando a nova passagem custa mais que meu hotel."
+      }
+    ]
+  }
+}
