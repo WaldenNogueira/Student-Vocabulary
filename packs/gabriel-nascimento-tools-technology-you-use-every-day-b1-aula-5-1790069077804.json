@@ -1,0 +1,210 @@
+{
+  "type": "vocabulary-practice-pack",
+  "version": 7,
+  "teacher": "Teacher Walden Nogueira",
+  "teacherWhatsApp": "5541996106689",
+  "student": {
+    "name": "Gabriel Nascimento",
+    "whatsapp": "5527992357710"
+  },
+  "lesson": "Tools & technology you use every day (B1 · Aula 5)",
+  "cards": [
+    {
+      "term": "Spreadsheet",
+      "ipa": "/ˈspredʃiːt/",
+      "translation": "planilha",
+      "definition": "A file with rows and columns where you organize numbers.",
+      "example": "- I track the team budget in a spreadsheet with twelve different tabs.\nAcompanho o orçamento da equipe numa planilha com doze abas diferentes.\n- Can you send me that spreadsheet before the call?\nVocê pode me mandar aquela planilha antes da call?\n- I built a simple spreadsheet to compare the three suppliers.\nMontei uma planilha simples para comparar os três fornecedores.",
+      "note": "Vale para Excel e para o Google Sheets. Cada “aba” é uma tab e cada “célula” é uma cell. Fórmula é formula e o plural é formulas."
+    },
+    {
+      "term": "Log in",
+      "ipa": "/ˌlɔːɡ ˈɪn/",
+      "translation": "fazer login, entrar no sistema",
+      "definition": "To enter a system with your username and password.",
+      "example": "- I log in to five different systems before nine in the morning.\nFaço login em cinco sistemas diferentes antes das nove da manhã.\n- I couldn't log in this morning because my password had expired.\nNão consegui entrar no sistema hoje de manhã porque minha senha tinha expirado.\n- Log in to the portal and download the invoice.\nEntre no portal e baixe a nota fiscal.",
+      "note": "O verbo se escreve separado (log in) e o substantivo, junto (my login). A preposição é to: log in TO the system. O contrário é log out."
+    },
+    {
+      "term": "Attachment",
+      "ipa": "/əˈtætʃmənt/",
+      "translation": "anexo",
+      "definition": "A file that you send together with an email.",
+      "example": "- I forgot the attachment again and had to send a second email.\nEsqueci o anexo de novo e tive que mandar um segundo e-mail.\n- The attachment is too big, so I shared a link instead.\nO anexo está grande demais, então compartilhei um link no lugar.\n- She opened the attachment and printed the invoice.\nEla abriu o anexo e imprimiu a nota fiscal.",
+      "note": "O verbo é attach: I attached the file. “Segue anexo” é please find attached ou I've attached. Em inglês não se diz in attachment; use as an attachment."
+    },
+    {
+      "term": "Update",
+      "ipa": "/ʌpˈdeɪt/",
+      "translation": "atualizar; atualização",
+      "definition": "To make something newer or more correct; also the new information itself.",
+      "example": "- The system asks me to update my password every single month.\nO sistema me pede para atualizar a senha todo santo mês.\n- Could you give me a quick update on the project?\nVocê pode me dar um retorno rápido sobre o projeto?\n- I updated the slides after the client's feedback.\nAtualizei os slides depois do feedback do cliente.",
+      "note": "Serve como verbo e como substantivo: update the file e give me an update. Colocação frequente: keep someone updated. Passado e particípio: updated."
+    },
+    {
+      "term": "Shortcut",
+      "ipa": "/ˈʃɔːrtkʌt/",
+      "translation": "atalho",
+      "definition": "A quicker way to do or to reach something.",
+      "example": "- Learning keyboard shortcuts saved me hours of work every week.\nAprender atalhos de teclado me poupou horas de trabalho toda semana.\n- Ctrl plus C is the shortcut for copy.\nCtrl mais C é o atalho para copiar.\n- There are no shortcuts when you are learning a new system.\nNão existem atalhos quando você está aprendendo um sistema novo.",
+      "note": "Vale para teclado (keyboard shortcut), para caminho mais curto e para o sentido figurado: there are no shortcuts. Escreve-se junto e o verbo comum é take a shortcut."
+    },
+    {
+      "term": "Crash",
+      "ipa": "/kræʃ/",
+      "translation": "travar, dar pane, parar de funcionar",
+      "definition": "To stop working suddenly, usually with an error.",
+      "example": "- My computer crashed twice today, and I lost part of the report.\nMeu computador travou duas vezes hoje, e perdi parte do relatório.\n- The app crashes every time I open a big file.\nO aplicativo trava toda vez que abro um arquivo grande.\n- If the system crashes again, call the IT team.\nSe o sistema travar de novo, ligue para o time de TI.",
+      "note": "Congelar na tela é freeze; crash é parar de vez. Passado regular: crashed. Também funciona como substantivo: we had a crash this morning."
+    },
+    {
+      "term": "Back up",
+      "ipa": "/ˌbæk ˈʌp/",
+      "translation": "fazer backup, salvar uma cópia",
+      "definition": "To save a copy of your files in another place.",
+      "example": "- I back up my files every Friday afternoon, without exceptions.\nFaço backup dos meus arquivos toda sexta à tarde, sem exceção.\n- I backed up everything before the migration.\nFiz backup de tudo antes da migração.\n- Please back up your laptop once a week.\nPor favor, faça backup do seu notebook uma vez por semana.",
+      "note": "O verbo é separado (back up) e o substantivo, junto (a backup). É separável: back it up. Também significa apoiar alguém: I'll back you up in the meeting."
+    },
+    {
+      "term": "Figure out",
+      "ipa": "/ˈfɪɡjər ˌaʊt/",
+      "translation": "descobrir como, entender",
+      "definition": "To understand something or find a solution after some effort.",
+      "example": "- I finally figured out how to connect the printer to the new network.\nFinalmente descobri como conectar a impressora na rede nova.\n- I can't figure out why the file won't open.\nNão consigo entender por que o arquivo não abre.\n- We figured out the problem together in ten minutes.\nDescobrimos o problema juntos em dez minutos.",
+      "note": "Separável: figure it out. Passado: figured out. É a expressão clássica de tecnologia e soa mais natural e informal que understand ou discover."
+    },
+    {
+      "term": "Push",
+      "ipa": "/pʊʃ/",
+      "translation": "empurrar; enviar (notificação)",
+      "definition": "To move something away from you; also to send a message to a device.",
+      "example": "- The app sends me push notifications all day long.\nO app me manda notificações push o dia inteiro.\n- Push the door — it does not open automatically.\nEmpurre a porta — ela não abre sozinha.\n- They pushed the new version to all the phones last night.\nEles enviaram a versão nova para todos os celulares ontem à noite.",
+      "note": "“Puxar” é pull, tanto nas portas quanto nos apps. Em tecnologia, push notification é a notificação enviada pelo aplicativo. Passado regular: pushed."
+    },
+    {
+      "term": "Notice",
+      "ipa": "/ˈnoʊtɪs/",
+      "translation": "perceber, notar (verbo); aviso (substantivo)",
+      "definition": "To see or realize something; also a short official message.",
+      "example": "- I didn’t notice the update warning until the system restarted.\nSó percebi o aviso de atualização quando o sistema reiniciou.\n- Did you notice the new button on the dashboard?\nVocê percebeu o botão novo no painel?\n- There is a notice on the door about the maintenance.\nHá um aviso na porta sobre a manutenção.",
+      "note": "Falso amigo: “notícia” é news. Como verbo, notice é perceber; como substantivo, é aviso. Passado: noticed."
+    }
+  ],
+  "createdAt": "2026-09-22T09:24:37.802Z",
+  "exercise": {
+    "id": "practice-b1-aula5-tools-technology-you-use-every-day",
+    "title": "Tools & technology you use every day (B1 · Aula 5)",
+    "questions": [
+      {
+        "id": "q-1",
+        "type": "multiple_choice",
+        "target": "crash",
+        "prompt": "Your laptop stops working and shuts down in the middle of a report. What happened?",
+        "options": [
+          "It crashed.",
+          "It restarted.",
+          "It updated.",
+          "It disconnected."
+        ],
+        "answer": "It crashed.",
+        "explanation": "When a computer “crashes”, it stops working suddenly."
+      },
+      {
+        "id": "q-2",
+        "type": "fill_blank",
+        "target": "spreadsheet",
+        "prompt": "Please send me the numbers in a _____ so that I can filter the columns.",
+        "options": [],
+        "answer": "spreadsheet",
+        "explanation": "A “spreadsheet” is a file with rows and columns, like Excel or Google Sheets."
+      },
+      {
+        "id": "q-3",
+        "type": "translate_to_english",
+        "target": "figure out",
+        "prompt": "Levei uma hora para descobrir como exportar o relatório.",
+        "options": [],
+        "answer": "It took me an hour to figure out how to export the report.|It took me one hour to figure out how to export the report.",
+        "explanation": "“Figure out” means to understand something after some effort."
+      },
+      {
+        "id": "q-4",
+        "type": "multiple_choice",
+        "target": "notice",
+        "prompt": "Your colleague asks: “Did you see the notice about the system update?” What is a notice here?",
+        "options": [
+          "A piece of news on TV",
+          "A short official message",
+          "A private message to one person",
+          "A pop-up advertisement"
+        ],
+        "answer": "A short official message",
+        "explanation": "As a noun, a “notice” is a short official message; the Portuguese “notícia” is “news”."
+      },
+      {
+        "id": "q-5",
+        "type": "fill_blank",
+        "target": "attachment",
+        "prompt": "The email arrived without the _____, so I asked her to send it again.",
+        "options": [],
+        "answer": "attachment",
+        "explanation": "An “attachment” is a file you send with an email."
+      },
+      {
+        "id": "q-6",
+        "type": "translate_to_english",
+        "target": "back up",
+        "prompt": "Você fez backup do projeto antes da atualização?",
+        "options": [],
+        "answer": "Did you back up the project before the update?|Did you back up the project before updating?",
+        "explanation": "“Back up” means to save a copy of your files."
+      },
+      {
+        "id": "q-7",
+        "type": "multiple_choice",
+        "target": "shortcut",
+        "prompt": "Ctrl plus S saves your file in one second. What do you call Ctrl plus S?",
+        "options": [
+          "A password",
+          "A folder",
+          "A shortcut",
+          "A backup"
+        ],
+        "answer": "A shortcut",
+        "explanation": "A “shortcut” is a faster way to do something, like a keyboard combination."
+      },
+      {
+        "id": "q-8",
+        "type": "fill_blank",
+        "target": "log in",
+        "prompt": "You have to _____ with your company email, not with your personal one.",
+        "options": [],
+        "answer": "log in",
+        "explanation": "“Log in” means to enter a system with your username and password."
+      },
+      {
+        "id": "q-9",
+        "type": "translate_to_english",
+        "target": "update",
+        "prompt": "Preciso atualizar a apresentação antes da reunião de amanhã.",
+        "options": [],
+        "answer": "I need to update the presentation before tomorrow's meeting.|I have to update the presentation before tomorrow's meeting.",
+        "explanation": "“Update” means to make something newer or more correct."
+      },
+      {
+        "id": "q-10",
+        "type": "multiple_choice",
+        "target": "push",
+        "prompt": "The app sends a message to your phone when there is something new. What is that message called?",
+        "options": [
+          "A pull message",
+          "A pop message",
+          "A press message",
+          "A push notification"
+        ],
+        "answer": "A push notification",
+        "explanation": "A “push notification” is a message that the app sends to your phone."
+      }
+    ]
+  }
+}
