@@ -1,0 +1,210 @@
+{
+  "type": "vocabulary-practice-pack",
+  "version": 7,
+  "teacher": "Teacher Walden Nogueira",
+  "teacherWhatsApp": "5541996106689",
+  "student": {
+    "name": "Stephanne Fernandes",
+    "whatsapp": "5511967671131"
+  },
+  "lesson": "Running effective meetings (B2 · Aula 8)",
+  "cards": [
+    {
+      "term": "Chair",
+      "ipa": "/tʃer/",
+      "translation": "presidir, conduzir (uma reunião)",
+      "definition": "To lead a meeting and keep it on track.",
+      "example": "- She chaired the call and still finished four minutes early.\nEla conduziu a call e ainda terminou quatro minutos antes.\n- Would you mind chairing tomorrow's review while I'm traveling?\nVocê se importaria de conduzir a revisão de amanhã enquanto eu estiver viajando?\n- Whoever chairs the meeting owns the agenda and the clock.\nQuem conduz a reunião é dono da pauta e do relógio.",
+      "note": "Verbo e substantivo: the chair é quem conduz a reunião. Sinônimos naturais são run a meeting e lead a meeting. Passado regular: chaired."
+    },
+    {
+      "term": "Derail",
+      "ipa": "/dɪˈreɪl/",
+      "translation": "descarrilhar, tirar do rumo",
+      "definition": "To make something lose direction and stop making progress.",
+      "example": "- One long question derailed the whole discussion.\nUma pergunta longa tirou a discussão inteira do rumo.\n- A single side comment derailed the last twenty minutes of the review.\nUm único comentário paralelo tirou do rumo os últimos vinte minutos da revisão.\n- Keep the agenda visible so that nothing derails the conversation.\nDeixe a pauta visível para que nada tire a conversa do rumo.",
+      "note": "A imagem é a do trem saindo do trilho. Aparece muito no passivo ou com get: the meeting got derailed. Passado regular: derailed; o substantivo é derailment."
+    },
+    {
+      "term": "Recap",
+      "ipa": "/ˈriːkæp/",
+      "translation": "recapitular; a recapitulação",
+      "definition": "To repeat the main points quickly at the end of a discussion.",
+      "example": "- Let me recap the three decisions before we close.\nDeixa eu recapitular as três decisões antes de encerrarmos.\n- Here is a quick recap for the two people who joined late.\nAqui vai uma recapitulação rápida para as duas pessoas que entraram atrasadas.\n- She recapped the decisions and sent the notes within the hour.\nEla recapitulou as decisões e mandou as anotações em menos de uma hora.",
+      "note": "Verbo e substantivo, com a colocação padrão a quick recap. Vem de recapitulate, mas ninguém usa a forma longa numa reunião. Passado: recapped, com dois pês."
+    },
+    {
+      "term": "Action item",
+      "ipa": "/ˈækʃn ˌaɪtəm/",
+      "translation": "tarefa definida, com dono e prazo",
+      "definition": "A task that comes out of a meeting, with one owner and a deadline.",
+      "example": "- We left with five action items and one owner for each.\nSaímos com cinco tarefas e um responsável para cada uma.\n- Every action item needs a name next to it, not a team.\nToda tarefa precisa de um nome ao lado, e não de um time.\n- We closed three action items before the next review.\nFechamos três tarefas antes da revisão seguinte.",
+      "note": "Reunião sem action items é conversa: a regra é sempre o quê, quem e até quando. Plural: action items. Sinônimos frequentes em ata: next steps e to-dos."
+    },
+    {
+      "term": "Overrun",
+      "ipa": "/ˌoʊvərˈrʌn/",
+      "translation": "passar do tempo previsto",
+      "definition": "To continue past the planned finishing time.",
+      "example": "- The call overran by fifteen minutes and two people dropped.\nA call passou quinze minutos do horário e duas pessoas caíram.\n- If we overrun, we lose the room at eleven.\nSe passarmos do horário, perdemos a sala às onze.\n- The workshop overran by half an hour and half the group left.\nO workshop passou meia hora do horário e metade do grupo foi embora.",
+      "note": "Verbo irregular: overrun, overran, overrun. Também é substantivo: a ten-minute overrun. O contrário, finish early, é sempre bem recebido."
+    },
+    {
+      "term": "Ground rules",
+      "ipa": "/ˈɡraʊnd ruːlz/",
+      "translation": "regras combinadas no início",
+      "definition": "The basic rules that a group agrees on before starting.",
+      "example": "- Let's agree on ground rules: cameras on, phones away.\nVamos combinar as regras: câmeras ligadas, celulares guardados.\n- We set the ground rules in the first two minutes and the call ran smoothly.\nDefinimos as regras nos dois primeiros minutos e a call fluiu bem.\n- One of our ground rules is that nobody speaks for more than two minutes.\nUma das nossas regras é que ninguém fala por mais de dois minutos.",
+      "note": "Sempre no plural. Colocações: set, agree on ou establish the ground rules. Diferente de policy: ground rules são combinados do grupo, não regras da empresa."
+    },
+    {
+      "term": "Let's take that offline",
+      "ipa": "/lets ˌteɪk ðæt ˈɔflaɪn/",
+      "translation": "vamos tratar isso separadamente",
+      "definition": "A polite way to move a side topic to a smaller conversation.",
+      "example": "- Good question — let's take that offline with the two of you.\nBoa pergunta — vamos tratar isso separadamente com vocês dois.\n- That is a fair point, but we are at time — let's take that offline.\nÉ um ponto justo, mas estamos no fim do tempo — vamos tratar isso separadamente.\n- Let's take that offline and bring a recommendation to the next call.\nVamos tratar isso separadamente e trazer uma recomendação para a próxima call.",
+      "note": "Diferente de let's park that (adiar para outro dia): aqui o assunto continua hoje, só que com menos gente. Offline não significa sem internet, e sim fora da reunião. Soa educado quando vem depois de um elogio à pergunta."
+    },
+    {
+      "term": "Who owns this?",
+      "ipa": "/ˈhu oʊnz ðɪs/",
+      "translation": "quem fica responsável?",
+      "definition": "A direct question that asks who is responsible for a task.",
+      "example": "- Great idea. Who owns this, and by when?\nÓtima ideia. Quem fica responsável, e até quando?\n- She always ends the meeting with the same question: who owns this?\nEla sempre encerra a reunião com a mesma pergunta: quem fica responsável?\n- Who owns this after Marta goes on vacation?\nQuem fica responsável por isso depois que a Marta sair de férias?",
+      "note": "É a pergunta que transforma discussão em entrega, e o responsável passa a ser o owner. Aqui own não é possuir, e sim assumir a responsabilidade. Alternativas: who is taking this forward? e who is the owner?"
+    },
+    {
+      "term": "Deliberate",
+      "ipa": "/dɪˈlɪbərət/",
+      "translation": "intencional, proposital (adjetivo)",
+      "definition": "Done on purpose, after thinking about it.",
+      "example": "- The silence after her question was deliberate.\nO silêncio depois da pergunta dela foi proposital.\n- Leaving the last item off the agenda was deliberate.\nDeixar o último item fora da pauta foi proposital.\n- He made a deliberate choice to speak last in every meeting.\nEle fez a escolha proposital de falar por último em toda reunião.",
+      "note": "Como adjetivo, deliberate é intencional; o advérbio é deliberately. “Deliberar”, no sentido de decidir, é decide ou make a decision. Existe também o verbo deliberate, com som final diferente, que é ponderar longamente."
+    },
+    {
+      "term": "Consistent",
+      "ipa": "/kənˈsɪstənt/",
+      "translation": "constante, coerente, regular",
+      "definition": "Always the same in quality, style or behavior.",
+      "example": "- Her updates are consistent: same format, same day, every week.\nAs atualizações dela são constantes: mesmo formato, mesmo dia, toda semana.\n- Consistent meeting notes are worth more than perfect ones.\nAnotações constantes valem mais do que anotações perfeitas.\n- His answers were not consistent with the numbers in the deck.\nAs respostas dele não eram coerentes com os números da apresentação.",
+      "note": "Falso amigo: “consistente” no sentido de denso é thick, e um argumento consistente é a solid argument. A preposição é with: consistent with the data. O substantivo é consistency."
+    }
+  ],
+  "createdAt": "2026-09-23T14:32:48.961Z",
+  "exercise": {
+    "id": "practice-b2-aula8-running-effective-meetings",
+    "title": "Running effective meetings (B2 · Aula 8)",
+    "questions": [
+      {
+        "id": "q-1",
+        "type": "multiple_choice",
+        "target": "chair",
+        "prompt": "Which verb describes leading a meeting from the first minute to the last?",
+        "options": [
+          "To chair it",
+          "To attend it",
+          "To join it",
+          "To schedule it"
+        ],
+        "answer": "To chair it",
+        "explanation": "To “chair” a meeting is to lead it; to “attend” is only to be present."
+      },
+      {
+        "id": "q-2",
+        "type": "fill_blank",
+        "target": "derail",
+        "prompt": "One long tangent can _____ an entire discussion in under five minutes.",
+        "options": [],
+        "answer": "derail",
+        "explanation": "To “derail” something is to make it lose its direction."
+      },
+      {
+        "id": "q-3",
+        "type": "translate_to_english",
+        "target": "Let's take that offline",
+        "prompt": "Boa pergunta, mas vamos tratar isso separadamente depois da reunião.",
+        "options": [],
+        "answer": "Good question, but let's take that offline after the meeting.|That's a good question, but let's take that offline after the meeting.",
+        "explanation": "“Let's take that offline” moves a side topic to a smaller conversation."
+      },
+      {
+        "id": "q-4",
+        "type": "multiple_choice",
+        "target": "overrun",
+        "prompt": "The meeting was booked until four and finished at twenty past four. What happened?",
+        "options": [
+          "It was postponed.",
+          "It overran.",
+          "It was canceled.",
+          "It finished early."
+        ],
+        "answer": "It overran.",
+        "explanation": "A meeting “overruns” when it goes past its scheduled end."
+      },
+      {
+        "id": "q-5",
+        "type": "fill_blank",
+        "target": "action item",
+        "prompt": "Every decision should leave the room as one clear _____ with a name and a date.",
+        "options": [],
+        "answer": "action item",
+        "explanation": "An “action item” is a task with one owner and a deadline."
+      },
+      {
+        "id": "q-6",
+        "type": "translate_to_english",
+        "target": "recap",
+        "prompt": "Podemos fazer uma recapitulação rápida antes de encerrar?",
+        "options": [],
+        "answer": "Can we do a quick recap before we finish?|Could we do a quick recap before we finish?",
+        "explanation": "A “recap” repeats the main points at the end."
+      },
+      {
+        "id": "q-7",
+        "type": "multiple_choice",
+        "target": "deliberate",
+        "prompt": "The long pause after her question was not an accident. Which sentence fits?",
+        "options": [
+          "It was accidental.",
+          "It was unexpected.",
+          "It was deliberate.",
+          "It was unfortunate."
+        ],
+        "answer": "It was deliberate.",
+        "explanation": "“Deliberate” means done on purpose."
+      },
+      {
+        "id": "q-8",
+        "type": "fill_blank",
+        "target": "ground rules",
+        "prompt": "We spent the first two minutes agreeing on the _____ for the workshop.",
+        "options": [],
+        "answer": "ground rules",
+        "explanation": "“Ground rules” are the basic rules a group agrees on before starting."
+      },
+      {
+        "id": "q-9",
+        "type": "translate_to_english",
+        "target": "consistent",
+        "prompt": "Precisamos de um tom coerente em todos os e-mails do time.",
+        "options": [],
+        "answer": "We need a consistent tone in all the team's emails.|We need a consistent tone across all the team's emails.",
+        "explanation": "“Consistent” means always the same in style or quality."
+      },
+      {
+        "id": "q-10",
+        "type": "multiple_choice",
+        "target": "Who owns this?",
+        "prompt": "The team agreed on an idea, but nobody was named. Which question closes that gap?",
+        "options": [
+          "When is this due?",
+          "Why does this matter?",
+          "How much will this cost?",
+          "Who owns this?"
+        ],
+        "answer": "Who owns this?",
+        "explanation": "“Who owns this?” asks who is responsible for the task."
+      }
+    ]
+  }
+}
