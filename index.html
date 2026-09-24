@@ -66,6 +66,7 @@
     textarea.field-input{min-height:74px;resize:vertical}textarea.long{min-height:150px}.modal-actions{display:flex;gap:10px;justify-content:flex-end;margin-top:14px;flex-wrap:wrap}.modal-actions .btn{min-height:40px;padding:9px 12px}
     .registration{position:fixed;inset:0;background:#fff;z-index:50;display:none;align-items:center;justify-content:center;padding:20px}.registration.open{display:flex}.registration-card{width:min(460px,100%);border:1px solid var(--line);border-radius:22px;padding:20px;background:#fff;box-shadow:0 16px 50px rgba(0,0,0,.08)}
     .registration-card h2{margin:0 0 6px;font-size:30px;letter-spacing:-.04em}.registration-card p{margin:0 0 14px;color:var(--muted)}.registration-note{font-size:12px;color:var(--muted);margin-top:10px}
+    .install-hint{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;border:1px solid var(--line);border-radius:16px;padding:12px 14px;margin:0 0 14px;background:var(--soft)}.install-hint[hidden]{display:none}.install-hint strong{display:block;font-size:15px}.install-hint span{display:block;color:var(--muted);font-size:13px;margin-top:2px}.install-hint .ih-actions{display:flex;gap:8px}.install-hint svg{width:15px;height:15px;vertical-align:-2px}
     .app-footer{margin-top:22px;padding-top:12px;border-top:1px solid var(--line);font-size:11px;color:var(--faint);text-align:center}.app-footer a{color:inherit;text-decoration:none;border-bottom:1px solid var(--line)}
     @media(max-width:560px){.app{padding:24px 14px 40px}.question-prompt{font-size:18px}.modal-backdrop{align-items:flex-end;padding:0}.modal{border-radius:18px 18px 0 0;max-height:92vh}.registration{align-items:flex-end;padding:0}.registration-card{border-radius:20px 20px 0 0}}
   </style>
@@ -77,6 +78,7 @@
       <button id="installBtn" class="install-btn">Install</button>
     </header>
 
+    <section id="installHint" class="install-hint" hidden></section>
     <section id="importBox" class="import-box" hidden></section>
 
     <nav class="tabs" aria-label="App sections">
@@ -135,7 +137,8 @@
     const PROGRESS_KEY='student-vocabulary-practice-progress-v24';
     const PROFILE_KEY='student-vocabulary-profile-v17';
     const TEACHER_WHATSAPP='5541996106689';
-    const APP_LINK='https://waldennogueira.github.io/Student-Vocabulary/?v=26';
+    const APP_LINK='https://waldennogueira.github.io/Student-Vocabulary/?v=27';
+    const INSTALL_LATER_KEY='student-vocabulary-install-later-v27';
     const $=id=>document.getElementById(id);
 
     let words=[],exercises=[],editingId=null,pendingImportPack=null,deferredInstallPrompt=null;
@@ -349,6 +352,8 @@
       saveWords();saveExercises();pendingImportPack=null;els.importBox.hidden=true;
       toast(`Imported ${added} new · ${updated} updated${incoming.length?` · ${incoming.length} exercise`:''}.`);
       history.replaceState(null,'',location.pathname);if(incoming.length)setView('practice');
+      /* o mesmo toque do Import abre a janela de instalar (Android/Chrome) */
+      if(deferredInstallPrompt&&!isStandalone())promptInstall();
     }
     function decodeB64Url(value){let raw=String(value||'').replace(/-/g,'+').replace(/_/g,'/');while(raw.length%4)raw+='=';return decodeURIComponent(escape(atob(raw)))}
     async function loadPackFromQuery(){
@@ -372,7 +377,7 @@
       if(!name)return toast('Name is required.');if(phone.length<10)return toast('WhatsApp number is required.');if(!phone.startsWith('55')&&phone.length<=11)phone='55'+phone;
       const profile={name,whatsapp:phone,deviceId:uid(),registeredAt:new Date().toISOString()};localStorage.setItem(PROFILE_KEY,JSON.stringify(profile));els.registration.classList.remove('open');window.open(registrationUrl(profile),'_blank','noopener');
     }
-    function showRegistration(){if(!localStorage.getItem(PROFILE_KEY))els.registration.classList.add('open')}
+    function showRegistration(){/* v27: sem cadastro de nome e telefone — o app abre direto */}
 
     els.vocabularyTab.onclick=()=>setView('vocabulary');els.practiceTab.onclick=()=>setView('practice');els.search.oninput=renderVocabulary;
     els.list.onclick=event=>{const button=event.target.closest('[data-word-action]');if(!button)return;const {wordAction,id}=button.dataset,word=words.find(item=>item.id===id);if(wordAction==='toggle')toggleWord(id);if(wordAction==='note')toggleNote(id);if(wordAction==='favorite')toggleFavorite(id);if(wordAction==='speak'&&word)speak(word.term);if(wordAction==='edit')openEdit(id);if(wordAction==='delete')deleteWord(id)};
@@ -382,11 +387,35 @@
       if(action==='select'){session.choice=button.dataset.value;renderQuestion()}if(action==='check')checkCurrentAnswer();if(action==='next')nextQuestion();if(action==='finish')finishExercise();if(action==='exit'||action==='home')closeSession();if(action==='retry')startExercise(button.dataset.id);
     };
     els.closeEditBtn.onclick=closeEdit;els.cancelEditBtn.onclick=closeEdit;els.saveEditBtn.onclick=saveEdit;els.editModal.onclick=event=>{if(event.target===els.editModal)closeEdit()};els.startBtn.onclick=saveProfile;
-    window.addEventListener('beforeinstallprompt',event=>{event.preventDefault();deferredInstallPrompt=event;els.installBtn.classList.add('visible')});
-    els.installBtn.onclick=async()=>{if(!deferredInstallPrompt)return;deferredInstallPrompt.prompt();await deferredInstallPrompt.userChoice;deferredInstallPrompt=null;els.installBtn.classList.remove('visible')};
+    /* v27: instalacao. Nenhum navegador deixa uma pagina se instalar sem um toque do aluno;
+       o mais perto disso: no Android/Chrome a janela de instalar abre sozinha no mesmo toque
+       do Import, e ha uma faixa com o botao Install. No iPhone a faixa ensina o caminho
+       (Compartilhar > Adicionar a Tela de Inicio), que a Apple nao deixa automatizar. */
+    const isStandalone=()=>matchMedia('(display-mode: standalone)').matches||navigator.standalone===true;
+    const isIOS=/iphone|ipad|ipod/i.test(navigator.userAgent)||(navigator.platform==='MacIntel'&&navigator.maxTouchPoints>1);
+    function laterRecently(){try{return Date.now()-(+localStorage.getItem(INSTALL_LATER_KEY)||0)<3*864e5}catch{return false}}
+    function installLater(){try{localStorage.setItem(INSTALL_LATER_KEY,String(Date.now()))}catch{}renderInstallHint()}
+    function renderInstallHint(){
+      const box=$('installHint');if(!box)return;
+      if(isStandalone()||laterRecently()){box.hidden=true;return}
+      if(deferredInstallPrompt){
+        box.innerHTML='<div><strong>Install the app</strong><span>One tap. It opens like a normal app, even offline.</span></div><div class="ih-actions"><button class="btn primary small" id="ihInstall">Install</button><button class="btn small" id="ihLater">Not now</button></div>';
+        box.hidden=false;$('ihInstall').onclick=()=>promptInstall();$('ihLater').onclick=installLater;
+      }else if(isIOS){
+        box.innerHTML='<div><strong>Install the app</strong><span>Tap <b>Share</b> <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12M7.5 7.5 12 3l4.5 4.5"/><path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-7"/></svg> and then <b>Add to Home Screen</b>.</span></div><div class="ih-actions"><button class="btn small" id="ihLater">OK</button></div>';
+        box.hidden=false;$('ihLater').onclick=installLater;
+      }else box.hidden=true;
+    }
+    function promptInstall(){
+      if(!deferredInstallPrompt)return;const ev=deferredInstallPrompt;deferredInstallPrompt=null;
+      ev.prompt();ev.userChoice.then(r=>{if(r&&r.outcome!=='accepted')installLater()}).catch(()=>{}).finally(()=>{els.installBtn.classList.remove('visible');renderInstallHint()});
+    }
+    window.addEventListener('beforeinstallprompt',event=>{event.preventDefault();deferredInstallPrompt=event;els.installBtn.classList.add('visible');renderInstallHint()});
+    window.addEventListener('appinstalled',()=>{deferredInstallPrompt=null;els.installBtn.classList.remove('visible');renderInstallHint();toast('App installed.')});
+    els.installBtn.onclick=()=>promptInstall();
     async function registerServiceWorker(){if('serviceWorker'in navigator){try{await navigator.serviceWorker.register('./sw.js')}catch{}}}
 
-    loadData();handleImportLink();showRegistration();registerServiceWorker();
+    loadData();handleImportLink();showRegistration();registerServiceWorker();renderInstallHint();
   </script>
 </body>
 </html>
