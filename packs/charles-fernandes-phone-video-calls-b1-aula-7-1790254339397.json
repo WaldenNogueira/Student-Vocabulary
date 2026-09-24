@@ -1,0 +1,210 @@
+{
+  "type": "vocabulary-practice-pack",
+  "version": 7,
+  "teacher": "Teacher Walden Nogueira",
+  "teacherWhatsApp": "5541996106689",
+  "student": {
+    "name": "Charles Fernandes",
+    "whatsapp": "5527981218697"
+  },
+  "lesson": "Phone & video calls (B1 · Aula 7)",
+  "cards": [
+    {
+      "term": "Hang up",
+      "ipa": "/ˌhæŋ ˈʌp/",
+      "translation": "desligar (a ligação)",
+      "definition": "To end a phone call.",
+      "example": "- Don’t hang up yet — I still need your delivery address.\nNão desligue ainda — eu ainda preciso do seu endereço de entrega.",
+      "note": "Hang up on someone = desligar na cara de alguém."
+    },
+    {
+      "term": "Call back",
+      "ipa": "/ˌkɔːl ˈbæk/",
+      "translation": "retornar a ligação",
+      "definition": "To phone someone again, or to return their call.",
+      "example": "- I’m walking into a meeting; can I call you back in twenty minutes?\nEstou entrando numa reunião; posso te retornar em vinte minutos?",
+      "note": "Separável: call you back. Substantivo: a callback."
+    },
+    {
+      "term": "Mute",
+      "ipa": "/mjuːt/",
+      "translation": "mudo; no mudo",
+      "definition": "With the microphone turned off, so nobody can hear you.",
+      "example": "- You are on mute, Marcos — we can see you, but we can’t hear you.\nVocê está no mudo, Marcos — a gente te vê, mas não te ouve.",
+      "note": "On mute / unmute yourself — o clássico das videochamadas."
+    },
+    {
+      "term": "Voicemail",
+      "ipa": "/ˈvɔɪsmeɪl/",
+      "translation": "caixa postal (de voz)",
+      "definition": "A service that records a message when you cannot answer.",
+      "example": "- If I don’t answer, leave a message on my voicemail and I’ll return it.\nSe eu não atender, deixe recado na minha caixa postal que eu retorno.",
+      "note": "Leave a voicemail; “caiu na caixa postal” = it went to voicemail."
+    },
+    {
+      "term": "Speak up",
+      "ipa": "/ˌspiːk ˈʌp/",
+      "translation": "falar mais alto",
+      "definition": "To talk more loudly.",
+      "example": "- Could you speak up a little? The audio is very low on my side.\nPode falar um pouco mais alto? O áudio está muito baixo aqui.",
+      "note": "Também significa “se posicionar”: speak up in meetings."
+    },
+    {
+      "term": "Dial",
+      "ipa": "/ˈdaɪəl/",
+      "translation": "discar",
+      "definition": "To press the numbers to make a phone call.",
+      "example": "- Dial 9 first to get an outside line from the office phones.\nDisque 9 primeiro para conseguir linha externa nos telefones do escritório.",
+      "note": "Dial in = entrar numa chamada; dial the wrong number = discar errado."
+    },
+    {
+      "term": "Put someone on hold",
+      "ipa": "",
+      "translation": "colocar alguém na espera",
+      "definition": "To make a caller wait on the line.",
+      "example": "- The attendant put me on hold for ten minutes with that terrible music.\nO atendente me deixou na espera por dez minutos com aquela musiquinha horrível.",
+      "note": "Separável: put you on hold. “Estou na espera” = I’m on hold."
+    },
+    {
+      "term": "You're breaking up",
+      "ipa": "",
+      "translation": "está cortando (o sinal)",
+      "definition": "Said when the signal is bad and the voice is cutting out.",
+      "example": "- Sorry, you’re breaking up — can you repeat the last part?\nDesculpe, está cortando — pode repetir a última parte?",
+      "note": "Nada a ver com términos de namoro aqui: é o áudio falhando."
+    },
+    {
+      "term": "Compromise",
+      "ipa": "/ˈkɑːmprəmaɪz/",
+      "translation": "meio-termo, acordo com concessões",
+      "definition": "An agreement where each side gives up something.",
+      "example": "- After two hours of negotiation, we finally reached a compromise on the price.\nDepois de duas horas de negociação, finalmente chegamos a um meio-termo no preço.",
+      "note": "“Compromisso (hora marcada)” é appointment; “compromisso (obrigação)” é commitment."
+    },
+    {
+      "term": "Lecture",
+      "ipa": "/ˈlektʃər/",
+      "translation": "palestra; sermão, bronca",
+      "definition": "A talk to an audience; also a long telling-off.",
+      "example": "- The manager gave us a lecture about arriving late to client calls.\nO gerente nos deu um sermão sobre chegar atrasado às calls com clientes.",
+      "note": "“Leitura” é reading. Give someone a lecture = passar um sermão."
+    }
+  ],
+  "createdAt": "2026-09-24T12:52:19.392Z",
+  "exercise": {
+    "id": "practice-b1-aula7-phone-video-calls",
+    "title": "Phone & video calls (B1 · Aula 7)",
+    "questions": [
+      {
+        "id": "q-1",
+        "type": "multiple_choice",
+        "target": "hang up",
+        "prompt": "She ended the call while you were still speaking. She…",
+        "options": [
+          "hung up on me",
+          "hung me up",
+          "hanged up on me",
+          "hung up me"
+        ],
+        "answer": "hung up on me",
+        "explanation": "“Hang up ON someone” is the rude one. The past is “hung”."
+      },
+      {
+        "id": "q-2",
+        "type": "fill_blank",
+        "target": "call back",
+        "prompt": "I'm walking into a meeting; can I _____ you in twenty minutes?",
+        "options": [],
+        "answer": "call back",
+        "explanation": "With a pronoun it splits: “call you back”, never “call back you”."
+      },
+      {
+        "id": "q-3",
+        "type": "fill_blank",
+        "target": "mute",
+        "prompt": "You are on _____, Marcos — we can see you but we can't hear you.",
+        "options": [],
+        "answer": "mute",
+        "explanation": "“On mute”, not “in mute”."
+      },
+      {
+        "id": "q-4",
+        "type": "fill_blank",
+        "target": "voicemail",
+        "prompt": "If I don't answer, leave a message on my _____.",
+        "options": [],
+        "answer": "voicemail",
+        "explanation": "You LEAVE a message — the Portuguese “deixar” tempts “let”."
+      },
+      {
+        "id": "q-5",
+        "type": "translate_to_english",
+        "target": "speak up",
+        "prompt": "Você pode falar mais alto? O áudio está muito baixo.",
+        "options": [],
+        "answer": "Could you speak up? The audio is very low.|Can you speak up? The audio is very low.",
+        "explanation": "“Speak up” is to raise your voice; “speak out” is to state an opinion publicly."
+      },
+      {
+        "id": "q-6",
+        "type": "fill_blank",
+        "target": "dial",
+        "prompt": "_____ 9 first to get an outside line.",
+        "options": [],
+        "answer": "Dial",
+        "explanation": "“Dial” a number; the noun “dial tone” comes from the same word."
+      },
+      {
+        "id": "q-7",
+        "type": "multiple_choice",
+        "target": "put someone on hold",
+        "prompt": "The attendant made you wait on the line for ten minutes. She…",
+        "options": [
+          "put me on hold",
+          "put me on wait",
+          "let me on hold",
+          "held me on line"
+        ],
+        "answer": "put me on hold",
+        "explanation": "The person goes in the middle: put me / him / the client on hold."
+      },
+      {
+        "id": "q-8",
+        "type": "fill_blank",
+        "target": "you're breaking up",
+        "prompt": "Sorry, _____ — can you repeat the last part?",
+        "options": [],
+        "answer": "you're breaking up",
+        "explanation": "Said about a bad signal, not about a relationship."
+      },
+      {
+        "id": "q-9",
+        "type": "multiple_choice",
+        "target": "compromise",
+        "prompt": "After two hours, both sides gave up something and agreed. They reached a…",
+        "options": [
+          "compromise",
+          "commitment",
+          "appointment",
+          "conclusion"
+        ],
+        "answer": "compromise",
+        "explanation": "“Compromise” is the middle ground. The Portuguese “compromisso” is “appointment” or “commitment”."
+      },
+      {
+        "id": "q-10",
+        "type": "multiple_choice",
+        "target": "lecture",
+        "prompt": "The manager talked to the team for ten minutes about arriving late. He gave them a…",
+        "options": [
+          "lecture",
+          "reading",
+          "lection",
+          "leisure"
+        ],
+        "answer": "lecture",
+        "explanation": "“Lecture” is a talk or a telling-off. The Portuguese “leitura” is “reading”."
+      }
+    ]
+  }
+}
