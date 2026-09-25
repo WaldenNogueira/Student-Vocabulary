@@ -1,0 +1,190 @@
+{
+  "type": "vocabulary-practice-pack",
+  "version": 7,
+  "teacher": "Teacher Walden Nogueira",
+  "teacherWhatsApp": "5541996106689",
+  "student": {
+    "name": "Laura Louyse",
+    "whatsapp": "353833253319"
+  },
+  "lesson": "Greetings & introductions (A0 · Lesson 1)",
+  "cards": [
+    {
+      "term": "Introduce",
+      "ipa": "ˌɪntrəˈduːs",
+      "translation": "apresentar (uma pessoa)",
+      "definition": "Let me introduce my team. apresentar (uma pessoa).",
+      "example": "- Let me introduce my team.\nDeixa eu apresentar o meu time.",
+      "note": "Apresentar uma PESSOA é introduce. Apresentar um trabalho ou um slide é present."
+    },
+    {
+      "term": "Colleague",
+      "ipa": "ˈkɑːliːɡ",
+      "translation": "colega de trabalho",
+      "definition": "Ana is my new colleague. colega de trabalho.",
+      "example": "- Ana is my new colleague.\nA Ana é a minha colega nova.",
+      "note": "Colega de TRABALHO. Colega de escola é classmate. E cuidado: college é faculdade."
+    },
+    {
+      "term": "Welcome",
+      "ipa": "ˈwelkəm",
+      "translation": "bem-vindo; receber bem",
+      "definition": "Welcome to the team, Carlos! bem-vindo; receber bem.",
+      "example": "- Welcome to the team, Carlos!\nBem-vindo ao time, Carlos!",
+      "note": "Welcome TO + o lugar. E é também a resposta do obrigado: you're welcome = de nada."
+    },
+    {
+      "term": "Team",
+      "ipa": "tiːm",
+      "translation": "equipe, time",
+      "definition": "Our team has six people. equipe, time.",
+      "example": "- Our team has six people.\nO nosso time tem seis pessoas.",
+      "note": "Fala-se tím. É o time do trabalho e o do futebol — a mesma palavra."
+    },
+    {
+      "term": "Office",
+      "ipa": "ˈɔːfɪs",
+      "translation": "escritório",
+      "definition": "The office is on the third floor. escritório.",
+      "example": "- The office is on the third floor.\nO escritório fica no terceiro andar.",
+      "note": "“No escritório” é AT the office no dia a dia. A palavra também é a sala de alguém: her office."
+    },
+    {
+      "term": "First day",
+      "ipa": "ˌfɜːrst ˈdeɪ",
+      "translation": "primeiro dia",
+      "definition": "It is my first day here. primeiro dia.",
+      "example": "- It is my first day here.\nÉ o meu primeiro dia aqui.",
+      "note": "My first day AT work. O first vem antes: first day, first week, first meeting."
+    },
+    {
+      "term": "Let me introduce myself",
+      "ipa": "",
+      "translation": "deixa eu me apresentar",
+      "definition": "deixa eu me apresentar. É myself, não me.",
+      "example": "- Good morning, everyone. Let me introduce myself.\nBom dia, pessoal. Deixa eu me apresentar.",
+      "note": "Abre a sua apresentação numa reunião ou no primeiro dia. É myself — introduce me seria outra pessoa apresentar você. Depois vem o nome: I'm Roberto, the new analyst."
+    },
+    {
+      "term": "Please call me…",
+      "ipa": "",
+      "translation": "pode me chamar de…",
+      "definition": "pode me chamar de… Sem of: call me Beto.",
+      "example": "- My name is Roberto. Please call me Beto.\nMeu nome é Roberto. Pode me chamar de Beto.",
+      "note": "Para o apelido ou o nome curto. Sem of: call me Beto. No trabalho em inglês ninguém usa senhor ou dona — todo mundo vai pelo primeiro nome."
+    },
+    {
+      "term": "Welcome aboard!",
+      "ipa": "",
+      "translation": "seja bem-vindo(a) ao time!",
+      "definition": "seja bem-vindo ao time! Aboard = a bordo.",
+      "example": "- Hi, Carlos! Welcome aboard!\nOi, Carlos! Seja bem-vindo ao time!",
+      "note": "Aboard = a bordo, como no navio. É o jeito animado de receber um colega novo. A resposta: Thanks! Happy to be here."
+    },
+    {
+      "term": "Good to have you here",
+      "ipa": "",
+      "translation": "que bom ter você aqui",
+      "definition": "que bom ter você aqui. Para quem acabou de chegar.",
+      "example": "- Good to have you here, Ana.\nQue bom ter você aqui, Ana.",
+      "note": "Para quem acabou de chegar — no time, na reunião, na empresa. Fala-se como uma palavra só: good-to-HAVE-you-here."
+    }
+  ],
+  "createdAt": "2026-09-25T09:56:08.892Z",
+  "exercise": {
+    "id": "practice-a0-aula1-greetings-introductions",
+    "title": "Greetings & introductions (A0 · Lesson 1)",
+    "questions": [
+      {
+        "id": "q-1",
+        "type": "fill_blank",
+        "target": "introduce",
+        "prompt": "Let me _____ my team.",
+        "options": [],
+        "answer": "introduce",
+        "explanation": "Deixa eu apresentar o meu time."
+      },
+      {
+        "id": "q-2",
+        "type": "fill_blank",
+        "target": "colleague",
+        "prompt": "Ana is my new _____.",
+        "options": [],
+        "answer": "colleague",
+        "explanation": "A Ana é a minha colega nova."
+      },
+      {
+        "id": "q-3",
+        "type": "fill_blank",
+        "target": "welcome",
+        "prompt": "_____ to the team, Carlos!",
+        "options": [],
+        "answer": "welcome",
+        "explanation": "Bem-vindo ao time, Carlos!"
+      },
+      {
+        "id": "q-4",
+        "type": "fill_blank",
+        "target": "team",
+        "prompt": "Our _____ has six people.",
+        "options": [],
+        "answer": "team",
+        "explanation": "O nosso time tem seis pessoas."
+      },
+      {
+        "id": "q-5",
+        "type": "fill_blank",
+        "target": "office",
+        "prompt": "The _____ is on the third floor.",
+        "options": [],
+        "answer": "office",
+        "explanation": "O escritório fica no terceiro andar."
+      },
+      {
+        "id": "q-6",
+        "type": "fill_blank",
+        "target": "first day",
+        "prompt": "It is my _____ here.",
+        "options": [],
+        "answer": "first day",
+        "explanation": "É o meu primeiro dia aqui."
+      },
+      {
+        "id": "q-7",
+        "type": "fill_blank",
+        "target": "Let me introduce myself",
+        "prompt": "Good morning, everyone. _____.",
+        "options": [],
+        "answer": "Let me introduce myself",
+        "explanation": "Bom dia, pessoal. Deixa eu me apresentar."
+      },
+      {
+        "id": "q-8",
+        "type": "fill_blank",
+        "target": "Please call me…",
+        "prompt": "My name is Roberto. _____ Beto.",
+        "options": [],
+        "answer": "Please call me",
+        "explanation": "Meu nome é Roberto. Pode me chamar de Beto."
+      },
+      {
+        "id": "q-9",
+        "type": "fill_blank",
+        "target": "Welcome aboard!",
+        "prompt": "Hi, Carlos! _____",
+        "options": [],
+        "answer": "Welcome aboard!",
+        "explanation": "Oi, Carlos! Seja bem-vindo ao time!"
+      },
+      {
+        "id": "q-10",
+        "type": "fill_blank",
+        "target": "Good to have you here",
+        "prompt": "_____, Ana.",
+        "options": [],
+        "answer": "Good to have you here",
+        "explanation": "Que bom ter você aqui, Ana."
+      }
+    ]
+  }
+}
