@@ -1,0 +1,210 @@
+{
+  "type": "vocabulary-practice-pack",
+  "version": 7,
+  "teacher": "Teacher Walden Nogueira",
+  "teacherWhatsApp": "5541996106689",
+  "student": {
+    "name": "Charles Fernandes",
+    "whatsapp": "5527981218697"
+  },
+  "lesson": "Scheduling: appointments & availability (B1 · Aula 8)",
+  "cards": [
+    {
+      "term": "Available",
+      "ipa": "/əˈveɪləbl/",
+      "translation": "disponível",
+      "definition": "Free to meet or to be used at a certain time.",
+      "example": "- Are you available on Thursday afternoon for a quick call?\nVocê está disponível quinta à tarde para uma reunião rápida?\n- The big room is not available before noon.\nA sala grande não está disponível antes do meio-dia.\n- She was available all morning, but nobody called her.\nEla ficou disponível a manhã toda, mas ninguém ligou para ela.",
+      "note": "Availability = disponibilidade: What is your availability? Serve para pessoas, salas e produtos. O contrário é unavailable, e a preposição de tempo é on ou at."
+    },
+    {
+      "term": "Book",
+      "ipa": "/bʊk/",
+      "translation": "reservar, agendar",
+      "definition": "To arrange a place or a time in advance.",
+      "example": "- I booked the meeting room for two o'clock.\nReservei a sala de reunião para as duas horas.\n- Can you book a taxi for seven in the morning?\nVocê pode reservar um táxi para as sete da manhã?\n- The hotel was fully booked, so we changed the dates.\nO hotel estava lotado, então mudamos as datas.",
+      "note": "Verbo! Fully booked = lotado, sem horários. Passado: booked. Para outra pessoa: book someone a room ou book a room for someone."
+    },
+    {
+      "term": "Reschedule",
+      "ipa": "/ˌriːˈskedʒuːl/",
+      "translation": "remarcar",
+      "definition": "To change an appointment to a different day or time.",
+      "example": "- Can we reschedule our meeting to Friday morning?\nPodemos remarcar nossa reunião para sexta de manhã?\n- They rescheduled the interview twice in one week.\nEles remarcaram a entrevista duas vezes em uma semana.\n- I had to reschedule because my flight was canceled.\nTive que remarcar porque meu voo foi cancelado.",
+      "note": "Reschedule TO + novo dia ou horário. Passado: rescheduled. Remarcar muda a data para qualquer lado; postpone só empurra para depois."
+    },
+    {
+      "term": "Postpone",
+      "ipa": "/poʊstˈpoʊn/",
+      "translation": "adiar",
+      "definition": "To move an event to a later date.",
+      "example": "- They postponed the launch to the next quarter.\nEles adiaram o lançamento para o próximo trimestre.\n- The client asked us to postpone the visit by two weeks.\nO cliente pediu para adiarmos a visita em duas semanas.\n- We postponed the decision until the numbers arrived.\nAdiamos a decisão até os números chegarem.",
+      "note": "Adiar é empurrar para depois; antecipar é move up ou bring forward. Passado: postponed. Em conversa informal, o sinônimo natural é put off."
+    },
+    {
+      "term": "Slot",
+      "ipa": "/slɑːt/",
+      "translation": "horário livre, janela",
+      "definition": "A short period of time in a schedule for one activity.",
+      "example": "- I have a free slot between ten and eleven.\nTenho uma janela livre entre dez e onze.\n- Can you take the nine o'clock slot tomorrow?\nVocê consegue pegar o horário das nove amanhã?\n- They gave us a thirty-minute slot at the end of the day.\nEles nos deram uma janela de trinta minutos no fim do dia.",
+      "note": "Time slot; a 30-minute slot. Colocações comuns: a free slot, book a slot, the last slot. Não é vaga de emprego, que é a position ou an opening."
+    },
+    {
+      "term": "Run late",
+      "ipa": "/ˌrʌn ˈleɪt/",
+      "translation": "estar atrasado, atrasar-se",
+      "definition": "To be later than the time you planned.",
+      "example": "- Sorry, I am running late — start without me.\nDesculpe, estou me atrasando — comecem sem mim.\n- The first call ran late, so we lost ten minutes.\nA primeira call atrasou, então perdemos dez minutos.\n- I never want to run late for an interview.\nNunca quero chegar atrasado em uma entrevista.",
+      "note": "I am running late = estou me atrasando, ainda a caminho. Passado: ran late. Vale para pessoas e para reuniões: the meeting is running late."
+    },
+    {
+      "term": "Pencil in",
+      "ipa": "/ˈpensəl ɪn/",
+      "translation": "marcar provisoriamente",
+      "definition": "To put something in the calendar without confirming it yet.",
+      "example": "- Let's pencil in Tuesday at nine and confirm by email tomorrow.\nVamos marcar terça às nove a lápis e confirmar por e-mail amanhã.\n- I pencilled you in for Monday at four.\nMarquei você provisoriamente para segunda às quatro.\n- Can you pencil in a call before the trip?\nVocê pode marcar uma call provisória antes da viagem?",
+      "note": "Vem de escrever a lápis: dá para apagar. É separável: pencil you in for Monday. Passado: pencilled in, ou penciled in na grafia americana."
+    },
+    {
+      "term": "Double-book",
+      "ipa": "/ˌdʌbəl ˈbʊk/",
+      "translation": "marcar dois compromissos no mesmo horário",
+      "definition": "To promise the same time to two different appointments.",
+      "example": "- I double-booked myself: two calls at three o'clock.\nMarquei duas coisas no mesmo horário: duas calls às três.\n- The hotel double-booked our room for that weekend.\nO hotel reservou nosso quarto em duplicidade naquele fim de semana.\n- Check the calendar so you do not double-book the room.\nConfira o calendário para não reservar a sala em duplicidade.",
+      "note": "Double-book yourself — o pesadelo clássico da agenda. Sempre com hífen; o passado é double-booked. Vale para pessoas, salas e hotéis."
+    },
+    {
+      "term": "Assume",
+      "ipa": "/əˈsuːm/",
+      "translation": "supor, presumir",
+      "definition": "To believe something is true without checking it.",
+      "example": "- I assume the meeting is still on for Monday, right?\nSuponho que a reunião ainda está de pé na segunda, certo?\n- We assumed everyone had read the agenda, and we were wrong.\nPresumimos que todos tinham lido a pauta, e estávamos errados.\n- Do not assume the client is free just because the calendar is empty.\nNão presuma que o cliente está livre só porque a agenda está vazia.",
+      "note": "“Assumir um cargo” é take over; “assumir um erro” é admit. Passado: assumed. Muito usado com that: I assume that the room is free."
+    },
+    {
+      "term": "Data",
+      "ipa": "/ˈdeɪtə/",
+      "translation": "dados (informações)",
+      "definition": "Facts and numbers that you collect and study.",
+      "example": "- The report has sales data from January to June.\nO relatório tem dados de vendas de janeiro a junho.\n- We need more data before we change the price.\nPrecisamos de mais dados antes de mudar o preço.\n- The data shows that Mondays are our busiest day.\nOs dados mostram que a segunda é o nosso dia mais cheio.",
+      "note": "“Data” do calendário é date: What is the date today? No inglês do dia a dia, data leva verbo no singular: the data shows. Não existe a forma “datas”."
+    }
+  ],
+  "createdAt": "2026-09-29T12:51:17.904Z",
+  "exercise": {
+    "id": "practice-b1-aula8-scheduling-appointments-availability",
+    "title": "Scheduling: appointments & availability (B1 · Aula 8)",
+    "questions": [
+      {
+        "id": "q-1",
+        "type": "multiple_choice",
+        "target": "postpone",
+        "prompt": "The launch will now happen three months later. What did the company do?",
+        "options": [
+          "It postponed the launch.",
+          "It moved the launch up.",
+          "It confirmed the launch.",
+          "It canceled the launch."
+        ],
+        "answer": "It postponed the launch.",
+        "explanation": "“Postpone” means to move an event to a later date."
+      },
+      {
+        "id": "q-2",
+        "type": "fill_blank",
+        "target": "available",
+        "prompt": "I am not _____ before eleven, but my afternoon is completely free.",
+        "options": [],
+        "answer": "available",
+        "explanation": "“Available” means free to meet at that time."
+      },
+      {
+        "id": "q-3",
+        "type": "translate_to_english",
+        "target": "reschedule",
+        "prompt": "Precisamos remarcar a entrevista para a semana que vem.",
+        "options": [],
+        "answer": "We need to reschedule the interview to next week.|We need to reschedule the interview for next week.",
+        "explanation": "“Reschedule” means to move an appointment to another day or time."
+      },
+      {
+        "id": "q-4",
+        "type": "multiple_choice",
+        "target": "double-book",
+        "prompt": "You accepted two different calls at three o'clock. What happened?",
+        "options": [
+          "You booked the wrong room.",
+          "You double-booked yourself.",
+          "You blocked your calendar.",
+          "You canceled the second call."
+        ],
+        "answer": "You double-booked yourself.",
+        "explanation": "To “double-book” is to give the same time to two appointments."
+      },
+      {
+        "id": "q-5",
+        "type": "fill_blank",
+        "target": "book",
+        "prompt": "Could you _____ a table for six people near the office?",
+        "options": [],
+        "answer": "book",
+        "explanation": "“Book” means to arrange a place or a time in advance."
+      },
+      {
+        "id": "q-6",
+        "type": "translate_to_english",
+        "target": "run late",
+        "prompt": "Eu não quero me atrasar de novo.",
+        "options": [],
+        "answer": "I don't want to run late again.|I do not want to run late again.",
+        "explanation": "“Run late” means to be later than you planned."
+      },
+      {
+        "id": "q-7",
+        "type": "multiple_choice",
+        "target": "assume",
+        "prompt": "Your manager did not answer, but you believe the meeting is still on. What do you say?",
+        "options": [
+          "I admit the meeting is still on.",
+          "I take over the meeting is still on.",
+          "I assume the meeting is still on.",
+          "I assist the meeting is still on."
+        ],
+        "answer": "I assume the meeting is still on.",
+        "explanation": "“Assume” means to believe something without confirming it."
+      },
+      {
+        "id": "q-8",
+        "type": "fill_blank",
+        "target": "slot",
+        "prompt": "The doctor gave me the last _____ on Friday afternoon.",
+        "options": [],
+        "answer": "slot",
+        "explanation": "A “slot” is a short period of time reserved in a schedule."
+      },
+      {
+        "id": "q-9",
+        "type": "translate_to_english",
+        "target": "pencil in",
+        "prompt": "Vamos marcar sexta à tarde a lápis por enquanto.",
+        "options": [],
+        "answer": "Let's pencil in Friday afternoon for now.|Shall we pencil in Friday afternoon for now?",
+        "explanation": "“Pencil in” means to note a time that is not confirmed yet."
+      },
+      {
+        "id": "q-10",
+        "type": "multiple_choice",
+        "target": "data",
+        "prompt": "Which sentence talks about numbers and information, not about the calendar?",
+        "options": [
+          "What is the data today?",
+          "Please confirm the data of the meeting.",
+          "The data of the call is May 12th.",
+          "The team collected data from two hundred users."
+        ],
+        "answer": "The team collected data from two hundred users.",
+        "explanation": "“Data” is information; the day on the calendar is the “date”."
+      }
+    ]
+  }
+}
