@@ -1,0 +1,190 @@
+{
+  "type": "vocabulary-practice-pack",
+  "version": 7,
+  "teacher": "Teacher Walden Nogueira",
+  "teacherWhatsApp": "5541996106689",
+  "student": {
+    "name": "Laura Louyse",
+    "whatsapp": "353833253319"
+  },
+  "lesson": "The alphabet & spelling your name (A0 · Lesson 2)",
+  "cards": [
+    {
+      "term": "Spell",
+      "ipa": "spel",
+      "translation": "soletrar",
+      "definition": "Can you spell your surname? soletrar.",
+      "example": "- Can you spell your surname?\nVocê pode soletrar o seu sobrenome?",
+      "note": "Spell é soletrar, letra por letra. Escrever no papel é write."
+    },
+    {
+      "term": "Letter",
+      "ipa": "ˈletər",
+      "translation": "letra (do alfabeto); também carta",
+      "definition": "What is the first letter of your name? letra (do alfabeto).",
+      "example": "- What is the first letter of your name?\nQual é a primeira letra do seu nome?",
+      "note": "Letra do alfabeto e carta de correio: a mesma palavra, letter."
+    },
+    {
+      "term": "Surname",
+      "ipa": "ˈsɜːrneɪm",
+      "translation": "sobrenome",
+      "definition": "My surname is Oliveira. sobrenome.",
+      "example": "- My surname is Oliveira.\nO meu sobrenome é Oliveira.",
+      "note": "Surname ou last name (EUA). O primeiro nome é first name."
+    },
+    {
+      "term": "Full name",
+      "ipa": "ˌfʊl ˈneɪm",
+      "translation": "nome completo",
+      "definition": "Please write your full name here. nome completo.",
+      "example": "- Please write your full name here.\nPor favor, escreva o seu nome completo aqui.",
+      "note": "Nome + sobrenome. É o que o formulário pede: full name — nunca complete name."
+    },
+    {
+      "term": "Capital letter",
+      "ipa": "ˌkæpɪtl ˈletər",
+      "translation": "letra maiúscula",
+      "definition": "Start your name with a capital letter. letra maiúscula.",
+      "example": "- Start your name with a capital letter.\nComece o seu nome com letra maiúscula.",
+      "note": "Maiúscula é capital letter; minúscula é small letter. Formulário pede o nome IN capital letters."
+    },
+    {
+      "term": "Double",
+      "ipa": "ˈdʌbl",
+      "translation": "duplo, dobrado (letra repetida)",
+      "definition": "Anna has a double N. duplo (letra repetida).",
+      "example": "- Anna has a double N.\nAnna tem dois enes.",
+      "note": "Letra repetida se diz double: double L, double S. No telefone também: double seven."
+    },
+    {
+      "term": "Could you spell that for me?",
+      "ipa": "",
+      "translation": "pode soletrar para mim",
+      "definition": "pode soletrar para mim? O for me vai no fim.",
+      "example": "- Your surname? Could you spell that for me?\nO seu sobrenome? Pode soletrar para mim?",
+      "note": "O pedido educado de toda ligação de trabalho. O for me vai no FIM — spell me não existe. Could é mais gentil que can."
+    },
+    {
+      "term": "Is that with one L or two?",
+      "ipa": "",
+      "translation": "é com um L ou dois",
+      "definition": "é com um L ou dois? Troque a letra conforme o nome.",
+      "example": "- Walsh? Is that with one L or two?\nWalsh? É com um L ou dois?",
+      "note": "Troque a letra conforme o nome: one S or two?, one N or two?. Uma pergunta que evita o e-mail com o nome errado."
+    },
+    {
+      "term": "I didn't catch your name",
+      "ipa": "",
+      "translation": "não peguei o seu nome",
+      "definition": "não peguei o seu nome. Catch = pegar.",
+      "example": "- Sorry, I didn't catch your name.\nDesculpa, não peguei o seu nome.",
+      "note": "Catch é pegar, como uma bola. Soa melhor que I don't understand: o problema foi o som, não a pessoa."
+    },
+    {
+      "term": "Let me read that back",
+      "ipa": "",
+      "translation": "deixa eu repetir para conferir",
+      "definition": "deixa eu repetir para conferir.",
+      "example": "- OK. Let me read that back: W-A-L-S-H.\nCerto. Deixa eu repetir para conferir: W-A-L-S-H.",
+      "note": "Você lê de volta o que anotou, letra por letra. Se tiver erro, a pessoa corrige na hora."
+    }
+  ],
+  "createdAt": "2026-09-29T16:52:06.946Z",
+  "exercise": {
+    "id": "practice-a0-aula2-the-alphabet-spelling-your-name",
+    "title": "The alphabet & spelling your name (A0 · Lesson 2)",
+    "questions": [
+      {
+        "id": "q-1",
+        "type": "fill_blank",
+        "target": "spell",
+        "prompt": "Can you _____ your surname?",
+        "options": [],
+        "answer": "spell",
+        "explanation": "Você pode soletrar o seu sobrenome?"
+      },
+      {
+        "id": "q-2",
+        "type": "fill_blank",
+        "target": "letter",
+        "prompt": "What is the first _____ of your name?",
+        "options": [],
+        "answer": "letter",
+        "explanation": "Qual é a primeira letra do seu nome?"
+      },
+      {
+        "id": "q-3",
+        "type": "fill_blank",
+        "target": "surname",
+        "prompt": "My _____ is Oliveira.",
+        "options": [],
+        "answer": "surname",
+        "explanation": "O meu sobrenome é Oliveira."
+      },
+      {
+        "id": "q-4",
+        "type": "fill_blank",
+        "target": "full name",
+        "prompt": "Please write your _____ here.",
+        "options": [],
+        "answer": "full name",
+        "explanation": "Por favor, escreva o seu nome completo aqui."
+      },
+      {
+        "id": "q-5",
+        "type": "fill_blank",
+        "target": "capital letter",
+        "prompt": "Start your name with a _____.",
+        "options": [],
+        "answer": "capital letter",
+        "explanation": "Comece o seu nome com letra maiúscula."
+      },
+      {
+        "id": "q-6",
+        "type": "fill_blank",
+        "target": "double",
+        "prompt": "Anna has a _____ N.",
+        "options": [],
+        "answer": "double",
+        "explanation": "Anna tem dois enes."
+      },
+      {
+        "id": "q-7",
+        "type": "fill_blank",
+        "target": "Could you spell that for me?",
+        "prompt": "Your surname? _____",
+        "options": [],
+        "answer": "Could you spell that for me?",
+        "explanation": "O seu sobrenome? Pode soletrar para mim?"
+      },
+      {
+        "id": "q-8",
+        "type": "fill_blank",
+        "target": "Is that with one L or two?",
+        "prompt": "Walsh? _____",
+        "options": [],
+        "answer": "Is that with one L or two?",
+        "explanation": "Walsh? É com um L ou dois?"
+      },
+      {
+        "id": "q-9",
+        "type": "fill_blank",
+        "target": "I didn't catch your name",
+        "prompt": "Sorry, _____.",
+        "options": [],
+        "answer": "I didn't catch your name",
+        "explanation": "Desculpa, não peguei o seu nome."
+      },
+      {
+        "id": "q-10",
+        "type": "fill_blank",
+        "target": "Let me read that back",
+        "prompt": "OK. _____: W-A-L-S-H.",
+        "options": [],
+        "answer": "Let me read that back",
+        "explanation": "Certo. Deixa eu repetir para conferir: W-A-L-S-H."
+      }
+    ]
+  }
+}
