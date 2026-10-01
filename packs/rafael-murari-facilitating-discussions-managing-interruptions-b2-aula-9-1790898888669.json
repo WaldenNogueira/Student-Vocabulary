@@ -1,0 +1,210 @@
+{
+  "type": "vocabulary-practice-pack",
+  "version": 7,
+  "teacher": "Teacher Walden Nogueira",
+  "teacherWhatsApp": "5541996106689",
+  "student": {
+    "name": "Rafael Murari",
+    "whatsapp": "5541920044783"
+  },
+  "lesson": "Facilitating discussions & managing interruptions (B2 · Aula 9)",
+  "cards": [
+    {
+      "term": "Steer",
+      "ipa": "/stɪr/",
+      "translation": "conduzir, direcionar (a conversa)",
+      "definition": "To guide a discussion back to where it should be.",
+      "example": "- I had to steer the conversation back to the budget twice in twenty minutes.\nTive que direcionar a conversa de volta ao orçamento duas vezes em vinte minutos.",
+      "note": "Steer back to um assunto. Vem de dirigir: você segura o volante da conversa."
+    },
+    {
+      "term": "Talk over",
+      "ipa": "/ˌtɔːk ˈoʊvər/",
+      "translation": "falar por cima, atropelar a fala do outro",
+      "definition": "To speak while another person is still speaking.",
+      "example": "- Two directors talked over each other for ten minutes and decided nothing.\nDois diretores falaram por cima um do outro por dez minutos e não decidiram nada.",
+      "note": "Talk over someone é atropelar. Talk something over, com a coisa no meio, é conversar a respeito — outro verbo."
+    },
+    {
+      "term": "Weigh in",
+      "ipa": "/ˌweɪ ˈɪn/",
+      "translation": "dar sua opinião, se manifestar",
+      "definition": "To give your opinion in a discussion, with some weight behind it.",
+      "example": "- Can I weigh in on the timeline before we put it to a vote?\nPosso me manifestar sobre o cronograma antes de levarmos a votação?",
+      "note": "Weigh in ON um assunto. É opinar com peso, não só comentar."
+    },
+    {
+      "term": "Sidetrack",
+      "ipa": "/ˈsaɪdtræk/",
+      "translation": "desviar do assunto, tirar do trilho",
+      "definition": "To pull a discussion away from its subject.",
+      "example": "- One question about the logo sidetracked the entire meeting.\nUma pergunta sobre o logo desviou a reunião inteira.",
+      "note": "Quase sempre na passiva: we got sidetracked. O culpado é o assunto, não a pessoa."
+    },
+    {
+      "term": "Airtime",
+      "ipa": "/ˈertaɪm/",
+      "translation": "tempo de fala (a fatia que cada um ocupa)",
+      "definition": "The share of the speaking time a person takes.",
+      "example": "- Three people took all the airtime and the other five said nothing.\nTrês pessoas ficaram com todo o tempo de fala e as outras cinco não disseram nada.",
+      "note": "Incontável: more airtime, nunca airtimes. Vem do tempo de antena no rádio."
+    },
+    {
+      "term": "Time-box",
+      "ipa": "/ˈtaɪm bɑːks/",
+      "translation": "limitar o tempo de cada item",
+      "definition": "To set a fixed time limit for one item.",
+      "example": "- We time-box every item at eight minutes, and the timer is on the screen.\nA gente limita cada item em oito minutos, e o cronômetro fica na tela.",
+      "note": "Verbo e substantivo: a strict time-box. Com hífen; sem ele vira outra coisa."
+    },
+    {
+      "term": "Can I finish my thought?",
+      "ipa": "",
+      "translation": "Posso terminar meu raciocínio?",
+      "definition": "A calm way of taking back the floor after being interrupted.",
+      "example": "- Sorry — can I finish my thought? Two more sentences and it's yours.\nDesculpa — posso terminar meu raciocínio? Mais duas frases e é sua.",
+      "note": "Dito com calma, devolve a palavra sem briga. O sorry na frente tira a aspereza e não pede desculpa de verdade."
+    },
+    {
+      "term": "I'd like to bring in…",
+      "ipa": "",
+      "translation": "Eu queria trazer a/o… para a conversa",
+      "definition": "A facilitator's move: inviting a specific person to speak, and saying why.",
+      "example": "- I'd like to bring in Marta, who actually built the model we're arguing about.\nEu queria trazer a Marta, que foi quem construiu o modelo sobre o qual estamos discutindo.",
+      "note": "É o movimento de quem conduz: não pede opinião no vácuo, chama alguém pelo nome e diz por quê."
+    },
+    {
+      "term": "Assume",
+      "ipa": "",
+      "translation": "supor, presumir (sem confirmar)",
+      "definition": "To believe something is true without checking it.",
+      "example": "- Nobody weighed in because everyone assumed someone else would.\nNinguém se manifestou porque todo mundo presumiu que outra pessoa faria isso.",
+      "note": "Não é assumir no sentido de aceitar um cargo ou uma culpa — isso é take on ou take responsibility."
+    },
+    {
+      "term": "Support",
+      "ipa": "",
+      "translation": "apoiar, defender publicamente",
+      "definition": "To back an idea or a person publicly.",
+      "example": "- The people who agreed finally supported the point out loud.\nQuem concordava finalmente apoiou o ponto em voz alta.",
+      "note": "Não é suportar no sentido de aguentar — isso é stand ou put up with."
+    }
+  ],
+  "createdAt": "2026-10-01T23:54:48.669Z",
+  "exercise": {
+    "id": "practice-b2-aula9-facilitating-discussions-managing-interruptions",
+    "title": "Facilitating discussions & managing interruptions (B2 · Aula 9)",
+    "questions": [
+      {
+        "id": "q-1",
+        "type": "fill_blank",
+        "target": "steer",
+        "prompt": "I had to _____ the conversation back to the budget twice.",
+        "options": [],
+        "answer": "steer",
+        "explanation": "“Steer back to” a point the room has left."
+      },
+      {
+        "id": "q-2",
+        "type": "multiple_choice",
+        "target": "talk over",
+        "prompt": "Which one is correct?",
+        "options": [
+          "He talked over me twice.",
+          "He talked over of me twice.",
+          "He talked me over twice.",
+          "He talked over to me twice."
+        ],
+        "answer": "He talked over me twice.",
+        "explanation": "No preposition after “over”. And “talk something over” is a different verb — to discuss it."
+      },
+      {
+        "id": "q-3",
+        "type": "fill_blank",
+        "target": "weigh in",
+        "prompt": "Can I _____ on the timeline before we vote?",
+        "options": [],
+        "answer": "weigh in",
+        "explanation": "“Weigh in ON” a subject."
+      },
+      {
+        "id": "q-4",
+        "type": "multiple_choice",
+        "target": "sidetrack",
+        "prompt": "One question about the logo pulled the meeting off topic. The meeting…",
+        "options": [
+          "got sidetracked",
+          "sidetracked",
+          "was sidetrack",
+          "got sidetrack"
+        ],
+        "answer": "got sidetracked",
+        "explanation": "Almost always passive: “get sidetracked”."
+      },
+      {
+        "id": "q-5",
+        "type": "fill_blank",
+        "target": "airtime",
+        "prompt": "Three people took all the _____ and five said nothing.",
+        "options": [],
+        "answer": "airtime",
+        "explanation": "Uncountable: more airtime, never “airtimes”."
+      },
+      {
+        "id": "q-6",
+        "type": "fill_blank",
+        "target": "time-box",
+        "prompt": "We _____ every item at eight minutes.",
+        "options": [],
+        "answer": "time-box",
+        "explanation": "“Time-box AT” the limit; the hyphen stays."
+      },
+      {
+        "id": "q-7",
+        "type": "fill_blank",
+        "target": "Can I finish my thought?",
+        "prompt": "Sorry — _____ Two more sentences and it's yours.",
+        "options": [],
+        "answer": "Can I finish my thought?",
+        "explanation": "Said calmly, it returns the floor without a fight."
+      },
+      {
+        "id": "q-8",
+        "type": "fill_blank",
+        "target": "I'd like to bring in…",
+        "prompt": "_____ Marta, who actually built the model.",
+        "options": [],
+        "answer": "I'd like to bring in",
+        "explanation": "Name the person and say why — that is what makes it work."
+      },
+      {
+        "id": "q-9",
+        "type": "multiple_choice",
+        "target": "assume",
+        "prompt": "Which sentence uses “assume” correctly?",
+        "options": [
+          "I assumed someone else would reply.",
+          "I assumed the new role in March.",
+          "She assumed responsibility for the loss.",
+          "He assumed the blame in public."
+        ],
+        "answer": "I assumed someone else would reply.",
+        "explanation": "“Assume” is to suppose. Taking on a role or blame is “take on” or “take responsibility”."
+      },
+      {
+        "id": "q-10",
+        "type": "multiple_choice",
+        "target": "support",
+        "prompt": "Which sentence uses “support” correctly?",
+        "options": [
+          "Two colleagues supported the proposal.",
+          "I can't support this noise.",
+          "She supports the heat well.",
+          "He couldn't support waiting."
+        ],
+        "answer": "Two colleagues supported the proposal.",
+        "explanation": "“Support” is to back. To tolerate is “stand” or “put up with”."
+      }
+    ]
+  }
+}
