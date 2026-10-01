@@ -1,0 +1,190 @@
+{
+  "type": "vocabulary-practice-pack",
+  "version": 7,
+  "teacher": "Teacher Walden Nogueira",
+  "teacherWhatsApp": "5541996106689",
+  "student": {
+    "name": "Felipe",
+    "whatsapp": "557599335887"
+  },
+  "lesson": "Your first class in English (A0 · Lesson 0)",
+  "cards": [
+    {
+      "term": "Meeting",
+      "ipa": "ˈmiːtɪŋ",
+      "translation": "reunião",
+      "definition": "I have a meeting at ten. reunião.",
+      "example": "- I have a meeting at ten.\nEu tenho uma reunião às dez.",
+      "note": "Fala-se MÍ-tin. Reunião a gente TEM: have a meeting. E é AT + a hora: at ten."
+    },
+    {
+      "term": "Deadline",
+      "ipa": "ˈdedlaɪn",
+      "translation": "prazo final",
+      "definition": "The deadline is Friday. prazo final.",
+      "example": "- The deadline is Friday.\nO prazo é sexta.",
+      "note": "O dia e a hora do fim. Cumprir o prazo é meet the deadline."
+    },
+    {
+      "term": "Feedback",
+      "ipa": "ˈfiːdbæk",
+      "translation": "retorno, opinião sobre um trabalho",
+      "definition": "Thanks for the feedback! retorno; não tem plural.",
+      "example": "- Thanks for the feedback!\nObrigado pelo feedback!",
+      "note": "Não tem plural: some feedback, nunca feedbacks. Agradecer é thanks FOR."
+    },
+    {
+      "term": "Call",
+      "ipa": "kɔːl",
+      "translation": "ligação; ligar",
+      "definition": "I have a call with a client. ligação; ligar.",
+      "example": "- I have a call with a client.\nEu tenho uma ligação com um cliente.",
+      "note": "Nome e verbo: a call (uma ligação) e call me (me liga). Ligar PARA alguém é call Ana, sem to."
+    },
+    {
+      "term": "Email",
+      "ipa": "ˈiːmeɪl",
+      "translation": "e-mail",
+      "definition": "Please read my email. e-mail.",
+      "example": "- Please read my email.\nPor favor, leia o meu e-mail.",
+      "note": "Fala-se Í-meil. Também é verbo: email Ana = mandar um e-mail para a Ana."
+    },
+    {
+      "term": "Report",
+      "ipa": "rɪˈpɔːrt",
+      "translation": "relatório",
+      "definition": "The report is ready. relatório.",
+      "example": "- The report is ready.\nO relatório está pronto.",
+      "note": "A força cai no fim: re-PORT. Como verbo, report to = responder a um chefe: I report to Ana."
+    },
+    {
+      "term": "I'm on a call",
+      "ipa": "",
+      "translation": "estou numa ligação",
+      "definition": "estou numa ligação. ON a call, não in.",
+      "example": "- Sorry, I'm on a call. Two minutes!\nDesculpa, estou numa ligação. Dois minutos!",
+      "note": "Numa ligação é ON a call, não in. Serve para telefone e para videochamada."
+    },
+    {
+      "term": "Can we talk later?",
+      "ipa": "",
+      "translation": "podemos falar depois",
+      "definition": "podemos falar depois? O jeito educado de adiar.",
+      "example": "- I'm busy now. Can we talk later?\nEstou ocupado agora. Podemos falar depois?",
+      "note": "O jeito educado de adiar a conversa. Later = mais tarde, depois."
+    },
+    {
+      "term": "I'll send you an email",
+      "ipa": "",
+      "translation": "vou te mandar um e-mail",
+      "definition": "vou te mandar um e-mail. A pessoa antes da coisa.",
+      "example": "- No problem. I'll send you an email.\nSem problema. Vou te mandar um e-mail.",
+      "note": "I'll = I will: a promessa na hora. A pessoa vem antes da coisa: send YOU an email."
+    },
+    {
+      "term": "Sounds good!",
+      "ipa": "",
+      "translation": "combinado; ótimo",
+      "definition": "combinado! Diz sim a um plano.",
+      "example": "- Friday at ten? Sounds good!\nSexta às dez? Combinado!",
+      "note": "A resposta curta para dizer sim a um plano. Mais natural que OK, I agree."
+    }
+  ],
+  "createdAt": "2026-10-01T19:40:52.190Z",
+  "exercise": {
+    "id": "practice-a0-aula0-your-first-class-demo",
+    "title": "Your first class in English (A0 · Lesson 0)",
+    "questions": [
+      {
+        "id": "q-1",
+        "type": "fill_blank",
+        "target": "meeting",
+        "prompt": "I have a _____ at ten.",
+        "options": [],
+        "answer": "meeting",
+        "explanation": "Eu tenho uma reunião às dez."
+      },
+      {
+        "id": "q-2",
+        "type": "fill_blank",
+        "target": "deadline",
+        "prompt": "The _____ is Friday.",
+        "options": [],
+        "answer": "deadline",
+        "explanation": "O prazo é sexta."
+      },
+      {
+        "id": "q-3",
+        "type": "fill_blank",
+        "target": "feedback",
+        "prompt": "Thanks for the _____!",
+        "options": [],
+        "answer": "feedback",
+        "explanation": "Obrigado pelo feedback!"
+      },
+      {
+        "id": "q-4",
+        "type": "fill_blank",
+        "target": "call",
+        "prompt": "I have a _____ with a client.",
+        "options": [],
+        "answer": "call",
+        "explanation": "Eu tenho uma ligação com um cliente."
+      },
+      {
+        "id": "q-5",
+        "type": "fill_blank",
+        "target": "email",
+        "prompt": "Please read my _____.",
+        "options": [],
+        "answer": "email",
+        "explanation": "Por favor, leia o meu e-mail."
+      },
+      {
+        "id": "q-6",
+        "type": "fill_blank",
+        "target": "report",
+        "prompt": "The _____ is ready.",
+        "options": [],
+        "answer": "report",
+        "explanation": "O relatório está pronto."
+      },
+      {
+        "id": "q-7",
+        "type": "fill_blank",
+        "target": "I'm on a call",
+        "prompt": "Sorry, _____. Two minutes!",
+        "options": [],
+        "answer": "I'm on a call",
+        "explanation": "Desculpa, estou numa ligação. Dois minutos!"
+      },
+      {
+        "id": "q-8",
+        "type": "fill_blank",
+        "target": "Can we talk later?",
+        "prompt": "I'm busy now. _____",
+        "options": [],
+        "answer": "Can we talk later?",
+        "explanation": "Estou ocupado agora. Podemos falar depois?"
+      },
+      {
+        "id": "q-9",
+        "type": "fill_blank",
+        "target": "I'll send you an email",
+        "prompt": "No problem. _____.",
+        "options": [],
+        "answer": "I'll send you an email",
+        "explanation": "Sem problema. Vou te mandar um e-mail."
+      },
+      {
+        "id": "q-10",
+        "type": "fill_blank",
+        "target": "Sounds good!",
+        "prompt": "Friday at ten? _____",
+        "options": [],
+        "answer": "Sounds good!",
+        "explanation": "Sexta às dez? Combinado!"
+      }
+    ]
+  }
+}
