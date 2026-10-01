@@ -1,0 +1,190 @@
+{
+  "type": "vocabulary-practice-pack",
+  "version": 7,
+  "teacher": "Teacher Walden Nogueira",
+  "teacherWhatsApp": "5541996106689",
+  "student": {
+    "name": "Patrick Bussolotti",
+    "whatsapp": "5511992125644"
+  },
+  "lesson": "Talking about last weekend (A2 · Aula 12)",
+  "cards": [
+    {
+      "term": "Stay in",
+      "ipa": "/steɪ ɪn/",
+      "translation": "ficar em casa",
+      "definition": "I stayed in on Saturday. It rained all day. ficar em casa.",
+      "example": "- I stayed in on Saturday. It rained all day.\nFiquei em casa no sábado. Choveu o dia todo.",
+      "note": "Stay in é ficar em casa; stay at home também serve. Stay inside é outra coisa."
+    },
+    {
+      "term": "Go out",
+      "ipa": "/ɡoʊ aʊt/",
+      "translation": "sair",
+      "definition": "We went out for dinner on Friday. sair.",
+      "example": "- We went out for dinner on Friday.\nA gente saiu para jantar na sexta.",
+      "note": "Passado irregular: went out. Go out FOR dinner, go out WITH alguém."
+    },
+    {
+      "term": "Visit",
+      "ipa": "/ˈvɪzɪt/",
+      "translation": "visitar",
+      "definition": "I visited my parents on Sunday. visitar.",
+      "example": "- I visited my parents on Sunday.\nVisitei meus pais no domingo.",
+      "note": "Sem preposição: visit my parents, nunca “visit TO”. E é regular: visited."
+    },
+    {
+      "term": "Fun",
+      "ipa": "/fʌn/",
+      "translation": "divertido; diversão",
+      "definition": "It was fun. We laughed a lot. divertido; diversão.",
+      "example": "- It was fun. We laughed a lot.\nFoi divertido. A gente riu muito.",
+      "note": "It WAS fun, não “it was funny” — funny é engraçado, de piada."
+    },
+    {
+      "term": "Tired",
+      "ipa": "/ˈtaɪərd/",
+      "translation": "cansado",
+      "definition": "I was tired on Sunday night. cansado.",
+      "example": "- I was tired on Sunday night.\nEu estava cansado domingo à noite.",
+      "note": "Tired é a pessoa; tiring é a coisa. The trip was tiring and I was tired."
+    },
+    {
+      "term": "Nothing much",
+      "ipa": "/ˈnʌθɪŋ mʌtʃ/",
+      "translation": "nada demais",
+      "definition": "Nothing much. I just rested. nada demais.",
+      "example": "- Nothing much. I just rested.\nNada demais. Só descansei.",
+      "note": "A resposta honesta e curta. Melhor do que “fine”, porque abre para a próxima pergunta."
+    },
+    {
+      "term": "Nothing special",
+      "ipa": "",
+      "translation": "nada de especial",
+      "definition": "nada de especial. Serve quando o fim de semana foi comum. Sempre acrescente uma frase depois, ou a conversa morre.",
+      "example": "- Nothing special, but it was nice.\nNada de especial, mas foi bom.",
+      "note": "Serve quando o fim de semana foi comum. Sempre acrescente uma frase depois, ou a conversa morre."
+    },
+    {
+      "term": "What about you?",
+      "ipa": "",
+      "translation": "e você?",
+      "definition": "e você?. A frase mais importante da aula. Sem ela você responde e a conversa acaba ali.",
+      "example": "- It was quiet. What about you?\nFoi tranquilo. E você?",
+      "note": "A frase mais importante da aula. Sem ela você responde e a conversa acaba ali."
+    },
+    {
+      "term": "Parents",
+      "ipa": "",
+      "translation": "pais (mãe e pai)",
+      "definition": "pais (mãe e pai). “Parentes” é relatives! Parents são só a mãe e o pai.",
+      "example": "- I visited my parents on Sunday.\nVisitei meus pais no domingo.",
+      "note": "“Parentes” é relatives! Parents são só a mãe e o pai."
+    },
+    {
+      "term": "Costume",
+      "ipa": "",
+      "translation": "fantasia (roupa de festa)",
+      "definition": "fantasia (roupa de festa). “Costume” (hábito) é habit! Costume é roupa de fantasia.",
+      "example": "- There was a costume party on Saturday.\nTeve uma festa a fantasia no sábado.",
+      "note": "“Costume” (hábito) é habit! Costume é roupa de fantasia."
+    }
+  ],
+  "createdAt": "2026-10-01T15:52:27.049Z",
+  "exercise": {
+    "id": "practice-a2-aula12-talking-about-last-weekend",
+    "title": "Talking about last weekend (A2 · Aula 12)",
+    "questions": [
+      {
+        "id": "q-1",
+        "type": "fill_blank",
+        "target": "stay in",
+        "prompt": "I _____ on Saturday. It rained all day.",
+        "options": [],
+        "answer": "stay in",
+        "explanation": "Fiquei em casa no sábado. Choveu o dia todo."
+      },
+      {
+        "id": "q-2",
+        "type": "fill_blank",
+        "target": "go out",
+        "prompt": "We _____ for dinner on Friday.",
+        "options": [],
+        "answer": "go out",
+        "explanation": "A gente saiu para jantar na sexta."
+      },
+      {
+        "id": "q-3",
+        "type": "fill_blank",
+        "target": "visit",
+        "prompt": "I _____ my parents on Sunday.",
+        "options": [],
+        "answer": "visit",
+        "explanation": "Visitei meus pais no domingo."
+      },
+      {
+        "id": "q-4",
+        "type": "fill_blank",
+        "target": "fun",
+        "prompt": "It was _____ . We laughed a lot.",
+        "options": [],
+        "answer": "fun",
+        "explanation": "Foi divertido. A gente riu muito."
+      },
+      {
+        "id": "q-5",
+        "type": "fill_blank",
+        "target": "tired",
+        "prompt": "I was _____ on Sunday night.",
+        "options": [],
+        "answer": "tired",
+        "explanation": "Eu estava cansado domingo à noite."
+      },
+      {
+        "id": "q-6",
+        "type": "fill_blank",
+        "target": "nothing much",
+        "prompt": "_____ . I just rested.",
+        "options": [],
+        "answer": "nothing much",
+        "explanation": "Nada demais. Só descansei."
+      },
+      {
+        "id": "q-7",
+        "type": "fill_blank",
+        "target": "Nothing special",
+        "prompt": "_____ , but it was nice.",
+        "options": [],
+        "answer": "Nothing special",
+        "explanation": "Nada de especial, mas foi bom."
+      },
+      {
+        "id": "q-8",
+        "type": "fill_blank",
+        "target": "What about you?",
+        "prompt": "It was quiet. _____ ?",
+        "options": [],
+        "answer": "What about you?",
+        "explanation": "Foi tranquilo. E você?"
+      },
+      {
+        "id": "q-9",
+        "type": "fill_blank",
+        "target": "parents",
+        "prompt": "I visited my _____ on Sunday.",
+        "options": [],
+        "answer": "parents",
+        "explanation": "Visitei meus pais no domingo."
+      },
+      {
+        "id": "q-10",
+        "type": "fill_blank",
+        "target": "costume",
+        "prompt": "There was a _____ party on Saturday.",
+        "options": [],
+        "answer": "costume",
+        "explanation": "Teve uma festa a fantasia no sábado."
+      }
+    ]
+  }
+}
