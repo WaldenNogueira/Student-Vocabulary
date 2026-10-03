@@ -73,6 +73,8 @@
   .fim .num { font-size: 34px; font-weight: 800; letter-spacing: -.02em; }
   .zap { display: block; margin-top: 12px; text-decoration: none; font-weight: 800; padding: 14px; border-radius: 12px; background: #128c4a; color: #fff; }
   .refazer { margin-top: 10px; font: inherit; font-size: 13px; color: var(--muted); background: none; border: 0; text-decoration: underline; cursor: pointer; }
+  .meus ul { margin: 0 0 0 20px; padding: 0; } .meus li { margin: 0 0 5px; font-weight: 650; }
+  .meus .sub { margin: 0 0 8px; }
   .dono { margin-top: 8px; display: inline-block; font-size: 12px; font-weight: 750; color: var(--navy); background: var(--yel); border-radius: 6px; padding: 3px 9px; }
   .tranca { margin-top: 18px; }
   .tranca input { width: 100%; margin-top: 12px; font: inherit; font-size: 17px; padding: 12px; border: 1px solid var(--line); border-radius: 10px; }
@@ -113,9 +115,9 @@
      link do professor (#k=...). Sem o codigo, quem copiar o HTML leva um bloco
      embaralhado. Nao e' cofre — e' tranca contra copia casual. */
   var ARQ = "b1_aula1_daily_routines.html", CK = "preply-tarefa-k:" + ARQ;
-  function abre(k) {
+  function dec(b64, k) {
     try {
-      var bin = atob(document.getElementById("dados").textContent.trim()), n = bin.length, b = new Uint8Array(n);
+      var bin = atob(b64.trim()), n = bin.length, b = new Uint8Array(n);
       var h = 2166136261; for (var i = 0; i < k.length; i++) { h ^= k.charCodeAt(i); h = Math.imul(h, 16777619) >>> 0; }
       var x = h || 1;
       for (var j = 0; j < n; j++) { x ^= (x << 13); x >>>= 0; x ^= (x >>> 17); x ^= (x << 5); x >>>= 0; b[j] = bin.charCodeAt(j) ^ (x & 255); }
@@ -123,6 +125,7 @@
       return t.slice(0, 4) === "OK1{" ? JSON.parse(t.slice(3)) : null;
     } catch (e) { return null; }
   }
+  function abre(k) { return dec(document.getElementById("dados").textContent, k); }
   var par = {};
   location.hash.replace(/^#/, "").split("&").forEach(function (kv) { var i = kv.indexOf("="); if (i > 0) { try { par[kv.slice(0, i)] = decodeURIComponent(kv.slice(i + 1)); } catch (e) {} } });
   var k = par.k || "", D = k ? abre(k) : null;
@@ -154,12 +157,38 @@
     var t = (ev.key || "").toLowerCase();
     if ((ev.ctrlKey || ev.metaKey) && ["c", "x", "s", "p", "u", "a"].indexOf(t) >= 0 && !livre(ev)) ev.preventDefault();
   });
-  if (ALUNO) {
-    var nomeLimpo = ALUNO.replace(/[<>&"]/g, "").slice(0, 40);
+  var SID = par.s || "";
+  try { if (SID) localStorage.setItem(CK + ":s", SID); else SID = localStorage.getItem(CK + ":s") || ""; } catch (e) {}
+  function dono(nomeDoAluno) {
+    if (!nomeDoAluno || document.querySelector(".dono")) return;
+    var nomeLimpo = String(nomeDoAluno).replace(/[<>&"]/g, "").slice(0, 40);
     var svg = "<svg xmlns='http://www.w3.org/2000/svg' width='300' height='190'><text x='10' y='120' transform='rotate(-24 150 95)' font-family='Arial' font-size='15' font-weight='700' fill='rgba(5,8,20,0.055)'>" + nomeLimpo + " · Teacher Walden</text></svg>";
     document.body.style.backgroundImage = 'url("data:image/svg+xml;utf8,' + encodeURIComponent(svg) + '")';
     var d0 = document.createElement("div"); d0.className = "dono"; d0.textContent = "Material exclusivo de " + nomeLimpo;
     document.querySelector("header").appendChild(d0);
+  }
+  dono(ALUNO);
+  /* o que o aluno destacou na aula: um arquivinho so' dele, ao lado da tarefa
+     (a/<s>.txt), embaralhado com o mesmo codigo. Logo depois do envio o site
+     ainda nao tem o arquivo: tenta de novo algumas vezes, sem incomodar. */
+  function destaques(tentativa) {
+    if (!SID || !window.fetch || location.protocol === "file:") return;
+    fetch("a/" + encodeURIComponent(SID) + ".txt", { cache: "no-store" })
+      .then(function (r) { if (!r.ok) throw new Error("ainda nao"); return r.text(); })
+      .then(function (t) {
+        var x = dec(t, k);
+        if (!x) return;
+        dono(x.n);
+        var lista = (x.m || []).filter(Boolean);
+        if (!lista.length || document.getElementById("meus")) return;
+        var box = document.createElement("div");
+        box.id = "meus";
+        box.innerHTML = '<h2>From your class</h2><div class="card meus"><p class="sub">O que voc\u00ea destacou na aula' + (x.d ? " de " + esc(x.d) : "") + ":</p><ul>" +
+          lista.map(function (i) { return "<li>" + esc(i) + "</li>"; }).join("") + "</ul></div>";
+        var rv = document.getElementById("review");
+        rv.insertBefore(box, rv.firstChild);
+      })
+      .catch(function () { if (tentativa < 6) setTimeout(function () { destaques(tentativa + 1); }, 20000); });
   }
   function esc(t) { return String(t == null ? "" : t).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); }
   /* embaralha sempre igual para a mesma aula: o aluno que volta acha a tarefa como deixou */
@@ -199,6 +228,7 @@
   }
   h += '<button type="button" class="ir" id="irPratica">Go to Practice \u2192</button>';
   $("review").innerHTML = h;
+  destaques(0);
 
   /* ---------------- pagina 2 ---------------- */
   var termos = D.itens.map(function (x) { return x.t; });
