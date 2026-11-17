@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0B2B2C"><title>Travel Passport</title>
+<link rel="manifest" href="manifest.webmanifest"><link rel="icon" href="icon-192.png">
+<style>body{margin:0;min-height:100vh;display:grid;place-items:center;background:#0B2B2C;color:#fff;
+font:300 18px/1.5 system-ui,sans-serif;text-align:center;padding:24px;box-sizing:border-box}</style></head>
+<body><div id="m">Opening your lesson…</div>
+<script>
+try { navigator.serviceWorker && navigator.serviceWorker.register("sw.js"); } catch (e) {}
+var L = {}, u = "";
+try { L = JSON.parse(localStorage.getItem("tp-links") || "{}") || {}; u = JSON.parse(localStorage.getItem("tp-ultima") || '""'); } catch (e) {}
+var ir = L[u] || Object.keys(L).map(function (k) { return L[k]; }).pop();
+if (ir) location.replace(ir);
+else document.getElementById("m").textContent = "Open the homework link your teacher sent you on WhatsApp.";
+</script></body></html>
