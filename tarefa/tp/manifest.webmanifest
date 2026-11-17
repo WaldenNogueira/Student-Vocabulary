@@ -1,0 +1,32 @@
+{
+ "name": "Business English · Travel Passport",
+ "short_name": "Travel Passport",
+ "description": "Homework do Travel English: palavras, vídeos, música, jogos e notícias de cada aula.",
+ "id": "./",
+ "start_url": "./",
+ "scope": "../",
+ "display": "standalone",
+ "orientation": "portrait",
+ "background_color": "#0B2B2C",
+ "theme_color": "#0B2B2C",
+ "icons": [
+  {
+   "src": "icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png",
+   "purpose": "any"
+  },
+  {
+   "src": "icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "any"
+  },
+  {
+   "src": "icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "maskable"
+  }
+ ]
+}
