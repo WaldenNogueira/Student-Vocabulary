@@ -1,0 +1,4 @@
+/* Travel Passport: o app instalavel. So' o necessario para o celular oferecer "Instalar". */
+self.addEventListener("install", function () { self.skipWaiting(); });
+self.addEventListener("activate", function (e) { e.waitUntil(self.clients.claim()); });
+self.addEventListener("fetch", function (e) { if (e.request.mode === "navigate") e.respondWith(fetch(e.request)); });
